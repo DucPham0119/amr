@@ -1,0 +1,2848 @@
+# text = - chỉ thế thôi à ?
+1	-	_	_	PUNCT	_	_	_	_	_
+2	chỉ	_	_	Adv	_	_	_	_	_
+3	thế	_	_	Pro	_	_	_	_	_
+4	thôi	_	_	Prt	_	_	_	_	_
+5	à	_	_	I	_	_	_	_	_
+6	?	_	_	PUNCT	_	_	_	_	_
+
+# text = - thế đủ rồi .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	thế	_	_	Prt	_	_	_	_	_
+3	đủ	_	_	Adj	_	_	_	_	_
+4	rồi	_	_	Adv	_	_	_	_	_
+5	.	_	_	PUNCT	_	_	_	_	_
+
+# text = có vẻ nên thơ đấy .
+1	có	_	_	V	_	_	_	_	_
+2	vẻ	_	_	N	_	_	_	_	_
+3	nên thơ	_	_	Adj	_	_	_	_	_
+4	đấy	_	_	Prt	_	_	_	_	_
+5	.	_	_	PUNCT	_	_	_	_	_
+
+# text = nhưng mà không đứng đắn lắm đâu .
+1	nhưng mà	_	_	C	_	_	_	_	_
+2	không	_	_	Adv	_	_	_	_	_
+3	đứng đắn	_	_	Adj	_	_	_	_	_
+4	lắm	_	_	Adv	_	_	_	_	_
+5	đâu	_	_	Prt	_	_	_	_	_
+6	.	_	_	PUNCT	_	_	_	_	_
+
+# text = - tôi , em lại nói , tôi có một bông hoa mà hôm nào cũng tưới .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	tôi	_	_	Pro	_	_	_	_	_
+3	,	_	_	PUNCT	_	_	_	_	_
+4	em	_	_	N	_	_	_	_	_
+5	lại	_	_	Adv	_	_	_	_	_
+6	nói	_	_	V	_	_	_	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	tôi	_	_	Pro	_	_	_	_	_
+9	có	_	_	V	_	_	_	_	_
+10	một	_	_	Num	_	_	_	_	_
+11	bông	_	_	N	_	_	_	_	_
+12	hoa	_	_	N	_	_	_	_	_
+13	mà	_	_	C	_	_	_	_	_
+14	hôm	_	_	N	_	_	_	_	_
+15	nào	_	_	Pro	_	_	_	_	_
+16	cũng	_	_	Adv	_	_	_	_	_
+17	tưới	_	_	V	_	_	_	_	_
+18	.	_	_	PUNCT	_	_	_	_	_
+
+# text = biết đâu đấy !
+1	biết đâu đấy	_	_	G	_	_	_	_	_
+2	!	_	_	PUNCT	_	_	_	_	_
+
+# text = cái đó giúp ích cho các quả núi lửa , và giúp ích cho bông hoa của tôi , nên tôi có chúng .
+1	cái	_	_	Nc	_	_	_	_	_
+2	đó	_	_	N	_	_	_	_	_
+3	giúp ích	_	_	V	_	_	_	_	_
+4	cho	_	_	C	_	_	_	_	_
+5	các	_	_	Det	_	_	_	_	_
+6	quả	_	_	N	_	_	_	_	_
+7	núi lửa	_	_	N	_	_	_	_	_
+8	,	_	_	PUNCT	_	_	_	_	_
+9	và	_	_	C	_	_	_	_	_
+10	giúp ích	_	_	V	_	_	_	_	_
+11	cho	_	_	C	_	_	_	_	_
+12	bông	_	_	N	_	_	_	_	_
+13	hoa	_	_	N	_	_	_	_	_
+14	của	_	_	Pre	_	_	_	_	_
+15	tôi	_	_	Pro	_	_	_	_	_
+16	,	_	_	PUNCT	_	_	_	_	_
+17	nên	_	_	C	_	_	_	_	_
+18	tôi	_	_	Pro	_	_	_	_	_
+19	có	_	_	V	_	_	_	_	_
+20	chúng	_	_	Pro	_	_	_	_	_
+21	.	_	_	PUNCT	_	_	_	_	_
+
+# text = nhưng ông chẳng giúp ích gì cho những ngôi sao cả ...
+1	nhưng	_	_	C	_	_	_	_	_
+2	ông	_	_	N	_	_	_	_	_
+3	chẳng	_	_	Adv	_	_	_	_	_
+4	giúp ích	_	_	V	_	_	_	_	_
+5	gì	_	_	Adv	_	_	_	_	_
+6	cho	_	_	C	_	_	_	_	_
+7	những	_	_	Det	_	_	_	_	_
+8	ngôi	_	_	Nc	_	_	_	_	_
+9	sao	_	_	N	_	_	_	_	_
+10	cả	_	_	Prt	_	_	_	_	_
+11	...	_	_	PUNCT	_	_	_	_	_
+
+# text = nhà doanh nghiệp mở miệng nhưng chẳng biết trả lời ra sao cả , và ông hoàng nhỏ ra đi .
+1	nhà	_	_	N	_	_	_	_	_
+2	doanh nghiệp	_	_	V	_	_	_	_	_
+3	mở miệng	_	_	V	_	_	_	_	_
+4	nhưng	_	_	C	_	_	_	_	_
+5	chẳng	_	_	Adv	_	_	_	_	_
+6	biết	_	_	V	_	_	_	_	_
+7	trả lời	_	_	V	_	_	_	_	_
+8	ra	_	_	V	_	_	_	_	_
+9	sao	_	_	Pro	_	_	_	_	_
+10	cả	_	_	Prt	_	_	_	_	_
+11	,	_	_	PUNCT	_	_	_	_	_
+12	và	_	_	C	_	_	_	_	_
+13	ông hoàng	_	_	N	_	_	_	_	_
+14	nhỏ	_	_	Adj	_	_	_	_	_
+15	ra	_	_	V	_	_	_	_	_
+16	đi	_	_	V	_	_	_	_	_
+17	.	_	_	PUNCT	_	_	_	_	_
+
+# text = những người lớn nhất định là những người hoàn toàn kỳ quái .
+1	những	_	_	Det	_	_	_	_	_
+2	người lớn	_	_	N	_	_	_	_	_
+3	nhất định	_	_	Adv	_	_	_	_	_
+4	là	_	_	C	_	_	_	_	_
+5	những	_	_	Det	_	_	_	_	_
+6	người	_	_	N	_	_	_	_	_
+7	hoàn toàn	_	_	Adj	_	_	_	_	_
+8	kỳ quái	_	_	Adj	_	_	_	_	_
+9	.	_	_	PUNCT	_	_	_	_	_
+
+# text = nó là cái bé nhất trong số các hành tinh .
+1	nó	_	_	Pro	_	_	_	_	_
+2	là	_	_	aux	_	_	_	_	_
+3	cái	_	_	Nc	_	_	_	_	_
+4	bé	_	_	Adj	_	_	_	_	_
+5	nhất	_	_	Adv	_	_	_	_	_
+6	trong	_	_	Pre	_	_	_	_	_
+7	số	_	_	N	_	_	_	_	_
+8	các	_	_	Det	_	_	_	_	_
+9	hành tinh	_	_	N	_	_	_	_	_
+10	.	_	_	PUNCT	_	_	_	_	_
+
+# text = ở đấy chỉ đủ chỗ cho một cây cột đèn và một người thắp đèn .
+1	ở	_	_	Pre	_	_	_	_	_
+2	đấy	_	_	Pro	_	-	_	_	_
+3	chỉ	_	_	Adv	_	_	_	_	_
+4	đủ	_	_	Adj	_	_	_	_	_
+5	chỗ	_	_	N	_	_	_	_	_
+6	cho	_	_	C	_	_	_	_	_
+7	một	_	_	Num	_	_	_	_	_
+8	cây	_	_	Nc	_	_	_	_	_
+9	cột	_	_	N	_	_	_	_	_
+10	đèn	_	_	N	_	-	_	_	_
+11	và	_	_	C	_	-	_	_	_
+12	một	_	_	Num	_	_	_	_	_
+13	người	_	_	N	_	_	_	_	_
+14	thắp	_	_	V	_	_	_	_	_
+15	đèn	_	_	N	_	_	_	_	_
+16	.	_	_	PUNCT	_	_	_	_	_
+
+# text = - rất có thể người này là vô lý .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	rất	_	_	Adv	_	_	_	_	_
+3	có thể	_	_	Adv	_	_	_	_	_
+4	người	_	_	N	_	_	_	_	_
+5	này	_	_	Pro	_	_	_	_	_
+6	là	_	_	C	_	_	_	_	_
+7	vô lý	_	_	Adj	_	_	_	_	_
+8	.	_	_	PUNCT	_	-	_	_	_
+
+# text = tuy thế ông ta còn ít vô lý hơn ông vua , ít vô lý hơn kẻ khoác lác , ít vô lý hơn nhà doanh nghiệp , ít vô lý hơn tay bợm nhậu .
+1	tuy	_	_	C	_	_	_	_	_
+2	thế	_	_	Pro	_	_	_	_	_
+3	ông	_	_	N	_	_	_	_	_
+4	ta	_	_	Pro	_	-	_	_	_
+5	còn	_	_	Adv	_	_	_	_	_
+6	ít	_	_	Adj	_	_	_	_	_
+7	vô lý	_	_	Adj	_	_	_	_	_
+8	hơn	_	_	Adv	_	_	_	_	_
+9	ông	_	_	N	_	_	_	_	_
+10	vua	_	_	N	_	_	_	_	_
+11	,	_	_	PUNCT	_	_	_	_	_
+12	ít	_	_	Adj	_	_	_	_	_
+13	vô lý	_	_	Adj	_	_	_	_	_
+14	hơn	_	_	Adv	_	_	_	_	_
+15	kẻ	_	_	N	_	_	_	_	_
+16	khoác lác	_	_	V	_	_	_	_	_
+17	,	_	_	PUNCT	_	_	_	_	_
+18	ít	_	_	Adj	_	_	_	_	_
+19	vô lý	_	_	Adj	_	_	_	_	_
+20	hơn	_	_	Adv	_	_	_	_	_
+21	nhà	_	_	N	_	_	_	_	_
+22	doanh nghiệp	_	_	V	_	_	_	_	_
+23	,	_	_	PUNCT	_	_	_	_	_
+24	ít	_	_	Adj	_	_	_	_	_
+25	vô lý	_	_	Adj	_	_	_	_	_
+26	hơn	_	_	Adv	_	_	_	_	_
+27	tay	_	_	N	_	_	_	_	_
+28	bợm	_	_	N	_	_	_	_	_
+29	nhậu	_	_	V	_	_	_	_	_
+30	.	_	_	PUNCT	_	_	_	_	_
+
+# text = khi ông ta thắp cây đèn của mình , như là ông ta sinh thêm một ngôi sao hay một bông hoa .
+1	khi	_	_	N	_	_	_	_	_
+2	ông	_	_	N	_	_	_	_	_
+3	ta	_	_	Pro	_	_	_	_	_
+4	thắp	_	_	V	_	_	_	_	_
+5	cây	_	_	Nc	_	_	_	_	_
+6	đèn	_	_	N	_	_	_	_	_
+7	của	_	_	Pre	_	_	_	_	_
+8	mình	_	_	Pro	_	_	_	_	_
+9	,	_	_	PUNCT	_	_	_	_	_
+10	như	_	_	C	_	_	_	_	_
+11	là	_	_	C	_	_	_	_	_
+12	ông	_	_	N	_	_	_	_	_
+13	ta	_	_	Pro	_	_	_	_	_
+14	sinh	_	_	V	_	_	_	_	_
+15	thêm	_	_	V	_	_	_	_	_
+16	một	_	_	Num	_	_	_	_	_
+17	ngôi	_	_	Nc	_	_	_	_	_
+18	sao	_	_	N	_	_	_	_	_
+19	hay	_	_	C	_	_	_	_	_
+20	một	_	_	Num	_	_	_	_	_
+21	bông	_	_	N	_	_	_	_	_
+22	hoa	_	_	N	_	_	_	_	_
+23	.	_	_	PUNCT	_	_	_	_	_
+
+# text = ấy là một công việc rất đẹp chứ .
+1	ấy	_	_	Pro	_	_	_	_	_
+2	là	_	_	aux	_	_	_	_	_
+3	một	_	_	Num	_	_	_	_	_
+4	công việc	_	_	N	_	_	_	_	_
+5	rất	_	_	Adv	_	_	_	_	_
+6	đẹp	_	_	Adj	_	_	_	_	_
+7	chứ	_	_	Prt	_	_	_	_	_
+8	.	_	_	PUNCT	_	_	_	_	_
+
+# text = việc ấy mới thật sự là có ích là vì nó đẹp .
+1	việc	_	_	N	_	_	_	_	_
+2	ấy	_	_	Pro	_	_	_	_	_
+3	mới	_	_	Prt	_	_	_	_	_
+4	thật sự	_	_	Adj	_	_	_	_	_
+5	là	_	_	C	_	_	_	_	_
+6	có ích	_	_	Adj	_	_	_	_	_
+7	là	_	_	N	_	_	_	_	_
+8	vì	_	_	Pre	_	_	_	_	_
+9	nó	_	_	Pro	_	_	_	_	_
+10	đẹp	_	_	Adj	_	_	_	_	_
+11	.	_	_	PUNCT	_	_	_	_	_
+
+# text = tại sao ông tắt đèn đi ?
+1	tại	_	_	Pre	_	_	_	_	_
+2	sao	_	_	Pro	_	_	_	_	_
+3	ông	_	_	N	_	_	_	_	_
+4	tắt	_	_	V	_	_	_	_	_
+5	đèn	_	_	N	_	_	_	_	_
+6	đi	_	_	V	_	_	_	_	_
+7	?	_	_	PUNCT	_	_	_	_	_
+
+# text = - điều lệnh gì vậy ?
+1	-	_	_	PUNCT	_	_	_	_	_
+2	điều lệnh	_	_	N	_	_	_	_	_
+3	gì	_	_	Pro	_	_	_	_	_
+4	vậy	_	_	Pro	_	_	_	_	_
+5	?	_	_	PUNCT	_	_	_	_	_
+
+# text = - là tắt đèn đi .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	là	_	_	C	_	3	_	_	_
+3	tắt	_	_	V	_	_	_	_	_
+4	đèn	_	_	N	_	3	_	_	_
+5	đi	_	_	Adv	_	3	_	_	_
+6	.	_	_	PUNCT	_	3	_	_	_
+
+# text = - nhưng tại sao ông lại vừa thắp đèn lên ?
+1	-	_	_	PUNCT	_	_	_	_	_
+2	nhưng	_	_	C	_	8	_	_	_
+3	tại	_	_	Pre	_	8	_	_	_
+4	sao	_	_	Pro	_	3	_	_	_
+5	ông	_	_	N	_	8	_	_	_
+6	lại	_	_	Adv	_	_	_	_	_
+7	vừa	_	_	Adv	_	8	_	_	_
+8	thắp	_	_	V	_	_	_	_	_
+9	đèn	_	_	N	_	8	_	_	_
+10	lên	_	_	V	_	8	_	_	_
+11	?	_	_	PUNCT	_	8	_	_	_
+
+# text = - chẳng có gì mà hiểu cả , người thắp đèn nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	chẳng	_	_	Adv	_	3	_	_	_
+3	có	_	_	V	_	6	_	_	_
+4	gì	_	_	Pro	_	3	_	_	_
+5	mà	_	_	C	_	_	_	_	_
+6	hiểu	_	_	V	_	_	_	_	_
+7	cả	_	_	Prt	_	6	_	_	_
+8	,	_	_	PUNCT	_	_	_	_	_
+9	người	_	_	N	_	12	_	_	_
+10	thắp	_	_	V	_	9	_	_	_
+11	đèn	_	_	N	_	_	_	_	_
+12	nói	_	_	V	_	6	_	_	_
+13	.	_	_	PUNCT	_	6	_	_	_
+
+# text = - nghề của ta làm đây thật kinh khủng .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	nghề	_	_	N	_	5	_	_	_
+3	của	_	_	Pre	_	_	_	_	_
+4	ta	_	_	Pro	_	2	_	_	_
+5	làm	_	_	V	_	8	_	_	_
+6	đây	_	_	Pro	_	5	_	_	_
+7	thật	_	_	Adv	_	8	_	_	_
+8	kinh khủng	_	_	V	_	_	_	_	_
+9	.	_	_	PUNCT	_	8	_	_	_
+
+# text = xưa kia thì nó còn có lý .
+1	xưa	_	_	N	_	6	_	_	_
+2	kia	_	_	Pro	_	1	_	_	_
+3	thì	_	_	C	_	_	_	_	_
+4	nó	_	_	Pro	_	6	_	_	_
+5	còn	_	_	Adv	_	6	_	_	_
+6	có lý	_	_	Adj	_	_	_	_	_
+7	.	_	_	PUNCT	_	6	_	_	_
+
+# text = phần còn lại ta nghỉ , phần đêm còn lại ta ngủ ...
+1	phần	_	_	N	_	2	_	_	_
+2	còn	_	_	V	_	_	_	_	_
+3	lại	_	_	V	_	2	_	_	_
+4	ta	_	_	Pro	_	5	_	_	_
+5	nghỉ	_	_	V	_	2	_	_	_
+6	,	_	_	PUNCT	_	_	_	_	_
+7	phần	_	_	N	_	_	_	_	_
+8	đêm	_	_	N	_	12	_	_	_
+9	còn	_	_	V	_	_	_	_	_
+10	lại	_	_	V	_	_	_	_	_
+11	ta	_	_	Pro	_	12	_	_	_
+12	ngủ	_	_	V	_	2	_	_	_
+13	...	_	_	PUNCT	_	2	_	_	_
+
+# text = - nhưng sau đó điều lệnh thay đổi sao ?
+1	-	_	_	PUNCT	_	_	_	_	_
+2	nhưng	_	_	C	_	6	_	_	_
+3	sau	_	_	N	_	6	_	_	_
+4	đó	_	_	N	_	3	_	_	_
+5	điều lệnh	_	_	N	_	6	_	_	_
+6	thay đổi	_	_	V	_	_	_	_	_
+7	sao	_	_	Pro	_	_	_	_	_
+8	?	_	_	PUNCT	_	6	_	_	_
+
+# text = bi kịch là ở chỗ đó !
+1	bi kịch	_	_	N	_	_	_	_	_
+2	là	_	_	N	_	_	_	_	_
+3	ở	_	_	Pre	_	_	_	_	_
+4	chỗ	_	_	N	_	1	_	_	_
+5	đó	_	_	N	_	4	_	_	_
+6	!	_	_	PUNCT	_	1	_	_	_
+
+# text = - thế thì sao ? ông hoàng nhỏ hỏi .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	thế thì	_	_	C	_	_	_	_	_
+3	sao	_	_	Pro	_	2	_	_	_
+4	?	_	_	PUNCT	_	3	_	_	_
+5	ông hoàng	_	_	N	_	7	_	_	_
+6	nhỏ	_	_	Adj	_	5	_	_	_
+7	hỏi	_	_	V	_	2	_	_	_
+8	.	_	_	PUNCT	_	2	_	_	_
+
+# text = - vì hiện nay nó quay mỗi phút một vòng , ta không còn lấy một giây để nghỉ ngơi .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	vì	_	_	Pre	_	_	_	_	_
+3	hiện nay	_	_	N	_	5	_	_	_
+4	nó	_	_	Pro	_	5	_	_	_
+5	quay	_	_	V	_	13	_	_	_
+6	mỗi	_	_	Det	_	7	_	_	_
+7	phút	_	_	N	_	9	_	_	_
+8	một	_	_	Num	_	9	_	_	_
+9	vòng	_	_	N	_	5	_	_	_
+10	,	_	_	PUNCT	_	_	_	_	_
+11	ta	_	_	Pro	_	13	_	_	_
+12	không	_	_	Adv	_	13	_	_	_
+13	còn	_	_	V	_	_	_	_	_
+14	lấy	_	_	Prt	_	13	_	_	_
+15	một	_	_	Num	_	16	_	_	_
+16	giây	_	_	Nu	_	13	_	_	_
+17	để	_	_	Pre	_	_	_	_	_
+18	nghỉ ngơi	_	_	V	_	13	_	_	_
+19	.	_	_	PUNCT	_	13	_	_	_
+
+# text = - lạ thực đấy !
+1	-	_	_	PUNCT	_	_	_	_	_
+2	lạ	_	_	Adj	_	_	_	_	_
+3	thực	_	_	Adj	_	2	_	_	_
+4	đấy	_	_	Prt	_	2	_	_	_
+5	!	_	_	PUNCT	_	2	_	_	_
+
+# text = ở đây ngày dài chỉ có một phút thôi !
+1	ở	_	_	Pre	_	2	_	_	_
+2	đây	_	_	Pro	_	6	_	_	_
+3	ngày	_	_	N	_	6	_	_	_
+4	dài	_	_	Adj	_	3	_	_	_
+5	chỉ	_	_	Adv	_	6	_	_	_
+6	có	_	_	Prt	_	_	_	_	_
+7	một	_	_	Num	_	8	_	_	_
+8	phút	_	_	Nu	_	6	_	_	_
+9	thôi	_	_	Prt	_	_	_	_	_
+10	!	_	_	PUNCT	_	6	_	_	_
+
+# text = - chẳng có gì lạ cả , người thắp đèn nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	chẳng	_	_	Adv	_	3	_	_	_
+3	có	_	_	V	_	_	_	_	_
+4	gì	_	_	Pro	_	3	_	_	_
+5	lạ	_	_	Adj	_	3	_	_	_
+6	cả	_	_	Prt	_	5	_	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	người	_	_	N	_	_	_	_	_
+9	thắp	_	_	V	_	8	_	_	_
+10	đèn	_	_	N	_	9	_	_	_
+11	nói	_	_	V	_	3	_	_	_
+12	.	_	_	PUNCT	_	3	_	_	_
+
+# text = ta chuyện trò với nhau thế mà đã một tháng rồi đấy .
+1	ta	_	_	Pro	_	2	_	_	_
+2	chuyện trò	_	_	V	_	_	_	_	_
+3	với	_	_	C	_	4	_	_	_
+4	nhau	_	_	N	_	2	_	_	_
+5	thế mà	_	_	C	_	_	_	_	_
+6	đã	_	_	Adv	_	8	_	_	_
+7	một	_	_	Num	_	8	_	_	_
+8	tháng	_	_	N	_	2	_	_	_
+9	rồi	_	_	Adv	_	8	_	_	_
+10	đấy	_	_	Prt	_	_	_	_	_
+11	.	_	_	PUNCT	_	2	_	_	_
+
+# text = - một tháng kia ư ?
+1	-	_	_	PUNCT	_	_	_	_	_
+2	một	_	_	Num	_	3	_	_	_
+3	tháng	_	_	N	_	_	_	_	_
+4	kia	_	_	Prt	_	3	_	_	_
+5	ư	_	_	Prt	_	_	_	_	_
+6	?	_	_	PUNCT	_	3	_	_	_
+
+# text = - phải , ba mươi
+1	-	_	_	PUNCT	_	_	_	_	_
+2	phải	_	_	Adj	_	_	_	_	_
+3	,	_	_	PUNCT	_	2	_	_	_
+4	ba mươi	_	_	Num	_	2	_	_	_
+
+# text = phút .
+1	phút	_	_	Nu	_	_	_	_	_
+2	.	_	_	PUNCT	_	_	_	_	_
+
+# text = ba mươi
+1	ba mươi	_	_	Num	_	_	_	_	_
+
+# text = ngày .
+1	ngày	_	_	N	_	_	_	_	_
+2	.	_	_	PUNCT	_	_	_	_	_
+
+# text = chúc một đêm tốt lành .
+1	chúc	_	_	V	_	_	_	_	_
+2	một	_	_	Num	_	3	_	_	_
+3	đêm	_	_	N	_	1	_	_	_
+4	tốt lành	_	_	Adj	_	1	_	_	_
+5	.	_	_	PUNCT	_	1	_	_	_
+
+# text = rồi ông lại thắp ngọn đèn .
+1	rồi	_	_	C	_	_	_	_	_
+2	ông	_	_	N	_	4	_	_	_
+3	lại	_	_	Adv	_	4	_	_	_
+4	thắp	_	_	V	_	1	_	_	_
+5	ngọn	_	_	N	_	6	_	_	_
+6	đèn	_	_	N	_	4	_	_	_
+7	.	_	_	PUNCT	_	1	_	_	_
+
+# text = ông hoàng nhỏ nhìn ông ta và thấy yêu mến người thắp đèn trung thành đến thế với điều lệnh .
+1	ông hoàng	_	_	N	_	3	_	_	_
+2	nhỏ	_	_	Adj	_	1	_	_	_
+3	nhìn	_	_	V	_	6	_	_	_
+4	ông	_	_	N	_	3	_	_	_
+5	ta	_	_	Pro	_	4	_	_	_
+6	và	_	_	C	_	_	_	_	_
+7	thấy	_	_	V	_	8	_	_	_
+8	yêu mến	_	_	V	_	6	_	_	_
+9	người	_	_	N	_	8	_	_	_
+10	thắp	_	_	V	_	9	_	_	_
+11	đèn	_	_	N	_	_	_	_	_
+12	trung thành	_	_	Adj	_	9	_	_	_
+13	đến	_	_	Prt	_	_	_	_	_
+14	thế	_	_	Prt	_	_	_	_	_
+15	với	_	_	C	_	_	_	_	_
+16	điều lệnh	_	_	N	_	12	_	_	_
+17	.	_	_	PUNCT	_	6	_	_	_
+
+# text = em muốn giúp ông bạn thân :
+1	em	_	_	N	_	3	_	_	_
+2	muốn	_	_	aux	_	3	_	_	_
+3	giúp	_	_	V	_	_	_	_	_
+4	ông	_	_	N	_	5	_	_	_
+5	bạn	_	_	N	_	3	_	_	_
+6	thân	_	_	Adj	_	5	_	_	_
+7	:	_	_	PUNCT	_	3	_	_	_
+
+# text = - này ông ...
+1	-	_	_	PUNCT	_	_	_	_	_
+2	này	_	_	I	_	3	_	_	_
+3	ông	_	_	N	_	_	_	_	_
+4	...	_	_	PUNCT	_	3	_	_	_
+
+# text = cậu em nhớ tới những cảnh mặt trời lặn mà xưa kia chính em phải đi kiếm để xem , bằng cách dịch ghế ngồi .
+1	cậu	_	_	Nc	_	2	_	_	_
+2	em	_	_	N	_	3	_	_	_
+3	nhớ	_	_	V	_	_	_	_	_
+4	tới	_	_	Pre	_	3	_	_	_
+5	những	_	_	Det	_	_	_	_	_
+6	cảnh	_	_	N	_	3	_	_	_
+7	mặt trời	_	_	N	_	8	_	_	_
+8	lặn	_	_	V	_	6	_	_	_
+9	mà	_	_	C	_	_	_	_	_
+10	xưa	_	_	N	_	15	_	_	_
+11	kia	_	_	Pro	_	_	_	_	_
+12	chính	_	_	Prt	_	_	_	_	_
+13	em	_	_	N	_	15	_	_	_
+14	phải	_	_	aux	_	15	_	_	_
+15	đi	_	_	V	_	6	_	_	_
+16	kiếm	_	_	V	_	15	_	_	_
+17	để	_	_	Pre	_	_	_	_	_
+18	xem	_	_	V	_	15	_	_	_
+19	,	_	_	PUNCT	_	_	_	_	_
+20	bằng	_	_	Pre	_	_	_	_	_
+21	cách	_	_	N	_	_	_	_	_
+22	dịch	_	_	V	_	15	_	_	_
+23	ghế	_	_	N	_	22	_	_	_
+24	ngồi	_	_	V	_	23	_	_	_
+25	.	_	_	PUNCT	_	3	_	_	_
+
+# text = - ta luôn luôn muốn , người thắp đèn nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	ta	_	_	Pro	_	4	_	_	_
+3	luôn luôn	_	_	Adv	_	4	_	_	_
+4	muốn	_	_	aux	_	_	_	_	_
+5	,	_	_	PUNCT	_	_	_	_	_
+6	người	_	_	N	_	9	_	_	_
+7	thắp	_	_	V	_	6	_	_	_
+8	đèn	_	_	N	_	7	_	_	_
+9	nói	_	_	V	_	4	_	_	_
+10	.	_	_	PUNCT	_	4	_	_	_
+
+# text = tôi biết cách cho ông nghỉ ngơi khi nào ông muốn đấy ...
+1	tôi	_	_	Pro	_	2	_	_	_
+2	biết	_	_	V	_	_	_	_	_
+3	cách	_	_	N	_	2	_	_	_
+4	cho	_	_	V	_	3	_	_	_
+5	ông	_	_	N	_	4	_	_	_
+6	nghỉ ngơi	_	_	V	_	4	_	_	_
+7	khi	_	_	N	_	2	_	_	_
+8	nào	_	_	Pro	_	7	_	_	_
+9	ông	_	_	N	_	_	_	_	_
+10	muốn	_	_	aux	_	7	_	_	_
+11	đấy	_	_	Prt	_	_	_	_	_
+12	...	_	_	PUNCT	_	2	_	_	_
+
+# text = bởi vì người ta có thể , cùng một lúc , vừa trung thành lại vừa lười biếng .
+1	bởi vì	_	_	C	_	_	_	_	_
+2	người ta	_	_	N	_	3	_	_	_
+3	có thể	_	_	Adv	_	12	_	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	cùng	_	_	Adj	_	12	_	_	_
+6	một	_	_	Num	_	7	_	_	_
+7	lúc	_	_	N	_	5	_	_	_
+8	,	_	_	PUNCT	_	_	_	_	_
+9	vừa	_	_	Adv	_	_	_	_	_
+10	trung thành	_	_	Adj	_	12	_	_	_
+11	lại	_	_	Adv	_	_	_	_	_
+12	vừa	_	_	Adv	_	_	_	_	_
+13	lười biếng	_	_	Adj	_	12	_	_	_
+14	.	_	_	PUNCT	_	12	_	_	_
+
+# text = ông hoàng nhỏ hỏi tiếp :
+1	ông hoàng	_	_	N	_	3	_	_	_
+2	nhỏ	_	_	Adj	_	1	_	_	_
+3	hỏi	_	_	V	_	_	_	_	_
+4	tiếp	_	_	V	_	3	_	_	_
+5	:	_	_	PUNCT	_	3	_	_	_
+
+# text = - cái hành tinh của ông nhỏ đến nỗi ông có thể bước sải ba bước là đi giáp một vòng .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	cái	_	_	Prt	_	3	_	_	_
+3	hành tinh	_	_	N	_	6	_	_	_
+4	của	_	_	Pre	_	_	_	_	_
+5	ông	_	_	N	_	3	_	_	_
+6	nhỏ	_	_	Adj	_	_	_	_	_
+7	đến nỗi	_	_	G	_	6	_	_	_
+8	ông	_	_	N	_	_	_	_	_
+9	có thể	_	_	Adv	_	10	_	_	_
+10	bước	_	_	V	_	6	_	_	_
+11	sải	_	_	V	_	_	_	_	_
+12	ba	_	_	Num	_	13	_	_	_
+13	bước	_	_	N	_	15	_	_	_
+14	là	_	_	C	_	_	_	_	_
+15	đi	_	_	V	_	_	_	_	_
+16	giáp	_	_	Adj	_	18	_	_	_
+17	một	_	_	Num	_	18	_	_	_
+18	vòng	_	_	N	_	15	_	_	_
+19	.	_	_	PUNCT	_	6	_	_	_
+
+# text = khi nào ông muốn nghỉ , ông cứ bước đi ...
+1	khi	_	_	N	_	9	_	_	_
+2	nào	_	_	Pro	_	1	_	_	_
+3	ông	_	_	N	_	5	_	_	_
+4	muốn	_	_	aux	_	5	_	_	_
+5	nghỉ	_	_	V	_	1	_	_	_
+6	,	_	_	PUNCT	_	_	_	_	_
+7	ông	_	_	N	_	9	_	_	_
+8	cứ	_	_	Prt	_	_	_	_	_
+9	bước	_	_	V	_	_	_	_	_
+10	đi	_	_	V	_	9	_	_	_
+11	...	_	_	PUNCT	_	9	_	_	_
+
+# text = ông chỉ có việc đi chầm chậm để lúc nào cũng ở dưới ánh mặt trời cả .
+1	ông	_	_	N	_	3	_	_	_
+2	chỉ	_	_	Adv	_	3	_	_	_
+3	có	_	_	Prt	_	_	_	_	_
+4	việc	_	_	N	_	5	_	_	_
+5	đi	_	_	V	_	3	_	_	_
+6	chầm chậm	_	_	Adj	_	5	_	_	_
+7	để	_	_	Pre	_	_	_	_	_
+8	lúc	_	_	N	_	_	_	_	_
+9	nào	_	_	Pro	_	8	_	_	_
+10	cũng	_	_	Adv	_	_	_	_	_
+11	ở	_	_	V	_	3	_	_	_
+12	dưới	_	_	Pre	_	14	_	_	_
+13	ánh	_	_	N	_	14	_	_	_
+14	mặt trời	_	_	N	_	_	_	_	_
+15	cả	_	_	Prt	_	_	_	_	_
+16	.	_	_	PUNCT	_	3	_	_	_
+
+# text = thế là ông muốn ngày dài bao nhiêu thì nó dài bấy nhiêu .
+1	thế là	_	_	C	_	_	_	_	_
+2	ông	_	_	N	_	3	_	_	_
+3	muốn	_	_	aux	_	1	_	_	_
+4	ngày	_	_	N	_	5	_	_	_
+5	dài	_	_	Adj	_	3	_	_	_
+6	bao nhiêu	_	_	Pro	_	5	_	_	_
+7	thì	_	_	C	_	_	_	_	_
+8	nó	_	_	Pro	_	9	_	_	_
+9	dài	_	_	Adj	_	5	_	_	_
+10	bấy nhiêu	_	_	Pro	_	9	_	_	_
+11	.	_	_	PUNCT	_	1	_	_	_
+
+# text = - cái ấy chẳng được việc gì cho ta , người thắp đèn nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	cái	_	_	Nc	_	5	_	_	_
+3	ấy	_	_	Pro	_	2	_	_	_
+4	chẳng	_	_	Adv	_	_	_	_	_
+5	được	_	_	aux	_	_	_	_	_
+6	việc	_	_	N	_	5	_	_	_
+7	gì	_	_	Pro	_	6	_	_	_
+8	cho	_	_	C	_	_	_	_	_
+9	ta	_	_	Pro	_	5	_	_	_
+10	,	_	_	PUNCT	_	_	_	_	_
+11	người	_	_	N	_	14	_	_	_
+12	thắp	_	_	V	_	_	_	_	_
+13	đèn	_	_	N	_	12	_	_	_
+14	nói	_	_	V	_	5	_	_	_
+15	.	_	_	PUNCT	_	5	_	_	_
+
+# text = - thế thì thật là không may , ông hoàng nhỏ nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	thế thì	_	_	C	_	6	_	_	_
+3	thật	_	_	Adv	_	6	_	_	_
+4	là	_	_	Prt	_	_	_	_	_
+5	không	_	_	Adv	_	6	_	_	_
+6	may	_	_	Adj	_	_	_	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	ông hoàng	_	_	N	_	_	_	_	_
+9	nhỏ	_	_	Adj	_	8	_	_	_
+10	nói	_	_	V	_	6	_	_	_
+11	.	_	_	PUNCT	_	6	_	_	_
+
+# text = - thật là không may , người thắp đèn nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	thật	_	_	Adv	_	5	_	_	_
+3	là	_	_	Prt	_	_	_	_	_
+4	không	_	_	Adv	_	5	_	_	_
+5	may	_	_	Adj	_	_	_	_	_
+6	,	_	_	PUNCT	_	_	_	_	_
+7	người	_	_	N	_	_	_	_	_
+8	thắp	_	_	V	_	7	_	_	_
+9	đèn	_	_	N	_	8	_	_	_
+10	nói	_	_	V	_	5	_	_	_
+11	.	_	_	PUNCT	_	5	_	_	_
+
+# text = chúc một ngày tốt lành .
+1	chúc	_	_	V	_	_	_	_	_
+2	một	_	_	Num	_	3	_	_	_
+3	ngày	_	_	N	_	4	_	_	_
+4	tốt lành	_	_	Adj	_	1	_	_	_
+5	.	_	_	PUNCT	_	1	_	_	_
+
+# text = rồi ông ta tắt đèn .
+1	rồi	_	_	C	_	_	_	_	_
+2	ông	_	_	N	_	4	_	_	_
+3	ta	_	_	Pro	_	2	_	_	_
+4	tắt	_	_	V	_	1	_	_	_
+5	đèn	_	_	N	_	4	_	_	_
+6	.	_	_	PUNCT	_	1	_	_	_
+
+# text = cái mà ta thích nhất trên đời , là ngủ .
+1	cái	_	_	Nc	_	4	_	_	_
+2	mà	_	_	C	_	_	_	_	_
+3	ta	_	_	Pro	_	4	_	_	_
+4	thích	_	_	V	_	_	_	_	_
+5	nhất	_	_	Adv	_	4	_	_	_
+6	trên	_	_	Pre	_	7	_	_	_
+7	đời	_	_	N	_	4	_	_	_
+8	,	_	_	PUNCT	_	_	_	_	_
+9	là	_	_	C	_	_	_	_	_
+10	ngủ	_	_	V	_	4	_	_	_
+11	.	_	_	PUNCT	_	4	_	_	_
+
+# text = ông ta sẽ bị tất cả những người kia khinh thường , ông vua , lão khoác lác , tay bợm nhậu , nhà doanh nghiệp .
+1	ông	_	_	N	_	9	_	_	_
+2	ta	_	_	Pro	_	1	_	_	_
+3	sẽ	_	_	Adv	_	4	_	_	_
+4	bị	_	_	aux	_	1	_	_	_
+5	tất cả	_	_	Det	_	7	_	_	_
+6	những	_	_	Det	_	7	_	_	_
+7	người	_	_	N	_	9	_	_	_
+8	kia	_	_	Pro	_	7	_	_	_
+9	khinh thường	_	_	V	_	_	_	_	_
+10	,	_	_	PUNCT	_	_	_	_	_
+11	ông	_	_	N	_	12	_	_	_
+12	vua	_	_	N	_	9	_	_	_
+13	,	_	_	PUNCT	_	_	_	_	_
+14	lão	_	_	N	_	15	_	_	_
+15	khoác lác	_	_	V	_	9	_	_	_
+16	,	_	_	PUNCT	_	_	_	_	_
+17	tay	_	_	N	_	19	_	_	_
+18	bợm	_	_	N	_	19	_	_	_
+19	nhậu	_	_	V	_	9	_	_	_
+20	,	_	_	PUNCT	_	_	_	_	_
+21	nhà	_	_	N	_	22	_	_	_
+22	doanh nghiệp	_	_	V	_	9	_	_	_
+23	.	_	_	PUNCT	_	9	_	_	_
+
+# text = cái ông này , ông hoàng nhỏ nghĩ thầm trong lúc tiếp tục cuộc hành trình .
+1	cái	_	_	Prt	_	2	_	_	_
+2	ông	_	_	N	_	_	_	_	_
+3	này	_	_	Pro	_	2	_	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	ông hoàng	_	_	N	_	7	_	_	_
+6	nhỏ	_	_	Adj	_	5	_	_	_
+7	nghĩ	_	_	V	_	2	_	_	_
+8	thầm	_	_	Adj	_	7	_	_	_
+9	trong	_	_	Pre	_	_	_	_	_
+10	lúc	_	_	N	_	_	_	_	_
+11	tiếp tục	_	_	V	_	7	_	_	_
+12	cuộc	_	_	Nc	_	13	_	_	_
+13	hành trình	_	_	N	_	_	_	_	_
+14	.	_	_	PUNCT	_	2	_	_	_
+
+# text = trong khi đó chỉ có ông ta là không thấy buồn cười .
+1	trong	_	_	Pre	_	2	_	_	_
+2	khi	_	_	N	_	5	_	_	_
+3	đó	_	_	N	_	2	_	_	_
+4	chỉ	_	_	Adv	_	5	_	_	_
+5	có	_	_	V	_	_	_	_	_
+6	ông	_	_	N	_	_	_	_	_
+7	ta	_	_	Pro	_	6	_	_	_
+8	là	_	_	C	_	_	_	_	_
+9	không	_	_	Adv	_	_	_	_	_
+10	thấy	_	_	V	_	5	_	_	_
+11	buồn cười	_	_	Adj	_	_	_	_	_
+12	.	_	_	PUNCT	_	5	_	_	_
+
+# text = em thở dài tiếc rẻ và nghĩ tiếp :
+1	em	_	_	N	_	2	_	_	_
+2	thở dài	_	_	V	_	4	_	_	_
+3	tiếc rẻ	_	_	V	_	2	_	_	_
+4	và	_	_	C	_	_	_	_	_
+5	nghĩ	_	_	V	_	4	_	_	_
+6	tiếp	_	_	V	_	5	_	_	_
+7	:	_	_	PUNCT	_	4	_	_	_
+
+# text = có lẽ bởi vì ông lo toan cho một cái gì khác chứ không phải là bản thân ông ta .
+1	có lẽ	_	_	Adv	_	_	_	_	_
+2	bởi vì	_	_	C	_	4	_	_	_
+3	ông	_	_	N	_	4	_	_	_
+4	lo toan	_	_	V	_	_	_	_	_
+5	cho	_	_	C	_	_	_	_	_
+6	một	_	_	Num	_	8	_	_	_
+7	cái	_	_	Nc	_	8	_	_	_
+8	gì	_	_	Pro	_	4	_	_	_
+9	khác	_	_	Adj	_	8	_	_	_
+10	chứ	_	_	C	_	_	_	_	_
+11	không	_	_	Adv	_	12	_	_	_
+12	phải	_	_	Adj	_	14	_	_	_
+13	là	_	_	C	_	_	_	_	_
+14	bản thân	_	_	N	_	4	_	_	_
+15	ông	_	_	N	_	14	_	_	_
+16	ta	_	_	Pro	_	15	_	_	_
+17	.	_	_	PUNCT	_	4	_	_	_
+
+# text = - ông ta là người duy nhất đáng cho mình kết bạn .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	ông	_	_	N	_	5	_	_	_
+3	ta	_	_	Pro	_	2	_	_	_
+4	là	_	_	aux	_	_	_	_	_
+5	người	_	_	N	_	_	_	_	_
+6	duy nhất	_	_	Adj	_	5	_	_	_
+7	đáng	_	_	V	_	5	_	_	_
+8	cho	_	_	C	_	_	_	_	_
+9	mình	_	_	Pro	_	_	_	_	_
+10	kết bạn	_	_	V	_	7	_	_	_
+11	.	_	_	PUNCT	_	5	_	_	_
+
+# text = nhưng tinh cầu của ông ấy bé quá .
+1	nhưng	_	_	C	_	6	_	_	_
+2	tinh cầu	_	_	N	_	6	_	_	_
+3	của	_	_	Pre	_	_	_	_	_
+4	ông	_	_	N	_	2	_	_	_
+5	ấy	_	_	Pro	_	4	_	_	_
+6	bé	_	_	Adj	_	_	_	_	_
+7	quá	_	_	Adv	_	6	_	_	_
+8	.	_	_	PUNCT	_	6	_	_	_
+
+# text = không có chỗ cho hai người ...
+1	không	_	_	Adv	_	2	_	_	_
+2	có	_	_	V	_	_	_	_	_
+3	chỗ	_	_	N	_	2	_	_	_
+4	cho	_	_	C	_	_	_	_	_
+5	hai	_	_	Num	_	6	_	_	_
+6	người	_	_	N	_	2	_	_	_
+7	...	_	_	PUNCT	_	2	_	_	_
+
+# text = tinh cầu thứ sáu là tinh cầu mười lần rộng hơn .
+1	tinh cầu	_	_	N	_	5	_	_	_
+2	thứ	_	_	N	_	_	_	_	_
+3	sáu	_	_	Num	_	1	_	_	_
+4	là	_	_	aux	_	_	_	_	_
+5	tinh cầu	_	_	N	_	_	_	_	_
+6	mười	_	_	Num	_	7	_	_	_
+7	lần	_	_	N	_	8	_	_	_
+8	rộng	_	_	Adj	_	5	_	_	_
+9	hơn	_	_	Adv	_	8	_	_	_
+10	.	_	_	PUNCT	_	5	_	_	_
+
+# text = ông hoàng nhỏ ngồi lên bàn và thở một lúc .
+1	ông hoàng	_	_	N	_	3	_	_	_
+2	nhỏ	_	_	Adj	_	1	_	_	_
+3	ngồi	_	_	V	_	6	_	_	_
+4	lên	_	_	V	_	3	_	_	_
+5	bàn	_	_	N	_	3	_	_	_
+6	và	_	_	C	_	_	_	_	_
+7	thở	_	_	V	_	6	_	_	_
+8	một	_	_	Num	_	9	_	_	_
+9	lúc	_	_	N	_	7	_	_	_
+10	.	_	_	PUNCT	_	6	_	_	_
+
+# text = nhưng , như lời em nói : " biết đâu đấy ! "
+1	nhưng	_	_	C	_	6	_	_	_
+2	,	_	_	PUNCT	_	_	_	_	_
+3	như	_	_	C	_	_	_	_	_
+4	lời	_	_	N	_	6	_	_	_
+5	em	_	_	N	_	4	_	_	_
+6	nói	_	_	V	_	_	_	_	_
+7	:	_	_	PUNCT	_	_	_	_	_
+8	"	_	_	_	_	_	_	_	_
+9	biết đâu đấy	_	_	G	_	6	_	_	_
+10	!	_	_	PUNCT	_	6	_	_	_
+11	"	_	_	_	_	_	_	_	_
+
+# text = con cừu chú muốn nó ở trong ấy đấy .
+1	con	_	_	Nc	_	2	_	_	_
+2	cừu	_	_	N	_	4	_	_	_
+3	chú	_	_	N	_	2	_	_	_
+4	muốn	_	_	aux	_	_	_	_	_
+5	nó	_	_	Pro	_	6	_	_	_
+6	ở	_	_	V	_	4	_	_	_
+7	trong	_	_	Pre	_	8	_	_	_
+8	ấy	_	_	Pro	_	6	_	_	_
+9	đấy	_	_	Prt	_	8	_	_	_
+10	.	_	_	PUNCT	_	4	_	_	_
+
+# text = nhưng biết đâu đấy .
+1	nhưng	_	_	C	_	2	_	_	_
+2	biết đâu đấy	_	_	G	_	_	_	_	_
+3	.	_	_	PUNCT	_	2	_	_	_
+
+# text = - tôi cũng có một bông hoa .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	tôi	_	_	Pro	_	4	_	_	_
+3	cũng	_	_	Adv	_	4	_	_	_
+4	có	_	_	V	_	_	_	_	_
+5	một	_	_	Num	_	7	_	_	_
+6	bông	_	_	N	_	7	_	_	_
+7	hoa	_	_	N	_	4	_	_	_
+8	.	_	_	PUNCT	_	4	_	_	_
+
+# text = - chúng tôi không ghi nhận bông hoa , nhà địa lý nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	chúng tôi	_	_	Pro	_	4	_	_	_
+3	không	_	_	Adv	_	4	_	_	_
+4	ghi nhận	_	_	V	_	_	_	_	_
+5	bông	_	_	N	_	6	_	_	_
+6	hoa	_	_	N	_	4	_	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	nhà	_	_	N	_	9	_	_	_
+9	địa lý	_	_	N	_	_	_	_	_
+10	nói	_	_	V	_	4	_	_	_
+11	.	_	_	PUNCT	_	4	_	_	_
+
+# text = - tôi có biết một người nếu mà làm nhà thám hiểm thì sẽ tệ hại đấy , ông hoàng nhỏ nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	tôi	_	_	Pro	_	4	_	_	_
+3	có	_	_	N	_	4	_	_	_
+4	biết	_	_	V	_	_	_	_	_
+5	một	_	_	Num	_	6	_	_	_
+6	người	_	_	N	_	8	_	_	_
+7	nếu mà	_	_	C	_	_	_	_	_
+8	làm	_	_	V	_	13	_	_	_
+9	nhà	_	_	N	_	_	_	_	_
+10	thám hiểm	_	_	V	_	8	_	_	_
+11	thì	_	_	C	_	_	_	_	_
+12	sẽ	_	_	Adv	_	13	_	_	_
+13	tệ hại	_	_	Adj	_	4	_	_	_
+14	đấy	_	_	Prt	_	13	_	_	_
+15	,	_	_	PUNCT	_	_	_	_	_
+16	ông hoàng	_	_	N	_	18	_	_	_
+17	nhỏ	_	_	Adj	_	16	_	_	_
+18	nói	_	_	V	_	4	_	_	_
+19	.	_	_	PUNCT	_	4	_	_	_
+
+# text = chẳng mấy khi một quả núi lại chuyển chỗ .
+1	chẳng mấy khi	_	_	Adv	_	6	_	_	_
+2	một	_	_	Num	_	4	_	_	_
+3	quả	_	_	N	_	4	_	_	_
+4	núi	_	_	N	_	6	_	_	_
+5	lại	_	_	Adv	_	6	_	_	_
+6	chuyển	_	_	V	_	_	_	_	_
+7	chỗ	_	_	N	_	6	_	_	_
+8	.	_	_	PUNCT	_	6	_	_	_
+
+# text = - song những núi lửa đã tắt có thể thức dậy được , ông hoàng nhỏ ngắt lời .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	song	_	_	C	_	_	_	_	_
+3	những	_	_	Det	_	4	_	_	_
+4	núi lửa	_	_	N	_	9	_	_	_
+5	đã	_	_	Adv	_	6	_	_	_
+6	tắt	_	_	V	_	4	_	_	_
+7	có thể	_	_	Adv	_	9	_	_	_
+8	thức	_	_	V	_	9	_	_	_
+9	dậy	_	_	V	_	_	_	_	_
+10	được	_	_	Adv	_	9	_	_	_
+11	,	_	_	PUNCT	_	_	_	_	_
+12	ông hoàng	_	_	N	_	14	_	_	_
+13	nhỏ	_	_	Adj	_	12	_	_	_
+14	ngắt	_	_	V	_	9	_	_	_
+15	lời	_	_	N	_	14	_	_	_
+16	.	_	_	PUNCT	_	9	_	_	_
+
+# text = - thế nào gọi là " phù du " ?
+1	-	_	_	PUNCT	_	_	_	_	_
+2	thế nào	_	_	Pro	_	3	_	_	_
+3	gọi	_	_	V	_	_	_	_	_
+4	là	_	_	C	_	_	_	_	_
+5	"	_	_	_	_	_	_	_	_
+6	phù du	_	_	N	_	3	_	_	_
+7	"	_	_	_	_	_	_	_	_
+8	?	_	_	PUNCT	_	3	_	_	_
+
+# text = thế nào gọi là " phù du " ?
+1	thế nào	_	_	Pro	_	2	_	_	_
+2	gọi	_	_	V	_	_	_	_	_
+3	là	_	_	C	_	_	_	_	_
+4	"	_	_	_	_	_	_	_	_
+5	phù du	_	_	N	_	2	_	_	_
+6	"	_	_	_	_	_	_	_	_
+7	?	_	_	PUNCT	_	2	_	_	_
+
+# text = - núi lửa tắt hay hoạt động với bọn ta cũng thế thôi , nhà địa lý nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	núi lửa	_	_	N	_	_	_	_	_
+3	tắt	_	_	V	_	2	_	_	_
+4	hay	_	_	C	_	_	_	_	_
+5	hoạt động	_	_	V	_	2	_	_	_
+6	với	_	_	C	_	_	_	_	_
+7	bọn	_	_	Nc	_	8	_	_	_
+8	ta	_	_	Pro	_	2	_	_	_
+9	cũng	_	_	Adv	_	_	_	_	_
+10	thế	_	_	Pro	_	2	_	_	_
+11	thôi	_	_	Prt	_	_	_	_	_
+12	,	_	_	PUNCT	_	_	_	_	_
+13	nhà	_	_	N	_	14	_	_	_
+14	địa lý	_	_	N	_	15	_	_	_
+15	nói	_	_	V	_	2	_	_	_
+16	.	_	_	PUNCT	_	2	_	_	_
+
+# text = đoá hoa của tôi vốn phù du , ông hoàng nhỏ tự nhủ , và nàng chỉ có bốn cái gai để chống chọi ở đời !
+1	đoá	_	_	Nc	_	2	_	_	_
+2	hoa	_	_	N	_	6	_	_	_
+3	của	_	_	Pre	_	_	_	_	_
+4	tôi	_	_	Pro	_	2	_	_	_
+5	vốn	_	_	Adv	_	_	_	_	_
+6	phù du	_	_	N	_	12	_	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	ông hoàng	_	_	N	_	_	_	_	_
+9	nhỏ	_	_	Adj	_	8	_	_	_
+10	tự nhủ	_	_	V	_	6	_	_	_
+11	,	_	_	PUNCT	_	_	_	_	_
+12	và	_	_	C	_	_	_	_	_
+13	nàng	_	_	N	_	15	_	_	_
+14	chỉ	_	_	Adv	_	15	_	_	_
+15	có	_	_	V	_	12	_	_	_
+16	bốn	_	_	Num	_	18	_	_	_
+17	cái	_	_	Nc	_	18	_	_	_
+18	gai	_	_	Adj	_	15	_	_	_
+19	để	_	_	Pre	_	_	_	_	_
+20	chống chọi	_	_	V	_	15	_	_	_
+21	ở	_	_	Pre	_	22	_	_	_
+22	đời	_	_	N	_	20	_	_	_
+23	!	_	_	PUNCT	_	12	_	_	_
+
+# text = ấy là cơn nuối tiếc đầu tiên của em .
+1	ấy	_	_	Pro	_	4	_	_	_
+2	là	_	_	aux	_	_	_	_	_
+3	cơn	_	_	Nc	_	4	_	_	_
+4	nuối tiếc	_	_	V	_	_	_	_	_
+5	đầu tiên	_	_	Adj	_	4	_	_	_
+6	của	_	_	Pre	_	_	_	_	_
+7	em	_	_	N	_	4	_	_	_
+8	.	_	_	PUNCT	_	4	_	_	_
+
+# text = - hành tinh trái đất , nhà địa lý trả lời .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	hành tinh	_	_	N	_	_	_	_	_
+3	trái đất	_	_	N	_	2	_	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	nhà	_	_	N	_	6	_	_	_
+6	địa lý	_	_	N	_	7	_	_	_
+7	trả lời	_	_	V	_	2	_	_	_
+8	.	_	_	PUNCT	_	2	_	_	_
+
+# text = hành tinh ấy nổi tiếng lắm ...
+1	hành tinh	_	_	N	_	3	_	_	_
+2	ấy	_	_	Pro	_	1	_	_	_
+3	nổi tiếng	_	_	Adj	_	_	_	_	_
+4	lắm	_	_	Adv	_	3	_	_	_
+5	...	_	_	PUNCT	_	3	_	_	_
+
+# text = hành tinh thứ bảy vậy là trái đất .
+1	hành tinh	_	_	N	_	6	_	_	_
+2	thứ	_	_	N	_	_	_	_	_
+3	bảy	_	_	Num	_	1	_	_	_
+4	vậy	_	_	Pro	_	_	_	_	_
+5	là	_	_	aux	_	_	_	_	_
+6	trái đất	_	_	N	_	_	_	_	_
+7	.	_	_	PUNCT	_	6	_	_	_
+
+# text = trái đất không phải là một hành tinh xoàng !
+1	trái đất	_	_	N	_	3	_	_	_
+2	không	_	_	Adv	_	3	_	_	_
+3	phải	_	_	Adj	_	_	_	_	_
+4	là	_	_	aux	_	3	_	_	_
+5	một	_	_	Num	_	6	_	_	_
+6	hành tinh	_	_	N	_	3	_	_	_
+7	xoàng	_	_	Adj	_	6	_	_	_
+8	!	_	_	PUNCT	_	3	_	_	_
+
+# text = thật là vĩ đại .
+1	thật	_	_	Adv	_	3	_	_	_
+2	là	_	_	Prt	_	_	_	_	_
+3	vĩ đại	_	_	Adj	_	_	_	_	_
+4	.	_	_	PUNCT	_	3	_	_	_
+
+# text = - loài người ở đâu ?
+1	-	_	_	PUNCT	_	_	_	_	_
+2	loài người	_	_	N	_	3	_	_	_
+3	ở	_	_	V	_	_	_	_	_
+4	đâu	_	_	NNP	_	3	_	_	_
+5	?	_	_	PUNCT	_	3	_	_	_
+
+# text = sau cùng ông hoàng nhỏ tiếp tục .
+1	sau	_	_	N	_	5	_	_	_
+2	cùng	_	_	PRE	_	1	_	_	_
+3	ông hoàng	_	_	N	_	5	_	_	_
+4	nhỏ	_	_	ADJ	_	3	_	_	_
+5	tiếp tục	_	_	V	_	_	_	_	_
+6	.	_	_	PUNCT	_	5	_	_	_
+
+# text = - người ta không bao giờ bằng lòng chỗ của mình cả !
+1	-	_	_	PUNCT	_	_	_	_	_
+2	người ta	_	_	N	_	5	_	_	_
+3	không	_	_	ADV	_	5	_	_	_
+4	bao giờ	_	_	NNP	_	5	_	_	_
+5	bằng lòng	_	_	V	_	_	_	_	_
+6	chỗ	_	_	N	_	5	_	_	_
+7	của	_	_	PRE	_	_	_	_	_
+8	mình	_	_	NNP	_	6	_	_	_
+9	cả	_	_	PRT	_	_	_	_	_
+10	!	_	_	PUNCT	_	5	_	_	_
+
+# text = - em , em cũng khát hay sao ?
+1	-	_	_	PUNCT	_	_	_	_	_
+2	em	_	_	N	_	6	_	_	_
+3	,	_	_	PUNCT	_	_	_	_	_
+4	em	_	_	N	_	_	_	_	_
+5	cũng	_	_	ADV	_	_	_	_	_
+6	khát	_	_	V	_	_	_	_	_
+7	hay	_	_	SC	_	_	_	_	_
+8	sao	_	_	NNP	_	6	_	_	_
+9	?	_	_	PUNCT	_	6	_	_	_
+
+# text = lúa mì , vốn màu vàng kim , sẽ gợi cho tớ kỷ niệm về cậu .
+1	lúa mì	_	_	N	_	9	_	_	_
+2	,	_	_	PUNCT	_	_	_	_	_
+3	vốn	_	_	ADV	_	_	_	_	_
+4	màu	_	_	N	_	1	_	_	_
+5	vàng	_	_	ADJ	_	4	_	_	_
+6	kim	_	_	ADJ	_	5	_	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	sẽ	_	_	ADV	_	9	_	_	_
+9	gợi	_	_	V	_	_	_	_	_
+10	cho	_	_	SC	_	_	_	_	_
+11	tớ	_	_	NNP	_	9	_	_	_
+12	kỷ niệm	_	_	N	_	9	_	_	_
+13	về	_	_	PRE	_	_	_	_	_
+14	cậu	_	_	NC	_	12	_	_	_
+15	.	_	_	PUNCT	_	9	_	_	_
+
+# text = thế thì sẽ rất tuyệt một khi cậu cảm hoá tớ !
+1	thế thì	_	_	SC	_	4	_	_	_
+2	sẽ	_	_	ADV	_	4	_	_	_
+3	rất	_	_	ADV	_	_	_	_	_
+4	tuyệt	_	_	ADJ	_	_	_	_	_
+5	một khi	_	_	N	_	7	_	_	_
+6	cậu	_	_	NC	_	7	_	_	_
+7	cảm hoá	_	_	V	_	4	_	_	_
+8	tớ	_	_	NNP	_	7	_	_	_
+9	!	_	_	PUNCT	_	4	_	_	_
+
+# text = dặm .
+1	dặm	_	_	Nu	_	_	_	_	_
+2	.	_	_	PUNCT	_	_	_	_	_
+
+# text = - đây là sa mạc .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	đây	_	_	Pro	_	4	_	_	_
+3	là	_	_	aux	_	_	_	_	_
+4	sa mạc	_	_	N	_	_	_	_	_
+5	.	_	_	PUNCT	_	4	_	_	_
+
+# text = - xin chào , con rắn nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	xin	_	_	V	_	_	_	_	_
+3	chào	_	_	V	_	2	_	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	con	_	_	Nc	_	6	_	_	_
+6	rắn	_	_	N	_	7	_	_	_
+7	nói	_	_	V	_	2	_	_	_
+8	.	_	_	PUNCT	_	2	_	_	_
+
+# text = - xin chào , ông hoàng nhỏ nói bâng quơ .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	xin	_	_	V	_	_	_	_	_
+3	chào	_	_	V	_	2	_	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	ông hoàng	_	_	N	_	7	_	_	_
+6	nhỏ	_	_	Adj	_	5	_	_	_
+7	nói	_	_	V	_	2	_	_	_
+8	bâng quơ	_	_	Adj	_	7	_	_	_
+9	.	_	_	PUNCT	_	2	_	_	_
+
+# text = trái đất rộng lắm , rắn nói .
+1	trái đất	_	_	N	_	2	_	_	_
+2	rộng	_	_	Adj	_	_	_	_	_
+3	lắm	_	_	Adv	_	2	_	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	rắn	_	_	N	_	6	_	_	_
+6	nói	_	_	V	_	2	_	_	_
+7	.	_	_	PUNCT	_	2	_	_	_
+
+# text = họ thấy họ quan trọng như các cây baobab .
+1	họ	_	_	Pro	_	2	_	_	_
+2	thấy	_	_	V	_	_	_	_	_
+3	họ	_	_	Pro	_	4	_	_	_
+4	quan trọng	_	_	Adj	_	2	_	_	_
+5	như	_	_	C	_	_	_	_	_
+6	các	_	_	Det	_	8	_	_	_
+7	cây	_	_	N	_	8	_	_	_
+8	baobab	_	_	Nb	_	4	_	_	_
+9	.	_	_	PUNCT	_	2	_	_	_
+
+# text = họ tôn thờ những con số : việc ấy làm họ thích thú .
+1	họ	_	_	Pro	_	2	_	_	_
+2	tôn thờ	_	_	V	_	_	_	_	_
+3	những	_	_	Det	_	4	_	_	_
+4	con số	_	_	N	_	2	_	_	_
+5	:	_	_	PUNCT	_	_	_	_	_
+6	việc	_	_	N	_	8	_	_	_
+7	ấy	_	_	Pro	_	6	_	_	_
+8	làm	_	_	V	_	2	_	_	_
+9	họ	_	_	Pro	_	_	_	_	_
+10	thích thú	_	_	V	_	8	_	_	_
+11	.	_	_	PUNCT	_	2	_	_	_
+
+# text = chẳng ích gì .
+1	chẳng	_	_	Adv	_	2	_	_	_
+2	ích	_	_	N	_	_	_	_	_
+3	gì	_	_	Prt	_	2	_	_	_
+4	.	_	_	PUNCT	_	2	_	_	_
+
+# text = bạn tin vào tôi mà .
+1	bạn	_	_	N	_	2	_	_	_
+2	tin	_	_	V	_	_	_	_	_
+3	vào	_	_	Pre	_	_	_	_	_
+4	tôi	_	_	Pro	_	2	_	_	_
+5	mà	_	_	Prt	_	2	_	_	_
+6	.	_	_	PUNCT	_	2	_	_	_
+
+# text = - nó đẹp đấy , rắn nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	nó	_	_	Pro	_	3	_	_	_
+3	đẹp	_	_	Adj	_	_	_	_	_
+4	đấy	_	_	Prt	_	3	_	_	_
+5	,	_	_	PUNCT	_	_	_	_	_
+6	rắn	_	_	N	_	7	_	_	_
+7	nói	_	_	V	_	3	_	_	_
+8	.	_	_	PUNCT	_	3	_	_	_
+
+# text = - à ! rắn nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	à	_	_	I	_	_	_	_	_
+3	!	_	_	PUNCT	_	2	_	_	_
+4	rắn	_	_	N	_	5	_	_	_
+5	nói	_	_	V	_	2	_	_	_
+6	.	_	_	PUNCT	_	2	_	_	_
+
+# text = - trên trái đất , ở Châu Phi , con rắn trả lời .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	trên	_	_	Pre	_	3	_	_	_
+3	trái đất	_	_	N	_	_	_	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	ở	_	_	Pre	_	_	_	_	_
+6	Châu Phi	_	_	NNP	_	3	_	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	con	_	_	Nc	_	9	_	_	_
+9	rắn	_	_	N	_	_	_	_	_
+10	trả lời	_	_	V	_	3	_	_	_
+11	.	_	_	PUNCT	_	3	_	_	_
+
+# text = và cả hai lặng thinh .
+1	và	_	_	C	_	_	_	_	_
+2	cả	_	_	Pro	_	4	_	_	_
+3	hai	_	_	Num	_	2	_	_	_
+4	lặng thinh	_	_	V	_	1	_	_	_
+5	.	_	_	PUNCT	_	1	_	_	_
+
+# text = trong sa mạc thấy hơi bơ vơ ...
+1	trong	_	_	N	_	2	_	_	_
+2	sa mạc	_	_	N	_	3	_	_	_
+3	thấy	_	_	V	_	_	_	_	_
+4	hơi	_	_	Adv	_	5	_	_	_
+5	bơ vơ	_	_	Adj	_	3	_	_	_
+6	...	_	_	PUNCT	_	3	_	_	_
+
+# text = hãy nhìn xem tinh cầu của tôi .
+1	hãy	_	_	Adv	_	2	_	_	_
+2	nhìn	_	_	V	_	_	_	_	_
+3	xem	_	_	V	_	2	_	_	_
+4	tinh cầu	_	_	N	_	2	_	_	_
+5	của	_	_	Pre	_	_	_	_	_
+6	tôi	_	_	Pro	_	4	_	_	_
+7	.	_	_	PUNCT	_	2	_	_	_
+
+# text = ông hoàng nhỏ mỉm cười :
+1	ông hoàng	_	_	N	_	4	_	_	_
+2	nhỏ	_	_	Adj	_	1	_	_	_
+3	mỉm	_	_	V	_	4	_	_	_
+4	cười	_	_	V	_	_	_	_	_
+5	:	_	_	PUNCT	_	4	_	_	_
+
+# text = ông hoàng nhỏ nhìn rắn rất lâu :
+1	ông hoàng	_	_	N	_	3	_	_	_
+2	nhỏ	_	_	Adj	_	1	_	_	_
+3	nhìn	_	_	V	_	_	_	_	_
+4	rắn	_	_	N	_	3	_	_	_
+5	rất	_	_	Adv	_	6	_	_	_
+6	lâu	_	_	Adj	_	3	_	_	_
+7	:	_	_	PUNCT	_	3	_	_	_
+
+# text = chẳng có ai trên sa mạc đâu .
+1	chẳng	_	_	Adv	_	2	_	_	_
+2	có	_	_	V	_	_	_	_	_
+3	ai	_	_	Pro	_	2	_	_	_
+4	trên	_	_	Pre	_	5	_	_	_
+5	sa mạc	_	_	N	_	2	_	_	_
+6	đâu	_	_	Prt	_	_	_	_	_
+7	.	_	_	PUNCT	_	2	_	_	_
+
+# text = - nhưng thế nào gọi là " phù du " ? ông hoàng nhỏ lặp lại , suốt đời , em đã không chịu bỏ qua một câu hỏi , một khi đã nêu nó ra .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	nhưng	_	_	C	_	4	_	_	_
+3	thế nào	_	_	Pro	_	4	_	_	_
+4	gọi	_	_	V	_	_	_	_	_
+5	là	_	_	C	_	_	_	_	_
+6	"	_	_	_	_	_	_	_	_
+7	phù du	_	_	N	_	4	_	_	_
+8	"	_	_	_	_	_	_	_	_
+9	?	_	_	PUNCT	_	3	_	_	_
+10	ông hoàng	_	_	N	_	12	_	_	_
+11	nhỏ	_	_	Adj	_	_	_	_	_
+12	lặp	_	_	V	_	4	_	_	_
+13	lại	_	_	V	_	12	_	_	_
+14	,	_	_	PUNCT	_	_	_	_	_
+15	suốt	_	_	Adj	_	16	_	_	_
+16	đời	_	_	N	_	22	_	_	_
+17	,	_	_	PUNCT	_	_	_	_	_
+18	em	_	_	N	_	22	_	_	_
+19	đã	_	_	Adv	_	_	_	_	_
+20	không	_	_	Adv	_	21	_	_	_
+21	chịu	_	_	V	_	22	_	_	_
+22	bỏ qua	_	_	V	_	4	_	_	_
+23	một	_	_	Num	_	25	_	_	_
+24	câu	_	_	N	_	25	_	_	_
+25	hỏi	_	_	V	_	22	_	_	_
+26	,	_	_	PUNCT	_	_	_	_	_
+27	một khi	_	_	N	_	29	_	_	_
+28	đã	_	_	Adv	_	29	_	_	_
+29	nêu	_	_	V	_	22	_	_	_
+30	nó	_	_	Pro	_	29	_	_	_
+31	ra	_	_	V	_	29	_	_	_
+32	.	_	_	PUNCT	_	4	_	_	_
+
+# text = bấy giờ đến lượt những người đốt đèn Trung Quốc và Tây Bá Lợi á .
+1	bấy giờ	_	_	Pro	_	6	_	_	_
+2	đến	_	_	Pre	_	3	_	_	_
+3	lượt	_	_	N	_	6	_	_	_
+4	những	_	_	Det	_	5	_	_	_
+5	người	_	_	N	_	6	_	_	_
+6	đốt	_	_	V	_	_	_	_	_
+7	đèn	_	_	N	_	6	_	_	_
+8	Trung Quốc	_	_	NNP	_	9	_	_	_
+9	và	_	_	C	_	6	_	_	_
+10	Tây Bá Lợi á	_	_	NNP	_	9	_	_	_
+11	.	_	_	PUNCT	_	6	_	_	_
+
+# text = nó ở ngay bên trên chúng ta ...
+1	nó	_	_	Pro	_	2	_	_	_
+2	ở	_	_	Pre	_	_	_	_	_
+3	ngay	_	_	Prt	_	4	_	_	_
+4	bên	_	_	Pre	_	2	_	_	_
+5	trên	_	_	N	_	4	_	_	_
+6	chúng ta	_	_	Pro	_	4	_	_	_
+7	...	_	_	PUNCT	_	2	_	_	_
+
+# text = - anh không mạnh lắm đâu ...
+1	-	_	_	PUNCT	_	_	_	_	_
+2	anh	_	_	N	_	4	_	_	_
+3	không	_	_	Adv	_	4	_	_	_
+4	mạnh	_	_	Adj	_	_	_	_	_
+5	lắm	_	_	Adv	_	4	_	_	_
+6	đâu	_	_	Prt	_	4	_	_	_
+7	...	_	_	PUNCT	_	4	_	_	_
+
+# text = ông hoàng nhỏ không nói gì .
+1	ông hoàng	_	_	N	_	4	_	_	_
+2	nhỏ	_	_	Adj	_	1	_	_	_
+3	không	_	_	Adv	_	4	_	_	_
+4	nói	_	_	V	_	_	_	_	_
+5	gì	_	_	Pro	_	4	_	_	_
+6	.	_	_	PUNCT	_	4	_	_	_
+
+# text = ta có thể ...
+1	ta	_	_	Pro	_	2	_	_	_
+2	có thể	_	_	Adv	_	_	_	_	_
+3	...	_	_	PUNCT	_	2	_	_	_
+
+# text = khi người ta muốn ra vẻ thông minh , thường thì điều này sẽ dẫn đến việc người ta nói dóc đôi chút .
+1	khi	_	_	N	_	_	_	_	_
+2	người ta	_	_	Pro	_	4	_	_	_
+3	muốn	_	_	aux	_	4	_	_	_
+4	ra vẻ	_	_	AdvG	_	12	_	_	_
+5	thông minh	_	_	Adj	_	4	_	_	_
+6	,	_	_	PUNCT	_	_	_	_	_
+7	thường	_	_	Adv	_	_	_	_	_
+8	thì	_	_	C	_	_	_	_	_
+9	điều	_	_	N	_	12	_	_	_
+10	này	_	_	Pro	_	9	_	_	_
+11	sẽ	_	_	Adv	_	12	_	_	_
+12	dẫn	_	_	V	_	_	_	_	_
+13	đến	_	_	Pre	_	12	_	_	_
+14	việc	_	_	N	_	12	_	_	_
+15	người ta	_	_	N	_	16	_	_	_
+16	nói dóc	_	_	V	_	14	_	_	_
+17	đôi	_	_	Num	_	18	_	_	_
+18	chút	_	_	Det	_	16	_	_	_
+19	.	_	_	PUNCT	_	12	_	_	_
+
+# text = tôi không thật thà lắm đâu khi kể với các bạn về những người đốt đèn .
+1	tôi	_	_	Pro	_	3	_	_	_
+2	không	_	_	Adv	_	3	_	_	_
+3	thật thà	_	_	Adj	_	_	_	_	_
+4	lắm	_	_	Adv	_	3	_	_	_
+5	đâu	_	_	Prt	_	3	_	_	_
+6	khi	_	_	N	_	_	_	_	_
+7	kể	_	_	V	_	3	_	_	_
+8	với	_	_	C	_	_	_	_	_
+9	các	_	_	Det	_	_	_	_	_
+10	bạn	_	_	N	_	7	_	_	_
+11	về	_	_	Pre	_	_	_	_	_
+12	những	_	_	Det	_	13	_	_	_
+13	người	_	_	N	_	7	_	_	_
+14	đốt	_	_	V	_	13	_	_	_
+15	đèn	_	_	N	_	14	_	_	_
+16	.	_	_	PUNCT	_	3	_	_	_
+
+# text = loài người chiếm rất ít chỗ trên mặt đất .
+1	loài người	_	_	N	_	2	_	_	_
+2	chiếm	_	_	V	_	_	_	_	_
+3	rất	_	_	Adv	_	_	_	_	_
+4	ít	_	_	Adj	_	5	_	_	_
+5	chỗ	_	_	N	_	2	_	_	_
+6	trên	_	_	Pre	_	8	_	_	_
+7	mặt	_	_	N	_	8	_	_	_
+8	đất	_	_	N	_	2	_	_	_
+9	.	_	_	PUNCT	_	2	_	_	_
+
+# text = họ nghĩ là họ chiếm nhiều chỗ lắm .
+1	họ	_	_	Pro	_	2	_	_	_
+2	nghĩ	_	_	V	_	_	_	_	_
+3	là	_	_	C	_	_	_	_	_
+4	họ	_	_	Pro	_	5	_	_	_
+5	chiếm	_	_	V	_	2	_	_	_
+6	nhiều	_	_	Adj	_	7	_	_	_
+7	chỗ	_	_	N	_	5	_	_	_
+8	lắm	_	_	Adv	_	_	_	_	_
+9	.	_	_	PUNCT	_	2	_	_	_
+
+# text = em đã bắt đầu sợ mình nhầm hành tinh , thì một cái vòng mầu ánh trăng động đậy trong cát .
+1	em	_	_	N	_	3	_	_	_
+2	đã	_	_	Adv	_	3	_	_	_
+3	bắt đầu	_	_	V	_	16	_	_	_
+4	sợ	_	_	V	_	3	_	_	_
+5	mình	_	_	Pro	_	6	_	_	_
+6	nhầm	_	_	V	_	3	_	_	_
+7	hành tinh	_	_	N	_	6	_	_	_
+8	,	_	_	PUNCT	_	_	_	_	_
+9	thì	_	_	C	_	_	_	_	_
+10	một	_	_	Num	_	12	_	_	_
+11	cái	_	_	Nc	_	12	_	_	_
+12	vòng	_	_	N	_	16	_	_	_
+13	mầu	_	_	Adj	_	12	_	_	_
+14	ánh	_	_	N	_	15	_	_	_
+15	trăng	_	_	N	_	13	_	_	_
+16	động đậy	_	_	V	_	_	_	_	_
+17	trong	_	_	N	_	18	_	_	_
+18	cát	_	_	N	_	16	_	_	_
+19	.	_	_	PUNCT	_	16	_	_	_
+
+# text = nhưng sao mà xa thế !
+1	nhưng	_	_	C	_	4	_	_	_
+2	sao	_	_	N	_	_	_	_	_
+3	mà	_	_	C	_	_	_	_	_
+4	xa	_	_	Adj	_	_	_	_	_
+5	thế	_	_	Prt	_	4	_	_	_
+6	!	_	_	PUNCT	_	4	_	_	_
+
+# text = cậu làm gì tới đây ?
+1	cậu	_	_	Nc	_	2	_	_	_
+2	làm	_	_	V	_	_	_	_	_
+3	gì	_	_	Pro	_	2	_	_	_
+4	tới	_	_	V	_	5	_	_	_
+5	đây	_	_	Pro	_	2	_	_	_
+6	?	_	_	PUNCT	_	2	_	_	_
+
+# text = - ngay giữa loài người , cũng bơ vơ , rắn nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	ngay	_	_	Prt	_	4	_	_	_
+3	giữa	_	_	Pre	_	4	_	_	_
+4	loài người	_	_	N	_	7	_	_	_
+5	,	_	_	PUNCT	_	_	_	_	_
+6	cũng	_	_	Adv	_	7	_	_	_
+7	bơ vơ	_	_	Adj	_	_	_	_	_
+8	,	_	_	PUNCT	_	_	_	_	_
+9	rắn	_	_	N	_	_	_	_	_
+10	nói	_	_	V	_	7	_	_	_
+11	.	_	_	PUNCT	_	7	_	_	_
+
+# text = đến chân anh cũng chẳng có ...
+1	đến	_	_	Prt	_	_	_	_	_
+2	chân	_	_	N	_	6	_	_	_
+3	anh	_	_	N	_	2	_	_	_
+4	cũng	_	_	Adv	_	6	_	_	_
+5	chẳng	_	_	Adv	_	6	_	_	_
+6	có	_	_	V	_	_	_	_	_
+7	...	_	_	PUNCT	_	6	_	_	_
+
+# text = - anh là một con vật buồn cười thật , em nói , mảnh khảnh cứ như một ngón tay ...
+1	-	_	_	PUNCT	_	_	_	_	_
+2	anh	_	_	N	_	6	_	_	_
+3	là	_	_	aux	_	_	_	_	_
+4	một	_	_	Num	_	6	_	_	_
+5	con	_	_	Nc	_	6	_	_	_
+6	vật	_	_	N	_	_	_	_	_
+7	buồn cười	_	_	Adj	_	6	_	_	_
+8	thật	_	_	Prt	_	_	_	_	_
+9	,	_	_	PUNCT	_	_	_	_	_
+10	em	_	_	N	_	11	_	_	_
+11	nói	_	_	V	_	6	_	_	_
+12	,	_	_	PUNCT	_	_	_	_	_
+13	mảnh khảnh	_	_	Adj	_	6	_	_	_
+14	cứ	_	_	Prt	_	_	_	_	_
+15	như	_	_	C	_	_	_	_	_
+16	một	_	_	Num	_	18	_	_	_
+17	ngón	_	_	N	_	18	_	_	_
+18	tay	_	_	N	_	13	_	_	_
+19	...	_	_	PUNCT	_	6	_	_	_
+
+# text = anh muốn đi xa cũng không được ...
+1	anh	_	_	N	_	3	_	_	_
+2	muốn	_	_	aux	_	3	_	_	_
+3	đi	_	_	V	_	_	_	_	_
+4	xa	_	_	Adj	_	3	_	_	_
+5	cũng	_	_	Adv	_	_	_	_	_
+6	không	_	_	Adv	_	3	_	_	_
+7	được	_	_	Adv	_	6	_	_	_
+8	...	_	_	PUNCT	_	3	_	_	_
+
+# text = - ồ ! tôi hiểu rồi , ông hoàng nhỏ nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	ồ	_	_	I	_	5	_	_	_
+3	!	_	_	PUNCT	_	_	_	_	_
+4	tôi	_	_	Pro	_	5	_	_	_
+5	hiểu	_	_	V	_	_	_	_	_
+6	rồi	_	_	Adv	_	5	_	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	ông hoàng	_	_	N	_	_	_	_	_
+9	nhỏ	_	_	Adj	_	8	_	_	_
+10	nói	_	_	V	_	5	_	_	_
+11	.	_	_	PUNCT	_	5	_	_	_
+
+# text = và họ lặng thinh .
+1	và	_	_	C	_	_	_	_	_
+2	họ	_	_	Pro	_	3	_	_	_
+3	lặng thinh	_	_	V	_	1	_	_	_
+4	.	_	_	PUNCT	_	1	_	_	_
+
+# text = nhưng tại sao anh lúc nào cũng nói bí hiểm thế ?
+1	nhưng	_	_	C	_	8	_	_	_
+2	tại	_	_	Pre	_	8	_	_	_
+3	sao	_	_	Pro	_	2	_	_	_
+4	anh	_	_	N	_	8	_	_	_
+5	lúc	_	_	N	_	8	_	_	_
+6	nào	_	_	Pro	_	5	_	_	_
+7	cũng	_	_	Adv	_	_	_	_	_
+8	nói	_	_	V	_	_	_	_	_
+9	bí hiểm	_	_	Adj	_	8	_	_	_
+10	thế	_	_	Prt	_	8	_	_	_
+11	?	_	_	PUNCT	_	8	_	_	_
+
+# text = - chúc một ngày tốt lành , ông hoàng nhỏ nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	chúc	_	_	V	_	_	_	_	_
+3	một	_	_	Num	_	4	_	_	_
+4	ngày	_	_	N	_	2	_	_	_
+5	tốt lành	_	_	Adj	_	4	_	_	_
+6	,	_	_	PUNCT	_	_	_	_	_
+7	ông hoàng	_	_	N	_	9	_	_	_
+8	nhỏ	_	_	Adj	_	7	_	_	_
+9	nói	_	_	V	_	2	_	_	_
+10	.	_	_	PUNCT	_	2	_	_	_
+
+# text = - chúc một ngày tốt lành , bông hoa nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	chúc	_	_	V	_	_	_	_	_
+3	một	_	_	Num	_	4	_	_	_
+4	ngày	_	_	N	_	2	_	_	_
+5	tốt lành	_	_	Adj	_	4	_	_	_
+6	,	_	_	PUNCT	_	_	_	_	_
+7	bông	_	_	N	_	8	_	_	_
+8	hoa	_	_	N	_	9	_	_	_
+9	nói	_	_	V	_	2	_	_	_
+10	.	_	_	PUNCT	_	2	_	_	_
+
+# text = - loài người ở đâu ? ông hoàng nhỏ lễ phép hỏi .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	loài người	_	_	N	_	3	_	_	_
+3	ở	_	_	V	_	_	_	_	_
+4	đâu	_	_	Pro	_	3	_	_	_
+5	?	_	_	PUNCT	_	4	_	_	_
+6	ông hoàng	_	_	N	_	9	_	_	_
+7	nhỏ	_	_	Adj	_	6	_	_	_
+8	lễ phép	_	_	Adj	_	9	_	_	_
+9	hỏi	_	_	V	_	3	_	_	_
+10	.	_	_	PUNCT	_	3	_	_	_
+
+# text = một bông hoa chỉ ba cánh , một bông hoa chẳng là gì cả ...
+1	một	_	_	Num	_	3	_	_	_
+2	bông	_	_	N	_	3	_	_	_
+3	hoa	_	_	N	_	12	_	_	_
+4	chỉ	_	_	Adv	_	_	_	_	_
+5	ba	_	_	Num	_	6	_	_	_
+6	cánh	_	_	N	_	3	_	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	một	_	_	Num	_	_	_	_	_
+9	bông	_	_	N	_	_	_	_	_
+10	hoa	_	_	N	_	12	_	_	_
+11	chẳng	_	_	Adv	_	12	_	_	_
+12	là	_	_	aux	_	_	_	_	_
+13	gì	_	_	Pro	_	12	_	_	_
+14	cả	_	_	Prt	_	_	_	_	_
+15	...	_	_	PUNCT	_	12	_	_	_
+
+# text = - người hả ? có loài ấy đấy .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	người	_	_	N	_	_	_	_	_
+3	hả	_	_	Prt	_	_	_	_	_
+4	?	_	_	PUNCT	_	2	_	_	_
+5	có	_	_	V	_	2	_	_	_
+6	loài	_	_	N	_	5	_	_	_
+7	ấy	_	_	Pro	_	6	_	_	_
+8	đấy	_	_	Prt	_	_	_	_	_
+9	.	_	_	PUNCT	_	2	_	_	_
+
+# text = khoảng sáu hay bảy mống .
+1	khoảng	_	_	N	_	5	_	_	_
+2	sáu	_	_	Num	_	5	_	_	_
+3	hay	_	_	C	_	_	_	_	_
+4	bảy	_	_	Num	_	5	_	_	_
+5	mống	_	_	N	_	_	_	_	_
+6	.	_	_	PUNCT	_	5	_	_	_
+
+# text = em có nhìn thấy họ mấy năm trước kia .
+1	em	_	_	N	_	3	_	_	_
+2	có	_	_	Adv	_	_	_	_	_
+3	nhìn	_	_	V	_	_	_	_	_
+4	thấy	_	_	V	_	3	_	_	_
+5	họ	_	_	Pro	_	3	_	_	_
+6	mấy	_	_	Det	_	7	_	_	_
+7	năm	_	_	N	_	3	_	_	_
+8	trước kia	_	_	N	_	7	_	_	_
+9	.	_	_	PUNCT	_	3	_	_	_
+
+# text = nhưng không ai biết tìm họ ở đâu .
+1	nhưng	_	_	C	_	5	_	_	_
+2	không	_	_	Adv	_	3	_	_	_
+3	ai	_	_	Pro	_	5	_	_	_
+4	biết	_	_	V	_	5	_	_	_
+5	tìm	_	_	V	_	_	_	_	_
+6	họ	_	_	Pro	_	5	_	_	_
+7	ở	_	_	Pre	_	_	_	_	_
+8	đâu	_	_	Pro	_	5	_	_	_
+9	.	_	_	PUNCT	_	5	_	_	_
+
+# text = gió thổi họ đi .
+1	gió	_	_	N	_	2	_	_	_
+2	thổi	_	_	V	_	_	_	_	_
+3	họ	_	_	Pro	_	2	_	_	_
+4	đi	_	_	V	_	3	_	_	_
+5	.	_	_	PUNCT	_	2	_	_	_
+
+# text = - từ biệt , ông hoàng nhỏ nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	từ biệt	_	_	V	_	_	_	_	_
+3	,	_	_	PUNCT	_	_	_	_	_
+4	ông hoàng	_	_	N	_	6	_	_	_
+5	nhỏ	_	_	Adj	_	4	_	_	_
+6	nói	_	_	V	_	2	_	_	_
+7	.	_	_	PUNCT	_	2	_	_	_
+
+# text = - từ biệt , đoá hoa nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	từ biệt	_	_	V	_	_	_	_	_
+3	,	_	_	PUNCT	_	_	_	_	_
+4	đoá	_	_	Nc	_	5	_	_	_
+5	hoa	_	_	N	_	6	_	_	_
+6	nói	_	_	V	_	2	_	_	_
+7	.	_	_	PUNCT	_	2	_	_	_
+
+# text = ông hoàng nhỏ trèo lên một quả núi cao .
+1	ông hoàng	_	_	N	_	3	_	_	_
+2	nhỏ	_	_	Adj	_	1	_	_	_
+3	trèo	_	_	V	_	_	_	_	_
+4	lên	_	_	V	_	3	_	_	_
+5	một	_	_	Num	_	7	_	_	_
+6	quả	_	_	N	_	7	_	_	_
+7	núi	_	_	N	_	3	_	_	_
+8	cao	_	_	Adj	_	7	_	_	_
+9	.	_	_	PUNCT	_	3	_	_	_
+
+# text = - cậu làm cho ta thương hại , cậu thật yếu đuối , trên cái trái đất bằng đá hoa cương này .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	cậu	_	_	Nc	_	3	_	_	_
+3	làm	_	_	V	_	_	_	_	_
+4	cho	_	_	Pre	_	3	_	_	_
+5	ta	_	_	Pro	_	6	_	_	_
+6	thương hại	_	_	V	_	3	_	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	cậu	_	_	Nc	_	_	_	_	_
+9	thật	_	_	Adv	_	_	_	_	_
+10	yếu đuối	_	_	Adj	_	6	_	_	_
+11	,	_	_	PUNCT	_	_	_	_	_
+12	trên	_	_	Pre	_	14	_	_	_
+13	cái	_	_	Nc	_	14	_	_	_
+14	trái đất	_	_	N	_	6	_	_	_
+15	bằng	_	_	Pre	_	_	_	_	_
+16	đá hoa cương	_	_	N	_	14	_	_	_
+17	này	_	_	Pro	_	_	_	_	_
+18	.	_	_	PUNCT	_	3	_	_	_
+
+# text = - chúc một ngày tốt lành , em nói bâng quơ .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	chúc	_	_	V	_	_	_	_	_
+3	một	_	_	Num	_	4	_	_	_
+4	ngày	_	_	N	_	2	_	_	_
+5	tốt lành	_	_	Adj	_	4	_	_	_
+6	,	_	_	PUNCT	_	_	_	_	_
+7	em	_	_	N	_	8	_	_	_
+8	nói	_	_	V	_	2	_	_	_
+9	bâng quơ	_	_	Adj	_	8	_	_	_
+10	.	_	_	PUNCT	_	2	_	_	_
+
+# text = và em đã dùng quả núi lửa đã tắt làm ghế ngồi .
+1	và	_	_	C	_	_	_	_	_
+2	em	_	_	N	_	4	_	_	_
+3	đã	_	_	Adv	_	4	_	_	_
+4	dùng	_	_	V	_	1	_	_	_
+5	quả	_	_	N	_	6	_	_	_
+6	núi lửa	_	_	N	_	4	_	_	_
+7	đã	_	_	Adv	_	8	_	_	_
+8	tắt	_	_	V	_	6	_	_	_
+9	làm	_	_	V	_	4	_	_	_
+10	ghế	_	_	N	_	9	_	_	_
+11	ngồi	_	_	V	_	_	_	_	_
+12	.	_	_	PUNCT	_	1	_	_	_
+
+# text = - chúc một ngày tốt lành !
+1	-	_	_	PUNCT	_	_	_	_	_
+2	chúc	_	_	V	_	_	_	_	_
+3	một	_	_	Num	_	4	_	_	_
+4	ngày	_	_	N	_	2	_	_	_
+5	tốt lành	_	_	Adj	_	4	_	_	_
+6	!	_	_	PUNCT	_	2	_	_	_
+
+# text = chúc một ngày tốt lành !
+1	chúc	_	_	V	_	_	_	_	_
+2	một	_	_	Num	_	3	_	_	_
+3	ngày	_	_	N	_	1	_	_	_
+4	tốt lành	_	_	Adj	_	3	_	_	_
+5	!	_	_	PUNCT	_	1	_	_	_
+
+# text = chúc một ngày tốt lành !
+1	chúc	_	_	V	_	_	_	_	_
+2	một	_	_	Num	_	3	_	_	_
+3	ngày	_	_	N	_	1	_	_	_
+4	tốt lành	_	_	Adj	_	3	_	_	_
+5	!	_	_	PUNCT	_	1	_	_	_
+
+# text = tiếng vang đáp lại .
+1	tiếng vang	_	_	N	_	2	_	_	_
+2	đáp	_	_	V	_	_	_	_	_
+3	lại	_	_	V	_	2	_	_	_
+4	.	_	_	PUNCT	_	2	_	_	_
+
+# text = - các anh là ai ?
+1	-	_	_	PUNCT	_	_	_	_	_
+2	các	_	_	Det	_	3	_	_	_
+3	anh	_	_	N	_	_	_	_	_
+4	là	_	_	aux	_	_	_	_	_
+5	ai	_	_	Pro	_	3	_	_	_
+6	?	_	_	PUNCT	_	3	_	_	_
+
+# text = ông hoàng nhỏ hỏi .
+1	ông hoàng	_	_	N	_	3	_	_	_
+2	nhỏ	_	_	Adj	_	1	_	_	_
+3	hỏi	_	_	V	_	_	_	_	_
+4	.	_	_	PUNCT	_	3	_	_	_
+
+# text = - các anh là ai !
+1	-	_	_	PUNCT	_	_	_	_	_
+2	các	_	_	Det	_	3	_	_	_
+3	anh	_	_	N	_	_	_	_	_
+4	là	_	_	aux	_	_	_	_	_
+5	ai	_	_	Pro	_	3	_	_	_
+6	!	_	_	PUNCT	_	3	_	_	_
+
+# text = các anh là ai !
+1	các	_	_	Det	_	2	_	_	_
+2	anh	_	_	N	_	_	_	_	_
+3	là	_	_	aux	_	_	_	_	_
+4	ai	_	_	Pro	_	2	_	_	_
+5	!	_	_	PUNCT	_	2	_	_	_
+
+# text = các anh là ai !
+1	các	_	_	Det	_	2	_	_	_
+2	anh	_	_	N	_	_	_	_	_
+3	là	_	_	aux	_	_	_	_	_
+4	ai	_	_	Pro	_	2	_	_	_
+5	!	_	_	PUNCT	_	2	_	_	_
+
+# text = tiếng vang đáp lại .
+1	tiếng vang	_	_	N	_	2	_	_	_
+2	đáp	_	_	V	_	_	_	_	_
+3	lại	_	_	V	_	2	_	_	_
+4	.	_	_	PUNCT	_	2	_	_	_
+
+# text = - tôi cô đơn lắm !
+1	-	_	_	PUNCT	_	_	_	_	_
+2	tôi	_	_	Pro	_	3	_	_	_
+3	cô đơn	_	_	Adj	_	_	_	_	_
+4	lắm	_	_	Adv	_	3	_	_	_
+5	!	_	_	PUNCT	_	3	_	_	_
+
+# text = tôi cô đơn lắm !
+1	tôi	_	_	Pro	_	2	_	_	_
+2	cô đơn	_	_	Adj	_	_	_	_	_
+3	lắm	_	_	Adv	_	2	_	_	_
+4	!	_	_	PUNCT	_	2	_	_	_
+
+# text = tiếng vang đáp lại .
+1	tiếng vang	_	_	N	_	2	_	_	_
+2	đáp	_	_	V	_	_	_	_	_
+3	lại	_	_	V	_	2	_	_	_
+4	.	_	_	PUNCT	_	2	_	_	_
+
+# text = " cái hành tinh này buồn cười thật !
+1	"	_	_	_	_	_	_	_	_
+2	cái	_	_	Nc	_	3	_	_	_
+3	hành tinh	_	_	N	_	5	_	_	_
+4	này	_	_	Pro	_	3	_	_	_
+5	buồn cười	_	_	Adj	_	_	_	_	_
+6	thật	_	_	Prt	_	5	_	_	_
+7	!	_	_	PUNCT	_	5	_	_	_
+
+# text = lúc đó em nghĩ thầm .
+1	lúc	_	_	N	_	4	_	_	_
+2	đó	_	_	N	_	1	_	_	_
+3	em	_	_	N	_	4	_	_	_
+4	nghĩ	_	_	V	_	_	_	_	_
+5	thầm	_	_	Adj	_	4	_	_	_
+6	.	_	_	PUNCT	_	4	_	_	_
+
+# text = - hãy làm bạn với tôi , tôi cô đơn lắm , em nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	hãy	_	_	Adv	_	3	_	_	_
+3	làm bạn	_	_	V	_	_	_	_	_
+4	với	_	_	C	_	_	_	_	_
+5	tôi	_	_	Pro	_	3	_	_	_
+6	,	_	_	PUNCT	_	_	_	_	_
+7	tôi	_	_	Pro	_	8	_	_	_
+8	cô đơn	_	_	Adj	_	12	_	_	_
+9	lắm	_	_	Adv	_	8	_	_	_
+10	,	_	_	PUNCT	_	_	_	_	_
+11	em	_	_	N	_	12	_	_	_
+12	nói	_	_	V	_	3	_	_	_
+13	.	_	_	PUNCT	_	3	_	_	_
+
+# text = nó khô khốc , và nhọn hoắt và mặn chát .
+1	nó	_	_	Pro	_	2	_	_	_
+2	khô khốc	_	_	Adj	_	4	_	_	_
+3	,	_	_	PUNCT	_	_	_	_	_
+4	và	_	_	C	_	_	_	_	_
+5	nhọn hoắt	_	_	Adj	_	4	_	_	_
+6	và	_	_	C	_	_	_	_	_
+7	mặn	_	_	Adj	_	4	_	_	_
+8	chát	_	_	Adj	_	7	_	_	_
+9	.	_	_	PUNCT	_	4	_	_	_
+
+# text = - chúc một ngày tốt lành , em nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	chúc	_	_	V	_	_	_	_	_
+3	một	_	_	Num	_	4	_	_	_
+4	ngày	_	_	N	_	2	_	_	_
+5	tốt lành	_	_	Adj	_	4	_	_	_
+6	,	_	_	PUNCT	_	_	_	_	_
+7	em	_	_	N	_	8	_	_	_
+8	nói	_	_	V	_	2	_	_	_
+9	.	_	_	PUNCT	_	2	_	_	_
+
+# text = ấy là một khu vườn đầy hoa hồng
+1	ấy	_	_	Pro	_	5	_	_	_
+2	là	_	_	aux	_	5	_	_	_
+3	một	_	_	Num	_	5	_	_	_
+4	khu	_	_	N	_	5	_	_	_
+5	vườn	_	_	N	_	_	_	_	_
+6	đầy	_	_	Adj	_	7	_	_	_
+7	hoa hồng	_	_	N	_	5	_	_	_
+
+# text = - chúc một ngày tốt lành , các hoa hồng trả lời .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	chúc	_	_	V	_	_	_	_	_
+3	một	_	_	Num	_	4	_	_	_
+4	ngày	_	_	N	_	2	_	_	_
+5	tốt lành	_	_	Adj	_	4	_	_	_
+6	,	_	_	PUNCT	_	_	_	_	_
+7	các	_	_	Det	_	8	_	_	_
+8	hoa hồng	_	_	N	_	9	_	_	_
+9	trả lời	_	_	V	_	2	_	_	_
+10	.	_	_	PUNCT	_	2	_	_	_
+
+# text = ông hoàng nhỏ nhìn các hoa hồng .
+1	ông hoàng	_	_	N	_	3	_	_	_
+2	nhỏ	_	_	Adj	_	1	_	_	_
+3	nhìn	_	_	V	_	_	_	_	_
+4	các	_	_	Det	_	5	_	_	_
+5	hoa hồng	_	_	N	_	3	_	_	_
+6	.	_	_	PUNCT	_	3	_	_	_
+
+# text = tất cả bọn họ đều giống bông hoa của em .
+1	tất cả	_	_	Det	_	3	_	_	_
+2	bọn	_	_	Nc	_	3	_	_	_
+3	họ	_	_	Pro	_	5	_	_	_
+4	đều	_	_	Adv	_	5	_	_	_
+5	giống	_	_	V	_	_	_	_	_
+6	bông	_	_	N	_	7	_	_	_
+7	hoa	_	_	N	_	5	_	_	_
+8	của	_	_	Pre	_	_	_	_	_
+9	em	_	_	N	_	7	_	_	_
+10	.	_	_	PUNCT	_	5	_	_	_
+
+# text = - các nàng là ai ?
+1	-	_	_	PUNCT	_	_	_	_	_
+2	các	_	_	Det	_	3	_	_	_
+3	nàng	_	_	N	_	_	_	_	_
+4	là	_	_	aux	_	_	_	_	_
+5	ai	_	_	Pro	_	3	_	_	_
+6	?	_	_	PUNCT	_	3	_	_	_
+
+# text = em hỏi họ , sững sờ kinh ngạc .
+1	em	_	_	N	_	2	_	_	_
+2	hỏi	_	_	V	_	_	_	_	_
+3	họ	_	_	Pro	_	2	_	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	sững sờ	_	_	Adj	_	6	_	_	_
+6	kinh ngạc	_	_	V	_	2	_	_	_
+7	.	_	_	PUNCT	_	2	_	_	_
+
+# text = - chúng em là những đoá hoa hồng , các hoa hồng nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	chúng	_	_	Pro	_	3	_	_	_
+3	em	_	_	N	_	7	_	_	_
+4	là	_	_	aux	_	_	_	_	_
+5	những	_	_	Det	_	7	_	_	_
+6	đoá	_	_	Nc	_	7	_	_	_
+7	hoa hồng	_	_	N	_	_	_	_	_
+8	,	_	_	PUNCT	_	_	_	_	_
+9	các	_	_	Det	_	_	_	_	_
+10	hoa hồng	_	_	N	_	_	_	_	_
+11	nói	_	_	V	_	7	_	_	_
+12	.	_	_	PUNCT	_	7	_	_	_
+
+# text = - kìa !
+1	-	_	_	PUNCT	_	_	_	_	_
+2	kìa	_	_	NNP	_	_	_	_	_
+3	!	_	_	PUNCT	_	_	_	_	_
+
+# text = ở chỗ tôi có một bông hoa : nàng bao giờ cũng nói trước ! "
+1	ở	_	_	Pre	_	_	_	_	_
+2	chỗ	_	_	N	_	4	_	_	_
+3	tôi	_	_	Pro	_	2	_	_	_
+4	có	_	_	V	_	_	_	_	_
+5	một	_	_	Num	_	7	_	_	_
+6	bông	_	_	N	_	7	_	_	_
+7	hoa	_	_	N	_	4	_	_	_
+8	:	_	_	PUNCT	_	_	_	_	_
+9	nàng	_	_	N	_	12	_	_	_
+10	bao giờ	_	_	Pro	_	12	_	_	_
+11	cũng	_	_	Adv	_	12	_	_	_
+12	nói	_	_	V	_	7	_	_	_
+13	trước	_	_	N	_	12	_	_	_
+14	!	_	_	PUNCT	_	4	_	_	_
+15	"	_	_	_	_	_	_	_	_
+
+# text = Họ chỉ lặp lại những gì họ đã nghe ...
+1	Họ	_	_	Pro	_	3	_	_	_
+2	chỉ	_	_	Adv	_	3	_	_	_
+3	lặp	_	_	V	_	_	_	_	_
+4	lại	_	_	V	_	3	_	_	_
+5	những	_	_	Det	_	6	_	_	_
+6	gì	_	_	Pro	_	3	_	_	_
+7	họ	_	_	Pro	_	9	_	_	_
+8	đã	_	_	Adv	_	9	_	_	_
+9	nghe	_	_	V	_	6	_	_	_
+10	...	_	_	PUNCT	_	3	_	_	_
+
+# text = và những con người thì thiếu hẳn óc tưởng tượng .
+1	và	_	_	C	_	_	_	_	_
+2	những	_	_	Det	_	3	_	_	_
+3	con người	_	_	N	_	5	_	_	_
+4	thì	_	_	C	_	_	_	_	_
+5	thiếu	_	_	Adj	_	1	_	_	_
+6	hẳn	_	_	Adj	_	5	_	_	_
+7	óc	_	_	N	_	8	_	_	_
+8	tưởng tượng	_	_	V	_	5	_	_	_
+9	.	_	_	PUNCT	_	1	_	_	_
+
+# text = - a ! ông hoàng nhỏ kêu lên .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	a	_	_	I	_	_	_	_	_
+3	!	_	_	PUNCT	_	2	_	_	_
+4	ông hoàng	_	_	N	_	6	_	_	_
+5	nhỏ	_	_	Adj	_	4	_	_	_
+6	kêu	_	_	V	_	2	_	_	_
+7	lên	_	_	V	_	6	_	_	_
+8	.	_	_	PUNCT	_	2	_	_	_
+
+# text = và em cảm thấy rất đau khổ .
+1	và	_	_	C	_	_	_	_	_
+2	em	_	_	N	_	4	_	_	_
+3	cảm	_	_	V	_	4	_	_	_
+4	thấy	_	_	V	_	1	_	_	_
+5	rất	_	_	Adv	_	6	_	_	_
+6	đau khổ	_	_	Adj	_	4	_	_	_
+7	.	_	_	PUNCT	_	1	_	_	_
+
+# text = và mọi con đường đều đưa đến chỗ có người ở .
+1	và	_	_	C	_	_	_	_	_
+2	mọi	_	_	Det	_	4	_	_	_
+3	con	_	_	Nc	_	4	_	_	_
+4	đường	_	_	N	_	7	_	_	_
+5	đều	_	_	Adv	_	_	_	_	_
+6	đưa	_	_	V	_	7	_	_	_
+7	đến	_	_	V	_	1	_	_	_
+8	chỗ	_	_	N	_	7	_	_	_
+9	có	_	_	V	_	8	_	_	_
+10	người	_	_	N	_	9	_	_	_
+11	ở	_	_	V	_	_	_	_	_
+12	.	_	_	PUNCT	_	1	_	_	_
+
+# text = và , nằm dài trong cỏ , em khóc .
+1	và	_	_	C	_	_	_	_	_
+2	,	_	_	PUNCT	_	_	_	_	_
+3	nằm	_	_	V	_	9	_	_	_
+4	dài	_	_	Adj	_	3	_	_	_
+5	trong	_	_	N	_	6	_	_	_
+6	cỏ	_	_	N	_	3	_	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	em	_	_	N	_	9	_	_	_
+9	khóc	_	_	V	_	1	_	_	_
+10	.	_	_	PUNCT	_	1	_	_	_
+
+# text = chính vào lúc đó con cáo xuất hiện .
+1	chính	_	_	Prt	_	3	_	_	_
+2	vào	_	_	V	_	_	_	_	_
+3	lúc	_	_	N	_	7	_	_	_
+4	đó	_	_	N	_	3	_	_	_
+5	con	_	_	Nc	_	6	_	_	_
+6	cáo	_	_	N	_	7	_	_	_
+7	xuất hiện	_	_	V	_	_	_	_	_
+8	.	_	_	PUNCT	_	7	_	_	_
+
+# text = - chúc một ngày tốt lành , con cáo nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	chúc	_	_	V	_	_	_	_	_
+3	một	_	_	Num	_	4	_	_	_
+4	ngày	_	_	N	_	2	_	_	_
+5	tốt lành	_	_	Adj	_	4	_	_	_
+6	,	_	_	PUNCT	_	_	_	_	_
+7	con	_	_	Nc	_	8	_	_	_
+8	cáo	_	_	N	_	9	_	_	_
+9	nói	_	_	V	_	2	_	_	_
+10	.	_	_	PUNCT	_	2	_	_	_
+
+# text = - tớ đây này , giọng nói cất lên , ở dưới cây táo .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	tớ	_	_	Pro	_	8	_	_	_
+3	đây	_	_	Pro	_	2	_	_	_
+4	này	_	_	Pro	_	3	_	_	_
+5	,	_	_	PUNCT	_	_	_	_	_
+6	giọng	_	_	N	_	7	_	_	_
+7	nói	_	_	V	_	8	_	_	_
+8	cất	_	_	V	_	_	_	_	_
+9	lên	_	_	V	_	8	_	_	_
+10	,	_	_	PUNCT	_	_	_	_	_
+11	ở	_	_	Pre	_	_	_	_	_
+12	dưới	_	_	Pre	_	14	_	_	_
+13	cây	_	_	N	_	14	_	_	_
+14	táo	_	_	N	_	2	_	_	_
+15	.	_	_	PUNCT	_	8	_	_	_
+
+# text = - tớ là một con cáo , con cáo nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	tớ	_	_	Pro	_	6	_	_	_
+3	là	_	_	aux	_	_	_	_	_
+4	một	_	_	Num	_	6	_	_	_
+5	con	_	_	Nc	_	6	_	_	_
+6	cáo	_	_	N	_	_	_	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	con	_	_	Nc	_	9	_	_	_
+9	cáo	_	_	N	_	_	_	_	_
+10	nói	_	_	V	_	6	_	_	_
+11	.	_	_	PUNCT	_	6	_	_	_
+
+# text = - đến chơi với mình đi , ông hoàng nhỏ rủ cáo .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	đến	_	_	V	_	_	_	_	_
+3	chơi	_	_	V	_	2	_	_	_
+4	với	_	_	C	_	_	_	_	_
+5	mình	_	_	Pro	_	2	_	_	_
+6	đi	_	_	Adv	_	2	_	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	ông hoàng	_	_	N	_	_	_	_	_
+9	nhỏ	_	_	Adj	_	8	_	_	_
+10	rủ	_	_	V	_	2	_	_	_
+11	cáo	_	_	N	_	_	_	_	_
+12	.	_	_	PUNCT	_	2	_	_	_
+
+# text = mình buồn quá .
+1	mình	_	_	Pro	_	2	_	_	_
+2	buồn	_	_	Adj	_	_	_	_	_
+3	quá	_	_	Adv	_	2	_	_	_
+4	.	_	_	PUNCT	_	2	_	_	_
+
+# text = ông hoàng nhỏ nói , cậu thật là xinh .
+1	ông hoàng	_	_	N	_	3	_	_	_
+2	nhỏ	_	_	Adj	_	1	_	_	_
+3	nói	_	_	V	_	8	_	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	cậu	_	_	Nc	_	8	_	_	_
+6	thật	_	_	Adv	_	8	_	_	_
+7	là	_	_	Prt	_	_	_	_	_
+8	xinh	_	_	Adj	_	_	_	_	_
+9	.	_	_	PUNCT	_	8	_	_	_
+
+# text = - cậu là ai thế ?
+1	-	_	_	PUNCT	_	_	_	_	_
+2	cậu	_	_	Nc	_	_	_	_	_
+3	là	_	_	aux	_	_	_	_	_
+4	ai	_	_	Pro	_	2	_	_	_
+5	thế	_	_	Prt	_	_	_	_	_
+6	?	_	_	PUNCT	_	2	_	_	_
+
+# text = - ta có thể chở cậu đi xa hơn cả một chiếc tàu , rắn nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	ta	_	_	Pro	_	4	_	_	_
+3	có thể	_	_	Adv	_	4	_	_	_
+4	chở	_	_	V	_	_	_	_	_
+5	cậu	_	_	Nc	_	6	_	_	_
+6	đi	_	_	V	_	4	_	_	_
+7	xa	_	_	Adj	_	6	_	_	_
+8	hơn	_	_	Adv	_	7	_	_	_
+9	cả	_	_	Prt	_	_	_	_	_
+10	một	_	_	Num	_	12	_	_	_
+11	chiếc	_	_	Nc	_	12	_	_	_
+12	tàu	_	_	N	_	6	_	_	_
+13	,	_	_	PUNCT	_	_	_	_	_
+14	rắn	_	_	N	_	15	_	_	_
+15	nói	_	_	V	_	4	_	_	_
+16	.	_	_	PUNCT	_	4	_	_	_
+
+# text = " nàng sẽ ngượng lắm đây , em nghĩ thầm , nếu thấy cảnh này .
+1	"	_	_	_	_	_	_	_	_
+2	nàng	_	_	N	_	4	_	_	_
+3	sẽ	_	_	Adv	_	4	_	_	_
+4	ngượng	_	_	Adj	_	_	_	_	_
+5	lắm	_	_	Adv	_	4	_	_	_
+6	đây	_	_	Prt	_	_	_	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	em	_	_	N	_	9	_	_	_
+9	nghĩ	_	_	V	_	4	_	_	_
+10	thầm	_	_	Adj	_	9	_	_	_
+11	,	_	_	PUNCT	_	_	_	_	_
+12	nếu	_	_	C	_	_	_	_	_
+13	thấy	_	_	V	_	4	_	_	_
+14	cảnh	_	_	N	_	13	_	_	_
+15	này	_	_	Pro	_	14	_	_	_
+16	.	_	_	PUNCT	_	4	_	_	_
+
+# text = nàng sẽ ho rũ rượi và giả chết cho đỡ ngượng .
+1	nàng	_	_	N	_	3	_	_	_
+2	sẽ	_	_	Adv	_	3	_	_	_
+3	ho	_	_	V	_	5	_	_	_
+4	rũ rượi	_	_	Adj	_	3	_	_	_
+5	và	_	_	C	_	_	_	_	_
+6	giả	_	_	V	_	7	_	_	_
+7	chết	_	_	V	_	5	_	_	_
+8	cho	_	_	C	_	_	_	_	_
+9	đỡ	_	_	V	_	7	_	_	_
+10	ngượng	_	_	Adj	_	9	_	_	_
+11	.	_	_	PUNCT	_	5	_	_	_
+
+# text = trước đây những núi non duy nhất mà em biết chỉ là ba quả núi lửa cao ngang đầu gối em .
+1	trước	_	_	Pre	_	13	_	_	_
+2	đây	_	_	Pro	_	1	_	_	_
+3	những	_	_	Det	_	4	_	_	_
+4	núi non	_	_	N	_	13	_	_	_
+5	duy nhất	_	_	Adj	_	4	_	_	_
+6	mà	_	_	C	_	_	_	_	_
+7	em	_	_	N	_	8	_	_	_
+8	biết	_	_	V	_	4	_	_	_
+9	chỉ	_	_	Adv	_	13	_	_	_
+10	là	_	_	aux	_	_	_	_	_
+11	ba	_	_	Num	_	13	_	_	_
+12	quả	_	_	N	_	13	_	_	_
+13	núi lửa	_	_	N	_	_	_	_	_
+14	cao	_	_	Adj	_	13	_	_	_
+15	ngang	_	_	Adj	_	14	_	_	_
+16	đầu gối	_	_	N	_	14	_	_	_
+17	em	_	_	N	_	16	_	_	_
+18	.	_	_	PUNCT	_	13	_	_	_
+
+# text = đoá hoa của em đã kể với em rằng nàng là duy nhất trong giống nòi của nàng khắp trong vũ trụ .
+1	đoá	_	_	Nc	_	2	_	_	_
+2	hoa	_	_	N	_	6	_	_	_
+3	của	_	_	Pre	_	_	_	_	_
+4	em	_	_	N	_	2	_	_	_
+5	đã	_	_	Adv	_	6	_	_	_
+6	kể	_	_	V	_	_	_	_	_
+7	với	_	_	C	_	_	_	_	_
+8	em	_	_	N	_	6	_	_	_
+9	rằng	_	_	C	_	_	_	_	_
+10	nàng	_	_	N	_	12	_	_	_
+11	là	_	_	aux	_	_	_	_	_
+12	duy nhất	_	_	Adj	_	6	_	_	_
+13	trong	_	_	Pre	_	14	_	_	_
+14	giống nòi	_	_	N	_	12	_	_	_
+15	của	_	_	Pre	_	_	_	_	_
+16	nàng	_	_	N	_	14	_	_	_
+17	khắp	_	_	Adj	_	19	_	_	_
+18	trong	_	_	N	_	19	_	_	_
+19	vũ trụ	_	_	N	_	12	_	_	_
+20	.	_	_	PUNCT	_	6	_	_	_
+
+# text = - tớ không chơi với cậu được .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	tớ	_	_	Pro	_	4	_	_	_
+3	không	_	_	Adv	_	4	_	_	_
+4	chơi	_	_	V	_	_	_	_	_
+5	với	_	_	C	_	_	_	_	_
+6	cậu	_	_	Nc	_	4	_	_	_
+7	được	_	_	Adv	_	_	_	_	_
+8	.	_	_	PUNCT	_	4	_	_	_
+
+# text = tớ chưa được cảm hoá .
+1	tớ	_	_	Pro	_	4	_	_	_
+2	chưa	_	_	Adv	_	4	_	_	_
+3	được	_	_	aux	_	4	_	_	_
+4	cảm hoá	_	_	V	_	_	_	_	_
+5	.	_	_	PUNCT	_	4	_	_	_
+
+# text = - à ! xin lỗi , ông hoàng nhỏ nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	à	_	_	I	_	4	_	_	_
+3	!	_	_	PUNCT	_	_	_	_	_
+4	xin lỗi	_	_	V	_	_	_	_	_
+5	,	_	_	PUNCT	_	_	_	_	_
+6	ông hoàng	_	_	N	_	8	_	_	_
+7	nhỏ	_	_	Adj	_	6	_	_	_
+8	nói	_	_	V	_	4	_	_	_
+9	.	_	_	PUNCT	_	4	_	_	_
+
+# text = nhưng sau khi suy nghĩ , em hỏi thêm
+1	nhưng	_	_	C	_	7	_	_	_
+2	sau	_	_	N	_	7	_	_	_
+3	khi	_	_	N	_	_	_	_	_
+4	suy nghĩ	_	_	V	_	2	_	_	_
+5	,	_	_	PUNCT	_	7	_	_	_
+6	em	_	_	N	_	7	_	_	_
+7	hỏi	_	_	V	_	_	_	_	_
+8	thêm	_	_	V	_	7	_	_	_
+
+# text = - thế nào gọi là " cảm hoá " ?
+1	-	_	_	PUNCT	_	_	_	_	_
+2	thế nào	_	_	Pro	_	3	_	_	_
+3	gọi	_	_	V	_	_	_	_	_
+4	là	_	_	C	_	_	_	_	_
+5	"	_	_	_	_	_	_	_	_
+6	cảm hoá	_	_	V	_	3	_	_	_
+7	"	_	_	_	_	_	_	_	_
+8	?	_	_	PUNCT	_	3	_	_	_
+
+# text = cậu đi tìm cái gì ?
+1	cậu	_	_	Nc	_	3	_	_	_
+2	đi	_	_	V	_	3	_	_	_
+3	tìm	_	_	V	_	_	_	_	_
+4	cái	_	_	Nc	_	3	_	_	_
+5	gì	_	_	Pro	_	4	_	_	_
+6	?	_	_	PUNCT	_	3	_	_	_
+
+# text = - cậu không phải dân ở đây .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	cậu	_	_	Nc	_	4	_	_	_
+3	không	_	_	Adv	_	4	_	_	_
+4	phải	_	_	Adj	_	_	_	_	_
+5	dân	_	_	N	_	4	_	_	_
+6	ở	_	_	V	_	5	_	_	_
+7	đây	_	_	Pro	_	6	_	_	_
+8	.	_	_	PUNCT	_	4	_	_	_
+
+# text = thế nào gọi là " cảm hoá " ?
+1	thế nào	_	_	Pro	_	2	_	_	_
+2	gọi	_	_	V	_	_	_	_	_
+3	là	_	_	C	_	_	_	_	_
+4	"	_	_	_	_	_	_	_	_
+5	cảm hoá	_	_	V	_	2	_	_	_
+6	"	_	_	_	_	_	_	_	_
+7	?	_	_	PUNCT	_	2	_	_	_
+
+# text = - loài người , cáo nói , họ có súng và họ săn bắn .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	loài người	_	_	N	_	8	_	_	_
+3	,	_	_	PUNCT	_	_	_	_	_
+4	cáo	_	_	N	_	5	_	_	_
+5	nói	_	_	V	_	_	_	_	_
+6	,	_	_	PUNCT	_	_	_	_	_
+7	họ	_	_	Pro	_	8	_	_	_
+8	có	_	_	V	_	_	_	_	_
+9	súng	_	_	N	_	8	_	_	_
+10	và	_	_	C	_	_	_	_	_
+11	họ	_	_	Pro	_	12	_	_	_
+12	săn bắn	_	_	V	_	_	_	_	_
+13	.	_	_	PUNCT	_	_	_	_	_
+
+# text = họ cũng nuôi gà nữa .
+1	họ	_	_	Pro	_	3	_	_	_
+2	cũng	_	_	Adv	_	3	_	_	_
+3	nuôi	_	_	V	_	_	_	_	_
+4	gà	_	_	N	_	3	_	_	_
+5	nữa	_	_	Adv	_	_	_	_	_
+6	.	_	_	PUNCT	_	3	_	_	_
+
+# text = phiền lắm .
+1	phiền	_	_	Adj	_	_	_	_	_
+2	lắm	_	_	Adv	_	1	_	_	_
+3	.	_	_	PUNCT	_	1	_	_	_
+
+# text = - tớ đi tìm những con người , ông hoàng nhỏ nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	tớ	_	_	Pro	_	4	_	_	_
+3	đi	_	_	V	_	4	_	_	_
+4	tìm	_	_	V	_	_	_	_	_
+5	những	_	_	Det	_	6	_	_	_
+6	con người	_	_	N	_	4	_	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	ông hoàng	_	_	N	_	_	_	_	_
+9	nhỏ	_	_	Adj	_	8	_	_	_
+10	nói	_	_	V	_	4	_	_	_
+11	.	_	_	PUNCT	_	4	_	_	_
+
+# text = cậu đi kiếm gà phải không ?
+1	cậu	_	_	Nc	_	3	_	_	_
+2	đi	_	_	V	_	3	_	_	_
+3	kiếm	_	_	V	_	_	_	_	_
+4	gà	_	_	N	_	3	_	_	_
+5	phải	_	_	Adj	_	_	_	_	_
+6	không	_	_	Adv	_	3	_	_	_
+7	?	_	_	PUNCT	_	3	_	_	_
+
+# text = thế nào gọi là " cảm hoá " ?
+1	thế nào	_	_	Pro	_	2	_	_	_
+2	gọi	_	_	V	_	_	_	_	_
+3	là	_	_	C	_	_	_	_	_
+4	"	_	_	_	_	_	_	_	_
+5	cảm hoá	_	_	V	_	2	_	_	_
+6	"	_	_	_	_	_	_	_	_
+7	?	_	_	PUNCT	_	2	_	_	_
+
+# text = - tạo lên những liên hệ ?
+1	-	_	_	PUNCT	_	_	_	_	_
+2	tạo	_	_	V	_	_	_	_	_
+3	lên	_	_	V	_	2	_	_	_
+4	những	_	_	Det	_	5	_	_	_
+5	liên hệ	_	_	V	_	2	_	_	_
+6	?	_	_	PUNCT	_	2	_	_	_
+
+# text = - không ! ông hoàng nhỏ nói , mình kiếm bạn .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	không	_	_	Adv	_	9	_	_	_
+3	!	_	_	PUNCT	_	_	_	_	_
+4	ông hoàng	_	_	N	_	6	_	_	_
+5	nhỏ	_	_	Adj	_	4	_	_	_
+6	nói	_	_	V	_	9	_	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	mình	_	_	Pro	_	9	_	_	_
+9	kiếm	_	_	V	_	_	_	_	_
+10	bạn	_	_	N	_	9	_	_	_
+11	.	_	_	PUNCT	_	9	_	_	_
+
+# text = - ấy là một điều bị lãng quên quá rồi , cáo nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	ấy	_	_	Pro	_	5	_	_	_
+3	là	_	_	aux	_	_	_	_	_
+4	một	_	_	Num	_	5	_	_	_
+5	điều	_	_	N	_	_	_	_	_
+6	bị	_	_	aux	_	7	_	_	_
+7	lãng quên	_	_	V	_	5	_	_	_
+8	quá	_	_	Adv	_	7	_	_	_
+9	rồi	_	_	Prt	_	8	_	_	_
+10	,	_	_	PUNCT	_	_	_	_	_
+11	cáo	_	_	N	_	12	_	_	_
+12	nói	_	_	V	_	5	_	_	_
+13	.	_	_	PUNCT	_	5	_	_	_
+
+# text = - đúng như vậy , con cáo nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	đúng	_	_	Adj	_	_	_	_	_
+3	như	_	_	C	_	_	_	_	_
+4	vậy	_	_	Pro	_	2	_	_	_
+5	,	_	_	PUNCT	_	_	_	_	_
+6	con	_	_	Nc	_	7	_	_	_
+7	cáo	_	_	N	_	8	_	_	_
+8	nói	_	_	V	_	2	_	_	_
+9	.	_	_	PUNCT	_	2	_	_	_
+
+# text = và tớ chẳng cần gì ở cậu .
+1	và	_	_	C	_	_	_	_	_
+2	tớ	_	_	Pro	_	4	_	_	_
+3	chẳng	_	_	Adv	_	4	_	_	_
+4	cần	_	_	aux	_	1	_	_	_
+5	gì	_	_	Pro	_	4	_	_	_
+6	ở	_	_	Pre	_	_	_	_	_
+7	cậu	_	_	Nc	_	4	_	_	_
+8	.	_	_	PUNCT	_	1	_	_	_
+
+# text = và cậu cũng chẳng cần gì ở tớ .
+1	và	_	_	C	_	_	_	_	_
+2	cậu	_	_	Nc	_	5	_	_	_
+3	cũng	_	_	Adv	_	5	_	_	_
+4	chẳng	_	_	Adv	_	5	_	_	_
+5	cần	_	_	aux	_	1	_	_	_
+6	gì	_	_	Pro	_	5	_	_	_
+7	ở	_	_	Pre	_	_	_	_	_
+8	tớ	_	_	Pro	_	5	_	_	_
+9	.	_	_	PUNCT	_	1	_	_	_
+
+# text = - tớ bắt đầu hiểu , ông hoàng nhỏ nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	tớ	_	_	Pro	_	4	_	_	_
+3	bắt đầu	_	_	V	_	4	_	_	_
+4	hiểu	_	_	V	_	_	_	_	_
+5	,	_	_	PUNCT	_	_	_	_	_
+6	ông hoàng	_	_	N	_	8	_	_	_
+7	nhỏ	_	_	Adj	_	6	_	_	_
+8	nói	_	_	V	_	4	_	_	_
+9	.	_	_	PUNCT	_	4	_	_	_
+
+# text = - có thể lắm , cáo nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	có thể	_	_	Adv	_	_	_	_	_
+3	lắm	_	_	Adv	_	2	_	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	cáo	_	_	N	_	6	_	_	_
+6	nói	_	_	V	_	2	_	_	_
+7	.	_	_	PUNCT	_	2	_	_	_
+
+# text = - ồ ! không phải trên trái đất này đâu , ông hoàng nhỏ nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	ồ	_	_	I	_	5	_	_	_
+3	!	_	_	PUNCT	_	2	_	_	_
+4	không	_	_	Adv	_	5	_	_	_
+5	phải	_	_	Adj	_	_	_	_	_
+6	trên	_	_	N	_	7	_	_	_
+7	trái đất	_	_	N	_	5	_	_	_
+8	này	_	_	Pro	_	7	_	_	_
+9	đâu	_	_	Prt	_	_	_	_	_
+10	,	_	_	PUNCT	_	_	_	_	_
+11	ông hoàng	_	_	N	_	13	_	_	_
+12	nhỏ	_	_	Adj	_	_	_	_	_
+13	nói	_	_	V	_	5	_	_	_
+14	.	_	_	PUNCT	_	5	_	_	_
+
+# text = con cáo có vẻ chú ý :
+1	con	_	_	Nc	_	2	_	_	_
+2	cáo	_	_	N	_	3	_	_	_
+3	có	_	_	V	_	_	_	_	_
+4	vẻ	_	_	N	_	5	_	_	_
+5	chú ý	_	_	V	_	3	_	_	_
+6	:	_	_	PUNCT	_	3	_	_	_
+
+# text = - trên một hành tinh khác à ?
+1	-	_	_	PUNCT	_	_	_	_	_
+2	trên	_	_	N	_	4	_	_	_
+3	một	_	_	Num	_	4	_	_	_
+4	hành tinh	_	_	N	_	_	_	_	_
+5	khác	_	_	Adj	_	4	_	_	_
+6	à	_	_	I	_	4	_	_	_
+7	?	_	_	PUNCT	_	4	_	_	_
+
+# text = - phải .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	phải	_	_	Adj	_	_	_	_	_
+3	.	_	_	PUNCT	_	_	_	_	_
+
+# text = - trên hành tinh ấy , có thợ săn không ?
+1	-	_	_	PUNCT	_	_	_	_	_
+2	trên	_	_	N	_	3	_	_	_
+3	hành tinh	_	_	N	_	6	_	_	_
+4	ấy	_	_	Pro	_	3	_	_	_
+5	,	_	_	PUNCT	_	6	_	_	_
+6	có	_	_	V	_	_	_	_	_
+7	thợ săn	_	_	N	_	6	_	_	_
+8	không	_	_	Adv	_	6	_	_	_
+9	?	_	_	PUNCT	_	6	_	_	_
+
+# text = - không .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	không	_	_	Adv	_	_	_	_	_
+3	.	_	_	PUNCT	_	_	_	_	_
+
+# text = - thế thì hay đấy .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	thế thì	_	_	C	_	3	_	_	_
+3	hay	_	_	Adj	_	_	_	_	_
+4	đấy	_	_	Prt	_	3	_	_	_
+5	.	_	_	PUNCT	_	3	_	_	_
+
+# text = - không .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	không	_	_	Adv	_	_	_	_	_
+3	.	_	_	PUNCT	_	_	_	_	_
+
+# text = nhưng , nếu cậu cảm hoá tớ , cậu sẽ là duy nhất trên đời ...
+1	nhưng	_	_	C	_	_	_	_	_
+2	,	_	_	PUNCT	_	_	_	_	_
+3	nếu	_	_	C	_	_	_	_	_
+4	cậu	_	_	Nc	_	5	_	_	_
+5	cảm hoá	_	_	V	_	_	_	_	_
+6	tớ	_	_	Pro	_	5	_	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	cậu	_	_	Nc	_	_	_	_	_
+9	sẽ	_	_	Adv	_	_	_	_	_
+10	là	_	_	aux	_	_	_	_	_
+11	duy nhất	_	_	Adj	_	_	_	_	_
+12	trên	_	_	Pre	_	13	_	_	_
+13	đời	_	_	N	_	_	_	_	_
+14	...	_	_	PUNCT	_	_	_	_	_
+
+# text = có một bông hoa ... tớ nghĩ là nàng cảm hoá tớ ...
+1	có	_	_	V	_	_	_	_	_
+2	một	_	_	Num	_	4	_	_	_
+3	bông	_	_	N	_	4	_	_	_
+4	hoa	_	_	N	_	1	_	_	_
+5	...	_	_	PUNCT	_	_	_	_	_
+6	tớ	_	_	Pro	_	7	_	_	_
+7	nghĩ	_	_	V	_	1	_	_	_
+8	là	_	_	C	_	_	_	_	_
+9	nàng	_	_	N	_	_	_	_	_
+10	cảm hoá	_	_	V	_	7	_	_	_
+11	tớ	_	_	Pro	_	_	_	_	_
+12	...	_	_	PUNCT	_	1	_	_	_
+
+# text = có thể gặp mọi sự trên trái đất này ...
+1	có thể	_	_	Adv	_	2	_	_	_
+2	gặp	_	_	V	_	_	_	_	_
+3	mọi	_	_	Det	_	4	_	_	_
+4	sự	_	_	N	_	2	_	_	_
+5	trên	_	_	N	_	6	_	_	_
+6	trái đất	_	_	N	_	2	_	_	_
+7	này	_	_	Pro	_	6	_	_	_
+8	...	_	_	PUNCT	_	2	_	_	_
+
+# text = khoảng ... khoảng ...
+1	khoảng	_	_	N	_	_	_	_	_
+2	...	_	_	PUNCT	_	_	_	_	_
+3	khoảng	_	_	N	_	_	_	_	_
+4	...	_	_	PUNCT	_	_	_	_	_
+
+# text = rồi em lại tự bảo : " ta tưởng ta đã giàu lắm với một đoá hoa duy nhất .
+1	rồi	_	_	C	_	_	_	_	_
+2	em	_	_	N	_	5	_	_	_
+3	lại	_	_	Adv	_	_	_	_	_
+4	tự	_	_	Pro	_	5	_	_	_
+5	bảo	_	_	V	_	1	_	_	_
+6	:	_	_	PUNCT	_	_	_	_	_
+7	"	_	_	_	_	_	_	_	_
+8	ta	_	_	Pro	_	9	_	_	_
+9	tưởng	_	_	V	_	5	_	_	_
+10	ta	_	_	Pro	_	12	_	_	_
+11	đã	_	_	Adv	_	12	_	_	_
+12	giàu	_	_	Adj	_	9	_	_	_
+13	lắm	_	_	Adv	_	12	_	_	_
+14	với	_	_	C	_	_	_	_	_
+15	một	_	_	Num	_	17	_	_	_
+16	đoá	_	_	Nc	_	17	_	_	_
+17	hoa	_	_	N	_	12	_	_	_
+18	duy nhất	_	_	Adj	_	17	_	_	_
+19	.	_	_	PUNCT	_	1	_	_	_
+
+# text = - đời tớ tẻ nhạt .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	đời	_	_	N	_	4	_	_	_
+3	tớ	_	_	Pro	_	2	_	_	_
+4	tẻ nhạt	_	_	Adj	_	_	_	_	_
+5	.	_	_	PUNCT	_	4	_	_	_
+
+# text = tớ săn gà , người săn tớ .
+1	tớ	_	_	Pro	_	2	_	_	_
+2	săn	_	_	V	_	_	_	_	_
+3	gà	_	_	N	_	2	_	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	người	_	_	N	_	6	_	_	_
+6	săn	_	_	V	_	2	_	_	_
+7	tớ	_	_	Pro	_	6	_	_	_
+8	.	_	_	PUNCT	_	2	_	_	_
+
+# text = vì thế , tớ hơi chán .
+1	vì thế	_	_	C	_	5	_	_	_
+2	,	_	_	PUNCT	_	_	_	_	_
+3	tớ	_	_	Pro	_	5	_	_	_
+4	hơi	_	_	Adv	_	5	_	_	_
+5	chán	_	_	V	_	_	_	_	_
+6	.	_	_	PUNCT	_	5	_	_	_
+
+# text = tất cả loài gà đều giống nhau , và tất cả loài người đều giống nhau .
+1	tất cả	_	_	Det	_	3	_	_	_
+2	loài	_	_	N	_	3	_	_	_
+3	gà	_	_	N	_	5	_	_	_
+4	đều	_	_	Adv	_	5	_	_	_
+5	giống	_	_	V	_	8	_	_	_
+6	nhau	_	_	N	_	5	_	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	và	_	_	C	_	_	_	_	_
+9	tất cả	_	_	Det	_	_	_	_	_
+10	loài người	_	_	N	_	12	_	_	_
+11	đều	_	_	Adv	_	12	_	_	_
+12	giống	_	_	V	_	8	_	_	_
+13	nhau	_	_	N	_	12	_	_	_
+14	.	_	_	PUNCT	_	8	_	_	_
+
+# text = - chả có điều gì là hoàn hảo cả ! cáo thở dài .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	chả	_	_	Adv	_	3	_	_	_
+3	có	_	_	V	_	_	_	_	_
+4	điều	_	_	N	_	7	_	_	_
+5	gì	_	_	Pro	_	4	_	_	_
+6	là	_	_	C	_	_	_	_	_
+7	hoàn hảo	_	_	Adj	_	3	_	_	_
+8	cả	_	_	Prt	_	7	_	_	_
+9	!	_	_	PUNCT	_	_	_	_	_
+10	cáo	_	_	N	_	_	_	_	_
+11	thở dài	_	_	V	_	3	_	_	_
+12	.	_	_	PUNCT	_	3	_	_	_
+
+# text = nhưng rồi cáo trở lại với ý nghĩ của nó :
+1	nhưng	_	_	C	_	4	_	_	_
+2	rồi	_	_	C	_	_	_	_	_
+3	cáo	_	_	N	_	_	_	_	_
+4	trở lại	_	_	V	_	2	_	_	_
+5	với	_	_	C	_	_	_	_	_
+6	ý nghĩ	_	_	N	_	4	_	_	_
+7	của	_	_	Pre	_	_	_	_	_
+8	nó	_	_	Pro	_	6	_	_	_
+9	:	_	_	PUNCT	_	2	_	_	_
+
+# text = thế còn gà ?
+1	thế	_	_	Pro	_	2	_	_	_
+2	còn	_	_	V	_	_	_	_	_
+3	gà	_	_	N	_	2	_	_	_
+4	?	_	_	PUNCT	_	2	_	_	_
+
+# text = nó có nghĩa là " tạo lên những liên hệ ... "
+1	nó	_	_	Pro	_	2	_	_	_
+2	có	_	_	V	_	_	_	_	_
+3	nghĩa	_	_	N	_	2	_	_	_
+4	là	_	_	C	_	_	_	_	_
+5	"	_	_	_	_	_	_	_	_
+6	tạo	_	_	V	_	3	_	_	_
+7	lên	_	_	V	_	6	_	_	_
+8	những	_	_	Det	_	9	_	_	_
+9	liên hệ	_	_	V	_	6	_	_	_
+10	...	_	_	PUNCT	_	2	_	_	_
+11	"	_	_	_	_	_	_	_	_
+
+# text = nhưng nếu cậu cảm hóa tớ , đời tớ sẽ rực nắng .
+1	nhưng	_	_	C	_	4	_	_	_
+2	nếu	_	_	C	_	_	_	_	_
+3	cậu	_	_	Nc	_	4	_	_	_
+4	cảm hóa	_	_	V	_	_	_	_	_
+5	tớ	_	_	Pro	_	4	_	_	_
+6	,	_	_	PUNCT	_	_	_	_	_
+7	đời	_	_	N	_	_	_	_	_
+8	tớ	_	_	Pro	_	7	_	_	_
+9	sẽ	_	_	Adv	_	_	_	_	_
+10	rực	_	_	Adj	_	_	_	_	_
+11	nắng	_	_	N	_	_	_	_	_
+12	.	_	_	PUNCT	_	_	_	_	_
+
+# text = và cậu hãy nhìn kia !
+1	và	_	_	C	_	_	_	_	_
+2	cậu	_	_	Nc	_	4	_	_	_
+3	hãy	_	_	Adv	_	4	_	_	_
+4	nhìn	_	_	V	_	1	_	_	_
+5	kia	_	_	Pro	_	4	_	_	_
+6	!	_	_	PUNCT	_	1	_	_	_
+
+# text = đó là cái duy nhất hấp dẫn ở họ .
+1	đó	_	_	N	_	4	_	_	_
+2	là	_	_	aux	_	_	_	_	_
+3	cái	_	_	Nc	_	4	_	_	_
+4	duy nhất	_	_	Adj	_	_	_	_	_
+5	hấp dẫn	_	_	V	_	4	_	_	_
+6	ở	_	_	Pre	_	_	_	_	_
+7	họ	_	_	Pro	_	4	_	_	_
+8	.	_	_	PUNCT	_	4	_	_	_
+
+# text = tớ không ăn bánh mì .
+1	tớ	_	_	Pro	_	3	_	_	_
+2	không	_	_	Adv	_	3	_	_	_
+3	ăn	_	_	V	_	_	_	_	_
+4	bánh mì	_	_	N	_	3	_	_	_
+5	.	_	_	PUNCT	_	3	_	_	_
+
+# text = lúa mì đối với tớ là vô dụng .
+1	lúa mì	_	_	N	_	5	_	_	_
+2	đối với	_	_	C	_	_	_	_	_
+3	tớ	_	_	Pro	_	5	_	_	_
+4	là	_	_	N	_	_	_	_	_
+5	vô dụng	_	_	Adj	_	_	_	_	_
+6	.	_	_	PUNCT	_	5	_	_	_
+
+# text = - chúc một ngày tốt lành , ông hoàng nhỏ đáp lại lịch sự , em quay lại nhưng chẳng thấy gì cả .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	chúc	_	_	V	_	_	_	_	_
+3	một	_	_	Num	_	4	_	_	_
+4	ngày	_	_	N	_	2	_	_	_
+5	tốt lành	_	_	Adj	_	4	_	_	_
+6	,	_	_	PUNCT	_	_	_	_	_
+7	ông hoàng	_	_	N	_	9	_	_	_
+8	nhỏ	_	_	Adj	_	7	_	_	_
+9	đáp	_	_	V	_	2	_	_	_
+10	lại	_	_	V	_	9	_	_	_
+11	lịch sự	_	_	Adj	_	9	_	_	_
+12	,	_	_	PUNCT	_	_	_	_	_
+13	em	_	_	N	_	14	_	_	_
+14	quay	_	_	V	_	2	_	_	_
+15	lại	_	_	V	_	14	_	_	_
+16	nhưng	_	_	C	_	_	_	_	_
+17	chẳng	_	_	Adv	_	18	_	_	_
+18	thấy	_	_	V	_	14	_	_	_
+19	gì	_	_	Pro	_	18	_	_	_
+20	cả	_	_	Prt	_	19	_	_	_
+21	.	_	_	PUNCT	_	2	_	_	_
+
+# text = cái đó buồn lắm .
+1	cái	_	_	Nc	_	3	_	_	_
+2	đó	_	_	N	_	1	_	_	_
+3	buồn	_	_	Adj	_	_	_	_	_
+4	lắm	_	_	Adv	_	3	_	_	_
+5	.	_	_	PUNCT	_	3	_	_	_
+
+# text = nhưng cậu có mái tóc mầu vàng kim .
+1	nhưng	_	_	C	_	3	_	_	_
+2	cậu	_	_	Nc	_	3	_	_	_
+3	có	_	_	V	_	_	_	_	_
+4	mái tóc	_	_	N	_	3	_	_	_
+5	mầu	_	_	N	_	4	_	_	_
+6	vàng	_	_	Adj	_	5	_	_	_
+7	kim	_	_	Adj	_	6	_	_	_
+8	.	_	_	PUNCT	_	3	_	_	_
+
+# text = tớ đối với cậu chỉ là một con cáo giống như trăm nghìn con cáo .
+1	tớ	_	_	Pro	_	8	_	_	_
+2	đối với	_	_	C	_	_	_	_	_
+3	cậu	_	_	Nc	_	1	_	_	_
+4	chỉ	_	_	Adv	_	_	_	_	_
+5	là	_	_	aux	_	_	_	_	_
+6	một	_	_	Num	_	8	_	_	_
+7	con	_	_	Nc	_	8	_	_	_
+8	cáo	_	_	N	_	_	_	_	_
+9	giống	_	_	V	_	8	_	_	_
+10	như	_	_	C	_	9	_	_	_
+11	trăm	_	_	Num	_	12	_	_	_
+12	nghìn	_	_	Num	_	14	_	_	_
+13	con	_	_	Nc	_	14	_	_	_
+14	cáo	_	_	N	_	9	_	_	_
+15	.	_	_	PUNCT	_	8	_	_	_
+
+# text = - nếu cậu vui lòng , hãy cảm hoá tớ đi , cáo nói !
+1	-	_	_	PUNCT	_	_	_	_	_
+2	nếu	_	_	C	_	_	_	_	_
+3	cậu	_	_	Nc	_	4	_	_	_
+4	vui lòng	_	_	Adj	_	7	_	_	_
+5	,	_	_	PUNCT	_	_	_	_	_
+6	hãy	_	_	Adv	_	7	_	_	_
+7	cảm hoá	_	_	V	_	_	_	_	_
+8	tớ	_	_	Pro	_	7	_	_	_
+9	đi	_	_	Adv	_	_	_	_	_
+10	,	_	_	PUNCT	_	_	_	_	_
+11	cáo	_	_	N	_	12	_	_	_
+12	nói	_	_	V	_	7	_	_	_
+13	!	_	_	PUNCT	_	7	_	_	_
+
+# text = tớ cần tìm kiếm nhiều bạn và tìm hiểu bao nhiêu sự vật .
+1	tớ	_	_	Pro	_	3	_	_	_
+2	cần	_	_	aux	_	3	_	_	_
+3	tìm kiếm	_	_	V	_	6	_	_	_
+4	nhiều	_	_	Adj	_	5	_	_	_
+5	bạn	_	_	N	_	3	_	_	_
+6	và	_	_	C	_	_	_	_	_
+7	tìm hiểu	_	_	V	_	6	_	_	_
+8	bao nhiêu	_	_	Pro	_	9	_	_	_
+9	sự vật	_	_	N	_	7	_	_	_
+10	.	_	_	PUNCT	_	6	_	_	_
+
+# text = và tớ sẽ yêu tiếng gió reo trong lúa mì ...
+1	và	_	_	C	_	_	_	_	_
+2	tớ	_	_	Pro	_	4	_	_	_
+3	sẽ	_	_	Adv	_	4	_	_	_
+4	yêu	_	_	V	_	1	_	_	_
+5	tiếng	_	_	N	_	6	_	_	_
+6	gió	_	_	N	_	7	_	_	_
+7	reo	_	_	V	_	4	_	_	_
+8	trong	_	_	N	_	9	_	_	_
+9	lúa mì	_	_	N	_	7	_	_	_
+10	...	_	_	PUNCT	_	1	_	_	_
+
+# text = cáo im lặng và nhìn ông hoàng nhỏ một lúc lâu :
+1	cáo	_	_	N	_	2	_	_	_
+2	im lặng	_	_	Adj	_	3	_	_	_
+3	và	_	_	C	_	_	_	_	_
+4	nhìn	_	_	V	_	3	_	_	_
+5	ông hoàng	_	_	N	_	4	_	_	_
+6	nhỏ	_	_	Adj	_	5	_	_	_
+7	một	_	_	Num	_	8	_	_	_
+8	lúc	_	_	N	_	4	_	_	_
+9	lâu	_	_	Adj	_	8	_	_	_
+10	:	_	_	PUNCT	_	3	_	_	_
+
+# text = - người ta chỉ hiểu được những vật người ta đã cảm hoá , cáo nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	người ta	_	_	N	_	4	_	_	_
+3	chỉ	_	_	Adv	_	4	_	_	_
+4	hiểu	_	_	V	_	_	_	_	_
+5	được	_	_	Adv	_	4	_	_	_
+6	những	_	_	Det	_	7	_	_	_
+7	vật	_	_	N	_	4	_	_	_
+8	người ta	_	_	N	_	_	_	_	_
+9	đã	_	_	Adv	_	_	_	_	_
+10	cảm hoá	_	_	V	_	7	_	_	_
+11	,	_	_	PUNCT	_	_	_	_	_
+12	cáo	_	_	N	_	13	_	_	_
+13	nói	_	_	V	_	4	_	_	_
+14	.	_	_	PUNCT	_	4	_	_	_
+
+# text = họ mua những vật làm sẵn ở các nhà buôn .
+1	họ	_	_	Pro	_	2	_	_	_
+2	mua	_	_	V	_	_	_	_	_
+3	những	_	_	Det	_	4	_	_	_
+4	vật	_	_	N	_	2	_	_	_
+5	làm	_	_	V	_	4	_	_	_
+6	sẵn	_	_	Adj	_	5	_	_	_
+7	ở	_	_	Pre	_	_	_	_	_
+8	các	_	_	Det	_	9	_	_	_
+9	nhà buôn	_	_	N	_	2	_	_	_
+10	.	_	_	PUNCT	_	2	_	_	_
+
+# text = loài người bây giờ không còn đủ thì giờ hiểu cái gì hết .
+1	loài người	_	_	N	_	5	_	_	_
+2	bây giờ	_	_	Pro	_	5	_	_	_
+3	không	_	_	Adv	_	5	_	_	_
+4	còn	_	_	Adv	_	5	_	_	_
+5	đủ	_	_	Adj	_	_	_	_	_
+6	thì giờ	_	_	N	_	5	_	_	_
+7	hiểu	_	_	V	_	5	_	_	_
+8	cái	_	_	Nc	_	7	_	_	_
+9	gì	_	_	Pro	_	8	_	_	_
+10	hết	_	_	Prt	_	8	_	_	_
+11	.	_	_	PUNCT	_	5	_	_	_

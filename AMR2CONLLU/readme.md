@@ -1,0 +1,1 @@
+- chạy file convert để chuyển file amr sang conllu

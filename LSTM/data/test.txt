@@ -1,0 +1,1853 @@
+# id = 0
+1	-	_	_	PUNCT	_	_	_	_	_
+2	nếu	_	_	C	_	_	_	_	_
+3	cậu	_	_	NC	_	4	Arg0	_	_
+4	vui lòng	_	_	ADJ	_	7	condition	_	_
+5	,	_	_	PUNCT	_	_	_	_	_
+6	hãy	_	_	ADV	_	7	mod	_	_
+7	cảm hoá	_	_	V	_	_	_	_	_
+8	tớ	_	_	PRO	_	7	Arg1	_	_
+9	đi	_	_	ADV	_	_	_	_	_
+10	,	_	_	PUNCT	_	_	_	_	_
+11	cáo	_	_	N	_	12	Arg0	_	_
+12	nói	_	_	V	_	7	Arg1-of	_	_
+13	!	_	_	PUNCT	_	7	Rel	_	_
+
+# id = 1
+1	ông hoàng	_	_	N	_	3	Arg0	_	_
+2	nhỏ	_	_	ADJ	_	1	mod	_	_
+3	ngồi	_	_	V	_	8	op1	_	_
+4	trên	_	_	PRE	_	3	mod	_	_
+5	một	_	_	NUM	_	7	quant	_	_
+6	tảng	_	_	N	_	7	classifier	_	_
+7	đá	_	_	N	_	3	location	_	_
+8	và	_	_	C	_	_	_	_	_
+9	ngước	_	_	V	_	8	op2	_	_
+10	mắt	_	_	N	_	9	Arg0	_	_
+11	lên	_	_	V	_	9	compound	_	_
+12	trời	_	_	N	_	9	location	_	_
+13	:	_	_	PUNCT	_	8	Rel	_	_
+
+# id = 2
+1	-	_	_	PUNCT	_	_	_	_	_
+2	đó	_	_	N	_	7	domain	_	_
+3	là	_	_	AUX	_	_	_	_	_
+4	một	_	_	NUM	_	6	quant	_	_
+5	nhà	_	_	N	_	6	classifier	_	_
+6	bác học	_	_	N	_	7	Arg0	_	_
+7	biết	_	_	V	_	_	_	_	_
+8	rõ	_	_	ADJ	_	7	mod	_	_
+9	đâu	_	_	PRO	_	12	domain	_	_
+10	là	_	_	AUX	_	_	_	_	_
+11	sông	_	_	N	_	12	classifier	_	_
+12	biển	_	_	N	_	7	Arg1	_	_
+13	,	_	_	PUNCT	_	_	_	_	_
+14	núi non	_	_	N	_	7	Arg1	_	_
+15	,	_	_	PUNCT	_	_	_	_	_
+16	thành phố	_	_	N	_	7	Arg1	_	_
+17	và	_	_	C	_	_	_	_	_
+18	sa mạc	_	_	N	_	7	Arg1	_	_
+19	.	_	_	PUNCT	_	7	Rel	_	_
+
+# id = 3
+1	-	_	_	PUNCT	_	_	_	_	_
+2	lời	_	_	N	_	3	classifier	_	_
+3	hứa	_	_	V	_	_	_	_	_
+4	nào	_	_	PRO	_	3	amr-unknow	_	_
+5	?	_	_	PUNCT	_	3	Rel	_	_
+
+# id = 4
+1	-	_	_	PUNCT	_	_	_	_	_
+2	đúng	_	_	ADJ	_	_	_	_	_
+3	,	_	_	PUNCT	_	_	_	_	_
+4	nhà	_	_	N	_	5	classifier	_	_
+5	địa lý	_	_	N	_	6	Arg0	_	_
+6	nói	_	_	V	_	2	Arg1-of	_	_
+7	.	_	_	PUNCT	_	2	Rel	_	_
+
+# id = 5
+1	nó	_	_	PRO	_	2	Arg0	_	_
+2	ở	_	_	V	_	_	_	_	_
+3	đó	_	_	N	_	2	mod	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	nó	_	_	PRO	_	6	Arg0	_	_
+6	ngẩng	_	_	V	_	2	Arg0-of	_	_
+7	đầu	_	_	N	_	6	Arg1	_	_
+8	lên	_	_	V	_	6	direction	_	_
+9	phía	_	_	PRE	_	10	direction	_	_
+10	ông hoàng	_	_	N	_	6	domain	_	_
+11	nhỏ	_	_	ADJ	_	10	mod	_	_
+12	,	_	_	PUNCT	_	2	Rel	_	_
+13	một	_	_	NUM	_	_	_	_	_
+14	giống	_	_	N	_	15	classifier	_	_
+15	rắn	_	_	N	_	18	Arg0	_	_
+16	vàng	_	_	ADJ	_	15	mod	_	_
+17	có thể	_	_	ADV	_	18	possible-01	_	_
+18	diệt	_	_	V	_	2	Arg1	_	_
+19	ta	_	_	PRO	_	18	Arg1	_	_
+20	trong	_	_	PRE	_	_	_	_	_
+21	ba mươi	_	_	NUM	_	18	quant	_	_
+
+# id = 6
+1	tớ	_	_	PRO	_	3	Arg0	_	_
+2	sẽ	_	_	ADV	_	3	tense	_	_
+3	nhận	_	_	V	_	_	_	_	_
+4	ra	_	_	V	_	3	compound	_	_
+5	một	_	_	NUM	_	_	_	_	_
+6	bước	_	_	N	_	7	classifier	_	_
+7	chân	_	_	N	_	8	Arg0	_	_
+8	khác	_	_	ADJ	_	3	Arg1	_	_
+9	hẳn	_	_	ADJ	_	8	mod	_	_
+10	mọi	_	_	DET	_	12	quant	_	_
+11	bước	_	_	N	_	12	classifier	_	_
+12	chân	_	_	N	_	8	Arg1	_	_
+13	khác	_	_	ADJ	_	12	mod	_	_
+14	.	_	_	PUNCT	_	3	Rel	_	_
+
+# id = 7
+1	tôi	_	_	PRO	_	3	Arg0	_	_
+2	không	_	_	ADV	_	3	polarity	_	_
+3	muốn	_	_	AUX	_	_	_	_	_
+4	em	_	_	N	_	5	Arg0	_	_
+5	gắng sức	_	_	V	_	3	Arg1	_	_
+6	:	_	_	PUNCT	_	3	Rel	_	_
+
+# id = 8
+1	-	_	_	PUNCT	_	_	_	_	_
+2	rất	_	_	ADV	_	_	_	_	_
+3	có thể	_	_	ADV	_	7	possible-01	_	_
+4	người	_	_	N	_	7	Arg0	_	_
+5	này	_	_	PRO	_	4	mod	_	_
+6	là	_	_	C	_	_	_	_	_
+7	vô lý	_	_	ADJ	_	_	_	_	_
+8	.	_	_	PUNCT	_	7	Rel	_	_
+
+# id = 9
+1	ví dụ	_	_	N	_	11	example	_	_
+2	như	_	_	C	_	_	_	_	_
+3	tìm	_	_	V	_	4	compound	_	_
+4	thấy	_	_	V	_	1	resemble-01	_	_
+5	một	_	_	NUM	_	7	quant	_	_
+6	hòn	_	_	NC	_	7	classifier	_	_
+7	núi	_	_	N	_	4	Arg1	_	_
+8	lớn	_	_	ADJ	_	7	mod	_	_
+9	,	_	_	PUNCT	_	_	_	_	_
+10	người ta	_	_	N	_	11	Arg0	_	_
+11	buộc	_	_	V	_	_	_	_	_
+12	anh	_	_	N	_	13	classifier	_	_
+13	ta	_	_	PRO	_	11	Arg1	_	_
+14	phải	_	_	AUX	_	15	obligate-01	_	_
+15	mang	_	_	V	_	13	Arg0-of	_	_
+16	về	_	_	V	_	15	compound	_	_
+17	những	_	_	DET	_	_	_	_	_
+18	tảng	_	_	N	_	19	classifier	_	_
+19	đá	_	_	N	_	15	Arg1	_	_
+20	bự	_	_	ADJ	_	19	mod	_	_
+21	.	_	_	PUNCT	_	11	Rel	_	_
+
+# id = 10
+1	lúa mì	_	_	N	_	9	Arg0	_	_
+2	,	_	_	PUNCT	_	_	_	_	_
+3	vốn	_	_	ADV	_	_	_	_	_
+4	màu	_	_	N	_	1	Arg1	_	_
+5	vàng	_	_	ADJ	_	4	Arg2	_	_
+6	kim	_	_	ADJ	_	5	mod	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	sẽ	_	_	ADV	_	9	tense	_	_
+9	gợi	_	_	V	_	_	_	_	_
+10	cho	_	_	SC	_	_	_	_	_
+11	tớ	_	_	NNP	_	9	beneficiary	_	_
+12	kỷ niệm	_	_	N	_	9	Arg1	_	_
+13	về	_	_	PRE	_	_	_	_	_
+14	cậu	_	_	NC	_	12	topic	_	_
+15	.	_	_	PUNCT	_	9	Rel	_	_
+
+# id = 11
+1	-	_	_	PUNCT	_	_	_	_	_
+2	đêm	_	_	N	_	6	time	_	_
+3	nay	_	_	PRO	_	2	mod	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	vừa	_	_	ADV	_	6	mod	_	_
+6	đúng	_	_	ADJ	_	_	_	_	_
+7	một	_	_	NUM	_	8	quant	_	_
+8	năm	_	_	N	_	6	time	_	_
+9	.	_	_	PUNCT	_	6	Rel	_	_
+
+# id = 12
+1	em	_	_	N	_	4	Arg0	_	_
+2	không	_	_	ADV	_	4	polarity	_	_
+3	bao giờ	_	_	PRO	_	2	time	_	_
+4	trả lời	_	_	V	_	_	_	_	_
+5	các	_	_	DET	_	7	classifier	_	_
+6	câu	_	_	N	_	7	classifier	_	_
+7	hỏi	_	_	V	_	4	Arg1	_	_
+8	,	_	_	PUNCT	_	_	_	_	_
+9	nhưng	_	_	C	_	_	_	_	_
+10	khi	_	_	N	_	18	time	_	_
+11	người ta	_	_	N	_	12	Arg0	_	_
+12	đỏ	_	_	ADJ	_	10	time	_	_
+13	mặt	_	_	N	_	12	mod	_	_
+14	,	_	_	PUNCT	_	_	_	_	_
+15	như	_	_	C	_	18	resemble-01	_	_
+16	thế	_	_	PRO	_	15	mod	_	_
+17	có	_	_	V	_	18	mod	_	_
+18	nghĩa	_	_	N	_	4	Arg1	_	_
+19	là	_	_	C	_	_	_	_	_
+20	''	_	_	_	_	_	_	_	_
+21	phải	_	_	ADJ	_	18	Arg1	_	_
+22	''	_	_	_	_	_	_	_	_
+23	,	_	_	PUNCT	_	_	_	_	_
+24	phải	_	_	ADJ	_	25	obligate-01	_	_
+25	không	_	_	ADV	_	18	polarity	_	_
+26	?	_	_	PUNCT	_	4	Rel	_	_
+
+# id = 13
+1	song	_	_	C	_	_	_	_	_
+2	tôi	_	_	PRO	_	4	Arg0	_	_
+3	đã	_	_	ADV	_	4	tense	_	_
+4	làm	_	_	V	_	11	op1	_	_
+5	cho	_	_	PRE	_	_	_	_	_
+6	nó	_	_	PRO	_	4	beneficiary	_	_
+7	trở thành	_	_	V	_	4	Arg1	_	_
+8	bạn	_	_	N	_	7	beneficiary	_	_
+9	tôi	_	_	PRO	_	8	poss	_	_
+10	,	_	_	PUNCT	_	_	_	_	_
+11	và	_	_	C	_	_	_	_	_
+12	bây giờ	_	_	PRO	_	14	time	_	_
+13	nó	_	_	PRO	_	14	Arg0	_	_
+14	trở nên	_	_	V	_	11	op2	_	_
+15	duy nhất	_	_	ADJ	_	14	mod	_	_
+16	trên	_	_	PRE	_	17	direction	_	_
+17	đời	_	_	N	_	14	location	_	_
+18	.	_	_	PUNCT	_	11	Rel	_	_
+
+# id = 14
+1	họ	_	_	PRO	_	3	Arg0	_	_
+2	chẳng	_	_	ADV	_	3	polarity	_	_
+3	có	_	_	V	_	_	_	_	_
+4	rễ	_	_	N	_	3	Arg1	_	_
+5	,	_	_	PUNCT	_	_	_	_	_
+6	cái	_	_	NC	_	8	Arg0	_	_
+7	đó	_	_	N	_	6	mod	_	_
+8	phiền	_	_	V	_	3	Arg0-of	_	_
+9	cho	_	_	C	_	_	_	_	_
+10	họ	_	_	PRO	_	8	beneficiary	_	_
+11	lắm	_	_	ADV	_	8	mod	_	_
+12	.	_	_	PUNCT	_	3	Rel	_	_
+
+# id = 15
+1	bấy giờ	_	_	PRO	_	6	time	_	_
+2	đến	_	_	PRE	_	3	mod	_	_
+3	lượt	_	_	N	_	6	time	_	_
+4	những	_	_	DET	_	5	quant	_	_
+5	người	_	_	N	_	6	Arg0	_	_
+6	đốt	_	_	V	_	_	_	_	_
+7	đèn	_	_	N	_	6	Arg1	_	_
+8	Trung Quốc	_	_	NNP	_	9	op1	_	_
+9	và	_	_	C	_	6	location	_	_
+10	Tây Bá Lợi á	_	_	NNP	_	9	op2	_	_
+11	.	_	_	PUNCT	_	6	Rel	_	_
+
+# id = 16
+1	-	_	_	PUNCT	_	_	_	_	_
+2	các	_	_	DET	_	3	quant	_	_
+3	cô	_	_	N	_	4	Arg0	_	_
+4	đẹp	_	_	ADJ	_	_	_	_	_
+5	,	_	_	PUNCT	_	_	_	_	_
+6	nhưng	_	_	C	_	_	_	_	_
+7	các	_	_	N	_	8	quant	_	_
+8	cô	_	_	N	_	9	Arg0	_	_
+9	trống rỗng	_	_	ADJ	_	4	constract	_	_
+10	,	_	_	PUNCT	_	_	_	_	_
+11	em	_	_	N	_	12	Arg0	_	_
+12	nói	_	_	V	_	4	Arg1-of	_	_
+13	với	_	_	C	_	_	_	_	_
+14	họ	_	_	PRO	_	12	accompanier	_	_
+15	.	_	_	PUNCT	_	4	Rel	_	_
+
+# id = 17
+1	em	_	_	N	_	2	Arg0	_	_
+2	nhìn	_	_	V	_	5	op1	_	_
+3	tôi	_	_	PRO	_	2	Arg1	_	_
+4	nghiêm nghị	_	_	ADJ	_	2	Arg2	_	_
+5	và	_	_	C	_	_	_	_	_
+6	đưa	_	_	V	_	5	op2	_	_
+7	hai	_	_	NUM	_	8	quant	_	_
+8	tay	_	_	N	_	6	Arg1	_	_
+9	ôm	_	_	V	_	6	Arg2	_	_
+10	cổ	_	_	N	_	9	Arg1	_	_
+11	tôi	_	_	PRO	_	10	poss	_	_
+12	.	_	_	PUNCT	_	5	Rel	_	_
+
+# id = 18
+1	em	_	_	N	_	3	Arg0	_	_
+2	đã	_	_	ADV	_	3	Arg0	_	_
+3	bắt đầu	_	_	V	_	16	time	_	_
+4	sợ	_	_	V	_	3	compound	_	_
+5	mình	_	_	PRO	_	6	Arg0	_	_
+6	nhầm	_	_	V	_	3	Arg1	_	_
+7	hành tinh	_	_	N	_	6	Arg1	_	_
+8	,	_	_	PUNCT	_	_	_	_	_
+9	thì	_	_	C	_	_	_	_	_
+10	một	_	_	NUM	_	12	quant	_	_
+11	cái	_	_	NC	_	12	classifier	_	_
+12	vòng	_	_	N	_	16	Arg0	_	_
+13	mầu	_	_	ADJ	_	12	Arg2	_	_
+14	ánh	_	_	N	_	15	classifier	_	_
+15	trăng	_	_	N	_	13	poss	_	_
+16	động đậy	_	_	V	_	_	_	_	_
+17	trong	_	_	N	_	18	direction	_	_
+18	cát	_	_	N	_	16	location	_	_
+19	.	_	_	PUNCT	_	16	Rel	_	_
+
+# id = 19
+1	ngôi	_	_	NC	_	2	classifier	_	_
+2	sao	_	_	N	_	7	Arg0	_	_
+3	của	_	_	PRE	_	_	_	_	_
+4	tôi	_	_	PRO	_	2	poss	_	_
+5	sẽ	_	_	ADV	_	_	_	_	_
+6	lại	_	_	ADV	_	_	_	_	_
+7	ở	_	_	V	_	_	_	_	_
+8	đúng	_	_	ADJ	_	_	_	_	_
+9	bên	_	_	PRE	_	11	beneficiary	_	_
+10	trên	_	_	PRE	_	11	direction	_	_
+11	chỗ	_	_	N	_	7	Arg2	_	_
+12	tôi	_	_	PRO	_	13	Arg0	_	_
+13	rơi	_	_	V	_	11	Arg1	_	_
+14	xuống	_	_	V	_	13	compound	_	_
+15	năm ngoái	_	_	PRE	_	13	time	_	_
+16	...	_	_	PUNCT	_	7	Rel	_	_
+
+# id = 20
+1	ông	_	_	N	_	3	Arg0	_	_
+2	sẽ	_	_	ADV	_	3	tense	_	_
+3	bảo	_	_	V	_	17	Arg1-of	_	_
+4	họ	_	_	PRO	_	3	accompanier	_	_
+5	:	_	_	PUNCT	_	_	_	_	_
+6		_	_	_	_	_	_	_	_
+7	phải	_	_	ADJ	_	17	mod	_	_
+8	,	_	_	PUNCT	_	_	_	_	_
+9	các	_	_	DET	_	11	quant	_	_
+10	ngôi	_	_	NC	_	11	classifier	_	_
+11	sao	_	_	N	_	17	Arg0	_	_
+12	,	_	_	PUNCT	_	_	_	_	_
+13	lúc	_	_	N	_	17	time	_	_
+14	nào	_	_	PRO	_	13	mod	_	_
+15	chúng	_	_	PRO	_	17	Arg0	_	_
+16	cũng	_	_	ADV	_	17	mod	_	_
+17	làm	_	_	V	_	_	_	_	_
+18	cho	_	_	PRE	_	_	_	_	_
+19	mình	_	_	PRO	_	17	beneficiary	_	_
+20	cười	_	_	V	_	19	Arg0-of	_	_
+21	!	_	_	PUNCT	_	_	_	_	_
+22		_	_	_	_	_	_	_	_
+23	.	_	_	PUNCT	_	17	Rel	_	_
+
+# id = 21
+1	bởi vì	_	_	C	_	_	_	_	_
+2	chính	_	_	PRT	_	4	mod	_	_
+3	là	_	_	AUX	_	_	_	_	_
+4	nàng	_	_	N	_	8	cause	_	_
+5	mà	_	_	C	_	8	concession	_	_
+6	tôi	_	_	PRO	_	8	Arg0	_	_
+7	đã	_	_	ADV	_	8	tense	_	_
+8	đặt	_	_	V	_	_	_	_	_
+9	chính	_	_	PRT	_	10	mod	_	_
+10	dưới	_	_	PRE	_	12	direction	_	_
+11	bầu	_	_	N	_	12	location	_	_
+12	kính	_	_	N	_	8	location	_	_
+13	.	_	_	PUNCT	_	8	Rel	_	_
+
+# id = 22
+1	-	_	_	PUNCT	_	_	_	_	_
+2	à	_	_	I	_	_	_	_	_
+3	!	_	_	PUNCT	_	_	_	_	_
+
+# id = 23
+1	-	_	_	PUNCT	_	_	_	_	_
+2	ồ	_	_	I	_	4	mode-expressive	_	_
+3	!	_	_	PUNCT	_	_	_	_	_
+4	được	_	_	ADJ	_	_	_	_	_
+5	cả	_	_	PRT	_	4	mod	_	_
+6	thôi	_	_	PRT	_	4	mod	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	em	_	_	N	_	9	Arg0	_	_
+9	nói	_	_	V	_	4	Arg0-of	_	_
+10	,	_	_	PUNCT	_	_	_	_	_
+11	trẻ con	_	_	N	_	13	Arg0	_	_
+12	chúng	_	_	PRO	_	13	Arg0	_	_
+13	hiểu	_	_	V	_	4	Arg0	_	_
+14	hết	_	_	NUM	_	13	mod	_	_
+15	.	_	_	PUNCT	_	4	Rel	_	_
+
+# id = 24
+1	em	_	_	N	_	3	Arg0	_	_
+2	không	_	_	ADV	_	3	polarity	_	_
+3	lường	_	_	V	_	_	_	_	_
+4	được	_	_	ADV	_	3	mod	_	_
+5	hiểm nguy	_	_	ADJ	_	3	Arg1	_	_
+6	,	_	_	PUNCT	_	_	_	_	_
+7	tôi	_	_	PRO	_	8	Arg0	_	_
+8	nghĩ	_	_	V	_	3	Arg1-of	_	_
+9	thầm	_	_	ADJ	_	8	mod	_	_
+10	.	_	_	PUNCT	_	3	Rel	_	_
+
+# id = 25
+1	tôi	_	_	PRO	_	2	Arg0	_	_
+2	đáp	_	_	V	_	8	op1	_	_
+3	lại	_	_	V	_	2	compound	_	_
+4	''	_	_	_	_	_	_	_	_
+5	đúng	_	_	ADJ	_	2	Arg2	_	_
+6	thế	_	_	PRT	_	5	mod	_	_
+7	''	_	_	_	_	_	_	_	_
+8	và	_	_	C	_	_	_	_	_
+9	tôi	_	_	PRO	_	10	Arg0	_	_
+10	nhìn	_	_	V	_	8	op2	_	_
+11	,	_	_	PUNCT	_	_	_	_	_
+12	không	_	_	ADV	_	13	polarity	_	_
+13	nói	_	_	V	_	10	op1	_	_
+14	,	_	_	PUNCT	_	_	_	_	_
+15	những	_	_	DET	_	_	_	_	_
+16	gợn	_	_	N	_	17	classifier	_	_
+17	sóng	_	_	N	_	10	Arg1	_	_
+18	của	_	_	PRE	_	_	_	_	_
+19	cát	_	_	N	_	17	poss	_	_
+20	dưới	_	_	PRE	_	21	direction	_	_
+21	ánh	_	_	N	_	17	location	_	_
+22	trăng	_	_	N	_	21	poss	_	_
+23	.	_	_	PUNCT	_	8	Rel	_	_
+
+# id = 26
+1	tôi	_	_	PRO	_	3	Arg0	_	_
+2	vốn	_	_	ADV	_	3	mod	_	_
+3	tự hào	_	_	V	_	_	_	_	_
+4	biết bao	_	_	ADV	_	3	Arg2	_	_
+5	với	_	_	C	_	_	_	_	_
+6	bức	_	_	NC	_	7	classifier	_	_
+7	vẽ	_	_	V	_	3	accompanier	_	_
+8	các	_	_	DET	_	10	quant	_	_
+9	cây	_	_	N	_	10	classifier	_	_
+10	baobap	_	_	NB	_	7	Arg1	_	_
+11	!	_	_	PUNCT	_	3	Rel	_	_
+
+# id = 27
+1	-	_	_	PUNCT	_	_	_	_	_
+2	xa	_	_	ADJ	_	_	_	_	_
+3	hơn	_	_	ADV	_	2	mod	_	_
+4	nhiều	_	_	ADJ	_	2	mod	_	_
+5	lắm	_	_	ADV	_	4	mod	_	_
+6	...	_	_	PUNCT	_	_	_	_	_
+7	khó	_	_	ADJ	_	2	Arg1-of	_	_
+8	hơn	_	_	ADV	_	7	mod	_	_
+9	nhiều	_	_	ADJ	_	7	mod	_	_
+10	lắm	_	_	ADV	_	9	mod	_	_
+11	...	_	_	PUNCT	_	2	Rel	_	_
+
+# id = 28
+1	ông	_	_	N	_	3	Arg0	_	_
+2	chỉ	_	_	ADV	_	3	mod	_	_
+3	có	_	_	PRT	_	_	_	_	_
+4	việc	_	_	N	_	5	mod	_	_
+5	đi	_	_	V	_	3	Arg1	_	_
+6	chầm chậm	_	_	ADJ	_	5	Arg2	_	_
+7	để	_	_	PRE	_	_	_	_	_
+8	lúc	_	_	N	_	11	time	_	_
+9	nào	_	_	PRO	_	8	mod	_	_
+10	cũng	_	_	ADV	_	11	mod	_	_
+11	ở	_	_	V	_	3	purpose	_	_
+12	dưới	_	_	PRE	_	14	direction	_	_
+13	ánh	_	_	N	_	14	classifier	_	_
+14	mặt trời	_	_	N	_	11	location	_	_
+15	cả	_	_	PRT	_	_	_	_	_
+16	.	_	_	PUNCT	_	3	Rel	_	_
+
+# id = 29
+1	tiếng vang	_	_	N	_	2	Arg0	_	_
+2	đáp	_	_	V	_	_	_	_	_
+3	lại	_	_	V	_	2	compound	_	_
+4	.	_	_	PUNCT	_	2	Rel	_	_
+
+# id = 30
+1	khi	_	_	N	_	9	time	_	_
+2	nào	_	_	PRO	_	1	amr-unknow	_	_
+3	ông	_	_	N	_	5	Arg0	_	_
+4	muốn	_	_	AUX	_	5	mod	_	_
+5	nghỉ	_	_	V	_	1	time	_	_
+6	,	_	_	PUNCT	_	_	_	_	_
+7	ông	_	_	N	_	9	Arg0	_	_
+8	cứ	_	_	PRT	_	_	_	_	_
+9	bước	_	_	V	_	_	_	_	_
+10	đi	_	_	V	_	9	compound	_	_
+11	...	_	_	PUNCT	_	9	Rel	_	_
+
+# id = 31
+1	có	_	_	V	_	6	Arg1-of	_	_
+2	nguy cơ	_	_	N	_	1	Arg1	_	_
+3	là	_	_	C	_	_	_	_	_
+4	ta	_	_	PRO	_	6	Arg0	_	_
+5	có thể	_	_	ADV	_	6	possible-01	_	_
+6	khóc	_	_	V	_	_	_	_	_
+7	một tí	_	_	DET	_	6	quant	_	_
+8	nếu	_	_	C	_	_	_	_	_
+9	ta	_	_	PRO	_	10	Arg0	_	_
+10	lỡ	_	_	V	_	6	condition	_	_
+11	để	_	_	V	_	10	compound	_	_
+12	cho	_	_	C	_	_	_	_	_
+13	ai	_	_	PRO	_	14	Arg0	_	_
+14	cảm hoá	_	_	V	_	10	Arg1	_	_
+15	mình	_	_	PRO	_	14	Arg1	_	_
+16	...	_	_	PUNCT	_	6	Rel	_	_
+
+# id = 32
+1	-	_	_	PUNCT	_	_	_	_	_
+2	nhưng mà	_	_	C	_	6	constract	_	_
+3	chú	_	_	N	_	6	Arg0	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	chú	_	_	N	_	_	_	_	_
+6	đến	_	_	V	_	_	_	_	_
+7	từ	_	_	PRE	_	_	_	_	_
+8	xa	_	_	ADJ	_	6	mod	_	_
+9	.	_	_	PUNCT	_	6	Rel	_	_
+
+# id = 33
+1	-	_	_	PUNCT	_	_	_	_	_
+2	ông	_	_	N	_	3	Arg0	_	_
+3	biết	_	_	V	_	_	_	_	_
+4	đấy	_	_	PRT	_	3	mod	_	_
+5	.	_	_	PUNCT	_	3	Rel	_	_
+
+# id = 34
+1	-	_	_	PUNCT	_	_	_	_	_
+2	xin	_	_	V	_	_	_	_	_
+3	chào	_	_	V	_	2	compound	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	người	_	_	N	_	7	Arg0	_	_
+6	lái buôn	_	_	N	_	5	Arg0-of	_	_
+7	nói	_	_	V	_	2	Arg1-of	_	_
+8	.	_	_	PUNCT	_	2	Rel	_	_
+
+# id = 35
+1	-	_	_	PUNCT	_	_	_	_	_
+2	xin	_	_	V	_	_	_	_	_
+3	chào	_	_	V	_	2	compound	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	ông hoàng	_	_	N	_	7	Arg0	_	_
+6	nhỏ	_	_	ADJ	_	5	mod	_	_
+7	nói	_	_	V	_	2	Arg1-of	_	_
+8	bâng quơ	_	_	ADJ	_	7	mod	_	_
+9	.	_	_	PUNCT	_	2	Rel	_	_
+
+# id = 36
+1	-	_	_	PUNCT	_	_	_	_	_
+2	ta	_	_	PRO	_	3	Arg0	_	_
+3	xếp	_	_	V	_	_	_	_	_
+4	hành khách	_	_	N	_	6	Arg1	_	_
+5	,	_	_	PUNCT	_	_	_	_	_
+6	thành	_	_	V	_	3	Arg1	_	_
+7	từng	_	_	PRO	_	8	quant	_	_
+8	gói	_	_	NC	_	10	classifier	_	_
+9	nghìn	_	_	NUM	_	10	quant	_	_
+10	người	_	_	N	_	6	Arg2	_	_
+11	một	_	_	NUM	_	10	quant	_	_
+12	,	_	_	PUNCT	_	_	_	_	_
+13	người	_	_	N	_	15	Arg0	_	_
+14	bẻ ghi	_	_	V	_	15	compound	_	_
+15	nói	_	_	V	_	3	Arg1-of	_	_
+16	.	_	_	PUNCT	_	3	Rel	_	_
+
+# id = 37
+1	cho	_	_	V	_	_	_	_	_
+2	tôi	_	_	PRO	_	1	Arg1	_	_
+3	uống	_	_	V	_	2	Arg0-of	_	_
+4	đi	_	_	ADV	_	3	mod	_	_
+5	...	_	_	PUNCT	_	1	Rel	_	_
+
+# id = 38
+1	-	_	_	PUNCT	_	_	_	_	_
+2	con	_	_	NC	_	3	classifier	_	_
+3	mắt	_	_	N	_	5	Arg0	_	_
+4	vốn	_	_	ADV	_	5	mod	_	_
+5	mù loà	_	_	ADJ	_	_	_	_	_
+6	.	_	_	PUNCT	_	5	Rel	_	_
+
+# id = 39
+1	-	_	_	PUNCT	_	_	_	_	_
+2	đó	_	_	N	_	5	domain	_	_
+3	cũng	_	_	ADV	_	5	mod	_	_
+4	là	_	_	AUX	_	_	_	_	_
+5	cái	_	_	NC	_	_	_	_	_
+6	bị	_	_	AUX	_	7	mod	_	_
+7	quên	_	_	V	_	5	Arg0-of	_	_
+8	lâu	_	_	ADJ	_	7	Arg2	_	_
+9	quá	_	_	ADV	_	8	mod	_	_
+10	rồi	_	_	PRT	_	_	_	_	_
+11	,	_	_	PUNCT	_	_	_	_	_
+12	cáo	_	_	N	_	13	Arg0	_	_
+13	nói	_	_	V	_	5	Arg1-of	_	_
+14	.	_	_	PUNCT	_	5	Rel	_	_
+
+# id = 40
+1	các	_	_	DET	_	4	quant	_	_
+2	cánh	_	_	N	_	3	classifier	_	_
+3	đồng	_	_	N	_	4	classifier	_	_
+4	lúa mì	_	_	N	_	8	Arg0	_	_
+5	đối với	_	_	C	_	_	_	_	_
+6	tớ	_	_	PRO	_	4	beneficiary	_	_
+7	chẳng	_	_	ADV	_	8	polarity	_	_
+8	có	_	_	V	_	_	_	_	_
+9	gì	_	_	PRO	_	8	Arg1	_	_
+10	khêu gợi	_	_	ADJ	_	8	Arg2	_	_
+11	.	_	_	PUNCT	_	8	Rel	_	_
+
+# id = 41
+1	phút	_	_	NU	_	_	_	_	_
+2	.	_	_	PUNCT	_	_	_	_	_
+
+# id = 42
+1	thế thì	_	_	C	_	_	_	_	_
+2	thứ năm	_	_	N	_	5	domain	_	_
+3	là	_	_	AUX	_	_	_	_	_
+4	một	_	_	NUM	_	5	quant	_	_
+5	ngày	_	_	N	_	13	dayperiod	_	_
+6	kỳ diệu	_	_	ADJ	_	5	mod	_	_
+7	!	_	_	PUNCT	_	_	_	_	_
+8	hôm	_	_	N	_	10	time	_	_
+9	ấy	_	_	PRO	_	8	mod	_	_
+10	tớ	_	_	PRO	_	13	Arg0	_	_
+11	có thể	_	_	ADV	_	13	possible-01	_	_
+12	rong	_	_	V	_	13	compound	_	_
+13	chơi	_	_	V	_	_	_	_	_
+14	đến	_	_	PRT	_	_	_	_	_
+15	tận	_	_	ADJ	_	17	mod	_	_
+16	vườn	_	_	N	_	17	classifier	_	_
+17	nho	_	_	N	_	13	destination	_	_
+18	.	_	_	PUNCT	_	13	Rel	_	_
+
+# id = 43
+1	-	_	_	PUNCT	_	_	_	_	_
+2	các	_	_	DET	_	3	quant	_	_
+3	nàng	_	_	N	_	_	_	_	_
+4	là	_	_	AUX	_	_	_	_	_
+5	ai	_	_	PRO	_	3	amr-unknow	_	_
+6	?	_	_	PUNCT	_	3	Rel	_	_
+
+# id = 44
+1	tôi	_	_	PRO	_	2	Arg0	_	_
+2	đến	_	_	V	_	_	_	_	_
+3	bên	_	_	PRE	_	_	_	_	_
+4	bức	_	_	NC	_	5	classifier	_	_
+5	tường	_	_	N	_	2	Arg2	_	_
+6	vừa	_	_	ADV	_	8	mod	_	_
+7	đúng	_	_	ADJ	_	8	mod	_	_
+8	lúc	_	_	N	_	2	time	_	_
+9	để	_	_	PRE	_	_	_	_	_
+10	đón	_	_	V	_	2	purpose	_	_
+11	trong	_	_	PRE	_	_	_	_	_
+12	vòng tay	_	_	N	_	10	domain	_	_
+13	tôi	_	_	PRO	_	12	poss	_	_
+14	ông hoàng	_	_	N	_	10	Arg1	_	_
+15	bé nhỏ	_	_	ADJ	_	14	mod	_	_
+16	,	_	_	PUNCT	_	_	_	_	_
+17	trắng bệch	_	_	ADJ	_	14	mod	_	_
+18	như	_	_	C	_	_	_	_	_
+19	tuyết	_	_	N	_	17	accompanier	_	_
+20	.	_	_	PUNCT	_	2	Rel	_	_
+
+# id = 45
+1	còn	_	_	C	_	2	amr-unknow	_	_
+2	núi non	_	_	N	_	_	_	_	_
+3	?	_	_	PUNCT	_	2	Rel	_	_
+
+# id = 46
+1	rồi	_	_	C	_	_	_	_	_
+2	đến	_	_	PRE	_	1	mod	_	_
+3	những	_	_	DET	_	_	_	_	_
+4	người	_	_	N	_	1	op2	_	_
+5	Bắc Mỹ	_	_	NNP	_	4	location	_	_
+6	.	_	_	PUNCT	_	1	Rel	_	_
+
+# id = 47
+1	-	_	_	PUNCT	_	_	_	_	_
+2	tinh cầu	_	_	N	_	5	Arg0	_	_
+3	của	_	_	PRE	_	_	_	_	_
+4	ông	_	_	N	_	2	poss	_	_
+5	đẹp	_	_	ADJ	_	_	_	_	_
+6	quá	_	_	ADV	_	5	mod	_	_
+7	.	_	_	PUNCT	_	5	Rel	_	_
+
+# id = 48
+1	cậu	_	_	NC	_	2	Arg0	_	_
+2	có	_	_	V	_	_	_	_	_
+3	trách nhiệm	_	_	N	_	2	Arg1	_	_
+4	đối với	_	_	C	_	_	_	_	_
+5	hoa hồng	_	_	N	_	2	beneficiary	_	_
+6	của	_	_	PRE	_	_	_	_	_
+7	cậu	_	_	NC	_	5	poss	_	_
+8	.	_	_	PUNCT	_	2	Rel	_	_
+
+# id = 49
+1	ấy	_	_	PRO	_	4	domain	_	_
+2	là	_	_	AUX	_	_	_	_	_
+3	cơn	_	_	NC	_	4	classifier	_	_
+4	nuối tiếc	_	_	V	_	_	_	_	_
+5	đầu tiên	_	_	ADJ	_	4	ord	_	_
+6	của	_	_	PRE	_	_	_	_	_
+7	em	_	_	N	_	4	poss	_	_
+8	.	_	_	PUNCT	_	4	Rel	_	_
+
+# id = 50
+1	-	_	_	PUNCT	_	_	_	_	_
+2	anh	_	_	N	_	4	Arg0	_	_
+3	không	_	_	ADV	_	4	polarity	_	_
+4	mạnh	_	_	ADJ	_	_	_	_	_
+5	lắm	_	_	ADV	_	4	mod	_	_
+6	đâu	_	_	PRT	_	4	mod	_	_
+7	...	_	_	PUNCT	_	4	Rel	_	_
+
+# id = 51
+1	-	_	_	PUNCT	_	_	_	_	_
+2	năm trăm linh một triệu	_	_	NUM	_	_	_	_	_
+3	cái	_	_	NC	_	4	classifier	_	_
+4	gì	_	_	NNP	_	2	amr-unknow	_	_
+5	?	_	_	PUNCT	_	2	Rel	_	_
+
+# id = 52
+1	và	_	_	C	_	_	_	_	_
+2	một	_	_	NUM	_	3	quant	_	_
+3	lần	_	_	N	_	13	time	_	_
+4	nữa	_	_	ADV	_	3	mod	_	_
+5	,	_	_	PUNCT	_	_	_	_	_
+6	chẳng	_	_	ADV	_	7	polarity	_	_
+7	hiểu	_	_	V	_	13	cause	_	_
+8	tại	_	_	PRE	_	7	domain	_	_
+9	sao	_	_	PRO	_	8	mod	_	_
+10	,	_	_	PUNCT	_	_	_	_	_
+11	tôi	_	_	PRO	_	13	Arg0	_	_
+12	cảm	_	_	V	_	13	compound	_	_
+13	thấy	_	_	V	_	1	op2	_	_
+14	buồn bã	_	_	ADJ	_	13	Arg2	_	_
+15	một	_	_	NUM	_	17	quant	_	_
+16	cách	_	_	N	_	17	classifier	_	_
+17	kỳ lạ	_	_	ADJ	_	14	mod	_	_
+18	.	_	_	PUNCT	_	1	Rel	_	_
+
+# id = 53
+1	bởi vì	_	_	C	_	_	_	_	_
+2	đó	_	_	N	_	5	domain	_	_
+3	là	_	_	AUX	_	_	_	_	_
+4	đoá	_	_	NC	_	5	classifier	_	_
+5	hồng	_	_	N	_	_	_	_	_
+6	của	_	_	PRE	_	_	_	_	_
+7	tôi	_	_	PRO	_	5	poss	_	_
+8	.	_	_	PUNCT	_	5	Rel	_	_
+
+# id = 54
+1	-	_	_	PUNCT	_	_	_	_	_
+2	nghề	_	_	N	_	5	Arg0	_	_
+3	của	_	_	PRE	_	_	_	_	_
+4	ta	_	_	PRO	_	2	poss	_	_
+5	làm	_	_	V	_	8	Arg0	_	_
+6	đây	_	_	PRO	_	5	location	_	_
+7	thật	_	_	ADV	_	8	degree	_	_
+8	kinh khủng	_	_	V	_	_	_	_	_
+9	.	_	_	PUNCT	_	8	Rel	_	_
+
+# id = 55
+1	mình	_	_	PRO	_	2	Arg0	_	_
+2	buồn	_	_	ADJ	_	_	_	_	_
+3	quá	_	_	ADV	_	2	mod	_	_
+4	.	_	_	PUNCT	_	2	Rel	_	_
+
+# id = 56
+1	-	_	_	PUNCT	_	_	_	_	_
+2	ta	_	_	PRO	_	5	Arg0	_	_
+3	cũng	_	_	ADV	_	5	mod	_	_
+4	không	_	_	ADV	_	5	polarity	_	_
+5	biết	_	_	V	_	_	_	_	_
+6	nốt	_	_	ADV	_	5	mod	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	nhà	_	_	N	_	9	classifier	_	_
+9	địa lý	_	_	N	_	10	Arg0	_	_
+10	nói	_	_	V	_	5	Arg1	_	_
+11	.	_	_	PUNCT	_	5	Rel	_	_
+
+# id = 57
+1	nhưng	_	_	C	_	8	constract	_	_
+2	bước	_	_	N	_	3	classifier	_	_
+3	chân	_	_	N	_	8	Arg0	_	_
+4	của	_	_	PRE	_	_	_	_	_
+5	cậu	_	_	NC	_	3	poss	_	_
+6	lại	_	_	ADV	_	_	_	_	_
+7	sẽ	_	_	ADV	_	8	tense	_	_
+8	gọi	_	_	V	_	_	_	_	_
+9	tớ	_	_	PRO	_	8	Arg1	_	_
+10	từ	_	_	PRE	_	_	_	_	_
+11	hang	_	_	N	_	8	source	_	_
+12	chạy	_	_	V	_	9	Arg0-of	_	_
+13	ra	_	_	V	_	12	compound	_	_
+14	,	_	_	PUNCT	_	_	_	_	_
+15	như	_	_	C	_	_	_	_	_
+16	là	_	_	C	_	_	_	_	_
+17	một	_	_	NUM	_	19	quant	_	_
+18	điệu	_	_	N	_	19	classifier	_	_
+19	nhạc	_	_	N	_	12	resemble-01	_	_
+20	.	_	_	PUNCT	_	8	Rel	_	_
+
+# id = 58
+1	-	_	_	PUNCT	_	_	_	_	_
+2	ta	_	_	PRO	_	4	Arg0	_	_
+3	không	_	_	ADV	_	4	polarity	_	_
+4	biết	_	_	V	_	_	_	_	_
+5	,	_	_	PUNCT	_	_	_	_	_
+6	nhà	_	_	N	_	7	classifier	_	_
+7	địa lý	_	_	N	_	8	Arg0	_	_
+8	nói	_	_	V	_	4	Arg1	_	_
+9	.	_	_	PUNCT	_	4	Rel	_	_
+
+# id = 59
+1	nhưng	_	_	C	_	_	_	_	_
+2	có	_	_	V	_	_	_	_	_
+3	cái	_	_	NC	_	2	Arg1	_	_
+4	gì	_	_	PRO	_	3	amr-unknow	_	_
+5	đó	_	_	N	_	4	mod	_	_
+6	làm	_	_	V	_	2	Arg1	_	_
+7	em	_	_	N	_	6	Arg1	_	_
+8	yên tâm	_	_	ADJ	_	6	Arg2	_	_
+9	:	_	_	PUNCT	_	2	Rel	_	_
+
+# id = 60
+1	đợi	_	_	V	_	11	time	_	_
+2	cho	_	_	C	_	_	_	_	_
+3	nhà	_	_	N	_	4	classifier	_	_
+4	thám hiểm	_	_	V	_	5	Arg0	_	_
+5	cung cấp	_	_	V	_	1	Arg1	_	_
+6	bằng chứng	_	_	N	_	5	Arg1	_	_
+7	rồi	_	_	ADV	_	5	mod	_	_
+8	,	_	_	PUNCT	_	_	_	_	_
+9	người ta	_	_	N	_	11	Arg0	_	_
+10	mới	_	_	ADV	_	11	mod	_	_
+11	ghi	_	_	V	_	_	_	_	_
+12	lại	_	_	V	_	11	compound	_	_
+13	bằng	_	_	PRE	_	_	_	_	_
+14	bút	_	_	N	_	15	classifier	_	_
+15	mực	_	_	N	_	11	manner	_	_
+16	.	_	_	PUNCT	_	11	Rel	_	_
+
+# id = 61
+1	-	_	_	PUNCT	_	_	_	_	_
+2	kìa	_	_	NNP	_	_	_	_	_
+3	!	_	_	PUNCT	_	_	_	_	_
+
+# id = 62
+1	-	_	_	PUNCT	_	_	_	_	_
+2	có	_	_	V	_	_	_	_	_
+3	những	_	_	DET	_	_	_	_	_
+4	ngôi	_	_	NC	_	5	classifier	_	_
+5	sao	_	_	N	_	2	Arg1	_	_
+6	được	_	_	AUX	_	7	mod	_	_
+7	thắp	_	_	V	_	5	Arg0-of	_	_
+8	sáng	_	_	ADJ	_	7	mod	_	_
+9	là	_	_	C	_	_	_	_	_
+10	để	_	_	PRE	_	_	_	_	_
+11	mỗi	_	_	DET	_	12	quant	_	_
+12	người	_	_	N	_	15	Arg0	_	_
+13	một	_	_	NUM	_	14	quant	_	_
+14	ngày kia	_	_	N	_	15	time	_	_
+15	trở	_	_	V	_	7	purpose	_	_
+16	về	_	_	V	_	15	compound	_	_
+17	ngôi	_	_	NC	_	18	classifier	_	_
+18	sao	_	_	N	_	15	Arg1	_	_
+19	của	_	_	PRE	_	_	_	_	_
+20	mình	_	_	PRO	_	18	poss	_	_
+21	?	_	_	PUNCT	_	2	Rel	_	_
+
+# id = 63
+1	có thể	_	_	ADV	_	2	possible-01	_	_
+2	dồn	_	_	V	_	_	_	_	_
+3	hết	_	_	V	_	2	compound	_	_
+4	nhân loại	_	_	N	_	5	Arg0	_	_
+5	lên	_	_	V	_	2	Arg1	_	_
+6	một	_	_	NUM	_	8	quant	_	_
+7	hòn	_	_	NC	_	8	classifier	_	_
+8	đảo	_	_	N	_	5	location	_	_
+9	bé	_	_	ADJ	_	8	mod	_	_
+10	nhất	_	_	ADV	_	9	ord	_	_
+11	trong	_	_	N	_	_	_	_	_
+12	Thái Bình Dương	_	_	NNP	_	8	prep-in	_	_
+13	.	_	_	PUNCT	_	2	Rel	_	_
+
+# id = 64
+1	-	_	_	PUNCT	_	_	_	_	_
+2	thế thì	_	_	C	_	_	_	_	_
+3	cậu	_	_	NC	_	5	Arg0	_	_
+4	chẳng	_	_	ADV	_	5	polarity	_	_
+5	được	_	_	AUX	_	2	op2	_	_
+6	gì	_	_	PRO	_	5	Arg1	_	_
+7	cả	_	_	PRT	_	_	_	_	_
+8	!	_	_	PUNCT	_	2	Rel	_	_
+
+# id = 65
+1	khi	_	_	N	_	_	_	_	_
+2	chúng	_	_	PRO	_	3	mod	_	_
+3	tôi	_	_	PRO	_	4	Arg0	_	_
+4	bước	_	_	V	_	17	time	_	_
+5	đi	_	_	V	_	4	compound	_	_
+6	,	_	_	PUNCT	_	_	_	_	_
+7	im lặng	_	_	ADJ	_	4	mod	_	_
+8	,	_	_	PUNCT	_	_	_	_	_
+9	giờ	_	_	N	_	11	Arg0	_	_
+10	này	_	_	PRO	_	9	mod	_	_
+11	qua	_	_	V	_	17	time	_	_
+12	giờ	_	_	N	_	11	Arg1	_	_
+13	khác	_	_	ADJ	_	12	mod	_	_
+14	,	_	_	PUNCT	_	_	_	_	_
+15	màn	_	_	N	_	16	classifier	_	_
+16	đêm	_	_	N	_	17	Arg0	_	_
+17	buông	_	_	V	_	19	op1	_	_
+18	xuống	_	_	V	_	17	compound	_	_
+19	và	_	_	C	_	_	_	_	_
+20	các	_	_	DET	_	_	_	_	_
+21	vì	_	_	N	_	22	classifier	_	_
+22	sao	_	_	N	_	23	Arg0	_	_
+23	bắt đầu	_	_	V	_	19	op2	_	_
+24	toả	_	_	V	_	23	compound	_	_
+25	sáng	_	_	ADJ	_	23	Arg2	_	_
+26	.	_	_	PUNCT	_	19	Rel	_	_
+
+# id = 66
+1	-	_	_	PUNCT	_	_	_	_	_
+2	nhưng	_	_	C	_	4	constract	_	_
+3	thế nào	_	_	PRO	_	4	manner	_	_
+4	gọi	_	_	V	_	_	_	_	_
+5	là	_	_	C	_	_	_	_	_
+6	''	_	_	_	_	_	_	_	_
+7	phù du	_	_	N	_	4	Arg1	_	_
+8	''	_	_	_	_	_	_	_	_
+9	?	_	_	PUNCT	_	3	amr-unknow	_	_
+10	ông hoàng	_	_	N	_	12	Arg0	_	_
+11	nhỏ	_	_	ADJ	_	10	mod	_	_
+12	lặp	_	_	V	_	4	Arg1-of	_	_
+13	lại	_	_	V	_	12	compound	_	_
+14	,	_	_	PUNCT	_	_	_	_	_
+15	suốt	_	_	ADJ	_	16	mod	_	_
+16	đời	_	_	N	_	22	time	_	_
+17	,	_	_	PUNCT	_	_	_	_	_
+18	em	_	_	N	_	22	Arg0	_	_
+19	đã	_	_	ADV	_	_	_	_	_
+20	không	_	_	ADV	_	21	polarity	_	_
+21	chịu	_	_	V	_	22	compound	_	_
+22	bỏ qua	_	_	V	_	4	Arg0-of	_	_
+23	một	_	_	NUM	_	25	quant	_	_
+24	câu	_	_	N	_	25	classifier	_	_
+25	hỏi	_	_	V	_	22	Arg1	_	_
+26	,	_	_	PUNCT	_	_	_	_	_
+27	một khi	_	_	N	_	29	time	_	_
+28	đã	_	_	ADV	_	29	tense	_	_
+29	nêu	_	_	V	_	22	time	_	_
+30	nó	_	_	PRO	_	29	Arg1	_	_
+31	ra	_	_	V	_	29	compound	_	_
+32	.	_	_	PUNCT	_	4	Rel	_	_
+
+# id = 67
+1	-	_	_	PUNCT	_	_	_	_	_
+2	chính	_	_	PRT	_	_	_	_	_
+3	thời giờ	_	_	N	_	6	Arg0	_	_
+4	tôi	_	_	PRO	_	3	poss	_	_
+5	đã	_	_	ADV	_	6	tense	_	_
+6	mất	_	_	V	_	_	_	_	_
+7	cho	_	_	C	_	_	_	_	_
+8	bông	_	_	N	_	9	classifier	_	_
+9	hồng	_	_	N	_	6	beneficiary	_	_
+10	của	_	_	PRE	_	_	_	_	_
+11	tôi	_	_	PRO	_	9	poss	_	_
+12	...	_	_	PUNCT	_	6	Rel	_	_
+
+# id = 68
+1	-	_	_	PUNCT	_	_	_	_	_
+2	em	_	_	N	_	4	Arg0	_	_
+3	muốn	_	_	AUX	_	4	mod	_	_
+4	nói	_	_	V	_	_	_	_	_
+5	sao	_	_	PRO	_	4	amr-unknow	_	_
+6	?	_	_	PUNCT	_	4	Rel	_	_
+
+# id = 69
+1	-	_	_	PUNCT	_	_	_	_	_
+2	loài người	_	_	N	_	4	Arg0	_	_
+3	đã	_	_	ADV	_	4	tense	_	_
+4	quên	_	_	V	_	_	_	_	_
+5	mất	_	_	PRT	_	4	mod	_	_
+6	chân lí	_	_	N	_	4	Arg1	_	_
+7	này	_	_	PRO	_	6	mod	_	_
+8	,	_	_	PUNCT	_	_	_	_	_
+9	cáo	_	_	N	_	10	Arg0	_	_
+10	nói	_	_	V	_	4	Arg1-of	_	_
+11	.	_	_	PUNCT	_	4	Rel	_	_
+
+# id = 70
+1	còn	_	_	C	_	7	mod	_	_
+2	tôi	_	_	PRO	_	1	Arg1	_	_
+3	,	_	_	PUNCT	_	_	_	_	_
+4	tôi	_	_	PRO	_	7	Arg0	_	_
+5	không thể	_	_	ADV	_	7	polarity	_	_
+6	nào	_	_	PRT	_	5	mode	_	_
+7	cử động	_	_	V	_	_	_	_	_
+8	được	_	_	ADV	_	7	mod	_	_
+9	.	_	_	PUNCT	_	7	Rel	_	_
+
+# id = 71
+1	bây giờ	_	_	PRO	_	4	time	_	_
+2	ta	_	_	PRO	_	4	Arg0	_	_
+3	mới	_	_	ADV	_	4	mod	_	_
+4	gặp	_	_	V	_	_	_	_	_
+5	được	_	_	ADV	_	4	mod	_	_
+6	một	_	_	NUM	_	7	quant	_	_
+7	nghề	_	_	N	_	4	Arg1	_	_
+8	ra	_	_	V	_	7	Arg0-of	_	_
+9	nghề	_	_	N	_	8	Arg1	_	_
+10	.	_	_	PUNCT	_	4	Rel	_	_
+
+# id = 72
+1	tớ	_	_	PRO	_	3	Arg0	_	_
+2	đưa mắt	_	_	V	_	3	compound	_	_
+3	liếc	_	_	V	_	7	op1	_	_
+4	nhìn	_	_	V	_	3	compound	_	_
+5	cậu	_	_	NC	_	3	Arg1	_	_
+6	,	_	_	PUNCT	_	_	_	_	_
+7	và	_	_	C	_	_	_	_	_
+8	cậu	_	_	NC	_	10	Arg0	_	_
+9	chẳng	_	_	ADV	_	10	polarity	_	_
+10	nói	_	_	V	_	7	op2	_	_
+11	gì	_	_	PRO	_	10	Arg1	_	_
+12	cả	_	_	PRT	_	11	mod	_	_
+13	.	_	_	PUNCT	_	7	Rel	_	_
+
+# id = 73
+1	-	_	_	PUNCT	_	_	_	_	_
+2	các	_	_	DET	_	3	quant	_	_
+3	anh	_	_	N	_	_	_	_	_
+4	là	_	_	AUX	_	_	_	_	_
+5	ai	_	_	PRO	_	3	amr-unknow	_	_
+6	!	_	_	PUNCT	_	3	Rel	_	_
+
+# id = 74
+1	ta	_	_	PRO	_	4	Arg0	_	_
+2	không	_	_	ADV	_	4	polarity	_	_
+3	trông	_	_	V	_	4	compound	_	_
+4	thấy	_	_	V	_	_	_	_	_
+5	gì	_	_	ADV	_	4	amr-unknow	_	_
+6	hết	_	_	PRT	_	4	mod	_	_
+7	.	_	_	PUNCT	_	4	Rel	_	_
+
+# id = 75
+1	-	_	_	PUNCT	_	_	_	_	_
+2	hành tinh	_	_	N	_	_	_	_	_
+3	trái đất	_	_	N	_	2	mod	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	nhà	_	_	N	_	6	classifier	_	_
+6	địa lý	_	_	N	_	7	Arg0	_	_
+7	trả lời	_	_	V	_	2	Arg1-of	_	_
+8	.	_	_	PUNCT	_	2	Rel	_	_
+
+# id = 76
+1	nhưng	_	_	C	_	2	constract	_	_
+2	biết đâu đấy	_	_	G	_	_	_	_	_
+3	.	_	_	PUNCT	_	2	Rel	_	_
+
+# id = 77
+1	cái	_	_	NC	_	3	Arg1	_	_
+2	ta	_	_	PRO	_	3	Arg0	_	_
+3	kể	_	_	V	_	_	_	_	_
+4	tới	_	_	PRE	_	3	mod	_	_
+5	,	_	_	PUNCT	_	_	_	_	_
+6	đó	_	_	N	_	_	_	_	_
+7	là	_	_	AUX	_	_	_	_	_
+8	quả	_	_	N	_	9	classifier	_	_
+9	núi	_	_	N	_	3	Arg1	_	_
+10	.	_	_	PUNCT	_	3	Rel	_	_
+
+# id = 78
+1	em	_	_	N	_	4	Arg0	_	_
+2	chưa	_	_	ADV	_	4	polarity	_	_
+3	hề	_	_	PRT	_	4	mod	_	_
+4	nhìn	_	_	V	_	_	_	_	_
+5	thấy	_	_	V	_	4	compound	_	_
+6	một	_	_	NUM	_	7	quant	_	_
+7	hành tinh	_	_	N	_	4	Arg1	_	_
+8	uy nghi	_	_	ADJ	_	7	mod	_	_
+9	như	_	_	C	_	_	_	_	_
+10	vậy	_	_	PRO	_	_	_	_	_
+11	.	_	_	PUNCT	_	4	Rel	_	_
+
+# id = 79
+1	đối với	_	_	C	_	_	_	_	_
+2	số	_	_	NUM	_	10	accompanier	_	_
+3	khác	_	_	ADJ	_	2	mod	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	chúng	_	_	PRO	_	10	domain	_	_
+6	chỉ	_	_	ADV	_	10	mod	_	_
+7	là	_	_	AUX	_	_	_	_	_
+8	những	_	_	DET	_	10	quant	_	_
+9	đốm	_	_	N	_	10	classifier	_	_
+10	sáng	_	_	ADJ	_	_	_	_	_
+11	nhỏ	_	_	ADJ	_	10	mod	_	_
+12	.	_	_	PUNCT	_	10	Rel	_	_
+
+# id = 80
+1	-	_	_	PUNCT	_	_	_	_	_
+2	em	_	_	N	_	3	Arg0	_	_
+3	có	_	_	V	_	_	_	_	_
+4	những	_	_	DET	_	5	quant	_	_
+5	dự định	_	_	N	_	3	Arg1	_	_
+6	mà	_	_	C	_	_	_	_	_
+7	tôi	_	_	PRO	_	10	Arg0	_	_
+8	không	_	_	ADV	_	10	polarity	_	_
+9	được	_	_	AUX	_	10	mod	_	_
+10	rõ	_	_	V	_	3	concession	_	_
+11	...	_	_	PUNCT	_	3	Rel	_	_
+
+# id = 81
+1	-	_	_	PUNCT	_	_	_	_	_
+2	a	_	_	I	_	_	_	_	_
+3	!	_	_	PUNCT	_	2	mode-expressive	_	_
+4	(	_	_	PUNCT	_	_	_	_	_
+5	ông hoàng	_	_	N	_	7	Arg0	_	_
+6	nhỏ	_	_	ADJ	_	5	mod	_	_
+7	thất vọng	_	_	V	_	2	Arg1-of	_	_
+8	)	_	_	PUNCT	_	_	_	_	_
+9	.	_	_	PUNCT	_	2	Rel	_	_
+
+# id = 82
+1	nhưng	_	_	C	_	4	constract	_	_
+2	rồi	_	_	C	_	_	_	_	_
+3	cáo	_	_	N	_	_	_	_	_
+4	trở lại	_	_	V	_	2	op2	_	_
+5	với	_	_	C	_	_	_	_	_
+6	ý nghĩ	_	_	N	_	4	accompanier	_	_
+7	của	_	_	PRE	_	_	_	_	_
+8	nó	_	_	PRO	_	6	poss	_	_
+9	:	_	_	PUNCT	_	2	Rel	_	_
+
+# id = 83
+1	-	_	_	PUNCT	_	_	_	_	_
+2	chúc	_	_	V	_	_	_	_	_
+3	một	_	_	NUM	_	4	quant	_	_
+4	ngày	_	_	N	_	2	dayperiod	_	_
+5	tốt lành	_	_	ADJ	_	4	mod	_	_
+6	,	_	_	PUNCT	_	_	_	_	_
+7	em	_	_	N	_	8	Arg0	_	_
+8	nói	_	_	V	_	2	Arg1-of	_	_
+9	.	_	_	PUNCT	_	2	Rel	_	_
+
+# id = 84
+1	cậu	_	_	NC	_	3	Arg0	_	_
+2	đi	_	_	V	_	3	compound	_	_
+3	kiếm	_	_	V	_	_	_	_	_
+4	gà	_	_	N	_	3	Arg1	_	_
+5	phải	_	_	ADJ	_	_	_	_	_
+6	không	_	_	ADV	_	3	polarity	_	_
+7	?	_	_	PUNCT	_	3	Rel	_	_
+
+# id = 85
+1	-	_	_	PUNCT	_	_	_	_	_
+2	đó	_	_	N	_	4	domain	_	_
+3	là	_	_	AUX	_	_	_	_	_
+4	lỗi	_	_	N	_	_	_	_	_
+5	tại	_	_	PRE	_	_	_	_	_
+6	cậu	_	_	NC	_	4	poss	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	ông hoàng	_	_	N	_	10	Arg0	_	_
+9	nhỏ	_	_	ADJ	_	8	mod	_	_
+10	nói	_	_	V	_	4	Arg1-of	_	_
+11	.	_	_	PUNCT	_	4	Rel	_	_
+
+# id = 86
+1	-	_	_	PUNCT	_	_	_	_	_
+2	tôi	_	_	PRO	_	3	Arg0	_	_
+3	rơi	_	_	V	_	_	_	_	_
+4	xuống	_	_	V	_	3	compound	_	_
+5	hành tinh	_	_	N	_	3	location	_	_
+6	nào	_	_	PRO	_	5	amr-unknow	_	_
+7	vậy	_	_	PRT	_	_	_	_	_
+8	?	_	_	PUNCT	_	_	_	_	_
+9	ông hoàng	_	_	N	_	11	Arg0	_	_
+10	nhỏ	_	_	ADJ	_	9	mod	_	_
+11	hỏi	_	_	V	_	3	Arg1-of	_	_
+12	.	_	_	PUNCT	_	3	Rel	_	_
+
+# id = 87
+1	tớ	_	_	PRO	_	3	Arg0	_	_
+2	không	_	_	ADV	_	3	polarity	_	_
+3	ăn	_	_	V	_	_	_	_	_
+4	bánh mì	_	_	N	_	3	Arg1	_	_
+5	.	_	_	PUNCT	_	3	Rel	_	_
+
+# id = 88
+1	em	_	_	N	_	3	Arg0	_	_
+2	muốn	_	_	AUX	_	3	mod	_	_
+3	giúp	_	_	V	_	_	_	_	_
+4	ông	_	_	N	_	5	mod	_	_
+5	bạn	_	_	N	_	3	Arg1	_	_
+6	thân	_	_	ADJ	_	5	mod	_	_
+7	:	_	_	PUNCT	_	3	Rel	_	_
+
+# id = 89
+1	nó	_	_	PRO	_	2	Arg0	_	_
+2	có	_	_	V	_	_	_	_	_
+3	nghĩa	_	_	N	_	2	Arg1	_	_
+4	là	_	_	C	_	_	_	_	_
+5	''	_	_	_	_	_	_	_	_
+6	tạo	_	_	V	_	3	Arg1	_	_
+7	lên	_	_	V	_	6	compound	_	_
+8	những	_	_	DET	_	9	quant	_	_
+9	liên hệ	_	_	V	_	6	Arg1	_	_
+10	...	_	_	PUNCT	_	2	Rel	_	_
+11	''	_	_	_	_	_	_	_	_
+
+# id = 90
+1	vào	_	_	V	_	7	time	_	_
+2	lúc	_	_	N	_	3	mod	_	_
+3	tinh mơ	_	_	N	_	1	time	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	cát	_	_	N	_	7	Arg0	_	_
+6	một	_	_	NUM	_	7	quant	_	_
+7	màu	_	_	N	_	_	_	_	_
+8	mật ong	_	_	N	_	7	mod	_	_
+9	.	_	_	PUNCT	_	7	Rel	_	_
+
+# id = 91
+1	-	_	_	PUNCT	_	_	_	_	_
+2	phải	_	_	AUX	_	_	_	_	_
+3	thật	_	_	ADV	_	4	mod	_	_
+4	kiên nhẫn	_	_	ADJ	_	2	Arg1	_	_
+5	,	_	_	PUNCT	_	_	_	_	_
+6	cáo	_	_	N	_	7	Arg0	_	_
+7	trả lời	_	_	V	_	2	Arg0	_	_
+8	.	_	_	PUNCT	_	2	Rel	_	_
+
+# id = 92
+1	-	_	_	PUNCT	_	_	_	_	_
+2	cái	_	_	NC	_	4	Arg0	_	_
+3	đã	_	_	ADV	_	4	tense	_	_
+4	tô điểm	_	_	V	_	_	_	_	_
+5	cho	_	_	C	_	_	_	_	_
+6	sa mạc	_	_	N	_	4	Arg2	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	ông hoàng	_	_	N	_	4	Arg0-of	_	_
+9	nhỏ	_	_	ADJ	_	8	mod	_	_
+10	nói	_	_	V	_	_	_	_	_
+11	,	_	_	PUNCT	_	_	_	_	_
+12	là	_	_	C	_	_	_	_	_
+13	nó	_	_	PRO	_	14	Arg0	_	_
+14	ẩn giấu	_	_	V	_	4	Arg0	_	_
+15	một	_	_	NUM	_	_	_	_	_
+16	cái	_	_	NC	_	17	classifier	_	_
+17	giếng	_	_	N	_	14	Arg1	_	_
+18	ở	_	_	PRE	_	_	_	_	_
+19	nơi	_	_	N	_	17	location	_	_
+20	nào	_	_	PRO	_	19	amr-unknow	_	_
+21	đó	_	_	N	_	20	mod	_	_
+22	...	_	_	PUNCT	_	4	Rel	_	_
+
+# id = 93
+1	-	_	_	PUNCT	_	_	_	_	_
+2	đây	_	_	PRO	_	6	domain	_	_
+3	là	_	_	AUX	_	_	_	_	_
+4	một	_	_	NUM	_	6	quant	_	_
+5	sự	_	_	N	_	6	mod	_	_
+6	tiết kiệm	_	_	V	_	_	_	_	_
+7	lớn	_	_	ADJ	_	6	mod	_	_
+8	về	_	_	PRE	_	_	_	_	_
+9	thời giờ	_	_	N	_	6	Arg1	_	_
+10	,	_	_	PUNCT	_	_	_	_	_
+11	người	_	_	N	_	12	classifier	_	_
+12	lái buôn	_	_	N	_	13	Arg0	_	_
+13	nói	_	_	V	_	6	Arg1-of	_	_
+14	.	_	_	PUNCT	_	6	Rel	_	_
+
+# id = 94
+1	tôi	_	_	PRO	_	3	Arg0	_	_
+2	có	_	_	ADV	_	3	mod	_	_
+3	cảm giác	_	_	V	_	_	_	_	_
+4	như	_	_	C	_	_	_	_	_
+5	trên	_	_	N	_	6	direction	_	_
+6	Trái Đất	_	_	N	_	9	location	_	_
+7	này	_	_	PRO	_	6	mod	_	_
+8	không	_	_	ADV	_	9	polarity	_	_
+9	có	_	_	V	_	3	resemble-01	_	_
+10	gì	_	_	PRO	_	9	amr-unknow	_	_
+11	mong manh	_	_	ADJ	_	9	mod	_	_
+12	hơn	_	_	ADV	_	11	mod	_	_
+13	.	_	_	PUNCT	_	3	Rel	_	_
+
+# id = 95
+1	hai	_	_	NUM	_	2	quant	_	_
+2	tai	_	_	N	_	6	Arg0	_	_
+3	nó	_	_	PRO	_	2	poss	_	_
+4	...	_	_	PUNCT	_	_	_	_	_
+5	trông	_	_	V	_	6	compound	_	_
+6	giống	_	_	V	_	12	op1	_	_
+7	như	_	_	C	_	_	_	_	_
+8	hai	_	_	NUM	_	10	quant	_	_
+9	cái	_	_	NC	_	10	classifier	_	_
+10	sừng	_	_	N	_	6	resemble-01	_	_
+11	...	_	_	PUNCT	_	_	_	_	_
+12	và	_	_	C	_	_	_	_	_
+13	lại	_	_	ADV	_	_	_	_	_
+14	dài	_	_	ADJ	_	12	op2	_	_
+15	quá	_	_	ADV	_	14	mod	_	_
+16	!	_	_	PUNCT	_	12	Rel	_	_
+
+# id = 96
+1	nhưng	_	_	C	_	6	constract	_	_
+2	đối với	_	_	C	_	_	_	_	_
+3	tôi	_	_	PRO	_	1	beneficiary	_	_
+4	thì	_	_	C	_	_	_	_	_
+5	nàng	_	_	N	_	6	Arg0	_	_
+6	quan trọng	_	_	ADJ	_	_	_	_	_
+7	hơn	_	_	ADV	_	6	mod	_	_
+8	tất cả	_	_	DET	_	10	quant	_	_
+9	các	_	_	DET	_	10	quant	_	_
+10	cô	_	_	N	_	6	Arg1	_	_
+11	,	_	_	PUNCT	_	_	_	_	_
+12	bởi vì	_	_	C	_	_	_	_	_
+13	chính	_	_	PRT	_	15	domain	_	_
+14	là	_	_	AUX	_	_	_	_	_
+15	nàng	_	_	N	_	6	cause	_	_
+16	mà	_	_	C	_	_	_	_	_
+17	tay	_	_	N	_	20	Arg0	_	_
+18	tôi	_	_	PRO	_	17	poss	_	_
+19	đã	_	_	ADV	_	20	tense	_	_
+20	tưới	_	_	V	_	15	concession	_	_
+21	.	_	_	PUNCT	_	6	Rel	_	_
+
+# id = 97
+1	nhà	_	_	N	_	2	classifier	_	_
+2	địa lý	_	_	N	_	4	Arg0	_	_
+3	bỗng nhiên	_	_	ADV	_	4	mod	_	_
+4	xúc động	_	_	V	_	_	_	_	_
+5	:	_	_	PUNCT	_	4	Rel	_	_
+
+# id = 98
+1	chỉ	_	_	ADV	_	2	mod	_	_
+2	có	_	_	V	_	12	op1	_	_
+3	ông	_	_	N	_	4	Arg0	_	_
+4	đốt	_	_	V	_	2	Arg1	_	_
+5	đèn	_	_	N	_	4	Arg1	_	_
+6	của	_	_	PRE	_	_	_	_	_
+7	cây	_	_	NC	_	8	classifier	_	_
+8	đèn	_	_	N	_	5	poss	_	_
+9	độc nhất	_	_	ADJ	_	8	mod	_	_
+10	ở	_	_	PRE	_	_	_	_	_
+11	Bắc Cực	_	_	NNP	_	8	location	_	_
+12	và	_	_	C	_	23	domain	_	_
+13	ông	_	_	N	_	12	op2	_	_
+14	đốt	_	_	V	_	13	Arg0-of	_	_
+15	đèn	_	_	N	_	14	Arg1	_	_
+16	của	_	_	PRE	_	_	_	_	_
+17	cây	_	_	NC	_	18	classifier	_	_
+18	đèn	_	_	N	_	15	poss	_	_
+19	độc nhất	_	_	ADJ	_	18	mod	_	_
+20	ở	_	_	PRE	_	_	_	_	_
+21	Nam Cực	_	_	NNP	_	18	location	_	_
+22	là	_	_	N	_	_	_	_	_
+23	sống	_	_	V	_	_	_	_	_
+24	cuộc đời	_	_	N	_	26	Arg0	_	_
+25	lề mề	_	_	ADJ	_	26	mod	_	_
+26	ăn không ngồi rỗi	_	_	MW	_	23	Arg2	_	_
+27	:	_	_	PUNCT	_	_	_	_	_
+28	hai	_	_	NUM	_	29	quant	_	_
+29	ông	_	_	N	_	32	Arg0	_	_
+30	ấy	_	_	PRO	_	29	mod	_	_
+31	chỉ	_	_	ADV	_	32	mod	_	_
+32	làm việc	_	_	V	_	23	Arg2	_	_
+33	một	_	_	NUM	_	34	quant	_	_
+34	năm	_	_	N	_	32	unit	_	_
+35	có	_	_	PRT	_	_	_	_	_
+36	hai	_	_	NUM	_	37	quant	_	_
+37	lần	_	_	N	_	32	time	_	_
+38	.	_	_	PUNCT	_	23	Rel	_	_
+
+# id = 99
+1	-	_	_	PUNCT	_	_	_	_	_
+2	tớ	_	_	PRO	_	4	Arg0	_	_
+3	đi	_	_	V	_	4	compound	_	_
+4	tìm	_	_	V	_	_	_	_	_
+5	những	_	_	DET	_	6	quant	_	_
+6	con người	_	_	N	_	4	Arg1	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	ông hoàng	_	_	N	_	10	Arg0	_	_
+9	nhỏ	_	_	ADJ	_	8	mod	_	_
+10	nói	_	_	V	_	4	Arg1-of	_	_
+11	.	_	_	PUNCT	_	4	Rel	_	_
+
+# id = 100
+1	nhưng	_	_	C	_	_	_	_	_
+2	em	_	_	N	_	3	Arg0	_	_
+3	lấy	_	_	V	_	_	_	_	_
+4	lại	_	_	V	_	3	compound	_	_
+5	can đảm	_	_	ADJ	_	3	Arg1	_	_
+6	:	_	_	PUNCT	_	3	Rel	_	_
+
+# id = 101
+1	-	_	_	PUNCT	_	_	_	_	_
+2	đến	_	_	V	_	_	_	_	_
+3	chơi	_	_	V	_	2	compound	_	_
+4	với	_	_	C	_	_	_	_	_
+5	mình	_	_	PRO	_	2	accompanier	_	_
+6	đi	_	_	ADV	_	2	mod	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	ông hoàng	_	_	N	_	10	Arg0	_	_
+9	nhỏ	_	_	ADJ	_	8	mod	_	_
+10	rủ	_	_	V	_	2	Arg1-of	_	_
+11	cáo	_	_	N	_	10	Arg1	_	_
+12	.	_	_	PUNCT	_	2	Rel	_	_
+
+# id = 102
+1	tất cả	_	_	DET	_	3	quant	_	_
+2	bọn	_	_	NC	_	3	classifier	_	_
+3	họ	_	_	PRO	_	5	Arg0	_	_
+4	đều	_	_	ADV	_	5	mod	_	_
+5	giống	_	_	V	_	_	_	_	_
+6	bông	_	_	N	_	7	classifier	_	_
+7	hoa	_	_	N	_	5	Arg1	_	_
+8	của	_	_	PRE	_	_	_	_	_
+9	em	_	_	N	_	7	poss	_	_
+10	.	_	_	PUNCT	_	5	Rel	_	_
+
+# id = 103
+1	có	_	_	V	_	_	_	_	_
+2	một	_	_	NUM	_	3	quant	_	_
+3	nghi thức	_	_	N	_	1	Arg1	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	chẳng hạn	_	_	G	_	_	_	_	_
+6	của	_	_	PRE	_	1	example	_	_
+7	bọn	_	_	NC	_	8	classifier	_	_
+8	thợ săn	_	_	N	_	6	poss	_	_
+9	của	_	_	PRE	_	_	_	_	_
+10	tớ	_	_	PRO	_	8	poss	_	_
+11	.	_	_	PUNCT	_	1	Rel	_	_
+
+# id = 104
+1	ta	_	_	PRO	_	2	Arg0	_	_
+2	chuyện trò	_	_	V	_	_	_	_	_
+3	với	_	_	C	_	4	mod	_	_
+4	nhau	_	_	N	_	2	mod	_	_
+5	thế mà	_	_	C	_	_	_	_	_
+6	đã	_	_	ADV	_	8	tense	_	_
+7	một	_	_	NUM	_	8	quant	_	_
+8	tháng	_	_	N	_	2	time	_	_
+9	rồi	_	_	ADV	_	8	mod	_	_
+10	đấy	_	_	PRT	_	_	_	_	_
+11	.	_	_	PUNCT	_	2	Rel	_	_
+
+# id = 105
+1	-	_	_	PUNCT	_	_	_	_	_
+2	bạn	_	_	N	_	3	classifier	_	_
+3	cáo	_	_	N	_	_	_	_	_
+4	của	_	_	PRE	_	_	_	_	_
+5	tôi	_	_	PRO	_	3	poss	_	_
+6	ơi	_	_	I	_	3	mod	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	em	_	_	N	_	9	Arg0	_	_
+9	nói	_	_	V	_	3	Arg1-of	_	_
+10	...	_	_	PUNCT	_	3	Rel	_	_
+
+# id = 106
+1	bởi vì	_	_	C	_	_	_	_	_
+2	người ta	_	_	N	_	3	Arg0	_	_
+3	có thể	_	_	ADV	_	12	cause	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	cùng	_	_	ADJ	_	12	manner	_	_
+6	một	_	_	NUM	_	7	quant	_	_
+7	lúc	_	_	N	_	5	unit	_	_
+8	,	_	_	PUNCT	_	_	_	_	_
+9	vừa	_	_	ADV	_	_	_	_	_
+10	trung thành	_	_	ADJ	_	12	op1	_	_
+11	lại	_	_	ADV	_	_	_	_	_
+12	vừa	_	_	ADV	_	_	_	_	_
+13	lười biếng	_	_	ADJ	_	12	op2	_	_
+14	.	_	_	PUNCT	_	12	Rel	_	_
+
+# id = 107
+1	cậu	_	_	NC	_	2	Arg0	_	_
+2	thấy	_	_	V	_	_	_	_	_
+3	không	_	_	ADV	_	2	polarity	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	ở	_	_	PRE	_	6	prep-in	_	_
+6	kia	_	_	PRO	_	2	location	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	những	_	_	DET	_	10	quant	_	_
+9	đồng	_	_	N	_	10	classifier	_	_
+10	lúa mì	_	_	N	_	2	Arg1	_	_
+11	ấy	_	_	PRO	_	10	mod	_	_
+12	?	_	_	PUNCT	_	2	Rel	_	_
+
+# id = 108
+1	tiếng vang	_	_	N	_	2	Arg0	_	_
+2	đáp	_	_	V	_	_	_	_	_
+3	lại	_	_	V	_	2	compound	_	_
+4	.	_	_	PUNCT	_	2	Rel	_	_
+
+# id = 109
+1	-	_	_	PUNCT	_	_	_	_	_
+2	cậu	_	_	NC	_	3	Arg0	_	_
+3	làm	_	_	V	_	_	_	_	_
+4	cho	_	_	PRE	_	3	mod	_	_
+5	ta	_	_	PRO	_	6	Arg0	_	_
+6	thương hại	_	_	V	_	3	Arg1	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	cậu	_	_	NC	_	10	Arg0	_	_
+9	thật	_	_	ADV	_	10	mod	_	_
+10	yếu đuối	_	_	ADJ	_	6	cause	_	_
+11	,	_	_	PUNCT	_	_	_	_	_
+12	trên	_	_	PRE	_	14	direction	_	_
+13	cái	_	_	NC	_	14	classifier	_	_
+14	trái đất	_	_	N	_	6	location	_	_
+15	bằng	_	_	PRE	_	_	_	_	_
+16	đá hoa cương	_	_	N	_	14	manner	_	_
+17	này	_	_	PRO	_	_	_	_	_
+18	.	_	_	PUNCT	_	3	Rel	_	_
+
+# id = 110
+1	em	_	_	N	_	2	Arg0	_	_
+2	uống	_	_	V	_	_	_	_	_
+3	,	_	_	PUNCT	_	_	_	_	_
+4	hai	_	_	NUM	_	5	quant	_	_
+5	mắt	_	_	N	_	6	Arg0	_	_
+6	nhắm nghiền	_	_	V	_	2	Arg2	_	_
+7	.	_	_	PUNCT	_	2	Rel	_	_
+
+# id = 111
+1	Ta	_	_	NNP	_	_	_	_	_
+2	,	_	_	PUNCT	_	_	_	_	_
+3	ông hoàng	_	_	N	_	5	Arg0	_	_
+4	nhỏ	_	_	ADJ	_	3	mod	_	_
+5	nghĩ	_	_	V	_	21	Arg1-of	_	_
+6	thầm	_	_	ADJ	_	5	mod	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	nếu	_	_	SC	_	_	_	_	_
+9	ta	_	_	NNP	_	10	Arg0	_	_
+10	có	_	_	V	_	21	condition	_	_
+11	năm mươi ba	_	_	NUM	_	12	quant	_	_
+12	phút	_	_	NU	_	10	Arg1	_	_
+13	để	_	_	PRE	_	_	_	_	_
+14	làm	_	_	V	_	10	purpose	_	_
+15	gì	_	_	NNP	_	14	amr-unknow	_	_
+16	thì	_	_	SC	_	17	mod	_	_
+17	làm	_	_	V	_	14	Arg2	_	_
+18	,	_	_	PUNCT	_	_	_	_	_
+19	ta	_	_	NNP	_	21	Arg0	_	_
+20	sẽ	_	_	ADV	_	21	tense	_	_
+21	bước	_	_	V	_	_	_	_	_
+22	thật	_	_	PRT	_	23	mod	_	_
+23	nhẹ nhàng	_	_	ADJ	_	21	Arg2	_	_
+24	đến	_	_	PRE	_	_	_	_	_
+25	một	_	_	NUM	_	28	quant	_	_
+26	cái	_	_	NC	_	27	classifier	_	_
+27	nguồn	_	_	N	_	28	classifier	_	_
+28	nước	_	_	N	_	21	destination	_	_
+29	...	_	_	PUNCT	_	21	Rel	_	_
+30		_	_	_	_	_	_	_	_
+
+# id = 112
+1	-	_	_	PUNCT	_	_	_	_	_
+2	người ta	_	_	N	_	4	Arg0	_	_
+3	chỉ	_	_	ADV	_	4	mod	_	_
+4	hiểu	_	_	V	_	_	_	_	_
+5	được	_	_	ADV	_	4	mod	_	_
+6	những	_	_	DET	_	7	quant	_	_
+7	vật	_	_	N	_	4	Arg1	_	_
+8	người ta	_	_	N	_	10	Arg0	_	_
+9	đã	_	_	ADV	_	10	tense	_	_
+10	cảm hoá	_	_	V	_	7	Arg1-of	_	_
+11	,	_	_	PUNCT	_	_	_	_	_
+12	cáo	_	_	N	_	13	Arg0	_	_
+13	nói	_	_	V	_	4	Arg1-of	_	_
+14	.	_	_	PUNCT	_	4	Rel	_	_
+
+# id = 113
+1	trái đất	_	_	N	_	2	Arg0	_	_
+2	rộng	_	_	ADJ	_	_	_	_	_
+3	lắm	_	_	ADV	_	2	mod	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	rắn	_	_	N	_	6	Arg0	_	_
+6	nói	_	_	V	_	2	Arg1-of	_	_
+7	.	_	_	PUNCT	_	2	Rel	_	_
+
+# id = 114
+1	-	_	_	PUNCT	_	_	_	_	_
+2	tại	_	_	PRE	_	_	_	_	_
+3	sao	_	_	PRO	_	2	amr-unknow	_	_
+4	vậy	_	_	PRT	_	_	_	_	_
+5	?	_	_	PUNCT	_	_	_	_	_
+6	ông hoàng	_	_	N	_	8	Arg0	_	_
+7	nhỏ	_	_	ADJ	_	6	mod	_	_
+8	hỏi	_	_	V	_	2	Arg1-of	_	_
+9	.	_	_	PUNCT	_	2	Rel	_	_
+
+# id = 115
+1	một	_	_	NUM	_	3	quant	_	_
+2	cái	_	_	NC	_	3	classifier	_	_
+3	rọ mõm	_	_	N	_	_	_	_	_
+4	cho	_	_	PRE	_	_	_	_	_
+5	con	_	_	NC	_	6	classifier	_	_
+6	cừu	_	_	N	_	3	beneficiary	_	_
+7	của	_	_	PRE	_	_	_	_	_
+8	tôi	_	_	PRO	_	6	poss	_	_
+9	...	_	_	PUNCT	_	3	Rel	_	_
+
+# id = 116
+1	-	_	_	PUNCT	_	_	_	_	_
+2	anh	_	_	N	_	6	domain	_	_
+3	là	_	_	AUX	_	_	_	_	_
+4	một	_	_	NUM	_	6	quant	_	_
+5	con	_	_	NC	_	6	classifier	_	_
+6	vật	_	_	N	_	_	_	_	_
+7	buồn cười	_	_	ADJ	_	6	mod	_	_
+8	thật	_	_	PRT	_	_	_	_	_
+9	,	_	_	PUNCT	_	_	_	_	_
+10	em	_	_	N	_	11	Arg0	_	_
+11	nói	_	_	V	_	6	Arg1-of	_	_
+12	.	_	_	PUNCT	_	6	Rel	_	_
+
+# id = 117
+1	-	_	_	PUNCT	_	_	_	_	_
+2	chúng tôi	_	_	PRO	_	4	Arg0	_	_
+3	không	_	_	ADV	_	4	polarity	_	_
+4	ghi nhận	_	_	V	_	_	_	_	_
+5	bông	_	_	N	_	6	classifier	_	_
+6	hoa	_	_	N	_	4	Arg1	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	nhà	_	_	N	_	9	classifier	_	_
+9	địa lý	_	_	N	_	10	Arg0	_	_
+10	nói	_	_	V	_	4	Arg1-of	_	_
+11	.	_	_	PUNCT	_	4	Rel	_	_
+
+# id = 118
+1	-	_	_	PUNCT	_	_	_	_	_
+2	vì	_	_	PRE	_	_	_	_	_
+3	các	_	_	DET	_	4	quant	_	_
+4	bợm	_	_	N	_	6	Arg0	_	_
+5	nhậu	_	_	V	_	4	Arg0-of	_	_
+6	thấy	_	_	V	_	_	_	_	_
+7	một	_	_	NUM	_	8	Arg0	_	_
+8	thành	_	_	V	_	6	Arg1	_	_
+9	hai	_	_	NUM	_	8	Arg1	_	_
+10	.	_	_	PUNCT	_	6	Rel	_	_
+
+# id = 119
+1	ông	_	_	N	_	9	Arg0	_	_
+2	ta	_	_	PRO	_	1	mod	_	_
+3	sẽ	_	_	ADV	_	4	tense	_	_
+4	bị	_	_	AUX	_	1	mod	_	_
+5	tất cả	_	_	DET	_	7	quant	_	_
+6	những	_	_	DET	_	7	quant	_	_
+7	người	_	_	N	_	9	Arg0	_	_
+8	kia	_	_	PRO	_	7	mod	_	_
+9	khinh thường	_	_	V	_	_	_	_	_
+10	,	_	_	PUNCT	_	_	_	_	_
+11	ông	_	_	N	_	12	classifier	_	_
+12	vua	_	_	N	_	9	Arg0	_	_
+13	,	_	_	PUNCT	_	_	_	_	_
+14	lão	_	_	N	_	15	classifier	_	_
+15	khoác lác	_	_	V	_	9	Arg0	_	_
+16	,	_	_	PUNCT	_	_	_	_	_
+17	tay	_	_	N	_	19	classifier	_	_
+18	bợm	_	_	N	_	19	classifier	_	_
+19	nhậu	_	_	V	_	9	Arg0	_	_
+20	,	_	_	PUNCT	_	_	_	_	_
+21	nhà	_	_	N	_	22	classifier	_	_
+22	doanh nghiệp	_	_	V	_	9	Arg0	_	_
+23	.	_	_	PUNCT	_	9	Rel	_	_
+
+# id = 120
+1	tôi	_	_	PRO	_	2	Arg0	_	_
+2	phác	_	_	V	_	_	_	_	_
+3	một	_	_	NUM	_	4	quant	_	_
+4	cử chỉ	_	_	N	_	2	Arg1	_	_
+5	mệt mỏi	_	_	ADJ	_	4	mod	_	_
+6	:	_	_	PUNCT	_	_	_	_	_
+7	thật	_	_	ADV	_	_	_	_	_
+8	là	_	_	PRT	_	_	_	_	_
+9	phi lý	_	_	ADJ	_	2	Arg2	_	_
+10	khi	_	_	N	_	_	_	_	_
+11	đi	_	_	V	_	12	compound	_	_
+12	tìm	_	_	V	_	9	time	_	_
+13	một	_	_	NUM	_	_	_	_	_
+14	cái	_	_	NC	_	15	classifier	_	_
+15	giếng	_	_	N	_	12	Arg1	_	_
+16	,	_	_	PUNCT	_	_	_	_	_
+17	một cách	_	_	ADV	_	18	mod	_	_
+18	hú hoạ	_	_	ADJ	_	12	mod	_	_
+19	,	_	_	PUNCT	_	_	_	_	_
+20	ở	_	_	PRE	_	_	_	_	_
+21	trong	_	_	N	_	22	prep-in	_	_
+22	sa mạc	_	_	N	_	12	location	_	_
+23	mênh mông	_	_	ADJ	_	22	mod	_	_
+24	.	_	_	PUNCT	_	2	Rel	_	_
+
+# id = 121
+1	nhà	_	_	N	_	2	classifier	_	_
+2	địa lý	_	_	N	_	6	Arg0	_	_
+3	rất	_	_	ADV	_	4	degree	_	_
+4	quan trọng	_	_	ADJ	_	2	mod	_	_
+5	không thể	_	_	ADV	_	6	polarity	_	_
+6	đi	_	_	V	_	_	_	_	_
+7	lung tung	_	_	ADJ	_	6	mod	_	_
+8	.	_	_	PUNCT	_	6	Rel	_	_
+
+# id = 122
+1	và	_	_	C	_	_	_	_	_
+2	ở	_	_	PRE	_	_	_	_	_
+3	đây	_	_	PRO	_	4	location	_	_
+4	có	_	_	V	_	1	op2	_	_
+5	đến	_	_	PRT	_	4	mod	_	_
+6	năm nghìn	_	_	NUM	_	7	quant	_	_
+7	đoá	_	_	NC	_	4	Arg1	_	_
+8	giống	_	_	V	_	7	resemble-01	_	_
+9	như	_	_	C	_	_	_	_	_
+10	nhau	_	_	N	_	8	mod	_	_
+11	,	_	_	PUNCT	_	_	_	_	_
+12	chỉ	_	_	ADV	_	17	mod	_	_
+13	mới	_	_	ADV	_	12	mod	_	_
+14	trong	_	_	N	_	17	direction	_	_
+15	mỗi một	_	_	DET	_	17	quant	_	_
+16	khu	_	_	N	_	17	classifier	_	_
+17	vườn	_	_	N	_	4	location	_	_
+18	.	_	_	PUNCT	_	1	Rel	_	_
+
+# id = 123
+1	và	_	_	C	_	_	_	_	_
+2	những	_	_	DET	_	3	quant	_	_
+3	con người	_	_	N	_	5	Arg0	_	_
+4	thì	_	_	C	_	_	_	_	_
+5	thiếu	_	_	ADJ	_	1	op2	_	_
+6	hẳn	_	_	ADJ	_	5	mod	_	_
+7	óc	_	_	N	_	8	Arg0	_	_
+8	tưởng tượng	_	_	V	_	5	Arg1	_	_
+9	.	_	_	PUNCT	_	1	Rel	_	_
+
+# id = 124
+1	khoảng	_	_	N	_	5	mod	_	_
+2	sáu	_	_	NUM	_	5	quant	_	_
+3	hay	_	_	C	_	_	_	_	_
+4	bảy	_	_	NUM	_	5	quant	_	_
+5	mống	_	_	N	_	_	_	_	_
+6	.	_	_	PUNCT	_	5	Rel	_	_
+
+# id = 125
+1	chúc	_	_	V	_	_	_	_	_
+2	một	_	_	NUM	_	3	quant	_	_
+3	ngày	_	_	N	_	4	Arg0	_	_
+4	tốt lành	_	_	ADJ	_	1	Arg2	_	_
+5	.	_	_	PUNCT	_	1	Rel	_	_
+
+# id = 126
+1	-	_	_	PUNCT	_	_	_	_	_
+2	cậu	_	_	NC	_	8	Arg0-of	_	_
+3	em	_	_	N	_	2	mod	_	_
+4	ạ	_	_	PRT	_	_	_	_	_
+5	,	_	_	PUNCT	_	_	_	_	_
+6	em	_	_	N	_	8	Arg0	_	_
+7	đã	_	_	ADV	_	8	tense	_	_
+8	sợ hãi	_	_	ADJ	_	_	_	_	_
+9	...	_	_	PUNCT	_	8	Rel	_	_
+
+# id = 127
+1	trong	_	_	N	_	2	direction	_	_
+2	sa mạc	_	_	N	_	3	location	_	_
+3	thấy	_	_	V	_	_	_	_	_
+4	hơi	_	_	ADV	_	5	degree	_	_
+5	bơ vơ	_	_	ADJ	_	3	Arg2	_	_
+6	...	_	_	PUNCT	_	3	Rel	_	_
+
+# id = 128
+1	-	_	_	PUNCT	_	_	_	_	_
+2	ông	_	_	N	_	3	Arg0	_	_
+3	biết	_	_	V	_	_	_	_	_
+4	không	_	_	ADV	_	3	polarity	_	_
+5	,	_	_	PUNCT	_	_	_	_	_
+6	ngày	_	_	N	_	3	dayperiod	_	_
+7	tôi	_	_	PRO	_	8	Arg0	_	_
+8	rơi	_	_	V	_	6	mod	_	_
+9	xuống	_	_	V	_	8	compound	_	_
+10	Trái Đất	_	_	N	_	8	location	_	_
+11	...	_	_	PUNCT	_	_	_	_	_
+12	mai	_	_	PRE	_	15	time	_	_
+13	đã	_	_	ADV	_	15	tense	_	_
+14	là	_	_	C	_	_	_	_	_
+15	tròn	_	_	ADJ	_	3	Arg2	_	_
+16	một	_	_	NUM	_	17	quant	_	_
+17	năm	_	_	N	_	15	unit	_	_
+18	...	_	_	PUNCT	_	3	Rel	_	_
+
+# id = 129
+1	-	_	_	PUNCT	_	_	_	_	_
+2	chính	_	_	PRT	_	_	_	_	_
+3	thời giờ	_	_	N	_	6	time	_	_
+4	cậu	_	_	NC	_	6	Arg0	_	_
+5	đã	_	_	ADV	_	6	tense	_	_
+6	mất	_	_	V	_	12	Arg0	_	_
+7	cho	_	_	C	_	_	_	_	_
+8	đoá	_	_	NC	_	9	classifier	_	_
+9	hồng	_	_	N	_	6	beneficiary	_	_
+10	của	_	_	PRE	_	_	_	_	_
+11	cậu	_	_	NC	_	9	poss	_	_
+12	làm	_	_	V	_	_	_	_	_
+13	cho	_	_	PRE	_	12	mod	_	_
+14	đoá	_	_	NC	_	15	classifier	_	_
+15	hồng	_	_	N	_	18	Arg0	_	_
+16	của	_	_	PRE	_	_	_	_	_
+17	cậu	_	_	NC	_	15	poss	_	_
+18	trở nên	_	_	V	_	12	Arg1	_	_
+19	quan trọng	_	_	ADJ	_	18	Arg2	_	_
+20	đến	_	_	PRT	_	19	mod	_	_
+21	thế	_	_	PRT	_	20	mod	_	_
+22	.	_	_	PUNCT	_	12	Rel	_	_
+
+# id = 130
+1	ấy	_	_	PRO	_	4	mod	_	_
+2	là	_	_	AUX	_	_	_	_	_
+3	một	_	_	NUM	_	4	quant	_	_
+4	người	_	_	N	_	_	_	_	_
+5	bán	_	_	V	_	4	Arg0-of	_	_
+6	loại	_	_	N	_	7	mod	_	_
+7	thuốc	_	_	N	_	5	Arg1	_	_
+8	có thể	_	_	ADV	_	9	possible-01	_	_
+9	làm	_	_	V	_	7	Arg0-of	_	_
+10	cho	_	_	PRE	_	_	_	_	_
+11	đỡ	_	_	ADV	_	12	mod	_	_
+12	khát	_	_	V	_	9	purpose	_	_
+13	.	_	_	PUNCT	_	4	Rel	_	_
+
+# id = 131
+1	-	_	_	PUNCT	_	_	_	_	_
+2	thế nào	_	_	PRO	_	3	amr-unknow	_	_
+3	gọi	_	_	V	_	_	_	_	_
+4	là	_	_	C	_	_	_	_	_
+5	''	_	_	_	_	_	_	_	_
+6	phù du	_	_	N	_	3	Arg2	_	_
+7	''	_	_	_	_	_	_	_	_
+8	?	_	_	PUNCT	_	3	Rel	_	_
+
+# id = 132
+1	và	_	_	C	_	_	_	_	_
+2	em	_	_	N	_	3	Arg0	_	_
+3	nói	_	_	V	_	1	op2	_	_
+4	thêm	_	_	V	_	3	compound	_	_
+5	:	_	_	PUNCT	_	1	Rel	_	_
+
+# id = 133
+1	bởi vì	_	_	C	_	_	_	_	_
+2	chính	_	_	PRT	_	4	mod	_	_
+3	là	_	_	AUX	_	_	_	_	_
+4	nàng	_	_	N	_	8	cause	_	_
+5	mà	_	_	C	_	8	concession	_	_
+6	tôi	_	_	PRO	_	8	Arg0	_	_
+7	đã	_	_	ADV	_	8	tense	_	_
+8	che	_	_	V	_	_	_	_	_
+9	bằng	_	_	PRE	_	_	_	_	_
+10	tấm	_	_	NC	_	11	classifier	_	_
+11	bình phong	_	_	N	_	8	manner	_	_
+12	.	_	_	PUNCT	_	8	Rel	_	_
+

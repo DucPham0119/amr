@@ -1,0 +1,2 @@
+- chạy file data.py để sinh phoBert
+- chạy file model.py tranning model

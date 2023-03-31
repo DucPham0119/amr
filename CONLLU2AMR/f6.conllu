@@ -1,0 +1,2508 @@
+# text = nếu cậu muốn có một người bạn , hãy cảm hoá tớ !
+1	nếu	_	_	C	_	_	_	_	_
+2	cậu	_	_	Nc	_	4	Arg0	_	_
+3	muốn	_	_	aux	_	4	mod	_	_
+4	có	_	_	V	_	10	condition	_	_
+5	một	_	_	Num	_	7	quant	_	_
+6	người	_	_	N	_	7	classifier	_	_
+7	bạn	_	_	N	_	4	Arg1	_	_
+8	,	_	_	PUNCT	_	_	_	_	_
+9	hãy	_	_	Adv	_	10	mode-imperative	_	_
+10	cảm hoá	_	_	V	_	_	_	_	_
+11	tớ	_	_	Pro	_	10	Arg1	_	_
+12	!	_	_	PUNCT	_	10	Rel	_	_
+
+# text = - phải làm sao ? ông hoàng nhỏ hỏi .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	phải	_	_	aux	_	_	_	_	_
+3	làm sao	_	_	G	_	2	Arg1	_	_
+4	?	_	_	PUNCT	_	3	amr-unknow	_	_
+5	ông hoàng	_	_	N	_	7	Arg0	_	_
+6	nhỏ	_	_	Adj	_	5	mod	_	_
+7	hỏi	_	_	V	_	2	Arg1-of	_	_
+8	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = - phải thật kiên nhẫn , cáo trả lời .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	phải	_	_	aux	_	_	_	_	_
+3	thật	_	_	Adv	_	4	mod	_	_
+4	kiên nhẫn	_	_	Adj	_	2	Arg1	_	_
+5	,	_	_	PUNCT	_	_	_	_	_
+6	cáo	_	_	N	_	7	Arg0	_	_
+7	trả lời	_	_	V	_	2	Arg0	_	_
+8	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = tớ đưa mắt liếc nhìn cậu , và cậu chẳng nói gì cả .
+1	tớ	_	_	Pro	_	3	Arg0	_	_
+2	đưa mắt	_	_	V	_	3	compound	_	_
+3	liếc	_	_	V	_	7	op1	_	_
+4	nhìn	_	_	V	_	3	compound	_	_
+5	cậu	_	_	Nc	_	3	Arg1	_	_
+6	,	_	_	PUNCT	_	_	_	_	_
+7	và	_	_	C	_	_	_	_	_
+8	cậu	_	_	Nc	_	10	Arg0	_	_
+9	chẳng	_	_	Adv	_	10	polarity	_	_
+10	nói	_	_	V	_	7	op2	_	_
+11	gì	_	_	Pro	_	10	Arg1	_	_
+12	cả	_	_	Prt	_	11	mod	_	_
+13	.	_	_	PUNCT	_	7	Rel	_	_
+
+# text = nhưng bước chân của cậu lại sẽ gọi tớ từ hang chạy ra , như là một điệu nhạc .
+1	nhưng	_	_	C	_	8	constract	_	_
+2	bước	_	_	N	_	3	classifier	_	_
+3	chân	_	_	N	_	8	Arg0	_	_
+4	của	_	_	Pre	_	_	_	_	_
+5	cậu	_	_	Nc	_	3	poss	_	_
+6	lại	_	_	Adv	_	_	_	_	_
+7	sẽ	_	_	Adv	_	8	tense	_	_
+8	gọi	_	_	V	_	_	_	_	_
+9	tớ	_	_	Pro	_	8	Arg1	_	_
+10	từ	_	_	Pre	_	_	_	_	_
+11	hang	_	_	N	_	8	source	_	_
+12	chạy	_	_	V	_	9	Arg0-of	_	_
+13	ra	_	_	V	_	12	compound	_	_
+14	,	_	_	PUNCT	_	_	_	_	_
+15	như	_	_	C	_	_	_	_	_
+16	là	_	_	C	_	_	_	_	_
+17	một	_	_	Num	_	19	quant	_	_
+18	điệu	_	_	N	_	19	classifier	_	_
+19	nhạc	_	_	N	_	12	resemble-01	_	_
+20	.	_	_	PUNCT	_	8	Rel	_	_
+
+# text = ngôn ngữ là nguồn gốc của ngộ nhận .
+1	ngôn ngữ	_	_	N	_	3	domain	_	_
+2	là	_	_	aux	_	_	_	_	_
+3	nguồn gốc	_	_	N	_	_	_	_	_
+4	của	_	_	Pre	_	_	_	_	_
+5	ngộ nhận	_	_	V	_	3	poss	_	_
+6	.	_	_	PUNCT	_	3	Rel	_	_
+
+# text = nhưng mỗi ngày , cậu có thể ngồi gần một tí ...
+1	nhưng	_	_	C	_	7	constract	_	_
+2	mỗi	_	_	Det	_	3	quant	_	_
+3	ngày	_	_	N	_	7	time	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	cậu	_	_	Nc	_	7	Arg0	_	_
+6	có thể	_	_	Adv	_	7	possible-01	_	_
+7	ngồi	_	_	V	_	_	_	_	_
+8	gần	_	_	Adj	_	7	mod	_	_
+9	một tí	_	_	Det	_	7	quant	_	_
+10	...	_	_	PUNCT	_	7	Rel	_	_
+
+# text = thời khắc càng trôi , mình lại càng hạnh phúc .
+1	thời khắc	_	_	N	_	3	Arg0	_	_
+2	càng	_	_	Adv	_	3	mod	_	_
+3	trôi	_	_	V	_	_	_	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	mình	_	_	Pro	_	8	Arg0	_	_
+6	lại	_	_	Adv	_	_	_	_	_
+7	càng	_	_	Adv	_	8	mod	_	_
+8	hạnh phúc	_	_	Adj	_	3	mod	_	_
+9	.	_	_	PUNCT	_	3	Rel	_	_
+
+# text = phải có nghi thức chứ .
+1	phải	_	_	aux	_	2	obligate-01	_	_
+2	có	_	_	V	_	_	_	_	_
+3	nghi thức	_	_	N	_	2	Arg1	_	_
+4	chứ	_	_	Prt	_	2	mod	_	_
+5	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = - nghi thức là cái gì ? ông hoàng nhỏ hỏi .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	nghi thức	_	_	N	_	_	_	_	_
+3	là	_	_	aux	_	_	_	_	_
+4	cái	_	_	Nc	_	_	_	_	_
+5	gì	_	_	Pro	_	_	_	_	_
+6	?	_	_	PUNCT	_	2	amr-unknow	_	_
+7	ông hoàng	_	_	N	_	9	Arg0	_	_
+8	nhỏ	_	_	Adj	_	7	mod	_	_
+9	hỏi	_	_	V	_	2	Arg1-of	_	_
+10	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = thế là ông hoàng nhỏ cảm hoá con cáo .
+1	thế là	_	_	C	_	_	_	_	_
+2	ông hoàng	_	_	N	_	4	Arg0	_	_
+3	nhỏ	_	_	Adj	_	2	mod	_	_
+4	cảm hoá	_	_	V	_	1	op2	_	_
+5	con	_	_	Nc	_	6	classifier	_	_
+6	cáo	_	_	N	_	4	Arg1	_	_
+7	.	_	_	PUNCT	_	1	Rel	_	_
+
+# text = và giờ ra đi đã đến :
+1	và	_	_	C	_	_	_	_	_
+2	giờ	_	_	N	_	6	time	_	_
+3	ra	_	_	V	_	4	compound	_	_
+4	đi	_	_	V	_	2	mod	_	_
+5	đã	_	_	Adv	_	_	_	_	_
+6	đến	_	_	V	_	1	op2	_	_
+7	:	_	_	PUNCT	_	1	Rel	_	_
+
+# text = - a ! cáo nói , tớ sắp khóc lên đây .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	a	_	_	I	_	9	mod	_	_
+3	!	_	_	PUNCT	_	_	_	_	_
+4	cáo	_	_	N	_	5	Arg0	_	_
+5	nói	_	_	V	_	9	Arg1-of	_	_
+6	,	_	_	PUNCT	_	_	_	_	_
+7	tớ	_	_	Pro	_	9	Arg0	_	_
+8	sắp	_	_	Adv	_	9	tense	_	_
+9	khóc	_	_	V	_	_	_	_	_
+10	lên	_	_	V	_	9	compound	_	_
+11	đây	_	_	Pro	_	9	mod	_	_
+12	.	_	_	PUNCT	_	9	Rel	_	_
+
+# text = - đó là lỗi tại cậu , ông hoàng nhỏ nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	đó	_	_	N	_	4	domain	_	_
+3	là	_	_	aux	_	_	_	_	_
+4	lỗi	_	_	N	_	_	_	_	_
+5	tại	_	_	Pre	_	_	_	_	_
+6	cậu	_	_	Nc	_	4	poss	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	ông hoàng	_	_	N	_	10	Arg0	_	_
+9	nhỏ	_	_	Adj	_	8	mod	_	_
+10	nói	_	_	V	_	4	Arg1-of	_	_
+11	.	_	_	PUNCT	_	4	Rel	_	_
+
+# text = - đúng thế , cáo nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	đúng	_	_	Adj	_	_	_	_	_
+3	thế	_	_	Pro	_	2	mod	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	cáo	_	_	N	_	6	Arg0	_	_
+6	nói	_	_	V	_	2	Arg1-of	_	_
+7	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = - nhưng cậu sẽ khóc ! ông hoàng nhỏ nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	nhưng	_	_	C	_	5	constract	_	_
+3	cậu	_	_	Nc	_	5	Arg0	_	_
+4	sẽ	_	_	Adv	_	5	tense	_	_
+5	khóc	_	_	V	_	_	_	_	_
+6	!	_	_	PUNCT	_	_	_	_	_
+7	ông hoàng	_	_	N	_	9	Arg0	_	_
+8	nhỏ	_	_	Adj	_	7	mod	_	_
+9	nói	_	_	V	_	5	Arg1-of	_	_
+10	.	_	_	PUNCT	_	5	Rel	_	_
+
+# text = rồi nó nói thêm :
+1	rồi	_	_	C	_	_	_	_	_
+2	nó	_	_	Pro	_	3	Arg0	_	_
+3	nói	_	_	V	_	1	op2	_	_
+4	thêm	_	_	V	_	3	compound	_	_
+5	:	_	_	PUNCT	_	1	Rel	_	_
+
+# text = - thế thì cậu chẳng được gì cả !
+1	-	_	_	PUNCT	_	_	_	_	_
+2	thế thì	_	_	C	_	_	_	_	_
+3	cậu	_	_	Nc	_	5	Arg0	_	_
+4	chẳng	_	_	Adv	_	5	polarity	_	_
+5	được	_	_	aux	_	2	op2	_	_
+6	gì	_	_	Pro	_	5	Arg1	_	_
+7	cả	_	_	Prt	_	_	_	_	_
+8	!	_	_	PUNCT	_	2	Rel	_	_
+
+# text = - đúng thế , cáo nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	đúng	_	_	Adj	_	_	_	_	_
+3	thế	_	_	Pro	_	2	mod	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	cáo	_	_	N	_	6	Arg0	_	_
+6	nói	_	_	V	_	2	Arg1-of	_	_
+7	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = - được chứ , cáo nói , là do cái màu vàng của lúa mì ấy .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	được	_	_	aux	_	_	_	_	_
+3	chứ	_	_	Prt	_	2	mod	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	cáo	_	_	N	_	6	Arg0	_	_
+6	nói	_	_	V	_	2	Arg1-of	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	là	_	_	C	_	_	_	_	_
+9	do	_	_	Pre	_	_	_	_	_
+10	cái	_	_	Nc	_	11	classifier	_	_
+11	màu	_	_	N	_	2	Arg0-of	_	_
+12	vàng	_	_	Adj	_	11	mod	_	_
+13	của	_	_	Pre	_	_	_	_	_
+14	lúa mì	_	_	N	_	11	poss	_	_
+15	ấy	_	_	Pro	_	_	_	_	_
+16	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = - đó cũng là cái bị quên lâu quá rồi , cáo nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	đó	_	_	N	_	5	domain	_	_
+3	cũng	_	_	Adv	_	5	mod	_	_
+4	là	_	_	aux	_	_	_	_	_
+5	cái	_	_	Nc	_	_	_	_	_
+6	bị	_	_	aux	_	7	mod	_	_
+7	quên	_	_	V	_	5	Arg0-of	_	_
+8	lâu	_	_	Adj	_	7	Arg2	_	_
+9	quá	_	_	Adv	_	8	mod	_	_
+10	rồi	_	_	Prt	_	_	_	_	_
+11	,	_	_	PUNCT	_	_	_	_	_
+12	cáo	_	_	N	_	13	Arg0	_	_
+13	nói	_	_	V	_	5	Arg1-of	_	_
+14	.	_	_	PUNCT	_	5	Rel	_	_
+
+# text = có một nghi thức , chẳng hạn của bọn thợ săn của tớ .
+1	có	_	_	V	_	_	_	_	_
+2	một	_	_	Num	_	3	quant	_	_
+3	nghi thức	_	_	N	_	1	Arg1	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	chẳng hạn	_	_	G	_	_	_	_	_
+6	của	_	_	Pre	_	1	example	_	_
+7	bọn	_	_	Nc	_	8	classifier	_	_
+8	thợ săn	_	_	N	_	6	poss	_	_
+9	của	_	_	Pre	_	_	_	_	_
+10	tớ	_	_	Pro	_	8	poss	_	_
+11	.	_	_	PUNCT	_	1	Rel	_	_
+
+# text = mỗi thứ năm , họ khiêu vũ với các cô gái trong làng .
+1	mỗi	_	_	Det	_	2	quant	_	_
+2	thứ năm	_	_	N	_	5	time	_	_
+3	,	_	_	PUNCT	_	_	_	_	_
+4	họ	_	_	Pro	_	5	Arg0	_	_
+5	khiêu vũ	_	_	V	_	_	_	_	_
+6	với	_	_	C	_	_	_	_	_
+7	các	_	_	Det	_	8	quant	_	_
+8	cô	_	_	N	_	5	accompanier	_	_
+9	gái	_	_	N	_	8	mod	_	_
+10	trong	_	_	N	_	11	direction	_	_
+11	làng	_	_	N	_	5	location	_	_
+12	.	_	_	PUNCT	_	5	Rel	_	_
+
+# text = thế thì thứ năm là một ngày kỳ diệu ! hôm ấy tớ có thể rong chơi đến tận vườn nho .
+1	thế thì	_	_	C	_	_	_	_	_
+2	thứ năm	_	_	N	_	5	domain	_	_
+3	là	_	_	aux	_	_	_	_	_
+4	một	_	_	Num	_	5	quant	_	_
+5	ngày	_	_	N	_	13	dayperiod	_	_
+6	kỳ diệu	_	_	Adj	_	5	mod	_	_
+7	!	_	_	PUNCT	_	_	_	_	_
+8	hôm	_	_	N	_	10	time	_	_
+9	ấy	_	_	Pro	_	8	mod	_	_
+10	tớ	_	_	Pro	_	13	Arg0	_	_
+11	có thể	_	_	Adv	_	13	possible-01	_	_
+12	rong	_	_	V	_	13	compound	_	_
+13	chơi	_	_	V	_	_	_	_	_
+14	đến	_	_	Prt	_	_	_	_	_
+15	tận	_	_	Adj	_	17	mod	_	_
+16	vườn	_	_	N	_	17	classifier	_	_
+17	nho	_	_	N	_	13	destination	_	_
+18	.	_	_	PUNCT	_	13	Rel	_	_
+
+# text = - hãy trở lại thăm những đoá hồng đi .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	hãy	_	_	Adv	_	4	mode-imperative	_	_
+3	trở lại	_	_	V	_	4	compound	_	_
+4	thăm	_	_	V	_	_	_	_	_
+5	những	_	_	Det	_	7	quant	_	_
+6	đoá	_	_	Nc	_	7	classifier	_	_
+7	hồng	_	_	N	_	4	Arg1	_	_
+8	đi	_	_	Adv	_	_	_	_	_
+9	.	_	_	PUNCT	_	4	Rel	_	_
+
+# text = các cô giống như con cáo của tôi trước kia .
+1	các	_	_	Det	_	2	quant	_	_
+2	cô	_	_	N	_	3	Arg0	_	_
+3	giống	_	_	V	_	_	_	_	_
+4	như	_	_	C	_	_	_	_	_
+5	con	_	_	Nc	_	6	classifier	_	_
+6	cáo	_	_	N	_	3	Arg1	_	_
+7	của	_	_	Pre	_	_	_	_	_
+8	tôi	_	_	Pro	_	6	poss	_	_
+9	trước kia	_	_	N	_	3	time	_	_
+10	.	_	_	PUNCT	_	3	Rel	_	_
+
+# text = cậu sẽ thấy đoá hoa của cậu là duy nhất trên đời .
+1	cậu	_	_	Nc	_	3	Arg0	_	_
+2	sẽ	_	_	Adv	_	3	tense	_	_
+3	thấy	_	_	V	_	_	_	_	_
+4	đoá	_	_	Nc	_	5	classifier	_	_
+5	hoa	_	_	N	_	3	Arg1	_	_
+6	của	_	_	Pre	_	_	_	_	_
+7	cậu	_	_	Nc	_	5	poss	_	_
+8	là	_	_	aux	_	_	_	_	_
+9	duy nhất	_	_	Adj	_	3	Arg2	_	_
+10	trên	_	_	Pre	_	11	direction	_	_
+11	đời	_	_	N	_	3	location	_	_
+12	.	_	_	PUNCT	_	3	Rel	_	_
+
+# text = và các bông hồng hết sức lúng túng .
+1	và	_	_	C	_	_	_	_	_
+2	các	_	_	Det	_	4	quant	_	_
+3	bông	_	_	N	_	4	classifier	_	_
+4	hồng	_	_	N	_	6	Arg0	_	_
+5	hết sức	_	_	Adv	_	6	mod	_	_
+6	lúng túng	_	_	Adj	_	1	op2	_	_
+7	.	_	_	PUNCT	_	1	Rel	_	_
+
+# text = nó chỉ là một con cáo giống như trăm nghìn con cáo .
+1	nó	_	_	Pro	_	6	Arg0	_	_
+2	chỉ	_	_	Adv	_	_	_	_	_
+3	là	_	_	aux	_	_	_	_	_
+4	một	_	_	Num	_	6	quant	_	_
+5	con	_	_	Nc	_	6	classifier	_	_
+6	cáo	_	_	N	_	_	_	_	_
+7	giống	_	_	V	_	6	resemble-01	_	_
+8	như	_	_	C	_	7	mod	_	_
+9	trăm	_	_	Num	_	10	quant	_	_
+10	nghìn	_	_	Num	_	12	unit	_	_
+11	con	_	_	Nc	_	12	classifier	_	_
+12	cáo	_	_	N	_	7	Arg1	_	_
+13	.	_	_	PUNCT	_	6	Rel	_	_
+
+# text = ông hoàng nhỏ đi thăm lại những đoá hoa hồng .
+1	ông hoàng	_	_	N	_	4	Arg0	_	_
+2	nhỏ	_	_	Adj	_	1	mod	_	_
+3	đi	_	_	V	_	4	compound	_	_
+4	thăm	_	_	V	_	_	_	_	_
+5	lại	_	_	V	_	4	compound	_	_
+6	những	_	_	Det	_	8	quant	_	_
+7	đoá	_	_	Nc	_	8	classifier	_	_
+8	hoa hồng	_	_	N	_	4	Arg1	_	_
+9	.	_	_	PUNCT	_	4	Rel	_	_
+
+# text = - các cô chẳng giống chút nào với đoá hồng của tôi , các cô chưa là gì cả , em bảo các bông hồng .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	các	_	_	Det	_	3	quant	_	_
+3	cô	_	_	N	_	5	Arg0	_	_
+4	chẳng	_	_	Adv	_	5	polarity	_	_
+5	giống	_	_	V	_	_	_	_	_
+6	chút	_	_	Det	_	5	mod	_	_
+7	nào	_	_	Pro	_	6	mod	_	_
+8	với	_	_	C	_	_	_	_	_
+9	đoá	_	_	Nc	_	10	classifier	_	_
+10	hồng	_	_	N	_	5	Arg1	_	_
+11	của	_	_	Pre	_	_	_	_	_
+12	tôi	_	_	Pro	_	10	poss	_	_
+13	,	_	_	PUNCT	_	_	_	_	_
+14	các	_	_	Det	_	15	quant	_	_
+15	cô	_	_	N	_	18	domain	_	_
+16	chưa	_	_	Adv	_	18	polarity	_	_
+17	là	_	_	aux	_	_	_	_	_
+18	gì	_	_	Pro	_	5	amr-unknow	_	_
+19	cả	_	_	Prt	_	_	_	_	_
+20	,	_	_	PUNCT	_	_	_	_	_
+21	em	_	_	N	_	22	Arg0	_	_
+22	bảo	_	_	V	_	5	Arg1-of	_	_
+23	các	_	_	Det	_	25	quant	_	_
+24	bông	_	_	N	_	25	classifier	_	_
+25	hồng	_	_	N	_	22	accompanier	_	_
+26	.	_	_	PUNCT	_	5	Rel	_	_
+
+# text = chưa ai cảm hoá các cô , các cô cũng chưa cảm hoá ai .
+1	chưa	_	_	Adv	_	2	polarity	_	_
+2	ai	_	_	Pro	_	3	Arg0	_	_
+3	cảm hoá	_	_	V	_	_	_	_	_
+4	các	_	_	Det	_	_	_	_	_
+5	cô	_	_	N	_	3	Arg1	_	_
+6	,	_	_	PUNCT	_	_	_	_	_
+7	các	_	_	Det	_	8	quant	_	_
+8	cô	_	_	N	_	11	Arg0	_	_
+9	cũng	_	_	Adv	_	11	mod	_	_
+10	chưa	_	_	Adv	_	11	polarity	_	_
+11	cảm hoá	_	_	V	_	3	Arg0-of	_	_
+12	ai	_	_	Pro	_	11	Arg1	_	_
+13	.	_	_	PUNCT	_	3	Rel	_	_
+
+# text = - các cô đẹp , nhưng các cô trống rỗng , em nói với họ .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	các	_	_	Det	_	3	quant	_	_
+3	cô	_	_	N	_	4	Arg0	_	_
+4	đẹp	_	_	Adj	_	_	_	_	_
+5	,	_	_	PUNCT	_	_	_	_	_
+6	nhưng	_	_	C	_	_	_	_	_
+7	các	_	_	N	_	8	quant	_	_
+8	cô	_	_	N	_	9	Arg0	_	_
+9	trống rỗng	_	_	Adj	_	4	constract	_	_
+10	,	_	_	PUNCT	_	_	_	_	_
+11	em	_	_	N	_	12	Arg0	_	_
+12	nói	_	_	V	_	4	Arg1-of	_	_
+13	với	_	_	C	_	_	_	_	_
+14	họ	_	_	Pro	_	12	accompanier	_	_
+15	.	_	_	PUNCT	_	4	Rel	_	_
+
+# text = người ta không thể chết vì các cô được .
+1	người ta	_	_	N	_	3	Arg0	_	_
+2	không thể	_	_	Adv	_	3	polarity	_	_
+3	chết	_	_	V	_	_	_	_	_
+4	vì	_	_	Pre	_	_	_	_	_
+5	các	_	_	Det	_	6	quant	_	_
+6	cô	_	_	N	_	3	cause	_	_
+7	được	_	_	Adv	_	3	mod	_	_
+8	.	_	_	PUNCT	_	3	Rel	_	_
+
+# text = rồi em trở lại chỗ con cáo :
+1	rồi	_	_	C	_	_	_	_	_
+2	em	_	_	N	_	3	Arg0	_	_
+3	trở lại	_	_	V	_	1	op2	_	_
+4	chỗ	_	_	N	_	3	location	_	_
+5	con	_	_	Nc	_	6	classifier	_	_
+6	cáo	_	_	N	_	4	poss	_	_
+7	:	_	_	PUNCT	_	1	Rel	_	_
+
+# text = - từ biệt , em nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	từ biệt	_	_	V	_	_	_	_	_
+3	,	_	_	PUNCT	_	_	_	_	_
+4	em	_	_	N	_	5	Arg0	_	_
+5	nói	_	_	V	_	2	Arg1-of	_	_
+6	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = - từ biệt , cáo nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	từ biệt	_	_	V	_	_	_	_	_
+3	,	_	_	PUNCT	_	_	_	_	_
+4	cáo	_	_	N	_	5	Arg0	_	_
+5	nói	_	_	V	_	2	Arg1-of	_	_
+6	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = đây là cái bí mật của tớ .
+1	đây	_	_	Pro	_	4	domain	_	_
+2	là	_	_	aux	_	_	_	_	_
+3	cái	_	_	Nc	_	4	classifier	_	_
+4	bí mật	_	_	N	_	_	_	_	_
+5	của	_	_	Pre	_	_	_	_	_
+6	tớ	_	_	Pro	_	4	poss	_	_
+7	.	_	_	PUNCT	_	4	Rel	_	_
+
+# text = nhưng cậu không được quên .
+1	nhưng	_	_	C	_	5	constract	_	_
+2	cậu	_	_	Nc	_	5	Arg0	_	_
+3	không	_	_	Adv	_	5	polarity	_	_
+4	được	_	_	aux	_	5	mod	_	_
+5	quên	_	_	V	_	_	_	_	_
+6	.	_	_	PUNCT	_	5	Rel	_	_
+
+# text = - loài người đã quên mất chân lí này , cáo nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	loài người	_	_	N	_	4	Arg0	_	_
+3	đã	_	_	Adv	_	4	tense	_	_
+4	quên	_	_	V	_	_	_	_	_
+5	mất	_	_	Prt	_	4	mod	_	_
+6	chân lí	_	_	N	_	4	Arg1	_	_
+7	này	_	_	Pro	_	6	mod	_	_
+8	,	_	_	PUNCT	_	_	_	_	_
+9	cáo	_	_	N	_	10	Arg0	_	_
+10	nói	_	_	V	_	4	Arg1-of	_	_
+11	.	_	_	PUNCT	_	4	Rel	_	_
+
+# text = bởi vì đó là đoá hồng của tôi .
+1	bởi vì	_	_	C	_	_	_	_	_
+2	đó	_	_	N	_	5	domain	_	_
+3	là	_	_	aux	_	_	_	_	_
+4	đoá	_	_	Nc	_	5	classifier	_	_
+5	hồng	_	_	N	_	_	_	_	_
+6	của	_	_	Pre	_	_	_	_	_
+7	tôi	_	_	Pro	_	5	poss	_	_
+8	.	_	_	PUNCT	_	5	Rel	_	_
+
+# text = cái cốt yếu thì con mắt không nhìn thấy .
+1	cái	_	_	Nc	_	2	classifier	_	_
+2	cốt yếu	_	_	Adj	_	8	Arg1	_	_
+3	thì	_	_	C	_	_	_	_	_
+4	con	_	_	Nc	_	5	classifier	_	_
+5	mắt	_	_	N	_	8	Arg0	_	_
+6	không	_	_	Adv	_	8	polarity	_	_
+7	nhìn	_	_	V	_	8	compound	_	_
+8	thấy	_	_	V	_	_	_	_	_
+9	.	_	_	PUNCT	_	8	Rel	_	_
+
+# text = cậu có trách nhiệm đối với hoa hồng của cậu .
+1	cậu	_	_	Nc	_	2	Arg0	_	_
+2	có	_	_	V	_	_	_	_	_
+3	trách nhiệm	_	_	N	_	2	Arg1	_	_
+4	đối với	_	_	C	_	_	_	_	_
+5	hoa hồng	_	_	N	_	2	beneficiary	_	_
+6	của	_	_	Pre	_	_	_	_	_
+7	cậu	_	_	Nc	_	5	poss	_	_
+8	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = - tôi có trách nhiệm với hoa hồng của tôi ...
+1	-	_	_	PUNCT	_	_	_	_	_
+2	tôi	_	_	Pro	_	3	Arg0	_	_
+3	có	_	_	V	_	_	_	_	_
+4	trách nhiệm	_	_	N	_	3	Arg1	_	_
+5	với	_	_	C	_	_	_	_	_
+6	hoa hồng	_	_	N	_	3	beneficiary	_	_
+7	của	_	_	Pre	_	_	_	_	_
+8	tôi	_	_	Pro	_	6	poss	_	_
+9	...	_	_	PUNCT	_	3	Rel	_	_
+
+# text = ông hoàng nhỏ lặp lại để mà ghi nhớ .
+1	ông hoàng	_	_	N	_	3	Arg0	_	_
+2	nhỏ	_	_	Adj	_	1	mod	_	_
+3	lặp	_	_	V	_	_	_	_	_
+4	lại	_	_	V	_	3	compound	_	_
+5	để	_	_	Pre	_	_	_	_	_
+6	mà	_	_	C	_	_	_	_	_
+7	ghi nhớ	_	_	V	_	3	purpose	_	_
+8	.	_	_	PUNCT	_	3	Rel	_	_
+
+# text = - xin chào , ông hoàng nhỏ nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	xin	_	_	V	_	_	_	_	_
+3	chào	_	_	V	_	2	compound	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	ông hoàng	_	_	N	_	7	Arg0	_	_
+6	nhỏ	_	_	Adj	_	5	mod	_	_
+7	nói	_	_	V	_	2	Arg1-of	_	_
+8	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = - xin chào , người bẻ ghi nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	xin	_	_	V	_	_	_	_	_
+3	chào	_	_	V	_	2	compound	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	người	_	_	N	_	7	Arg0	_	_
+6	bẻ ghi	_	_	V	_	5	Arg0-of	_	_
+7	nói	_	_	V	_	2	Arg1-of	_	_
+8	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = - ông làm gì ở đây ? ông hoàng nhỏ hỏi .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	ông	_	_	N	_	3	Arg0	_	_
+3	làm	_	_	V	_	_	_	_	_
+4	gì	_	_	Pro	_	3	amr-unknow	_	_
+5	ở	_	_	Pre	_	_	_	_	_
+6	đây	_	_	Pro	_	3	location	_	_
+7	?	_	_	PUNCT	_	4	amr-unknow	_	_
+8	ông hoàng	_	_	N	_	10	Arg0	_	_
+9	nhỏ	_	_	Adj	_	8	mod	_	_
+10	hỏi	_	_	V	_	3	Arg1-of	_	_
+11	.	_	_	PUNCT	_	3	Rel	_	_
+
+# text = - à !
+1	-	_	_	PUNCT	_	_	_	_	_
+2	à	_	_	I	_	_	_	_	_
+3	!	_	_	PUNCT	_	_	_	_	_
+
+# text = ông hoàng nhỏ nói , để mà ghi nhớ .
+1	ông hoàng	_	_	N	_	3	Arg0	_	_
+2	nhỏ	_	_	Adj	_	1	mod	_	_
+3	nói	_	_	V	_	_	_	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	để	_	_	Pre	_	_	_	_	_
+6	mà	_	_	C	_	7	concession	_	_
+7	ghi nhớ	_	_	V	_	3	purpose	_	_
+8	.	_	_	PUNCT	_	3	Rel	_	_
+
+# text = ta , ta là một người đứng đắn !
+1	ta	_	_	NNP	_	6	Arg0	_	_
+2	,	_	_	PUNCT	_	_	_	_	_
+3	ta	_	_	NNP	_	6	Arg0	_	_
+4	là	_	_	V	_	_	_	_	_
+5	một	_	_	NUM	_	6	quant	_	_
+6	người	_	_	N	_	_	_	_	_
+7	đứng đắn	_	_	ADJ	_	6	mod	_	_
+8	!	_	_	PUNCT	_	6	Rel	_	_
+
+# text = ta không có thì giờ đâu mà mơ màng .
+1	ta	_	_	NNP	_	3	Arg0	_	_
+2	không	_	_	ADV	_	3	polarity	_	_
+3	có	_	_	V	_	_	_	_	_
+4	thì giờ	_	_	N	_	3	Arg1	_	_
+5	đâu	_	_	ADV	_	4	mod	_	_
+6	mà	_	_	SC	_	_	_	_	_
+7	mơ màng	_	_	V	_	3	concession	_	_
+8	.	_	_	PUNCT	_	3	Rel	_	_
+
+# text = - xin chào , ông hoàng nhỏ nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	xin	_	_	V	_	_	_	_	_
+3	chào	_	_	V	_	2	compound	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	ông hoàng	_	_	N	_	7	Arg0	_	_
+6	nhỏ	_	_	Adj	_	5	mod	_	_
+7	nói	_	_	V	_	2	Arg1-of	_	_
+8	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = - xin chào , người lái buôn nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	xin	_	_	V	_	_	_	_	_
+3	chào	_	_	V	_	2	compound	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	người	_	_	N	_	7	Arg0	_	_
+6	lái buôn	_	_	N	_	5	Arg0-of	_	_
+7	nói	_	_	V	_	2	Arg1-of	_	_
+8	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = - chúng thật may mắn , người bẻ ghi nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	chúng	_	_	Pro	_	4	Arg0	_	_
+3	thật	_	_	Adv	_	4	mod	_	_
+4	may mắn	_	_	Adj	_	_	_	_	_
+5	,	_	_	PUNCT	_	_	_	_	_
+6	người	_	_	N	_	8	Arg0	_	_
+7	bẻ ghi	_	_	V	_	6	Arg0-of	_	_
+8	nói	_	_	V	_	4	Arg1-of	_	_
+9	.	_	_	PUNCT	_	4	Rel	_	_
+
+# text = - họ vội quá , ông hoàng nhỏ nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	họ	_	_	Pro	_	3	Arg0	_	_
+3	vội	_	_	Adj	_	_	_	_	_
+4	quá	_	_	Adv	_	3	mod	_	_
+5	,	_	_	PUNCT	_	_	_	_	_
+6	ông hoàng	_	_	N	_	8	Arg0	_	_
+7	nhỏ	_	_	Adj	_	6	mod	_	_
+8	nói	_	_	V	_	3	Arg1-of	_	_
+9	.	_	_	PUNCT	_	3	Rel	_	_
+
+# text = cậu thấy không , ở kia , những đồng lúa mì ấy ?
+1	cậu	_	_	Nc	_	2	Arg0	_	_
+2	thấy	_	_	V	_	_	_	_	_
+3	không	_	_	Adv	_	2	polarity	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	ở	_	_	Pre	_	6	prep-in	_	_
+6	kia	_	_	Pro	_	2	location	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	những	_	_	Det	_	10	quant	_	_
+9	đồng	_	_	N	_	10	classifier	_	_
+10	lúa mì	_	_	N	_	2	Arg1	_	_
+11	ấy	_	_	Pro	_	10	mod	_	_
+12	?	_	_	PUNCT	_	2	Rel	_	_
+
+# text = các cánh đồng lúa mì đối với tớ chẳng có gì khêu gợi .
+1	các	_	_	Det	_	4	quant	_	_
+2	cánh	_	_	N	_	3	classifier	_	_
+3	đồng	_	_	N	_	4	classifier	_	_
+4	lúa mì	_	_	N	_	8	Arg0	_	_
+5	đối với	_	_	C	_	_	_	_	_
+6	tớ	_	_	Pro	_	4	beneficiary	_	_
+7	chẳng	_	_	Adv	_	8	polarity	_	_
+8	có	_	_	V	_	_	_	_	_
+9	gì	_	_	Pro	_	8	Arg1	_	_
+10	khêu gợi	_	_	Adj	_	8	Arg2	_	_
+11	.	_	_	PUNCT	_	8	Rel	_	_
+
+# text = nó đơn giản thôi : người ta chỉ nhìn thấy thật rõ ràng bằng trái tim .
+1	nó	_	_	Pro	_	2	Arg0	_	_
+2	đơn giản	_	_	Adj	_	_	_	_	_
+3	thôi	_	_	Prt	_	2	mod	_	_
+4	:	_	_	PUNCT	_	_	_	_	_
+5	người ta	_	_	N	_	8	Arg0	_	_
+6	chỉ	_	_	Adv	_	_	_	_	_
+7	nhìn	_	_	V	_	8	compound	_	_
+8	thấy	_	_	V	_	2	Arg0	_	_
+9	thật	_	_	Adv	_	10	mod	_	_
+10	rõ ràng	_	_	Adj	_	8	Arg2	_	_
+11	bằng	_	_	Pre	_	_	_	_	_
+12	trái tim	_	_	N	_	8	manner	_	_
+13	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = - cái cốt yếu thì con mắt không nhìn thấy , ông hoàng nhỏ lặp lại , để mà ghi nhớ .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	cái	_	_	Nc	_	3	classifier	_	_
+3	cốt yếu	_	_	Adj	_	9	Arg1	_	_
+4	thì	_	_	C	_	_	_	_	_
+5	con	_	_	Nc	_	6	classifier	_	_
+6	mắt	_	_	N	_	9	Arg0	_	_
+7	không	_	_	Adv	_	9	polarity	_	_
+8	nhìn	_	_	V	_	9	compound	_	_
+9	thấy	_	_	V	_	_	_	_	_
+10	,	_	_	PUNCT	_	_	_	_	_
+11	ông hoàng	_	_	N	_	13	Arg0	_	_
+12	nhỏ	_	_	Adj	_	11	mod	_	_
+13	lặp	_	_	V	_	9	Arg1-of	_	_
+14	lại	_	_	V	_	13	compound	_	_
+15	,	_	_	PUNCT	_	_	_	_	_
+16	để	_	_	Pre	_	_	_	_	_
+17	mà	_	_	C	_	18	concession	_	_
+18	ghi nhớ	_	_	V	_	13	purpose	_	_
+19	.	_	_	PUNCT	_	9	Rel	_	_
+
+# text = mình tuyệt nhiên chẳng muốn cậu khổ , cậu lại cứ muốn mình cảm hoá cậu .
+1	mình	_	_	Pro	_	4	Arg0	_	_
+2	tuyệt nhiên	_	_	Adv	_	4	mod	_	_
+3	chẳng	_	_	Adv	_	4	polarity	_	_
+4	muốn	_	_	aux	_	_	_	_	_
+5	cậu	_	_	Nc	_	4	Arg1	_	_
+6	khổ	_	_	Adj	_	5	Arg0-of	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	cậu	_	_	Nc	_	11	Arg0	_	_
+9	lại	_	_	Adv	_	_	_	_	_
+10	cứ	_	_	Adv	_	11	mod	_	_
+11	muốn	_	_	aux	_	4	Arg0	_	_
+12	mình	_	_	Pro	_	13	Arg0	_	_
+13	cảm hoá	_	_	V	_	11	Arg1	_	_
+14	cậu	_	_	Nc	_	13	Arg1	_	_
+15	.	_	_	PUNCT	_	4	Rel	_	_
+
+# text = rồi cậu hãy lại đây từ biệt tớ , tớ sẽ làm quà cho cậu một điều bí mật .
+1	rồi	_	_	C	_	_	_	_	_
+2	cậu	_	_	Nc	_	4	Arg0	_	_
+3	hãy	_	_	Adv	_	_	_	_	_
+4	lại	_	_	V	_	1	op2	_	_
+5	đây	_	_	Pro	_	4	location	_	_
+6	từ biệt	_	_	V	_	4	purpose	_	_
+7	tớ	_	_	Pro	_	6	Arg1	_	_
+8	,	_	_	PUNCT	_	_	_	_	_
+9	tớ	_	_	Pro	_	11	Arg0	_	_
+10	sẽ	_	_	Adv	_	11	tense	_	_
+11	làm quà	_	_	V	_	4	Arg0	_	_
+12	cho	_	_	C	_	_	_	_	_
+13	cậu	_	_	Nc	_	11	beneficiary	_	_
+14	một	_	_	Num	_	15	quant	_	_
+15	điều	_	_	N	_	11	Arg1	_	_
+16	bí mật	_	_	Adj	_	15	mod	_	_
+17	.	_	_	PUNCT	_	1	Rel	_	_
+
+# text = song tôi đã làm cho nó trở thành bạn tôi , và bây giờ nó trở nên duy nhất trên đời .
+1	song	_	_	C	_	_	_	_	_
+2	tôi	_	_	Pro	_	4	Arg0	_	_
+3	đã	_	_	Adv	_	4	tense	_	_
+4	làm	_	_	V	_	11	op1	_	_
+5	cho	_	_	Pre	_	_	_	_	_
+6	nó	_	_	Pro	_	4	beneficiary	_	_
+7	trở thành	_	_	V	_	4	Arg1	_	_
+8	bạn	_	_	N	_	7	beneficiary	_	_
+9	tôi	_	_	Pro	_	8	poss	_	_
+10	,	_	_	PUNCT	_	_	_	_	_
+11	và	_	_	C	_	_	_	_	_
+12	bây giờ	_	_	Pro	_	14	time	_	_
+13	nó	_	_	Pro	_	14	Arg0	_	_
+14	trở nên	_	_	V	_	11	op2	_	_
+15	duy nhất	_	_	Adj	_	14	mod	_	_
+16	trên	_	_	Pre	_	17	direction	_	_
+17	đời	_	_	N	_	14	location	_	_
+18	.	_	_	PUNCT	_	11	Rel	_	_
+
+# text = - tớ cũng muốn thế lắm , ông hoàng nhỏ trả lời , nhưng tớ không có nhiều thì giờ .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	tớ	_	_	Pro	_	4	Arg0	_	_
+3	cũng	_	_	Adv	_	4	mod	_	_
+4	muốn	_	_	aux	_	_	_	_	_
+5	thế	_	_	Pro	_	4	Arg2	_	_
+6	lắm	_	_	Adv	_	5	mod	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	ông hoàng	_	_	N	_	10	Arg0	_	_
+9	nhỏ	_	_	Adj	_	8	mod	_	_
+10	trả lời	_	_	V	_	4	Arg1-of	_	_
+11	,	_	_	PUNCT	_	_	_	_	_
+12	nhưng	_	_	C	_	_	_	_	_
+13	tớ	_	_	Pro	_	15	Arg0	_	_
+14	không	_	_	Adv	_	15	polarity	_	_
+15	có	_	_	V	_	4	constract	_	_
+16	nhiều	_	_	Adj	_	17	mod	_	_
+17	thì giờ	_	_	N	_	15	Arg1	_	_
+18	.	_	_	PUNCT	_	4	Rel	_	_
+
+# text = đến bốn giờ thì mình phát cuồng lên và lo lắng ; và mình sẽ hiểu cái giá của hạnh phúc !
+1	đến	_	_	Pre	_	3	prep	_	_
+2	bốn	_	_	Num	_	3	quant	_	_
+3	giờ	_	_	Nu	_	6	time	_	_
+4	thì	_	_	C	_	_	_	_	_
+5	mình	_	_	Pro	_	_	_	_	_
+6	phát	_	_	V	_	9	op1	_	_
+7	cuồng	_	_	Adj	_	6	Arg2	_	_
+8	lên	_	_	V	_	7	mod	_	_
+9	và	_	_	C	_	12	op1	_	_
+10	lo lắng	_	_	V	_	9	op2	_	_
+11	;	_	_	PUNCT	_	_	_	_	_
+12	và	_	_	C	_	_	_	_	_
+13	mình	_	_	Pro	_	_	_	_	_
+14	sẽ	_	_	Adv	_	15	tense	_	_
+15	hiểu	_	_	V	_	12	op2	_	_
+16	cái	_	_	Nc	_	17	classifier	_	_
+17	giá	_	_	N	_	15	Arg1	_	_
+18	của	_	_	Pre	_	_	_	_	_
+19	hạnh phúc	_	_	Adj	_	17	poss	_	_
+20	!	_	_	PUNCT	_	12	Rel	_	_
+
+# text = và ở đây có đến năm nghìn đoá giống như nhau , chỉ mới trong mỗi một khu vườn .
+1	và	_	_	C	_	_	_	_	_
+2	ở	_	_	Pre	_	_	_	_	_
+3	đây	_	_	Pro	_	4	location	_	_
+4	có	_	_	V	_	1	op2	_	_
+5	đến	_	_	Prt	_	4	mod	_	_
+6	năm nghìn	_	_	Num	_	7	quant	_	_
+7	đoá	_	_	Nc	_	4	Arg1	_	_
+8	giống	_	_	V	_	7	resemble-01	_	_
+9	như	_	_	C	_	_	_	_	_
+10	nhau	_	_	N	_	8	mod	_	_
+11	,	_	_	PUNCT	_	_	_	_	_
+12	chỉ	_	_	Adv	_	17	mod	_	_
+13	mới	_	_	Adv	_	12	mod	_	_
+14	trong	_	_	N	_	17	direction	_	_
+15	mỗi một	_	_	Det	_	17	quant	_	_
+16	khu	_	_	N	_	17	classifier	_	_
+17	vườn	_	_	N	_	4	location	_	_
+18	.	_	_	PUNCT	_	1	Rel	_	_
+
+# text = - tốt hơn là nên đến đúng giờ như hôm trước , cáo nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	tốt	_	_	Adj	_	6	mod	_	_
+3	hơn	_	_	Adv	_	2	mod	_	_
+4	là	_	_	C	_	_	_	_	_
+5	nên	_	_	aux	_	6	obligate-01	_	_
+6	đến	_	_	V	_	_	_	_	_
+7	đúng	_	_	Adj	_	6	Arg2	_	_
+8	giờ	_	_	N	_	7	time	_	_
+9	như	_	_	C	_	_	_	_	_
+10	hôm	_	_	N	_	6	resemble-01	_	_
+11	trước	_	_	N	_	10	mod	_	_
+12	,	_	_	PUNCT	_	_	_	_	_
+13	cáo	_	_	N	_	14	Arg0	_	_
+14	nói	_	_	V	_	6	Arg1-of	_	_
+15	.	_	_	PUNCT	_	6	Rel	_	_
+
+# text = họ tìm cái gì vậy ?
+1	họ	_	_	Pro	_	2	Arg0	_	_
+2	tìm	_	_	V	_	_	_	_	_
+3	cái	_	_	Nc	_	4	classifier	_	_
+4	gì	_	_	Pro	_	2	amr-unknow	_	_
+5	vậy	_	_	Prt	_	_	_	_	_
+6	?	_	_	PUNCT	_	2	Rel	_	_
+
+# text = - chính người lái tàu cũng không biết , người gác ghi nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	chính	_	_	Prt	_	_	_	_	_
+3	người	_	_	N	_	8	Arg0	_	_
+4	lái	_	_	V	_	3	Arg0-of	_	_
+5	tàu	_	_	N	_	4	Arg1	_	_
+6	cũng	_	_	Adv	_	8	mod	_	_
+7	không	_	_	Adv	_	8	polarity	_	_
+8	biết	_	_	V	_	_	_	_	_
+9	,	_	_	PUNCT	_	_	_	_	_
+10	người	_	_	N	_	13	Arg0	_	_
+11	gác	_	_	V	_	10	Arg0-of	_	_
+12	ghi	_	_	N	_	11	Arg1	_	_
+13	nói	_	_	V	_	8	Arg1-of	_	_
+14	.	_	_	PUNCT	_	8	Rel	_	_
+
+# text = - họ đã trở về rồi ư ? ông hoàng nhỏ hỏi ...
+1	-	_	_	PUNCT	_	_	_	_	_
+2	họ	_	_	Pro	_	5	Arg0	_	_
+3	đã	_	_	Adv	_	5	tense	_	_
+4	trở	_	_	V	_	5	compound	_	_
+5	về	_	_	V	_	_	_	_	_
+6	rồi	_	_	Adv	_	5	mod	_	_
+7	ư	_	_	Prt	_	_	_	_	_
+8	?	_	_	PUNCT	_	5	amr-unknow	_	_
+9	ông hoàng	_	_	N	_	11	Arg0	_	_
+10	nhỏ	_	_	Adj	_	9	mod	_	_
+11	hỏi	_	_	V	_	5	Arg1-of	_	_
+12	...	_	_	PUNCT	_	5	Rel	_	_
+
+# text = - không phải những người khi nãy .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	không	_	_	Adv	_	3	polarity	_	_
+3	phải	_	_	Adj	_	_	_	_	_
+4	những	_	_	Det	_	5	quant	_	_
+5	người	_	_	N	_	3	Arg1	_	_
+6	khi	_	_	N	_	5	time	_	_
+7	nãy	_	_	Pro	_	6	mod	_	_
+8	.	_	_	PUNCT	_	3	Rel	_	_
+
+# text = họ đổi chỗ đấy .
+1	họ	_	_	Pro	_	2	Arg0	_	_
+2	đổi	_	_	V	_	_	_	_	_
+3	chỗ	_	_	N	_	2	Arg1	_	_
+4	đấy	_	_	Pro	_	3	mod	_	_
+5	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = - họ không bằng lòng chỗ của họ ?
+1	-	_	_	PUNCT	_	_	_	_	_
+2	họ	_	_	Pro	_	4	Arg0	_	_
+3	không	_	_	Adv	_	4	polarity	_	_
+4	bằng lòng	_	_	V	_	_	_	_	_
+5	chỗ	_	_	N	_	4	Arg1	_	_
+6	của	_	_	Pre	_	_	_	_	_
+7	họ	_	_	Pro	_	5	poss	_	_
+8	?	_	_	PUNCT	_	4	Rel	_	_
+
+# text = họ ngủ gật hoặc ngồi ngáp vặt trong đó .
+1	họ	_	_	Pro	_	2	Arg0	_	_
+2	ngủ gật	_	_	V	_	3	op1	_	_
+3	hoặc	_	_	C	_	_	_	_	_
+4	ngồi	_	_	V	_	3	op2	_	_
+5	ngáp	_	_	V	_	4	compound	_	_
+6	vặt	_	_	Adj	_	5	mod	_	_
+7	trong	_	_	Pre	_	8	prep-in	_	_
+8	đó	_	_	Pro	_	4	location	_	_
+9	.	_	_	PUNCT	_	3	Rel	_	_
+
+# text = các nhà chuyên môn đã có tính toán .
+1	các	_	_	Det	_	3	quant	_	_
+2	nhà	_	_	N	_	3	classifier	_	_
+3	chuyên môn	_	_	N	_	5	Arg0	_	_
+4	đã	_	_	Adv	_	5	tense	_	_
+5	có	_	_	Adv	_	_	_	_	_
+6	tính toán	_	_	V	_	5	Arg1	_	_
+7	.	_	_	PUNCT	_	5	Rel	_	_
+
+# text = - tại sao ông bán thứ đó ? ông hoàng nhỏ hỏi .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	tại	_	_	Pre	_	5	cause	_	_
+3	sao	_	_	Pro	_	2	amr-unknow	_	_
+4	ông	_	_	N	_	5	Arg0	_	_
+5	bán	_	_	V	_	_	_	_	_
+6	thứ	_	_	N	_	5	Arg1	_	_
+7	đó	_	_	Prt	_	6	mod	_	_
+8	?	_	_	PUNCT	_	_	_	_	_
+9	ông hoàng	_	_	N	_	11	Arg0	_	_
+10	nhỏ	_	_	Adj	_	9	mod	_	_
+11	hỏi	_	_	V	_	5	Arg1-of	_	_
+12	.	_	_	PUNCT	_	5	Rel	_	_
+
+# text = - bạn cáo của tôi ơi , em nói ...
+1	-	_	_	PUNCT	_	_	_	_	_
+2	bạn	_	_	N	_	3	classifier	_	_
+3	cáo	_	_	N	_	_	_	_	_
+4	của	_	_	Pre	_	_	_	_	_
+5	tôi	_	_	Pro	_	3	poss	_	_
+6	ơi	_	_	I	_	3	mod	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	em	_	_	N	_	9	Arg0	_	_
+9	nói	_	_	V	_	3	Arg1-of	_	_
+10	...	_	_	PUNCT	_	3	Rel	_	_
+
+# text = - bởi vì ta sắp chết khát ...
+1	-	_	_	PUNCT	_	_	_	_	_
+2	bởi vì	_	_	C	_	5	cause	_	_
+3	ta	_	_	Pro	_	5	Arg0	_	_
+4	sắp	_	_	Adv	_	5	tense	_	_
+5	chết	_	_	V	_	_	_	_	_
+6	khát	_	_	V	_	5	compound	_	_
+7	...	_	_	PUNCT	_	5	Rel	_	_
+
+# text = em không hiểu lý lẽ của tôi , em trả lời tôi :
+1	em	_	_	N	_	3	Arg0	_	_
+2	không	_	_	Adv	_	3	polarity	_	_
+3	hiểu	_	_	V	_	_	_	_	_
+4	lý lẽ	_	_	N	_	3	Arg1	_	_
+5	của	_	_	Pre	_	_	_	_	_
+6	tôi	_	_	Pro	_	4	poss	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	em	_	_	N	_	9	Arg0	_	_
+9	trả lời	_	_	V	_	4	Arg1-of	_	_
+10	tôi	_	_	Pro	_	9	beneficiary	_	_
+11	:	_	_	PUNCT	_	3	Rel	_	_
+
+# text = em không lường được hiểm nguy , tôi nghĩ thầm .
+1	em	_	_	N	_	3	Arg0	_	_
+2	không	_	_	Adv	_	3	polarity	_	_
+3	lường	_	_	V	_	_	_	_	_
+4	được	_	_	Adv	_	3	mod	_	_
+5	hiểm nguy	_	_	Adj	_	3	Arg1	_	_
+6	,	_	_	PUNCT	_	_	_	_	_
+7	tôi	_	_	Pro	_	8	Arg0	_	_
+8	nghĩ	_	_	V	_	3	Arg1-of	_	_
+9	thầm	_	_	Adj	_	8	mod	_	_
+10	.	_	_	PUNCT	_	3	Rel	_	_
+
+# text = em không hề đói hay khát .
+1	em	_	_	N	_	4	Arg0	_	_
+2	không	_	_	Adv	_	4	polarity	_	_
+3	hề	_	_	Prt	_	4	mod	_	_
+4	đói	_	_	V	_	5	op1	_	_
+5	hay	_	_	C	_	_	_	_	_
+6	khát	_	_	V	_	5	op2	_	_
+7	.	_	_	PUNCT	_	5	Rel	_	_
+
+# text = một chút mặt trời cũng đủ cho em rồi .
+1	một	_	_	Num	_	2	quant	_	_
+2	chút	_	_	Det	_	3	unit	_	_
+3	mặt trời	_	_	N	_	5	Arg0	_	_
+4	cũng	_	_	Adv	_	5	mod	_	_
+5	đủ	_	_	Adj	_	_	_	_	_
+6	cho	_	_	C	_	_	_	_	_
+7	em	_	_	N	_	5	accompanier	_	_
+8	rồi	_	_	Adv	_	_	_	_	_
+9	.	_	_	PUNCT	_	5	Rel	_	_
+
+# text = nhưng em nhìn tôi và trả lời điều tôi vừa nghĩ :
+1	nhưng	_	_	C	_	_	_	_	_
+2	em	_	_	N	_	3	Arg0	_	_
+3	nhìn	_	_	V	_	5	op1	_	_
+4	tôi	_	_	Pro	_	3	Arg1	_	_
+5	và	_	_	C	_	_	_	_	_
+6	trả lời	_	_	V	_	5	op2	_	_
+7	điều	_	_	N	_	6	Arg1	_	_
+8	tôi	_	_	Pro	_	10	Arg0	_	_
+9	vừa	_	_	Adv	_	10	mod	_	_
+10	nghĩ	_	_	V	_	7	Arg1-of	_	_
+11	:	_	_	PUNCT	_	5	Rel	_	_
+
+# text = tôi biết là không nên hỏi em .
+1	tôi	_	_	Pro	_	2	Arg0	_	_
+2	biết	_	_	V	_	_	_	_	_
+3	là	_	_	C	_	_	_	_	_
+4	không	_	_	Adv	_	6	polarity	_	_
+5	nên	_	_	aux	_	6	obligate-01	_	_
+6	hỏi	_	_	V	_	2	Arg1	_	_
+7	em	_	_	N	_	6	Arg1	_	_
+8	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = tôi không hiểu câu em đáp nhưng tôi im lặng ...
+1	tôi	_	_	Pro	_	3	Arg0	_	_
+2	không	_	_	Adv	_	3	polarity	_	_
+3	hiểu	_	_	V	_	_	_	_	_
+4	câu	_	_	N	_	3	Arg1	_	_
+5	em	_	_	N	_	6	Arg0	_	_
+6	đáp	_	_	V	_	4	Arg1	_	_
+7	nhưng	_	_	C	_	_	_	_	_
+8	tôi	_	_	Pro	_	9	Arg0	_	_
+9	im lặng	_	_	Adj	_	3	constract	_	_
+10	...	_	_	PUNCT	_	3	Rel	_	_
+
+# text = ta không trông thấy gì hết .
+1	ta	_	_	Pro	_	4	Arg0	_	_
+2	không	_	_	Adv	_	4	polarity	_	_
+3	trông	_	_	V	_	4	compound	_	_
+4	thấy	_	_	V	_	_	_	_	_
+5	gì	_	_	Adv	_	4	amr-unknow	_	_
+6	hết	_	_	Prt	_	4	mod	_	_
+7	.	_	_	PUNCT	_	4	Rel	_	_
+
+# text = ta không nghe thấy gì hết .
+1	ta	_	_	Pro	_	3	Arg0	_	_
+2	không	_	_	Adv	_	3	polarity	_	_
+3	nghe	_	_	V	_	_	_	_	_
+4	thấy	_	_	V	_	3	compound	_	_
+5	gì	_	_	Pro	_	3	amr-unknow	_	_
+6	hết	_	_	Prt	_	3	mod	_	_
+7	.	_	_	PUNCT	_	3	Rel	_	_
+
+# text = và em nói thêm :
+1	và	_	_	C	_	_	_	_	_
+2	em	_	_	N	_	3	Arg0	_	_
+3	nói	_	_	V	_	1	op2	_	_
+4	thêm	_	_	V	_	3	compound	_	_
+5	:	_	_	PUNCT	_	1	Rel	_	_
+
+# text = hai với năm là bảy ...
+1	hai	_	_	NUM	_	2	op1	_	_
+2	với	_	_	SC	_	5	domain	_	_
+3	năm	_	_	NUM	_	2	op2	_	_
+4	là	_	_	V	_	_	_	_	_
+5	bảy	_	_	NUM	_	_	_	_	_
+6	...	_	_	PUNCT	_	5	Rel	_	_
+
+# text = - năm trăm linh một triệu cái gì ?
+1	-	_	_	PUNCT	_	_	_	_	_
+2	năm trăm linh một triệu	_	_	NUM	_	_	_	_	_
+3	cái	_	_	NC	_	4	classifier	_	_
+4	gì	_	_	NNP	_	2	amr-unknow	_	_
+5	?	_	_	PUNCT	_	2	Rel	_	_
+
+# text = em chỉ vừa thức dậy ...
+1	em	_	_	N	_	4	Arg0	_	_
+2	chỉ	_	_	ADV	_	4	mod	_	_
+3	vừa	_	_	ADV	_	4	mod	_	_
+4	thức	_	_	V	_	_	_	_	_
+5	dậy	_	_	V	_	4	compound	_	_
+6	...	_	_	PUNCT	_	4	Rel	_	_
+
+# text = - phải , tôi nói với ông hoàng nhỏ .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	phải	_	_	Adj	_	_	_	_	_
+3	,	_	_	PUNCT	_	_	_	_	_
+4	tôi	_	_	Pro	_	5	Arg0	_	_
+5	nói	_	_	V	_	2	Arg1-of	_	_
+6	với	_	_	C	_	_	_	_	_
+7	ông hoàng	_	_	N	_	5	accompanier	_	_
+8	nhỏ	_	_	Adj	_	7	mod	_	_
+9	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = ta rất đứng đắn , ta , ta không thích những trò nhảm nhí !
+1	ta	_	_	NNP	_	3	Arg0	_	_
+2	rất	_	_	ADV	_	3	degree	_	_
+3	đứng đắn	_	_	ADJ	_	_	_	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	ta	_	_	NNP	_	_	_	_	_
+6	,	_	_	PUNCT	_	_	_	_	_
+7	ta	_	_	NNP	_	9	Arg0	_	_
+8	không	_	_	ADV	_	9	polarity	_	_
+9	thích	_	_	V	_	3	Arg0	_	_
+10	những	_	_	DET	_	11	quant	_	_
+11	trò	_	_	N	_	9	Arg1	_	_
+12	nhảm nhí	_	_	ADJ	_	11	mod	_	_
+13	!	_	_	PUNCT	_	3	Rel	_	_
+
+# text = tất cả là năm trăm linh một triệu sáu trăm năm mươi hai nghìn bảy trăm ba mươi mốt .
+1	tất cả	_	_	DET	_	3	domain	_	_
+2	là	_	_	V	_	_	_	_	_
+3	năm trăm linh một triệu sáu trăm năm mươi hai nghìn bảy trăm ba mươi mốt	_	_	NUM	_	_	_	_	_
+4	.	_	_	PUNCT	_	3	Rel	_	_
+
+# text = ông hoàng nhỏ lặp lại , suốt đời em , không bao giờ bỏ ra một câu hỏi một khi đã nêu nó ra .
+1	ông hoàng	_	_	N	_	3	Arg0	_	_
+2	nhỏ	_	_	ADJ	_	1	mod	_	_
+3	lặp	_	_	V	_	12	Arg1-of	_	_
+4	lại	_	_	V	_	3	compound	_	_
+5	,	_	_	PUNCT	_	_	_	_	_
+6	suốt	_	_	ADJ	_	_	_	_	_
+7	đời	_	_	N	_	_	_	_	_
+8	em	_	_	N	_	_	_	_	_
+9	,	_	_	PUNCT	_	_	_	_	_
+10	không	_	_	ADV	_	11	polarity	_	_
+11	bao giờ	_	_	NNP	_	12	time	_	_
+12	bỏ	_	_	V	_	_	_	_	_
+13	ra	_	_	V	_	12	compound	_	_
+14	một	_	_	NUM	_	16	quant	_	_
+15	câu	_	_	N	_	16	classifier	_	_
+16	hỏi	_	_	V	_	12	Arg1	_	_
+17	một khi	_	_	N	_	19	time	_	_
+18	đã	_	_	ADV	_	19	tense	_	_
+19	nêu	_	_	V	_	12	time	_	_
+20	nó	_	_	NNP	_	19	Arg1	_	_
+21	ra	_	_	V	_	19	compound	_	_
+22	.	_	_	PUNCT	_	12	Rel	_	_
+
+# text = Ta , ông hoàng nhỏ nghĩ thầm , nếu ta có năm mươi ba phút để làm gì thì làm , ta sẽ bước thật nhẹ nhàng đến một cái nguồn nước ...
+1	Ta	_	_	NNP	_	_	_	_	_
+2	,	_	_	PUNCT	_	_	_	_	_
+3	ông hoàng	_	_	N	_	5	Arg0	_	_
+4	nhỏ	_	_	ADJ	_	3	mod	_	_
+5	nghĩ	_	_	V	_	21	Arg1-of	_	_
+6	thầm	_	_	ADJ	_	5	mod	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	nếu	_	_	SC	_	_	_	_	_
+9	ta	_	_	NNP	_	10	Arg0	_	_
+10	có	_	_	V	_	21	condition	_	_
+11	năm mươi ba	_	_	NUM	_	12	quant	_	_
+12	phút	_	_	NU	_	10	Arg1	_	_
+13	để	_	_	PRE	_	_	_	_	_
+14	làm	_	_	V	_	10	purpose	_	_
+15	gì	_	_	NNP	_	14	amr-unknow	_	_
+16	thì	_	_	SC	_	17	mod	_	_
+17	làm	_	_	V	_	14	Arg2	_	_
+18	,	_	_	PUNCT	_	_	_	_	_
+19	ta	_	_	NNP	_	21	Arg0	_	_
+20	sẽ	_	_	ADV	_	21	tense	_	_
+21	bước	_	_	V	_	_	_	_	_
+22	thật	_	_	PRT	_	23	mod	_	_
+23	nhẹ nhàng	_	_	ADJ	_	21	Arg2	_	_
+24	đến	_	_	PRE	_	_	_	_	_
+25	một	_	_	NUM	_	28	quant	_	_
+26	cái	_	_	NC	_	27	classifier	_	_
+27	nguồn	_	_	N	_	28	classifier	_	_
+28	nước	_	_	N	_	21	destination	_	_
+29	...	_	_	PUNCT	_	21	Rel	_	_
+30		_	_	_	_	_	_	_	_
+
+# text = - ông biết đấy ... đoá hoa của tôi ...
+1	-	_	_	PUNCT	_	_	_	_	_
+2	ông	_	_	N	_	3	Arg0	_	_
+3	biết	_	_	V	_	_	_	_	_
+4	đấy	_	_	Pro	_	3	mod	_	_
+5	...	_	_	PUNCT	_	_	_	_	_
+6	đoá	_	_	Nc	_	7	classifier	_	_
+7	hoa	_	_	N	_	3	Arg1	_	_
+8	của	_	_	Pre	_	_	_	_	_
+9	tôi	_	_	Pro	_	7	poss	_	_
+10	...	_	_	PUNCT	_	3	Rel	_	_
+
+# text = nàng chỉ có bốn cái gai chẳng thấm vào đâu để mà chống chọi trên đời ...
+1	nàng	_	_	N	_	3	Arg0	_	_
+2	chỉ	_	_	Adv	_	3	mod	_	_
+3	có	_	_	V	_	_	_	_	_
+4	bốn	_	_	Num	_	6	quant	_	_
+5	cái	_	_	Nc	_	6	classifier	_	_
+6	gai	_	_	N	_	3	Arg1	_	_
+7	chẳng	_	_	Adv	_	8	polarity	_	_
+8	thấm	_	_	V	_	3	Arg2	_	_
+9	vào	_	_	Prt	_	10	mod	_	_
+10	đâu	_	_	Prt	_	8	mod	_	_
+11	để	_	_	Pre	_	_	_	_	_
+12	mà	_	_	C	_	_	_	_	_
+13	chống chọi	_	_	V	_	8	purpose	_	_
+14	trên	_	_	Pre	_	15	direction	_	_
+15	đời	_	_	N	_	13	location	_	_
+16	...	_	_	PUNCT	_	3	Rel	_	_
+
+# text = - kia rồi ... chỉ có thế thôi ...
+1	-	_	_	PUNCT	_	_	_	_	_
+2	kia	_	_	Pro	_	6	location	_	_
+3	rồi	_	_	Prt	_	2	mod	_	_
+4	...	_	_	PUNCT	_	_	_	_	_
+5	chỉ	_	_	Adv	_	6	mod	_	_
+6	có	_	_	V	_	_	_	_	_
+7	thế	_	_	Pro	_	6	mod	_	_
+8	thôi	_	_	Prt	_	7	mod	_	_
+9	...	_	_	PUNCT	_	6	Rel	_	_
+
+# text = còn tôi , tôi không thể nào cử động được .
+1	còn	_	_	C	_	7	mod	_	_
+2	tôi	_	_	Pro	_	1	Arg1	_	_
+3	,	_	_	PUNCT	_	_	_	_	_
+4	tôi	_	_	Pro	_	7	Arg0	_	_
+5	không thể	_	_	Adv	_	7	polarity	_	_
+6	nào	_	_	Prt	_	5	mode	_	_
+7	cử động	_	_	V	_	_	_	_	_
+8	được	_	_	Adv	_	7	mod	_	_
+9	.	_	_	PUNCT	_	7	Rel	_	_
+
+# text = cả một tiếng động cũng không có , là bởi vì cát .
+1	cả	_	_	Prt	_	3	mod	_	_
+2	một	_	_	Num	_	3	quant	_	_
+3	tiếng động	_	_	N	_	6	Arg0	_	_
+4	cũng	_	_	Adv	_	6	mod	_	_
+5	không	_	_	Adv	_	6	polarity	_	_
+6	có	_	_	V	_	_	_	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	là	_	_	C	_	_	_	_	_
+9	bởi vì	_	_	C	_	10	manner	_	_
+10	cát	_	_	N	_	6	Arg1	_	_
+11	.	_	_	PUNCT	_	6	Rel	_	_
+
+# text = nhưng có xảy ra một điều gì đó không bình thường .
+1	nhưng	_	_	C	_	_	_	_	_
+2	có	_	_	Adv	_	3	mod	_	_
+3	xảy	_	_	V	_	_	_	_	_
+4	ra	_	_	V	_	3	compound	_	_
+5	một	_	_	Num	_	6	quant	_	_
+6	điều	_	_	N	_	3	Arg1	_	_
+7	gì	_	_	Pro	_	6	amr-unknow	_	_
+8	đó	_	_	N	_	7	mod	_	_
+9	không	_	_	Adv	_	10	polarity	_	_
+10	bình thường	_	_	Adj	_	6	Arg2	_	_
+11	.	_	_	PUNCT	_	3	Rel	_	_
+
+# text = khi thì tôi tự nhủ :  thế nào chẳng có lúc người ta lơ đãng , và thế là đủ !
+1	khi	_	_	N	_	4	time	_	_
+2	thì	_	_	C	_	_	_	_	_
+3	tôi	_	_	Pro	_	4	Arg0	_	_
+4	tự nhủ	_	_	V	_	14	Arg1-of	_	_
+5	:	_	_	PUNCT	_	_	_	_	_
+6		_	_	_	_	_	_	_	_
+7	thế nào	_	_	Pro	_	9	mod	_	_
+8	chẳng	_	_	Adv	_	9	polarity	_	_
+9	có	_	_	V	_	14	op1	_	_
+10	lúc	_	_	N	_	9	time	_	_
+11	người ta	_	_	N	_	10	time	_	_
+12	lơ đãng	_	_	V	_	11	Arg0-of	_	_
+13	,	_	_	PUNCT	_	_	_	_	_
+14	và	_	_	C	_	_	_	_	_
+15	thế là	_	_	C	_	_	_	_	_
+16	đủ	_	_	Adj	_	14	op2	_	_
+17	!	_	_	PUNCT	_	14	Rel	_	_
+
+# text = - tôi nói với ông ... là tại vì con rắn đây .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	tôi	_	_	Pro	_	3	Arg0	_	_
+3	nói	_	_	V	_	_	_	_	_
+4	với	_	_	C	_	_	_	_	_
+5	ông	_	_	N	_	3	accompanier	_	_
+6	...	_	_	PUNCT	_	_	_	_	_
+7	là	_	_	C	_	_	_	_	_
+8	tại	_	_	Pre	_	9	mod	_	_
+9	vì	_	_	Pre	_	3	Arg1	_	_
+10	con	_	_	Nc	_	11	classifier	_	_
+11	rắn	_	_	N	_	9	cause	_	_
+12	đây	_	_	Pro	_	11	mod	_	_
+13	.	_	_	PUNCT	_	3	Rel	_	_
+
+# text = chớ để rắn nó cắn ông .
+1	chớ	_	_	Adv	_	2	mod	_	_
+2	để	_	_	V	_	_	_	_	_
+3	rắn	_	_	N	_	2	Arg1	_	_
+4	nó	_	_	Pro	_	5	Arg0	_	_
+5	cắn	_	_	V	_	3	Arg0-of	_	_
+6	ông	_	_	N	_	5	Arg1	_	_
+7	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = nhưng có cái gì đó làm em yên tâm :
+1	nhưng	_	_	C	_	_	_	_	_
+2	có	_	_	V	_	_	_	_	_
+3	cái	_	_	Nc	_	2	Arg1	_	_
+4	gì	_	_	Pro	_	3	amr-unknow	_	_
+5	đó	_	_	N	_	4	mod	_	_
+6	làm	_	_	V	_	2	Arg1	_	_
+7	em	_	_	N	_	6	Arg1	_	_
+8	yên tâm	_	_	Adj	_	6	Arg2	_	_
+9	:	_	_	PUNCT	_	2	Rel	_	_
+
+# text = em đã trốn đi không một tiếng động .
+1	em	_	_	N	_	3	Arg0	_	_
+2	đã	_	_	Adv	_	3	tense	_	_
+3	trốn	_	_	V	_	_	_	_	_
+4	đi	_	_	V	_	3	compound	_	_
+5	không	_	_	Adv	_	7	polarity	_	_
+6	một	_	_	Num	_	7	quant	_	_
+7	tiếng động	_	_	N	_	3	Arg2	_	_
+8	.	_	_	PUNCT	_	3	Rel	_	_
+
+# text = tôi sẽ có vẻ chết nhưng không phải là thật đâu ...
+1	tôi	_	_	Pro	_	3	Arg0	_	_
+2	sẽ	_	_	Adv	_	3	tense	_	_
+3	có	_	_	V	_	_	_	_	_
+4	vẻ	_	_	N	_	5	classifier	_	_
+5	chết	_	_	V	_	3	Arg1	_	_
+6	nhưng	_	_	C	_	_	_	_	_
+7	không	_	_	Adv	_	8	polarity	_	_
+8	phải	_	_	Adj	_	3	constract	_	_
+9	là	_	_	C	_	_	_	_	_
+10	thật	_	_	Adj	_	8	mod	_	_
+11	đâu	_	_	Prt	_	10	mod	_	_
+12	...	_	_	PUNCT	_	3	Rel	_	_
+
+# text = - em muốn nói sao ?
+1	-	_	_	PUNCT	_	_	_	_	_
+2	em	_	_	N	_	4	Arg0	_	_
+3	muốn	_	_	aux	_	4	mod	_	_
+4	nói	_	_	V	_	_	_	_	_
+5	sao	_	_	Pro	_	4	amr-unknow	_	_
+6	?	_	_	PUNCT	_	4	Rel	_	_
+
+# text = hoá ra tôi chơi khăm ông một vố ...
+1	hoá ra	_	_	PrtG	_	3	mod	_	_
+2	tôi	_	_	Pro	_	3	Arg0	_	_
+3	chơi khăm	_	_	V	_	_	_	_	_
+4	ông	_	_	N	_	3	Arg1	_	_
+5	một	_	_	Num	_	6	quant	_	_
+6	vố	_	_	N	_	3	Arg2	_	_
+7	...	_	_	PUNCT	_	3	Rel	_	_
+
+# text = ông , ông sẽ có được những ngôi sao biết cười .
+1	ông	_	_	N	_	_	_	_	_
+2	,	_	_	PUNCT	_	_	_	_	_
+3	ông	_	_	N	_	5	Arg0	_	_
+4	sẽ	_	_	Adv	_	5	tense	_	_
+5	có	_	_	V	_	_	_	_	_
+6	được	_	_	Adv	_	5	mod	_	_
+7	những	_	_	Det	_	9	quant	_	_
+8	ngôi	_	_	Nc	_	9	classifier	_	_
+9	sao	_	_	N	_	5	Arg1	_	_
+10	biết	_	_	V	_	11	compound	_	_
+11	cười	_	_	V	_	9	Arg0-of	_	_
+12	.	_	_	PUNCT	_	5	Rel	_	_
+
+# text = ông sẽ bảo họ :  phải , các ngôi sao , lúc nào chúng cũng làm cho mình cười !  .
+1	ông	_	_	N	_	3	Arg0	_	_
+2	sẽ	_	_	Adv	_	3	tense	_	_
+3	bảo	_	_	V	_	17	Arg1-of	_	_
+4	họ	_	_	Pro	_	3	accompanier	_	_
+5	:	_	_	PUNCT	_	_	_	_	_
+6		_	_	_	_	_	_	_	_
+7	phải	_	_	Adj	_	17	mod	_	_
+8	,	_	_	PUNCT	_	_	_	_	_
+9	các	_	_	Det	_	11	quant	_	_
+10	ngôi	_	_	Nc	_	11	classifier	_	_
+11	sao	_	_	N	_	17	Arg0	_	_
+12	,	_	_	PUNCT	_	_	_	_	_
+13	lúc	_	_	N	_	17	time	_	_
+14	nào	_	_	Pro	_	13	mod	_	_
+15	chúng	_	_	Pro	_	17	Arg0	_	_
+16	cũng	_	_	Adv	_	17	mod	_	_
+17	làm	_	_	V	_	_	_	_	_
+18	cho	_	_	Pre	_	_	_	_	_
+19	mình	_	_	Pro	_	17	beneficiary	_	_
+20	cười	_	_	V	_	19	Arg0-of	_	_
+21	!	_	_	PUNCT	_	_	_	_	_
+22		_	_	_	_	_	_	_	_
+23	.	_	_	PUNCT	_	17	Rel	_	_
+
+# text = ông , ông sẽ có những ngôi sao trước đây không ai có ...
+1	ông	_	_	N	_	_	_	_	_
+2	,	_	_	PUNCT	_	_	_	_	_
+3	ông	_	_	N	_	5	Arg0	_	_
+4	sẽ	_	_	Adv	_	5	tense	_	_
+5	có	_	_	V	_	_	_	_	_
+6	những	_	_	Det	_	8	quant	_	_
+7	ngôi	_	_	Nc	_	8	classifier	_	_
+8	sao	_	_	N	_	5	Arg1	_	_
+9	trước đây	_	_	Pre	_	12	time	_	_
+10	không	_	_	Adv	_	12	polarity	_	_
+11	ai	_	_	Pro	_	12	Arg0	_	_
+12	có	_	_	V	_	8	Arg1	_	_
+13	...	_	_	PUNCT	_	5	Rel	_	_
+
+# text = - em muốn nói sao ?
+1	-	_	_	PUNCT	_	_	_	_	_
+2	em	_	_	N	_	4	Arg0	_	_
+3	muốn	_	_	aux	_	4	mod	_	_
+4	nói	_	_	V	_	_	_	_	_
+5	sao	_	_	Pro	_	4	amr-unknow	_	_
+6	?	_	_	PUNCT	_	4	Rel	_	_
+
+# text = nhưng tất cả loại ngôi sao ấy đều câm lặng .
+1	nhưng	_	_	C	_	_	_	_	_
+2	tất cả	_	_	Det	_	5	quant	_	_
+3	loại	_	_	N	_	5	classifier	_	_
+4	ngôi	_	_	Nc	_	5	classifier	_	_
+5	sao	_	_	N	_	8	Arg0	_	_
+6	ấy	_	_	Pro	_	5	mod	_	_
+7	đều	_	_	Adv	_	8	mod	_	_
+8	câm lặng	_	_	Adj	_	_	_	_	_
+9	.	_	_	PUNCT	_	8	Rel	_	_
+
+# text = như thế , tất cả các ngôi sao , ông đều sẽ thích nhìn .
+1	như	_	_	C	_	12	mod	_	_
+2	thế	_	_	Pro	_	1	mod	_	_
+3	,	_	_	PUNCT	_	_	_	_	_
+4	tất cả	_	_	Det	_	7	quant	_	_
+5	các	_	_	Det	_	7	quant	_	_
+6	ngôi	_	_	Nc	_	7	classifier	_	_
+7	sao	_	_	N	_	12	Arg1	_	_
+8	,	_	_	PUNCT	_	_	_	_	_
+9	ông	_	_	N	_	12	Arg0	_	_
+10	đều	_	_	Adv	_	12	mod	_	_
+11	sẽ	_	_	Adv	_	12	tense	_	_
+12	thích	_	_	V	_	_	_	_	_
+13	nhìn	_	_	V	_	12	compound	_	_
+14	.	_	_	PUNCT	_	12	Rel	_	_
+
+# text = đối với nhà doanh nghiệp của tôi , chúng là vàng .
+1	đối với	_	_	C	_	_	_	_	_
+2	nhà	_	_	N	_	3	classifier	_	_
+3	doanh nghiệp	_	_	V	_	9	accompanier	_	_
+4	của	_	_	Pre	_	_	_	_	_
+5	tôi	_	_	Pro	_	3	poss	_	_
+6	,	_	_	PUNCT	_	_	_	_	_
+7	chúng	_	_	Pro	_	9	domain	_	_
+8	là	_	_	aux	_	_	_	_	_
+9	vàng	_	_	N	_	_	_	_	_
+10	.	_	_	PUNCT	_	9	Rel	_	_
+
+# text = đối với những nhà bác học , chúng là những bài toán .
+1	đối với	_	_	C	_	_	_	_	_
+2	những	_	_	Det	_	4	quant	_	_
+3	nhà	_	_	N	_	4	classifier	_	_
+4	bác học	_	_	N	_	9	accompanier	_	_
+5	,	_	_	PUNCT	_	_	_	_	_
+6	chúng	_	_	Pro	_	9	domain	_	_
+7	là	_	_	aux	_	_	_	_	_
+8	những	_	_	Det	_	9	quant	_	_
+9	bài toán	_	_	N	_	_	_	_	_
+10	.	_	_	PUNCT	_	9	Rel	_	_
+
+# text = đối với số khác , chúng chỉ là những đốm sáng nhỏ .
+1	đối với	_	_	C	_	_	_	_	_
+2	số	_	_	Num	_	10	accompanier	_	_
+3	khác	_	_	Adj	_	2	mod	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	chúng	_	_	Pro	_	10	domain	_	_
+6	chỉ	_	_	Adv	_	10	mod	_	_
+7	là	_	_	aux	_	_	_	_	_
+8	những	_	_	Det	_	10	quant	_	_
+9	đốm	_	_	N	_	10	classifier	_	_
+10	sáng	_	_	Adj	_	_	_	_	_
+11	nhỏ	_	_	Adj	_	10	mod	_	_
+12	.	_	_	PUNCT	_	10	Rel	_	_
+
+# text = đối với một số ưa thích đi xa , các ngôi sao là những kẻ dẫn đường .
+1	đối với	_	_	C	_	_	_	_	_
+2	một	_	_	Num	_	3	quant	_	_
+3	số	_	_	Num	_	4	Arg0-of	_	_
+4	ưa thích	_	_	V	_	13	accompanier	_	_
+5	đi	_	_	V	_	4	Arg1	_	_
+6	xa	_	_	Adj	_	5	mod	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	các	_	_	Det	_	10	quant	_	_
+9	ngôi	_	_	Nc	_	10	quant	_	_
+10	sao	_	_	N	_	13	domain	_	_
+11	là	_	_	aux	_	_	_	_	_
+12	những	_	_	Det	_	13	quant	_	_
+13	kẻ	_	_	N	_	_	_	_	_
+14	dẫn	_	_	V	_	13	Arg0-of	_	_
+15	đường	_	_	N	_	14	Arg1	_	_
+16	.	_	_	PUNCT	_	13	Rel	_	_
+
+# text = - giống như bông hoa của tôi .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	giống	_	_	V	_	_	_	_	_
+3	như	_	_	C	_	_	_	_	_
+4	bông	_	_	N	_	5	classifier	_	_
+5	hoa	_	_	N	_	2	Arg0	_	_
+6	của	_	_	Pre	_	_	_	_	_
+7	tôi	_	_	Pro	_	5	poss	_	_
+8	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = - đêm nay , vừa đúng một năm .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	đêm	_	_	N	_	6	time	_	_
+3	nay	_	_	Pro	_	2	mod	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	vừa	_	_	Adv	_	6	mod	_	_
+6	đúng	_	_	Adj	_	_	_	_	_
+7	một	_	_	Num	_	8	quant	_	_
+8	năm	_	_	N	_	6	time	_	_
+9	.	_	_	PUNCT	_	6	Rel	_	_
+
+# text = phải tìm kiếm với trái tim .
+1	phải	_	_	aux	_	2	obligate-01	_	_
+2	tìm kiếm	_	_	V	_	_	_	_	_
+3	với	_	_	C	_	_	_	_	_
+4	trái tim	_	_	N	_	2	accompanier	_	_
+5	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = tôi đã uống .
+1	tôi	_	_	Pro	_	3	Arg0	_	_
+2	đã	_	_	Adv	_	3	tense	_	_
+3	uống	_	_	V	_	_	_	_	_
+4	.	_	_	PUNCT	_	3	Rel	_	_
+
+# text = tôi đã nghỉ ngơi thoả thuê .
+1	tôi	_	_	Pro	_	3	Arg0	_	_
+2	đã	_	_	Adv	_	3	tense	_	_
+3	nghỉ ngơi	_	_	V	_	_	_	_	_
+4	thoả thuê	_	_	Adj	_	3	mod	_	_
+5	.	_	_	PUNCT	_	3	Rel	_	_
+
+# text = vào lúc tinh mơ , cát một màu mật ong .
+1	vào	_	_	V	_	7	time	_	_
+2	lúc	_	_	N	_	3	mod	_	_
+3	tinh mơ	_	_	N	_	1	time	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	cát	_	_	N	_	7	Arg0	_	_
+6	một	_	_	Num	_	7	quant	_	_
+7	màu	_	_	N	_	_	_	_	_
+8	mật ong	_	_	N	_	7	mod	_	_
+9	.	_	_	PUNCT	_	7	Rel	_	_
+
+# text = tôi thấy sung sướng cả vì cái màu mật ong ấy nữa .
+1	tôi	_	_	Pro	_	2	Arg0	_	_
+2	thấy	_	_	V	_	_	_	_	_
+3	sung sướng	_	_	Adj	_	2	Arg1	_	_
+4	cả	_	_	Prt	_	_	_	_	_
+5	vì	_	_	Pre	_	_	_	_	_
+6	cái	_	_	Nc	_	7	classifier	_	_
+7	màu	_	_	N	_	2	cause	_	_
+8	mật ong	_	_	N	_	7	mod	_	_
+9	ấy	_	_	Pro	_	7	mod	_	_
+10	nữa	_	_	Adv	_	_	_	_	_
+11	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = tại sao tôi cứ phải khổ sở ...
+1	tại	_	_	Pre	_	5	cause	_	_
+2	sao	_	_	Pro	_	1	mod	_	_
+3	tôi	_	_	Pro	_	5	Arg0	_	_
+4	cứ	_	_	Adv	_	5	mod	_	_
+5	phải	_	_	aux	_	_	_	_	_
+6	khổ sở	_	_	Adj	_	5	Arg2	_	_
+7	...	_	_	PUNCT	_	5	Rel	_	_
+
+# text = - ông phải giữ lời hứa , ông hoàng nhỏ bây giờ lại ngồi xuống bên tôi , nhẹ nhàng nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	ông	_	_	N	_	4	Arg0	_	_
+3	phải	_	_	aux	_	4	obligate-01	_	_
+4	giữ	_	_	V	_	_	_	_	_
+5	lời	_	_	N	_	6	classifier	_	_
+6	hứa	_	_	V	_	4	Arg1	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	ông hoàng	_	_	N	_	18	Arg0	_	_
+9	nhỏ	_	_	Adj	_	8	mod	_	_
+10	bây giờ	_	_	Pro	_	12	time	_	_
+11	lại	_	_	Adv	_	_	_	_	_
+12	ngồi	_	_	V	_	8	Arg0-of	_	_
+13	xuống	_	_	V	_	12	compound	_	_
+14	bên	_	_	Pre	_	15	prep	_	_
+15	tôi	_	_	Pro	_	12	location	_	_
+16	,	_	_	PUNCT	_	_	_	_	_
+17	nhẹ nhàng	_	_	Adj	_	18	mod	_	_
+18	nói	_	_	V	_	4	Arg1-of	_	_
+19	.	_	_	PUNCT	_	4	Rel	_	_
+
+# text = - lời hứa nào ?
+1	-	_	_	PUNCT	_	_	_	_	_
+2	lời	_	_	N	_	3	classifier	_	_
+3	hứa	_	_	V	_	_	_	_	_
+4	nào	_	_	Pro	_	3	amr-unknow	_	_
+5	?	_	_	PUNCT	_	3	Rel	_	_
+
+# text = - ông biết đấy .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	ông	_	_	N	_	3	Arg0	_	_
+3	biết	_	_	V	_	_	_	_	_
+4	đấy	_	_	Prt	_	3	mod	_	_
+5	.	_	_	PUNCT	_	3	Rel	_	_
+
+# text = một cái rọ mõm cho con cừu của tôi ...
+1	một	_	_	Num	_	3	quant	_	_
+2	cái	_	_	Nc	_	3	classifier	_	_
+3	rọ mõm	_	_	N	_	_	_	_	_
+4	cho	_	_	Pre	_	_	_	_	_
+5	con	_	_	Nc	_	6	classifier	_	_
+6	cừu	_	_	N	_	3	beneficiary	_	_
+7	của	_	_	Pre	_	_	_	_	_
+8	tôi	_	_	Pro	_	6	poss	_	_
+9	...	_	_	PUNCT	_	3	Rel	_	_
+
+# text = tôi không muốn em gắng sức :
+1	tôi	_	_	Pro	_	3	Arg0	_	_
+2	không	_	_	Adv	_	3	polarity	_	_
+3	muốn	_	_	aux	_	_	_	_	_
+4	em	_	_	N	_	5	Arg0	_	_
+5	gắng sức	_	_	V	_	3	Arg1	_	_
+6	:	_	_	PUNCT	_	3	Rel	_	_
+
+# text = chậm rãi , tôi kéo gàu lên thành giếng .
+1	chậm rãi	_	_	Adj	_	4	Arg2	_	_
+2	,	_	_	PUNCT	_	_	_	_	_
+3	tôi	_	_	Pro	_	4	Arg0	_	_
+4	kéo	_	_	V	_	_	_	_	_
+5	gàu	_	_	N	_	4	Arg1	_	_
+6	lên	_	_	V	_	4	compound	_	_
+7	thành	_	_	N	_	4	location	_	_
+8	giếng	_	_	N	_	7	poss	_	_
+9	.	_	_	PUNCT	_	4	Rel	_	_
+
+# text = tôi đặt nó chắc chắn trên đó .
+1	tôi	_	_	Pro	_	2	Arg0	_	_
+2	đặt	_	_	V	_	_	_	_	_
+3	nó	_	_	Pro	_	2	Arg1	_	_
+4	chắc chắn	_	_	Adj	_	2	Arg2	_	_
+5	trên	_	_	Pre	_	6	direction	_	_
+6	đó	_	_	N	_	2	location	_	_
+7	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = - tôi khát thứ nước này đây , ông hoàng nhỏ nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	tôi	_	_	Pro	_	3	Arg0	_	_
+3	khát	_	_	V	_	_	_	_	_
+4	thứ	_	_	N	_	5	classifier	_	_
+5	nước	_	_	N	_	3	Arg1	_	_
+6	này	_	_	Pro	_	5	mod	_	_
+7	đây	_	_	Pro	_	5	mod	_	_
+8	,	_	_	PUNCT	_	_	_	_	_
+9	ông hoàng	_	_	N	_	11	Arg0	_	_
+10	nhỏ	_	_	Adj	_	9	mod	_	_
+11	nói	_	_	V	_	3	Arg1-of	_	_
+12	.	_	_	PUNCT	_	3	Rel	_	_
+
+# text = cho tôi uống đi ...
+1	cho	_	_	V	_	_	_	_	_
+2	tôi	_	_	Pro	_	1	Arg1	_	_
+3	uống	_	_	V	_	2	Arg0-of	_	_
+4	đi	_	_	Adv	_	3	mod	_	_
+5	...	_	_	PUNCT	_	1	Rel	_	_
+
+# text = và tôi hiểu ra em tìm kiếm cái gì .
+1	và	_	_	C	_	_	_	_	_
+2	tôi	_	_	Pro	_	3	Arg0	_	_
+3	hiểu	_	_	V	_	1	op2	_	_
+4	ra	_	_	V	_	3	compound	_	_
+5	em	_	_	N	_	6	Arg0	_	_
+6	tìm kiếm	_	_	V	_	3	Arg1	_	_
+7	cái	_	_	Nc	_	6	Arg1	_	_
+8	gì	_	_	Pro	_	7	mod	_	_
+9	.	_	_	PUNCT	_	1	Rel	_	_
+
+# text = em uống , hai mắt nhắm nghiền .
+1	em	_	_	N	_	2	Arg0	_	_
+2	uống	_	_	V	_	_	_	_	_
+3	,	_	_	PUNCT	_	_	_	_	_
+4	hai	_	_	Num	_	5	quant	_	_
+5	mắt	_	_	N	_	6	Arg0	_	_
+6	nhắm nghiền	_	_	V	_	2	Arg2	_	_
+7	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = tôi nhắc chiếc gầu lên kề môi em .
+1	tôi	_	_	Pro	_	2	Arg0	_	_
+2	nhắc	_	_	V	_	_	_	_	_
+3	chiếc	_	_	Nc	_	4	classifier	_	_
+4	gầu	_	_	N	_	2	Arg1	_	_
+5	lên	_	_	V	_	2	compound	_	_
+6	kề	_	_	V	_	2	Arg2	_	_
+7	môi	_	_	N	_	6	Arg1	_	_
+8	em	_	_	N	_	7	poss	_	_
+9	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = êm đềm như một ngày hội .
+1	êm đềm	_	_	Adj	_	_	_	_	_
+2	như	_	_	C	_	_	_	_	_
+3	một	_	_	Num	_	5	quant	_	_
+4	ngày	_	_	N	_	5	day	_	_
+5	hội	_	_	N	_	1	resemble-01	_	_
+6	.	_	_	PUNCT	_	1	Rel	_	_
+
+# text = nó tốt lành cho tim ta , như một món quà tặng .
+1	nó	_	_	Pro	_	2	Arg0	_	_
+2	tốt lành	_	_	Adj	_	_	_	_	_
+3	cho	_	_	C	_	_	_	_	_
+4	tim	_	_	N	_	2	beneficiary	_	_
+5	ta	_	_	Pro	_	4	poss	_	_
+6	,	_	_	PUNCT	_	_	_	_	_
+7	như	_	_	C	_	_	_	_	_
+8	một	_	_	Num	_	10	quant	_	_
+9	món	_	_	Nc	_	10	classifier	_	_
+10	quà	_	_	N	_	2	resemble-01	_	_
+11	tặng	_	_	V	_	10	mod	_	_
+12	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = - con mắt vốn mù loà .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	con	_	_	Nc	_	3	classifier	_	_
+3	mắt	_	_	N	_	5	Arg0	_	_
+4	vốn	_	_	Adv	_	5	mod	_	_
+5	mù loà	_	_	Adj	_	_	_	_	_
+6	.	_	_	PUNCT	_	5	Rel	_	_
+
+# text = và ông hoàng nhỏ nói thêm :
+1	và	_	_	C	_	_	_	_	_
+2	ông hoàng	_	_	N	_	4	Arg0	_	_
+3	nhỏ	_	_	Adj	_	2	mod	_	_
+4	nói	_	_	V	_	1	op2	_	_
+5	thêm	_	_	V	_	4	compound	_	_
+6	:	_	_	PUNCT	_	1	Rel	_	_
+
+# text = - đúng thế , tôi nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	đúng	_	_	Adj	_	_	_	_	_
+3	thế	_	_	Prt	_	2	mod	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	tôi	_	_	Pro	_	6	Arg0	_	_
+6	nói	_	_	V	_	2	Arg1-of	_	_
+7	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = - họ chẳng tìm thấy đâu , tôi nói ...
+1	-	_	_	PUNCT	_	_	_	_	_
+2	họ	_	_	Pro	_	5	Arg0	_	_
+3	chẳng	_	_	Adv	_	5	polarity	_	_
+4	tìm	_	_	V	_	5	compound	_	_
+5	thấy	_	_	V	_	_	_	_	_
+6	đâu	_	_	Prt	_	5	mod	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	tôi	_	_	Pro	_	9	Arg0	_	_
+9	nói	_	_	V	_	5	Arg1-of	_	_
+10	...	_	_	PUNCT	_	5	Rel	_	_
+
+# text = tôi rút từ trong túi áo ra các bản vẽ phác của tôi .
+1	tôi	_	_	Pro	_	2	Arg0	_	_
+2	rút	_	_	V	_	_	_	_	_
+3	từ	_	_	Pre	_	_	_	_	_
+4	trong	_	_	N	_	5	direction	_	_
+5	túi	_	_	N	_	2	source	_	_
+6	áo	_	_	N	_	5	poss	_	_
+7	ra	_	_	V	_	2	compound	_	_
+8	các	_	_	Det	_	9	quant	_	_
+9	bản vẽ	_	_	N	_	2	Arg1	_	_
+10	phác	_	_	V	_	9	mod	_	_
+11	của	_	_	Pre	_	_	_	_	_
+12	tôi	_	_	Pro	_	9	poss	_	_
+13	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = tôi vốn tự hào biết bao với bức vẽ các cây baobap !
+1	tôi	_	_	Pro	_	3	Arg0	_	_
+2	vốn	_	_	Adv	_	3	mod	_	_
+3	tự hào	_	_	V	_	_	_	_	_
+4	biết bao	_	_	Adv	_	3	Arg2	_	_
+5	với	_	_	C	_	_	_	_	_
+6	bức	_	_	Nc	_	7	classifier	_	_
+7	vẽ	_	_	V	_	3	accompanier	_	_
+8	các	_	_	Det	_	10	quant	_	_
+9	cây	_	_	N	_	10	classifier	_	_
+10	baobap	_	_	Nb	_	7	Arg1	_	_
+11	!	_	_	PUNCT	_	3	Rel	_	_
+
+# text = - . đúng thế ...
+1	-	_	_	PUNCT	_	_	_	_	_
+2	.	_	_	PUNCT	_	_	_	_	_
+3	đúng	_	_	Adj	_	_	_	_	_
+4	thế	_	_	Pro	_	3	mod	_	_
+5	...	_	_	PUNCT	_	3	Rel	_	_
+
+# text = thế nhưng , ông hoàng nhỏ lại đáp nữa :
+1	thế	_	_	Prt	_	7	mod	_	_
+2	nhưng	_	_	C	_	1	mod	_	_
+3	,	_	_	PUNCT	_	_	_	_	_
+4	ông hoàng	_	_	N	_	7	Arg0	_	_
+5	nhỏ	_	_	Adj	_	4	mod	_	_
+6	lại	_	_	Adv	_	7	mod	_	_
+7	đáp	_	_	V	_	_	_	_	_
+8	nữa	_	_	Adv	_	7	mod	_	_
+9	:	_	_	PUNCT	_	7	Rel	_	_
+
+# text = anh chỉ việc đợi tôi ở đấy .
+1	anh	_	_	N	_	2	Arg0	_	_
+2	chỉ	_	_	Adv	_	_	_	_	_
+3	việc	_	_	N	_	2	Arg1	_	_
+4	đợi	_	_	V	_	3	Arg1	_	_
+5	tôi	_	_	Pro	_	4	Arg1	_	_
+6	ở	_	_	Pre	_	7	mod	_	_
+7	đấy	_	_	Pro	_	4	location	_	_
+8	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = - sao em biết ?
+1	-	_	_	PUNCT	_	_	_	_	_
+2	sao	_	_	Pro	_	4	amr-unknow	_	_
+3	em	_	_	N	_	4	Arg0	_	_
+4	biết	_	_	V	_	_	_	_	_
+5	?	_	_	PUNCT	_	4	Rel	_	_
+
+# text = rồi , giọng ngậm ngùi :
+1	rồi	_	_	C	_	_	_	_	_
+2	,	_	_	PUNCT	_	_	_	_	_
+3	giọng	_	_	N	_	4	Arg0	_	_
+4	ngậm ngùi	_	_	V	_	1	op2	_	_
+5	:	_	_	PUNCT	_	1	Rel	_	_
+
+# text = và bây giờ , tôi không dám hỏi em điều gì nữa .
+1	và	_	_	C	_	_	_	_	_
+2	bây giờ	_	_	Pro	_	7	time	_	_
+3	,	_	_	PUNCT	_	_	_	_	_
+4	tôi	_	_	Pro	_	7	Arg0	_	_
+5	không	_	_	Adv	_	7	polarity	_	_
+6	dám	_	_	V	_	7	compound	_	_
+7	hỏi	_	_	V	_	1	op2	_	_
+8	em	_	_	N	_	7	Arg1	_	_
+9	điều	_	_	N	_	7	Arg2	_	_
+10	gì	_	_	Pro	_	9	mod	_	_
+11	nữa	_	_	Adv	_	9	mod	_	_
+12	.	_	_	PUNCT	_	1	Rel	_	_
+
+# text = em nhìn tôi nghiêm nghị và đưa hai tay ôm cổ tôi .
+1	em	_	_	N	_	2	Arg0	_	_
+2	nhìn	_	_	V	_	5	op1	_	_
+3	tôi	_	_	Pro	_	2	Arg1	_	_
+4	nghiêm nghị	_	_	Adj	_	2	Arg2	_	_
+5	và	_	_	C	_	_	_	_	_
+6	đưa	_	_	V	_	5	op2	_	_
+7	hai	_	_	Num	_	8	quant	_	_
+8	tay	_	_	N	_	6	Arg1	_	_
+9	ôm	_	_	V	_	6	Arg2	_	_
+10	cổ	_	_	N	_	9	Arg1	_	_
+11	tôi	_	_	Pro	_	10	poss	_	_
+12	.	_	_	PUNCT	_	5	Rel	_	_
+
+# text = ban đầu cậu hãy ngồi hơi xa tớ một tí , như thế , ở trong cỏ .
+1	ban	_	_	N	_	5	time	_	_
+2	đầu	_	_	N	_	1	mod	_	_
+3	cậu	_	_	Nc	_	5	Arg0	_	_
+4	hãy	_	_	Adv	_	5	mod	_	_
+5	ngồi	_	_	V	_	_	_	_	_
+6	hơi	_	_	Adv	_	7	mod	_	_
+7	xa	_	_	Adj	_	5	Arg2	_	_
+8	tớ	_	_	Pro	_	7	Arg1	_	_
+9	một tí	_	_	Det	_	7	quant	_	_
+10	,	_	_	PUNCT	_	_	_	_	_
+11	như	_	_	C	_	12	mod	_	_
+12	thế	_	_	Pro	_	5	resemble-01	_	_
+13	,	_	_	PUNCT	_	_	_	_	_
+14	ở	_	_	V	_	_	_	_	_
+15	trong	_	_	N	_	16	direction	_	_
+16	cỏ	_	_	N	_	5	location	_	_
+17	.	_	_	PUNCT	_	5	Rel	_	_
+
+# text = bởi vì chính là nàng mà tôi đã đặt chính dưới bầu kính .
+1	bởi vì	_	_	C	_	_	_	_	_
+2	chính	_	_	Prt	_	4	mod	_	_
+3	là	_	_	aux	_	_	_	_	_
+4	nàng	_	_	N	_	8	cause	_	_
+5	mà	_	_	C	_	8	concession	_	_
+6	tôi	_	_	Pro	_	8	Arg0	_	_
+7	đã	_	_	Adv	_	8	tense	_	_
+8	đặt	_	_	V	_	_	_	_	_
+9	chính	_	_	Prt	_	10	mod	_	_
+10	dưới	_	_	Pre	_	12	direction	_	_
+11	bầu	_	_	N	_	12	location	_	_
+12	kính	_	_	N	_	8	location	_	_
+13	.	_	_	PUNCT	_	8	Rel	_	_
+
+# text = bởi vì chính là nàng mà tôi đã che bằng tấm bình phong .
+1	bởi vì	_	_	C	_	_	_	_	_
+2	chính	_	_	Prt	_	4	mod	_	_
+3	là	_	_	aux	_	_	_	_	_
+4	nàng	_	_	N	_	8	cause	_	_
+5	mà	_	_	C	_	8	concession	_	_
+6	tôi	_	_	Pro	_	8	Arg0	_	_
+7	đã	_	_	Adv	_	8	tense	_	_
+8	che	_	_	V	_	_	_	_	_
+9	bằng	_	_	Pre	_	_	_	_	_
+10	tấm	_	_	Nc	_	11	classifier	_	_
+11	bình phong	_	_	N	_	8	manner	_	_
+12	.	_	_	PUNCT	_	8	Rel	_	_
+
+# text = bởi vì là nàng mà tôi đã bắt những con sâu ( trừ hai ba con dành để thành bướm ) .
+1	bởi vì	_	_	C	_	_	_	_	_
+2	là	_	_	aux	_	3	mod	_	_
+3	nàng	_	_	N	_	7	cause	_	_
+4	mà	_	_	C	_	7	concession	_	_
+5	tôi	_	_	Pro	_	7	Arg0	_	_
+6	đã	_	_	Adv	_	7	tense	_	_
+7	bắt	_	_	V	_	_	_	_	_
+8	những	_	_	Det	_	10	quant	_	_
+9	con	_	_	Nc	_	10	classifier	_	_
+10	sâu	_	_	N	_	7	Arg1	_	_
+11	(	_	_	PUNCT	_	_	_	_	_
+12	trừ	_	_	V	_	7	Arg2	_	_
+13	hai	_	_	Num	_	15	quant	_	_
+14	ba	_	_	Num	_	15	quant	_	_
+15	con	_	_	Nc	_	12	Arg1	_	_
+16	dành	_	_	V	_	12	purpose	_	_
+17	để	_	_	Pre	_	_	_	_	_
+18	thành	_	_	V	_	16	purpose	_	_
+19	bướm	_	_	N	_	18	Arg1	_	_
+20	)	_	_	PUNCT	_	_	_	_	_
+21	.	_	_	PUNCT	_	7	Rel	_	_
+
+# text = bởi vì chính là nàng mà tôi đã ngồi nghe than thở , hay tán hươu tán vượn , hay đôi khi cả lặng im nữa .
+1	bởi vì	_	_	C	_	_	_	_	_
+2	chính	_	_	Prt	_	4	mod	_	_
+3	là	_	_	aux	_	_	_	_	_
+4	nàng	_	_	N	_	8	cause	_	_
+5	mà	_	_	C	_	8	concession	_	_
+6	tôi	_	_	Pro	_	8	Arg0	_	_
+7	đã	_	_	Adv	_	8	tense	_	_
+8	ngồi	_	_	V	_	15	op1	_	_
+9	nghe	_	_	V	_	8	compound	_	_
+10	than thở	_	_	V	_	9	compound	_	_
+11	,	_	_	PUNCT	_	_	_	_	_
+12	hay	_	_	C	_	_	_	_	_
+13	tán hươu tán vượn	_	_	MW	_	15	op2	_	_
+14	,	_	_	PUNCT	_	_	_	_	_
+15	hay	_	_	C	_	_	_	_	_
+16	đôi khi	_	_	Adv	_	18	time	_	_
+17	cả	_	_	Pro	_	_	_	_	_
+18	lặng im	_	_	V	_	15	op3	_	_
+19	nữa	_	_	Adv	_	18	mod	_	_
+20	.	_	_	PUNCT	_	15	Rel	_	_
+
+# text = - chính thời giờ tôi đã mất cho bông hồng của tôi ...
+1	-	_	_	PUNCT	_	_	_	_	_
+2	chính	_	_	Prt	_	_	_	_	_
+3	thời giờ	_	_	N	_	6	Arg0	_	_
+4	tôi	_	_	Pro	_	3	poss	_	_
+5	đã	_	_	Adv	_	6	tense	_	_
+6	mất	_	_	V	_	_	_	_	_
+7	cho	_	_	C	_	_	_	_	_
+8	bông	_	_	N	_	9	classifier	_	_
+9	hồng	_	_	N	_	6	beneficiary	_	_
+10	của	_	_	Pre	_	_	_	_	_
+11	tôi	_	_	Pro	_	9	poss	_	_
+12	...	_	_	PUNCT	_	6	Rel	_	_
+
+# text = mỗi tuần lễ ta sẽ tiết kiệm được năm mươi ba phút .
+1	mỗi	_	_	Det	_	5	frequency	_	_
+2	tuần lễ	_	_	N	_	1	time	_	_
+3	ta	_	_	Pro	_	5	Arg0	_	_
+4	sẽ	_	_	Adv	_	5	tense	_	_
+5	tiết kiệm	_	_	V	_	_	_	_	_
+6	được	_	_	Adv	_	5	mod	_	_
+7	năm mươi ba	_	_	Num	_	8	quant	_	_
+8	phút	_	_	Nu	_	5	Arg1	_	_
+9	.	_	_	PUNCT	_	5	Rel	_	_
+
+# text = - đây là một sự tiết kiệm lớn về thời giờ , người lái buôn nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	đây	_	_	Pro	_	6	domain	_	_
+3	là	_	_	aux	_	_	_	_	_
+4	một	_	_	Num	_	6	quant	_	_
+5	sự	_	_	N	_	6	mod	_	_
+6	tiết kiệm	_	_	V	_	_	_	_	_
+7	lớn	_	_	Adj	_	6	mod	_	_
+8	về	_	_	Pre	_	_	_	_	_
+9	thời giờ	_	_	N	_	6	Arg1	_	_
+10	,	_	_	PUNCT	_	_	_	_	_
+11	người	_	_	N	_	12	classifier	_	_
+12	lái buôn	_	_	N	_	13	Arg0	_	_
+13	nói	_	_	V	_	6	Arg1-of	_	_
+14	.	_	_	PUNCT	_	6	Rel	_	_
+
+# text = những lời ông hoàng bé nhỏ nói nhảy múa trong trí nhớ tôi .
+1	những	_	_	Det	_	_	_	_	_
+2	lời	_	_	N	_	6	Arg0	_	_
+3	ông hoàng	_	_	N	_	2	poss	_	_
+4	bé nhỏ	_	_	Adj	_	3	mod	_	_
+5	nói	_	_	V	_	2	Arg0-of	_	_
+6	nhảy múa	_	_	V	_	_	_	_	_
+7	trong	_	_	Pre	_	_	_	_	_
+8	trí nhớ	_	_	N	_	6	location	_	_
+9	tôi	_	_	Pro	_	8	poss	_	_
+10	.	_	_	PUNCT	_	6	Rel	_	_
+
+# text = ấy là một người bán loại thuốc có thể làm cho đỡ khát .
+1	ấy	_	_	Pro	_	4	mod	_	_
+2	là	_	_	aux	_	_	_	_	_
+3	một	_	_	Num	_	4	quant	_	_
+4	người	_	_	N	_	_	_	_	_
+5	bán	_	_	V	_	4	Arg0-of	_	_
+6	loại	_	_	N	_	7	mod	_	_
+7	thuốc	_	_	N	_	5	Arg1	_	_
+8	có thể	_	_	Adv	_	9	possible-01	_	_
+9	làm	_	_	V	_	7	Arg0-of	_	_
+10	cho	_	_	Pre	_	_	_	_	_
+11	đỡ	_	_	Adv	_	12	mod	_	_
+12	khát	_	_	V	_	9	purpose	_	_
+13	.	_	_	PUNCT	_	4	Rel	_	_
+
+# text = - thế người ta dùng năm mươi ba phút ấy để làm gì ?
+1	-	_	_	PUNCT	_	_	_	_	_
+2	thế	_	_	Prt	_	_	_	_	_
+3	người ta	_	_	N	_	4	Arg0	_	_
+4	dùng	_	_	V	_	_	_	_	_
+5	năm mươi ba	_	_	Num	_	6	quant	_	_
+6	phút	_	_	Nu	_	4	Arg1	_	_
+7	ấy	_	_	Pro	_	6	mod	_	_
+8	để	_	_	Pre	_	_	_	_	_
+9	làm	_	_	V	_	4	purpose	_	_
+10	gì	_	_	Pro	_	9	amr-unknow	_	_
+11	?	_	_	PUNCT	_	4	Rel	_	_
+
+# text = tôi , tôi rất hài lòng được có bạn cáo của tôi ...
+1	tôi	_	_	Pro	_	_	_	_	_
+2	,	_	_	PUNCT	_	_	_	_	_
+3	tôi	_	_	Pro	_	5	Arg0	_	_
+4	rất	_	_	Adv	_	5	mod	_	_
+5	hài lòng	_	_	V	_	_	_	_	_
+6	được	_	_	aux	_	5	mod	_	_
+7	có	_	_	V	_	5	compound	_	_
+8	bạn	_	_	N	_	9	classifier	_	_
+9	cáo	_	_	N	_	7	Arg1	_	_
+10	của	_	_	Pre	_	_	_	_	_
+11	tôi	_	_	Pro	_	9	poss	_	_
+12	...	_	_	PUNCT	_	5	Rel	_	_
+
+# text = tôi nhìn mọi vật như trong cơn mê , đầu nóng bừng vì khát .
+1	tôi	_	_	Pro	_	2	Arg0	_	_
+2	nhìn	_	_	V	_	_	_	_	_
+3	mọi	_	_	Det	_	4	quant	_	_
+4	vật	_	_	N	_	2	Arg1	_	_
+5	như	_	_	C	_	_	_	_	_
+6	trong	_	_	Pre	_	_	_	_	_
+7	cơn	_	_	Nc	_	8	classifier	_	_
+8	mê	_	_	V	_	12	location	_	_
+9	,	_	_	PUNCT	_	_	_	_	_
+10	đầu	_	_	N	_	12	Arg1	_	_
+11	nóng	_	_	Adj	_	10	mod	_	_
+12	bừng	_	_	V	_	4	resemble-01	_	_
+13	vì	_	_	Pre	_	_	_	_	_
+14	khát	_	_	V	_	12	cause	_	_
+15	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = chỉ có những đứa trẻ là dán mũi vào cửa kính thôi .
+1	chỉ	_	_	Adv	_	7	mod	_	_
+2	có	_	_	Prt	_	1	mod	_	_
+3	những	_	_	Det	_	5	quant	_	_
+4	đứa	_	_	Nc	_	5	classifier	_	_
+5	trẻ	_	_	N	_	7	Arg0	_	_
+6	là	_	_	Prt	_	_	_	_	_
+7	dán	_	_	V	_	_	_	_	_
+8	mũi	_	_	N	_	7	Arg1	_	_
+9	vào	_	_	Pre	_	_	_	_	_
+10	cửa kính	_	_	N	_	7	location	_	_
+11	thôi	_	_	Prt	_	7	mod	_	_
+12	.	_	_	PUNCT	_	7	Rel	_	_
+
+# text = cái quan trọng nhất thì không nhìn thấy được ...
+1	cái	_	_	Nc	_	2	classifier	_	_
+2	quan trọng	_	_	Adj	_	6	Arg1	_	_
+3	nhất	_	_	Num	_	2	mod	_	_
+4	thì	_	_	C	_	_	_	_	_
+5	không	_	_	Adv	_	6	polarity	_	_
+6	nhìn	_	_	V	_	_	_	_	_
+7	thấy	_	_	V	_	6	compound	_	_
+8	được	_	_	Adv	_	6	mod	_	_
+9	...	_	_	PUNCT	_	6	Rel	_	_
+
+# text = ta phải hết sức che chở cho những ngọn đèn : một ngọn gió có thể thổi tắt được ...
+1	ta	_	_	Pro	_	4	Arg0	_	_
+2	phải	_	_	aux	_	4	obligate-01	_	_
+3	hết sức	_	_	Adv	_	4	mod	_	_
+4	che chở	_	_	V	_	_	_	_	_
+5	cho	_	_	C	_	_	_	_	_
+6	những	_	_	Det	_	8	quant	_	_
+7	ngọn	_	_	N	_	8	classifier	_	_
+8	đèn	_	_	N	_	4	Arg1	_	_
+9	:	_	_	PUNCT	_	_	_	_	_
+10	một	_	_	Num	_	12	quant	_	_
+11	ngọn	_	_	N	_	12	classifier	_	_
+12	gió	_	_	N	_	14	Arg1	_	_
+13	có thể	_	_	Adv	_	14	possible-01	_	_
+14	thổi	_	_	V	_	4	cause	_	_
+15	tắt	_	_	V	_	14	compound	_	_
+16	được	_	_	Adv	_	14	mod	_	_
+17	...	_	_	PUNCT	_	4	Rel	_	_
+
+# text = tôi bước tiếp đến chỗ bức thành .
+1	tôi	_	_	Pro	_	2	Arg0	_	_
+2	bước	_	_	V	_	_	_	_	_
+3	tiếp	_	_	V	_	2	compound	_	_
+4	đến	_	_	V	_	3	compound	_	_
+5	chỗ	_	_	N	_	2	Arg1	_	_
+6	bức	_	_	Nc	_	7	classifier	_	_
+7	thành	_	_	N	_	5	poss	_	_
+8	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = tôi vẫn không nhìn thấy , cũng chẳng nghe thấy ai .
+1	tôi	_	_	Pro	_	4	Arg0	_	_
+2	vẫn	_	_	Adv	_	4	mod	_	_
+3	không	_	_	Adv	_	4	polarity	_	_
+4	nhìn	_	_	V	_	_	_	_	_
+5	thấy	_	_	V	_	4	compound	_	_
+6	,	_	_	PUNCT	_	_	_	_	_
+7	cũng	_	_	Adv	_	_	_	_	_
+8	chẳng	_	_	Adv	_	9	polarity	_	_
+9	nghe	_	_	V	_	4	Arg0	_	_
+10	thấy	_	_	V	_	9	compound	_	_
+11	ai	_	_	Pro	_	9	Arg1	_	_
+12	.	_	_	PUNCT	_	4	Rel	_	_
+
+# text = - thôi bây giờ hãy đi đi , em nói .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	thôi	_	_	Prt	_	_	_	_	_
+3	bây giờ	_	_	Pro	_	5	time	_	_
+4	hãy	_	_	Adv	_	5	mod	_	_
+5	đi	_	_	V	_	_	_	_	_
+6	đi	_	_	Adv	_	5	mod	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	em	_	_	N	_	9	Arg0	_	_
+9	nói	_	_	V	_	5	Arg1-of	_	_
+10	.	_	_	PUNCT	_	5	Rel	_	_
+
+# text = thế là chính tôi nhìn xuống chân tường , và tôi nhảy dựng lên .
+1	thế là	_	_	C	_	_	_	_	_
+2	chính	_	_	Prt	_	_	_	_	_
+3	tôi	_	_	Pro	_	4	Arg0	_	_
+4	nhìn	_	_	V	_	9	op1	_	_
+5	xuống	_	_	V	_	4	compound	_	_
+6	chân	_	_	N	_	7	classifier	_	_
+7	tường	_	_	N	_	4	location	_	_
+8	,	_	_	PUNCT	_	_	_	_	_
+9	và	_	_	C	_	_	_	_	_
+10	tôi	_	_	Pro	_	11	Arg1	_	_
+11	nhảy	_	_	V	_	9	op2	_	_
+12	dựng	_	_	V	_	11	compound	_	_
+13	lên	_	_	V	_	12	compound	_	_
+14	.	_	_	PUNCT	_	9	Rel	_	_
+
+# text = tôi thấy em dần dà ấm lại :
+1	tôi	_	_	Pro	_	2	Arg0	_	_
+2	thấy	_	_	V	_	_	_	_	_
+3	em	_	_	N	_	2	Arg1	_	_
+4	dần dà	_	_	Adv	_	5	mod	_	_
+5	ấm	_	_	Adj	_	2	Arg2	_	_
+6	lại	_	_	V	_	5	mod	_	_
+7	:	_	_	PUNCT	_	2	Rel	_	_
+
+# text = ánh mắt em nghiêm nghị , mất hút vào một nơi rất xa :
+1	ánh	_	_	N	_	2	classifier	_	_
+2	mắt	_	_	N	_	6	Arg1	_	_
+3	em	_	_	N	_	2	poss	_	_
+4	nghiêm nghị	_	_	Adj	_	2	mod	_	_
+5	,	_	_	PUNCT	_	_	_	_	_
+6	mất hút	_	_	V	_	_	_	_	_
+7	vào	_	_	Pre	_	6	mod	_	_
+8	một	_	_	Num	_	9	quant	_	_
+9	nơi	_	_	N	_	6	Arg1	_	_
+10	rất	_	_	Adv	_	11	mod	_	_
+11	xa	_	_	Adj	_	9	mod	_	_
+12	:	_	_	PUNCT	_	6	Rel	_	_
+
+# text = tôi tháo chiếc khăn vàng kim bao giờ cũng khoác ở cổ em .
+1	tôi	_	_	Pro	_	2	Arg0	_	_
+2	tháo	_	_	V	_	_	_	_	_
+3	chiếc	_	_	Nc	_	4	classifier	_	_
+4	khăn	_	_	N	_	2	Arg1	_	_
+5	vàng	_	_	Adj	_	4	mod	_	_
+6	kim	_	_	Adj	_	5	mod	_	_
+7	bao giờ	_	_	Pro	_	4	time	_	_
+8	cũng	_	_	Adv	_	9	mod	_	_
+9	khoác	_	_	V	_	4	Arg0-of	_	_
+10	ở	_	_	Pre	_	_	_	_	_
+11	cổ	_	_	N	_	9	location	_	_
+12	em	_	_	N	_	11	poss	_	_
+13	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = em chẳng trả lời câu hỏi của tôi , nhưng lại nói thêm :
+1	em	_	_	N	_	3	Arg0	_	_
+2	chẳng	_	_	Adv	_	3	polarity	_	_
+3	trả lời	_	_	V	_	_	_	_	_
+4	câu	_	_	N	_	5	classifier	_	_
+5	hỏi	_	_	V	_	3	Arg1	_	_
+6	của	_	_	Pre	_	_	_	_	_
+7	tôi	_	_	Pro	_	5	poss	_	_
+8	,	_	_	PUNCT	_	_	_	_	_
+9	nhưng	_	_	C	_	_	_	_	_
+10	lại	_	_	Adv	_	11	mod	_	_
+11	nói	_	_	V	_	3	concession	_	_
+12	thêm	_	_	V	_	11	compound	_	_
+13	:	_	_	PUNCT	_	3	Rel	_	_
+
+# text = mỗi lần uống một viên , và người ta sẽ thấy không cần phải uống nước nữa .
+1	mỗi	_	_	Det	_	3	frequency	_	_
+2	lần	_	_	N	_	1	unit	_	_
+3	uống	_	_	V	_	7	op1	_	_
+4	một	_	_	Num	_	5	quant	_	_
+5	viên	_	_	Nc	_	3	Arg1	_	_
+6	,	_	_	PUNCT	_	_	_	_	_
+7	và	_	_	C	_	_	_	_	_
+8	người ta	_	_	N	_	10	Arg0	_	_
+9	sẽ	_	_	Adv	_	_	_	_	_
+10	thấy	_	_	V	_	7	op2	_	_
+11	không	_	_	Adv	_	12	polarity	_	_
+12	cần	_	_	aux	_	14	obligate-01	_	_
+13	phải	_	_	aux	_	14	obligate-01	_	_
+14	uống	_	_	V	_	10	Arg1	_	_
+15	nước	_	_	N	_	14	Arg1	_	_
+16	nữa	_	_	Adv	_	14	mod	_	_
+17	.	_	_	PUNCT	_	7	Rel	_	_
+
+# text = tiếng cười ấy đối với tôi như một nguồn nước trong sa mạc .
+1	tiếng	_	_	N	_	2	classifier	_	_
+2	cười	_	_	V	_	9	Arg0	_	_
+3	ấy	_	_	Pro	_	2	mod	_	_
+4	đối với	_	_	C	_	_	_	_	_
+5	tôi	_	_	Pro	_	2	beneficiary	_	_
+6	như	_	_	C	_	9	resemble-01	_	_
+7	một	_	_	Num	_	9	quant	_	_
+8	nguồn	_	_	N	_	9	classifier	_	_
+9	nước	_	_	N	_	_	_	_	_
+10	trong	_	_	N	_	11	direction	_	_
+11	sa mạc	_	_	N	_	9	location	_	_
+12	.	_	_	PUNCT	_	9	Rel	_	_
+
+# text = - tôi rất mừng , vì biết ông đã tìm ra máy bay của ông thiếu cái gì .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	tôi	_	_	Pro	_	4	Arg0	_	_
+3	rất	_	_	Adv	_	4	mod	_	_
+4	mừng	_	_	V	_	_	_	_	_
+5	,	_	_	PUNCT	_	_	_	_	_
+6	vì	_	_	Pre	_	_	_	_	_
+7	biết	_	_	V	_	4	cause	_	_
+8	ông	_	_	N	_	10	Arg0	_	_
+9	đã	_	_	Adv	_	10	tense	_	_
+10	tìm	_	_	V	_	7	Arg1	_	_
+11	ra	_	_	V	_	10	compound	_	_
+12	máy bay	_	_	N	_	15	Arg0	_	_
+13	của	_	_	Pre	_	_	_	_	_
+14	ông	_	_	N	_	12	poss	_	_
+15	thiếu	_	_	Adj	_	10	Arg1	_	_
+16	cái	_	_	Nc	_	17	classifier	_	_
+17	gì	_	_	Pro	_	15	Arg1	_	_
+18	.	_	_	PUNCT	_	4	Rel	_	_
+
+# text = cậu trở nên mãi mãi có trách nhiệm về những gì cậu đã cảm hoá .
+1	cậu	_	_	Nc	_	2	Arg0	_	_
+2	trở nên	_	_	V	_	_	_	_	_
+3	mãi mãi	_	_	Adv	_	2	frequency	_	_
+4	có	_	_	V	_	2	compound	_	_
+5	trách nhiệm	_	_	N	_	2	Arg1	_	_
+6	về	_	_	Pre	_	5	mod	_	_
+7	những	_	_	Det	_	8	quant	_	_
+8	gì	_	_	Pro	_	5	Arg1	_	_
+9	cậu	_	_	Nc	_	11	Arg0	_	_
+10	đã	_	_	Adv	_	11	tense	_	_
+11	cảm hoá	_	_	V	_	8	Arg1-of	_	_
+12	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = cạnh cái giếng , có một bức tường đổ nát .
+1	cạnh	_	_	Pre	_	3	prep	_	_
+2	cái	_	_	Nc	_	3	classifier	_	_
+3	giếng	_	_	N	_	5	location	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	có	_	_	V	_	_	_	_	_
+6	một	_	_	Num	_	8	quant	_	_
+7	bức	_	_	Nc	_	8	classifier	_	_
+8	tường	_	_	N	_	5	Arg1	_	_
+9	đổ nát	_	_	Adj	_	8	mod	_	_
+10	.	_	_	PUNCT	_	5	Rel	_	_
+
+# text = và tôi nói thêm , ngập ngừng :
+1	và	_	_	C	_	_	_	_	_
+2	tôi	_	_	Pro	_	3	Arg0	_	_
+3	nói	_	_	V	_	1	op2	_	_
+4	thêm	_	_	V	_	3	compound	_	_
+5	,	_	_	PUNCT	_	_	_	_	_
+6	ngập ngừng	_	_	V	_	3	Arg2	_	_
+7	:	_	_	PUNCT	_	1	Rel	_	_
+
+# text = - là vì , có lẽ , vì ngày kỷ niệm chăng ?
+1	-	_	_	PUNCT	_	_	_	_	_
+2	là	_	_	C	_	_	_	_	_
+3	vì	_	_	Pre	_	_	_	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	có lẽ	_	_	Adv	_	9	mod	_	_
+6	,	_	_	PUNCT	_	_	_	_	_
+7	vì	_	_	Pre	_	9	cause	_	_
+8	ngày	_	_	N	_	9	classifier	_	_
+9	kỷ niệm	_	_	V	_	_	_	_	_
+10	chăng	_	_	Adv	_	9	amr-unknow	_	_
+11	?	_	_	PUNCT	_	9	Rel	_	_
+
+# text = - thế anh không nhớ sao ?
+1	-	_	_	PUNCT	_	_	_	_	_
+2	thế	_	_	Prt	_	_	_	_	_
+3	anh	_	_	N	_	5	Arg0	_	_
+4	không	_	_	Adv	_	5	polarity	_	_
+5	nhớ	_	_	V	_	_	_	_	_
+6	sao	_	_	Pro	_	5	amr-unknow	_	_
+7	?	_	_	PUNCT	_	5	Rel	_	_
+
+# text = - a , tôi nói , tôi sợ ...
+1	-	_	_	PUNCT	_	_	_	_	_
+2	a	_	_	I	_	8	mod	_	_
+3	,	_	_	PUNCT	_	_	_	_	_
+4	tôi	_	_	Pro	_	5	Arg0	_	_
+5	nói	_	_	V	_	8	Arg1-of	_	_
+6	,	_	_	PUNCT	_	_	_	_	_
+7	tôi	_	_	Pro	_	8	Arg0	_	_
+8	sợ	_	_	V	_	_	_	_	_
+9	...	_	_	PUNCT	_	8	Rel	_	_
+
+# text = ngày thì đúng , nhưng không phải chỗ này ...
+1	ngày	_	_	N	_	3	Arg0	_	_
+2	thì	_	_	C	_	3	mod	_	_
+3	đúng	_	_	Adj	_	_	_	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	nhưng	_	_	C	_	_	_	_	_
+6	không	_	_	Adv	_	7	polarity	_	_
+7	phải	_	_	Adj	_	3	concession	_	_
+8	chỗ	_	_	N	_	7	location	_	_
+9	này	_	_	Pro	_	8	mod	_	_
+10	...	_	_	PUNCT	_	3	Rel	_	_
+
+# text = ông hoàng nhỏ lại nói , sau một lát im lặng :
+1	ông hoàng	_	_	N	_	4	Arg0	_	_
+2	nhỏ	_	_	Adj	_	1	mod	_	_
+3	lại	_	_	Adv	_	4	mod	_	_
+4	nói	_	_	V	_	_	_	_	_
+5	,	_	_	PUNCT	_	_	_	_	_
+6	sau	_	_	N	_	8	prep	_	_
+7	một	_	_	Num	_	8	quant	_	_
+8	lát	_	_	N	_	4	time	_	_
+9	im lặng	_	_	Adj	_	8	mod	_	_
+10	:	_	_	PUNCT	_	4	Rel	_	_
+
+# text = tôi dừng lại , trái tim se thắt , nhưng tôi vẫn không hiểu .
+1	tôi	_	_	Pro	_	2	Arg0	_	_
+2	dừng	_	_	V	_	_	_	_	_
+3	lại	_	_	V	_	2	compound	_	_
+4	,	_	_	PUNCT	_	_	_	_	_
+5	trái tim	_	_	N	_	6	Arg0	_	_
+6	se thắt	_	_	V	_	2	Arg0	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	nhưng	_	_	C	_	_	_	_	_
+9	tôi	_	_	Pro	_	12	Arg0	_	_
+10	vẫn	_	_	Adv	_	12	mod	_	_
+11	không	_	_	Adv	_	12	polarity	_	_
+12	hiểu	_	_	V	_	2	concession	_	_
+13	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = - sẽ hay lắm chứ , ông biết đấy .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	sẽ	_	_	Adv	_	3	tense	_	_
+3	hay	_	_	Adj	_	8	Arg1	_	_
+4	lắm	_	_	Adv	_	3	mod	_	_
+5	chứ	_	_	Prt	_	3	mod	_	_
+6	,	_	_	PUNCT	_	_	_	_	_
+7	ông	_	_	N	_	8	Arg0	_	_
+8	biết	_	_	V	_	_	_	_	_
+9	đấy	_	_	Pro	_	8	mod	_	_
+10	.	_	_	PUNCT	_	8	Rel	_	_
+
+# text = chỉ có một loáng chớp màu vàng gần bên mắt cá chân em .
+1	chỉ	_	_	Adv	_	2	mod	_	_
+2	có	_	_	Prt	_	_	_	_	_
+3	một	_	_	Num	_	5	quant	_	_
+4	loáng	_	_	N	_	5	classifier	_	_
+5	chớp	_	_	N	_	2	Arg1	_	_
+6	màu	_	_	N	_	7	mod	_	_
+7	vàng	_	_	Adj	_	5	mod	_	_
+8	gần	_	_	Adj	_	_	_	_	_
+9	bên	_	_	Pre	_	11	prep-along-with	_	_
+10	mắt cá	_	_	N	_	11	mod	_	_
+11	chân	_	_	N	_	2	location	_	_
+12	em	_	_	N	_	11	poss	_	_
+13	.	_	_	PUNCT	_	2	Rel	_	_
+
+# text = em đã quên mất , một đêm nào đó , cái bầu kính , hoặc con cừu lẻn ra không một tiếng động trong đêm ...
+1	em	_	_	N	_	3	Arg0	_	_
+2	đã	_	_	Adv	_	3	tense	_	_
+3	quên	_	_	V	_	15	op1	_	_
+4	mất	_	_	Prt	_	3	mod	_	_
+5	,	_	_	PUNCT	_	_	_	_	_
+6	một	_	_	Num	_	7	quant	_	_
+7	đêm	_	_	N	_	3	time	_	_
+8	nào	_	_	Pro	_	7	mod	_	_
+9	đó	_	_	N	_	8	mod	_	_
+10	,	_	_	PUNCT	_	_	_	_	_
+11	cái	_	_	Nc	_	13	classifier	_	_
+12	bầu	_	_	N	_	13	mod	_	_
+13	kính	_	_	N	_	3	Arg1	_	_
+14	,	_	_	PUNCT	_	_	_	_	_
+15	hoặc	_	_	C	_	_	_	_	_
+16	con	_	_	Nc	_	17	classifier	_	_
+17	cừu	_	_	N	_	18	Arg0	_	_
+18	lẻn	_	_	V	_	15	op2	_	_
+19	ra	_	_	V	_	18	compound	_	_
+20	không	_	_	Adv	_	22	polarity	_	_
+21	một	_	_	Num	_	22	quant	_	_
+22	tiếng động	_	_	N	_	18	Arg2	_	_
+23	trong	_	_	Pre	_	_	_	_	_
+24	đêm	_	_	N	_	22	dayperiod	_	_
+25	...	_	_	PUNCT	_	15	Rel	_	_
+26		_	_	_	_	_	_	_	_
+
+# text = nghĩa là ... không hẳn là như thế .
+1	nghĩa là	_	_	V	_	_	_	_	_
+2	...	_	_	PUNCT	_	_	_	_	_
+3	không	_	_	Adv	_	6	polarity	_	_
+4	hẳn	_	_	Adj	_	3	mod	_	_
+5	là	_	_	aux	_	_	_	_	_
+6	như	_	_	C	_	1	Arg1	_	_
+7	thế	_	_	Pro	_	6	mod	_	_
+8	.	_	_	PUNCT	_	1	Rel	_	_
+
+# text = - đêm nay ... ông biết đấy ... đừng đến làm gì .
+1	-	_	_	PUNCT	_	_	_	_	_
+2	đêm	_	_	N	_	6	dayperiod	_	_
+3	nay	_	_	Pro	_	2	time	_	_
+4	...	_	_	PUNCT	_	_	_	_	_
+5	ông	_	_	N	_	6	Arg0	_	_
+6	biết	_	_	V	_	_	_	_	_
+7	đấy	_	_	Prt	_	6	mod	_	_
+8	...	_	_	PUNCT	_	_	_	_	_
+9	đừng	_	_	Adv	_	10	mod	_	_
+10	đến	_	_	V	_	6	Arg2	_	_
+11	làm gì	_	_	PrtG	_	10	mod	_	_
+12	.	_	_	PUNCT	_	6	Rel	_	_
+
+# text = ông đừng đến chứng kiến cảnh đó , không đáng gì đâu ...
+1	ông	_	_	N	_	4	Arg0	_	_
+2	đừng	_	_	Adv	_	4	polarity	_	_
+3	đến	_	_	V	_	4	compound	_	_
+4	chứng kiến	_	_	V	_	_	_	_	_
+5	cảnh	_	_	N	_	4	Arg1	_	_
+6	đó	_	_	Pro	_	5	mod	_	_
+7	,	_	_	PUNCT	_	_	_	_	_
+8	không	_	_	Adv	_	9	polarity	_	_
+9	đáng	_	_	V	_	4	Arg2	_	_
+10	gì	_	_	Prt	_	_	_	_	_
+11	đâu	_	_	Prt	_	9	mod	_	_
+12	...	_	_	PUNCT	_	4	Rel	_	_
+
+# text = những cái vỏ già thì có gì đáng buồn ...
+1	những	_	_	Det	_	_	_	_	_
+2	cái	_	_	Nc	_	3	classifier	_	_
+3	vỏ	_	_	N	_	6	Arg0	_	_
+4	già	_	_	Adj	_	3	mod	_	_
+5	thì	_	_	C	_	_	_	_	_
+6	có	_	_	V	_	_	_	_	_
+7	gì	_	_	Pro	_	6	Arg1	_	_
+8	đáng	_	_	V	_	7	Arg0-of	_	_
+9	buồn	_	_	Adj	_	8	Arg1	_	_
+10	...	_	_	PUNCT	_	6	Rel	_	_
+
+# text = - em có những dự định mà tôi không được rõ ...
+1	-	_	_	PUNCT	_	_	_	_	_
+2	em	_	_	N	_	3	Arg0	_	_
+3	có	_	_	V	_	_	_	_	_
+4	những	_	_	Det	_	5	quant	_	_
+5	dự định	_	_	N	_	3	Arg1	_	_
+6	mà	_	_	C	_	_	_	_	_
+7	tôi	_	_	Pro	_	10	Arg0	_	_
+8	không	_	_	Adv	_	10	polarity	_	_
+9	được	_	_	aux	_	10	mod	_	_
+10	rõ	_	_	V	_	3	concession	_	_
+11	...	_	_	PUNCT	_	3	Rel	_	_
+
+# text = và lòng tôi se lại khi đưa cái rọ mõm đó cho em :
+1	và	_	_	C	_	_	_	_	_
+2	lòng	_	_	N	_	4	Arg0	_	_
+3	tôi	_	_	Pro	_	2	poss	_	_
+4	se	_	_	V	_	1	op2	_	_
+5	lại	_	_	V	_	4	compound	_	_
+6	khi	_	_	N	_	_	_	_	_
+7	đưa	_	_	V	_	4	time	_	_
+8	cái	_	_	Nc	_	9	classifier	_	_
+9	rọ mõm	_	_	N	_	7	Arg1	_	_
+10	đó	_	_	N	_	9	mod	_	_
+11	cho	_	_	C	_	_	_	_	_
+12	em	_	_	N	_	9	beneficiary	_	_
+13	:	_	_	PUNCT	_	1	Rel	_	_

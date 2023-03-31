@@ -1,0 +1,1708 @@
+# text = thế là tôi dùng bút chì phác một cái rọ mõm .
+(x0 / thế là-1
+    :op2 (x2 / dùng-3
+             :Arg1 (x4 / phác-5
+                       :Arg1 (x7 / rọ mõm-8
+                                 :quant (x5 / một-6)
+                                 :classifier (x6 / cái-7))
+                       :Arg0 (x3 / bút chì-4))
+             :Arg0 (x1 / tôi-2)))
+
+# text = khi ấy tôi bỗng buột miệng hỏi :
+(x0 / buột-5
+    :time (x1 / khi-1
+              :mod (x2 / ấy-2))
+    :Arg0 (x3 / tôi-3)
+    :mod (x4 / miệng-6)
+    :Arg1 (x5 / hỏi-7))
+
+# text = rồi , sau một lát im lặng , em lại nói :
+(x0 / rồi-1
+    :op2 (x7 / nói-10
+             :time (x1 / sau-3
+                       :unit (x3 / lát-5
+                                 :quant (x2 / một-4))
+                       :mod (x4 / im lặng-6))
+             :Arg0 (x5 / em-8)
+             :mod (x6 / lại-9)))
+
+# text = còn ta sẽ phải làm ra vẻ an ủi vỗ về nàng , nếu không , để làm chính ta cũng phải xấu hổ , nàng dám chết thật mất " .
+(x0 / làm-5
+    :Arg0 (x1 / ta-2)
+    :tense (x2 / sẽ-3)
+    :obligate-01 (x3 / phải-4)
+    :Arg2 (x4 / ra vẻ-6)
+    :Arg1 (x5 / an ủi-7
+              :compound (x6 / vỗ về-8)
+              :Arg1 (x7 / nàng-9))
+    :Arg1 (x17 / chết-24
+               :mod (x18 / thật-25)
+               :mod (x19 / mất-26)
+               :purpose (x10 / làm-15
+                             :Arg1 (x11 / ta-17
+                                        :Arg0-of (x14 / xấu hổ-20
+                                                      :mod (x12 / cũng-18)
+                                                      :obligate-01 (x13 / phải-19)))
+                             :condition (x8 / nếu-11
+                                            :polarity -))
+               :Arg0 (x15 / nàng-22)
+               :compound (x16 / dám-23)))
+
+# text = nếu bọn thợ săn mà khiêu vũ bất cứ ngày nào , thì ngày nào cũng như ngày nào , tớ sẽ chẳng có ngày nào được nghỉ nữa .
+(x0 / có-21
+    :condition (x3 / khiêu vũ-5
+                   :time (x5 / ngày-7
+                             :mod (x6 / nào-8)
+                             :mod (x4 / bất cứ-6))
+                   :Arg0 (x2 / thợ săn-3
+                             :classifier (x1 / bọn-2)))
+    :time (x7 / ngày-11
+              :mod (x8 / nào-12)
+              :null (x9 / ngày-15
+                        :mod (x10 / nào-16)))
+    :Arg0 (x11 / tớ-18)
+    :tense (x12 / sẽ-19)
+    :polarity -
+    :Arg1 (x14 / ngày-22
+               :mod (x15 / nào-23)
+               :Arg2 (x17 / nghỉ-25
+                          :mod (x18 / nữa-26)
+                          :mod (x16 / được-24))))
+
+# text = phải , đoá hồng của tôi , một người qua đường tầm thường tưởng là nàng giống các cô .
+(x0 / phải-1
+    :op1 (x2 / hồng-4
+             :poss (x3 / tôi-6)
+             :classifier (x1 / đoá-3))
+    :op2 (x9 / tưởng-13
+             :Arg1 (x11 / giống-16
+                        :Arg1 (x13 / cô-18
+                                   :quant (x12 / các-17))
+                        :Arg0 (x10 / nàng-15))
+             :Arg0 (x5 / người-9
+                       :Arg0-of (x6 / qua-10
+                                    :Arg1 (x7 / đường-11))
+                       :mod (x8 / tầm thường-12)
+                       :quant (x4 / một-8))))
+
+# text = nhưng đối với tôi thì nàng quan trọng hơn tất cả các cô , bởi vì chính là nàng mà tay tôi đã tưới .
+(x0 / quan trọng-6
+    :constract (x1 / nhưng-1
+                   :beneficiary (x2 / tôi-3))
+    :Arg0 (x3 / nàng-5)
+    :mod (x4 / hơn-7)
+    :Arg1 (x7 / cô-10
+              :quant (x5 / tất cả-8)
+              :quant (x6 / các-9))
+    :cause (x9 / nàng-15
+               :concession (x13 / tưới-20
+                                :Arg0 (x10 / tay-17
+                                           :poss (x11 / tôi-18))
+                                :tense (x12 / đã-19))
+               :domain (x8 / chính-13)))
+
+# text = - chính thời giờ cậu đã mất cho đoá hồng của cậu làm cho đoá hồng của cậu trở nên quan trọng đến thế .
+(x0 / làm-12
+    :Arg0 (x4 / mất-6
+              :beneficiary (x6 / hồng-9
+                               :poss (x7 / cậu-11)
+                               :classifier (x5 / đoá-8))
+              :time (x1 / thời giờ-3)
+              :Arg0 (x2 / cậu-4)
+              :tense (x3 / đã-5))
+    :mod (x8 / cho-13)
+    :Arg1 (x12 / trở nên-18
+               :Arg2 (x13 / quan trọng-19
+                          :mod (x14 / đến-20
+                                    :mod (x15 / thế-21)))
+               :Arg0 (x10 / hồng-15
+                          :poss (x11 / cậu-17)
+                          :classifier (x9 / đoá-14))))
+
+# text = - ta xếp hành khách , thành từng gói nghìn người một , người bẻ ghi nói .
+(x0 / xếp-3
+    :Arg0 (x1 / ta-2)
+    :Arg1 (x3 / thành-6
+              :Arg2 (x7 / người-10
+                        :quant (x8 / một-11)
+                        :classifier (x5 / gói-8
+                                        :quant (x4 / từng-7))
+                        :quant (x6 / nghìn-9))
+              :Arg1 (x2 / hành khách-4))
+    :Arg1-of (x11 / nói-15
+                  :Arg0 (x9 / người-13)
+                  :compound (x10 / bẻ ghi-14)))
+
+# text = - muốn làm gì thì làm ...
+(x0 / làm-3
+    :mod (x1 / muốn-2)
+    :amr-unknow (x2 / gì-4)
+    :Arg2 (x3 / làm-6))
+
+# text = - họ chẳng đuổi theo cái gì hết , người bẻ ghi nói .
+(x0 / đuổi-4
+    :Arg0 (x1 / họ-2)
+    :polarity -
+    :compound (x3 / theo-5)
+    :Arg1 (x4 / cái-6
+              :amr-unknow (x5 / gì-7))
+    :mod (x6 / hết-8)
+    :Arg0-of (x9 / nói-12
+                 :Arg0 (x7 / người-10)
+                 :compound (x8 / bẻ ghi-11)))
+
+# text = - chú em bé bỏng ơi , bây giờ còn chồn cáo gì nữa !
+(x0 / còn-8
+    :Arg0-of (x3 / bé bỏng-4
+                 :Arg0 (x2 / em-3
+                           :classifier (x1 / chú-2)))
+    :time (x4 / bây giờ-7)
+    :Arg1 (x5 / chồn-9
+              :op1 (x6 / cáo-10))
+    :amr-unknow (x7 / gì-11)
+    :mod (x8 / nữa-12))
+
+# text = ta hướng dẫn những chuyến tàu chở chúng đi , lúc về bên phải , lúc về bên trái .
+(x0 / hướng dẫn-2
+    :Arg0 (x1 / ta-1)
+    :Arg1 (x4 / chở-6
+              :Arg1 (x6 / đi-8
+                        :op1 (x8 / về-11
+                                 :duration (x10 / phải-13
+                                                :mod (x9 / bên-12))
+                                 :mod (x7 / lúc-10))
+                        :op2 (x12 / về-16
+                                  :direction (x14 / trái-18
+                                                  :mod (x13 / bên-17))
+                                  :mod (x11 / lúc-15))
+                        :Arg0 (x5 / chúng-7))
+              :Arg0 (x3 / tàu-5
+                        :classifier (x2 / chuyến-4))))
+
+# text = và sau một lát im lặng , em lại nói :
+(x0 / và-1
+    :op2 (x7 / nói-9
+             :time (x1 / sau-2
+                       :unit (x3 / lát-4
+                                 :mod (x4 / im lặng-5)
+                                 :quant (x2 / một-3)))
+             :Arg0 (x5 / em-7)
+             :mod (x6 / lại-8)))
+
+# text = - tôi rất hài lòng , em nói , vì ông cũng đồng ý với bạn cáo của tôi .
+(x0 / hài lòng-4
+    :Arg0 (x1 / tôi-2)
+    :mod (x2 / rất-3)
+    :Arg1-of (x4 / nói-7
+                 :Arg0 (x3 / em-6))
+    :cause (x7 / đồng ý-12
+               :Arg1 (x9 / cáo-15
+                         :poss (x10 / tôi-17)
+                         :classifier (x8 / bạn-14))
+               :Arg0 (x5 / ông-10)
+               :mod (x6 / cũng-11)))
+
+# text = khi ông hoàng nhỏ bé thiu thiu ngủ , tôi bế em lên vòng tay và lại lên đường .
+(x0 / và-12
+    :op1 (x6 / bế-8
+             :Arg1 (x7 / em-9)
+             :location (x9 / vòng tay-11
+                           :mod (x8 / lên-10))
+             :time (x4 / ngủ-5
+                       :Arg0 (x1 / ông hoàng-2
+                                 :mod (x2 / nhỏ bé-3))
+                       :compound (x3 / thiu thiu-4))
+             :Arg0 (x5 / tôi-7))
+    :op2 (x11 / lên đường-14
+              :mod (x10 / lại-13)))
+
+# text = và tôi càng thấy em còn mong manh hơn .
+(x0 / và-1
+    :op2 (x3 / thấy-4
+             :Arg1 (x6 / mong manh-7
+                       :mod (x7 / hơn-8)
+                       :Arg0 (x4 / em-5)
+                       :mod (x5 / còn-6))
+             :Arg0 (x1 / tôi-2)
+             :mod (x2 / càng-3)))
+
+# text = em cười , sờ sợi dây , lăn cái ròng rọc .
+(x0 / em-1
+    :Arg0-of (x1 / cười-2)
+    :Arg0-of (x2 / sờ-4
+                 :Arg1 (x4 / dây-6
+                           :classifier (x3 / sợi-5)))
+    :Arg0-of (x5 / lăn-8
+                 :Arg1 (x7 / ròng rọc-10
+                           :classifier (x6 / cái-9))))
+
+# text = nhưng ở đấy chẳng có ngôi làng nào , và tôi tưởng mình đang mơ .
+(x0 / và-10
+    :op1 (x4 / có-5
+             :Arg1 (x6 / làng-7
+                       :mod (x7 / nào-8)
+                       :classifier (x5 / ngôi-6))
+             :location (x1 / ở-2
+                           :mod (x2 / đấy-3))
+             :polarity -)
+    :op2 (x9 / tưởng-12
+             :Arg1 (x12 / mơ-15
+                        :Arg0 (x10 / mình-13)
+                        :tense (x11 / đang-14))
+             :Arg0 (x8 / tôi-11)))
+
+# text = và , cứ bước đi như vậy , tôi tìm ra cái giếng vào lúc rạng đông .
+(x0 / và-1
+    :op2 (x7 / tìm-10
+             :compound (x8 / ra-11)
+             :Arg1 (x10 / giếng-13
+                        :time (x12 / rạng đông-16
+                                   :mod (x11 / lúc-15))
+                        :classifier (x9 / cái-12))
+             :domain (x2 / bước-4
+                         :compound (x3 / đi-5
+                                       :manner (x5 / vậy-7
+                                                   :mod (x4 / như-6)))
+                         :mod (x1 / cứ-3))
+             :Arg0 (x6 / tôi-9)))
+
+# text = rồi một con tàu nhanh sáng choang , gầm như sấm , làm căn phòng gác ghi rung lên .
+(x0 / gầm-7
+    :Arg0 (x3 / tàu nhanh-4
+              :mod (x4 / sáng choang-5)
+              :quant (x1 / một-2)
+              :classifier (x2 / con-3))
+    :resemble-01 (x5 / sấm-9)
+    :Arg1 (x6 / làm-11
+              :Arg1 (x11 / rung-16
+                         :compound (x12 / lên-17)
+                         :Arg0 (x8 / phòng-13
+                                   :mod (x9 / gác-14
+                                            :mod (x10 / ghi-15))
+                                   :classifier (x7 / căn-12)))))
+
+# text = và lại gầm lên , từ hướng ngược lại , một chuyến tàu nhanh thứ hai sáng choang .
+(x0 / và-1
+    :op2 (x2 / gầm-3
+             :compound (x3 / lên-4)
+             :source (x4 / hướng-7
+                         :mod (x5 / ngược-8
+                                  :mod (x6 / lại-9)))
+             :Arg0 (x9 / tàu nhanh-13
+                       :ord (x10 / hai-15)
+                       :mod (x11 / sáng choang-16)
+                       :quant (x7 / một-11)
+                       :classifier (x8 / chuyến-12))
+             :mod (x1 / lại-2)))
+
+# text = và lại tiếng ầm ầm của chiếc tàu nhanh thứ ba sáng choang .
+(x0 / và-1
+    :op2 (x2 / ầm ầm-4
+             :poss (x4 / tàu nhanh-7
+                       :ord (x5 / ba-9)
+                       :mod (x6 / sáng choang-10)
+                       :classifier (x3 / chiếc-6))
+             :classifier (x1 / tiếng-3)))
+
+# text = - họ đuổi theo những hành khách lúc nãy phải không ? ông hoàng nhỏ hỏi .
+(x0 / đuổi-3
+    :Arg0 (x1 / họ-2)
+    :compound (x2 / theo-4)
+    :Arg1 (x4 / hành khách-6
+              :time (x5 / lúc-7
+                        :mod (x6 / nãy-8))
+              :quant (x3 / những-5))
+    :obligate-01 (x7 / phải-9
+                     :polarity -)
+    :amr-unknow (x9 / ?-11)
+    :Arg1-of (x12 / hỏi-14
+                  :Arg0 (x10 / ông hoàng-12
+                             :mod (x11 / nhỏ-13))))
+
+# text = nhưng có một cái gì đó toả sáng trong lặng lẽ ...
+(x0 / toả-7
+    :mod (x1 / có-2)
+    :Arg0 (x3 / cái-4
+              :amr-unknow (x4 / gì-5
+                              :mod (x5 / đó-6))
+              :quant (x2 / một-3))
+    :mod (x6 / sáng-8)
+    :mod (x8 / lặng lẽ-10
+             :prep-in (x7 / trong-9)))
+
+# text = tôi kinh ngạc vì bỗng nhiên hiểu ra cái ánh sáng huyền bí ấy của cát .
+(x0 / kinh ngạc-2
+    :Arg0 (x1 / tôi-1)
+    :cause (x3 / hiểu-5
+               :compound (x4 / ra-6)
+               :Arg2 (x6 / ánh sáng-8
+                         :mod (x7 / huyền bí-9)
+                         :mod (x8 / ấy-10)
+                         :poss (x9 / cát-12)
+                         :classifier (x5 / cái-7))
+               :mod (x2 / bỗng nhiên-4)))
+
+# text = tôi đáp lại " đúng thế " và tôi nhìn , không nói , những gợn sóng của cát dưới ánh trăng .
+(x0 / và-8
+    :op1 (x2 / đáp-2
+             :compound (x3 / lại-3)
+             :Arg2 (x4 / đúng-5
+                       :mod (x5 / thế-6))
+             :Arg0 (x1 / tôi-1))
+    :op2 (x7 / nhìn-10
+             :op1 (x9 / nói-13
+                      :polarity -)
+             :Arg1 (x11 / sóng-17
+                        :poss (x12 / cát-19)
+                        :location (x14 / ánh-21
+                                       :poss (x15 / trăng-22)
+                                       :direction (x13 / dưới-20))
+                        :classifier (x10 / gợn-16))
+             :Arg0 (x6 / tôi-9)))
+
+# text = - có được một người bạn là tuyệt chứ , dù cho ta sắp chết đi nữa .
+(x0 / tuyệt-8
+    :domain (x1 / có-2
+                :mod (x2 / được-3)
+                :Arg1 (x4 / bạn-6
+                          :classifier (x3 / người-5)))
+    :mod (x5 / chứ-9)
+    :concession (x8 / chết-14
+                    :mod (x9 / đi nữa-15)
+                    :Arg0 (x6 / ta-12)
+                    :tense (x7 / sắp-13)))
+
+# text = tất nhiên , chưa ai tìm ra kho báu đó , có lẽ cũng chưa ai thử đi tìm .
+(x0 / tìm-5
+    :mod (x1 / tất nhiên-1)
+    :Arg0 (x3 / ai-4
+              :polarity -)
+    :compound (x4 / ra-6)
+    :Arg1 (x6 / báu-8
+              :mod (x7 / đó-9)
+              :classifier (x5 / kho-7))
+    :Arg0-of (x11 / thử-15
+                  :compound (x12 / đi-16
+                                 :compound (x13 / tìm-17))
+                  :mod (x8 / có lẽ-11)
+                  :Arg0 (x10 / ai-14
+                             :polarity -)))
+
+# text = nhưng nó đã làm cho ngôi nhà trở nên thành tiên .
+(x0 / làm-4
+    :Arg0 (x1 / nó-2)
+    :tense (x2 / đã-3)
+    :Arg1 (x5 / trở nên-8
+              :compound (x6 / thành-9)
+              :Arg2 (x7 / tiên-10)
+              :Arg0 (x4 / nhà-7
+                        :classifier (x3 / ngôi-6))))
+
+# text = khi còn là một cậu bé tôi ở trong một ngôi nhà cổ , và có một truyền thuyết là ở ngôi nhà cổ này có chôn một kho báu .
+(x0 / và-15
+    :op1 (x7 / ở-8
+             :location (x10 / nhà-12
+                            :mod (x11 / cổ-13)
+                            :prep-in (x8 / trong-9)
+                            :classifier (x9 / ngôi-11))
+             :time (x1 / khi-1
+                       :time (x5 / bé-6
+                                 :mod (x2 / còn-2)
+                                 :quant (x3 / một-4)
+                                 :classifier (x4 / cậu-5)))
+             :Arg0 (x6 / tôi-7))
+    :op2 (x12 / có-16
+              :Arg1 (x14 / truyền thuyết-18
+                         :topic (x19 / chôn-26
+                                     :Arg1 (x22 / báu-29
+                                                :quant (x20 / một-27)
+                                                :classifier (x21 / kho-28))
+                                     :location (x16 / nhà-22
+                                                    :mod (x17 / cổ-23)
+                                                    :mod (x18 / này-24)
+                                                    :classifier (x15 / ngôi-21)))
+                         :quant (x13 / một-17))))
+
+# text = cái nhà của tôi có giấu trong đáy trái tim của nó một điều bí mật .
+(x0 / giấu-6
+    :Arg0 (x2 / nhà-2
+              :poss (x3 / tôi-4)
+              :classifier (x1 / cái-1))
+    :mod (x4 / có-5)
+    :Arg2 (x7 / trái tim-9
+              :poss (x8 / nó-11)
+              :prep-in (x5 / trong-7)
+              :mod (x6 / đáy-8))
+    :Arg1 (x11 / bí mật-14
+               :quant (x9 / một-12)
+               :classifier (x10 / điều-13)))
+
+# text = - các ngôi sao đẹp , là do ở đó có một bông hoa mà người ta không nhìn thấy ...
+(x0 / đẹp-5
+    :Arg0 (x2 / sao-4
+              :classifier (x1 / ngôi-3))
+    :cause (x5 / có-11
+               :Arg1 (x8 / hoa-14
+                         :concession (x11 / nhìn-18
+                                          :compound (x12 / thấy-19)
+                                          :Arg0 (x9 / người ta-16)
+                                          :polarity -)
+                         :quant (x6 / một-12)
+                         :classifier (x7 / bông-13))
+               :location (x4 / đó-10
+                             :mod (x3 / ở-9))))
+
+# text = - cái đã tô điểm cho sa mạc , ông hoàng nhỏ nói , là nó ẩn giấu một cái giếng ở nơi nào đó ...
+(x0 / tô điểm-4
+    :Arg0 (x1 / cái-2)
+    :tense (x2 / đã-3)
+    :Arg2 (x3 / sa mạc-6)
+    :Arg0-of (x4 / ông hoàng-8
+                 :mod (x5 / nhỏ-9))
+    :Arg0 (x7 / ẩn giấu-14
+              :Arg1 (x9 / giếng-17
+                        :location (x10 / nơi-19
+                                       :amr-unknow (x11 / nào-20
+                                                        :mod (x12 / đó-21)))
+                        :classifier (x8 / cái-16))
+              :Arg0 (x6 / nó-13)))
+
+# text = tôi có cảm giác như đang giữ một kho báu mong manh .
+(x0 / cảm giác-3
+    :Arg0 (x1 / tôi-1)
+    :mod (x2 / có-2)
+    :resemble-01 (x4 / giữ-6
+                     :Arg1 (x7 / báu-9
+                               :mod (x8 / mong manh-10)
+                               :quant (x5 / một-7)
+                               :classifier (x6 / kho-8))
+                     :tense (x3 / đang-5)))
+
+# text = tôi có cảm giác như trên Trái Đất này không có gì mong manh hơn .
+(x0 / cảm giác-3
+    :Arg0 (x1 / tôi-1)
+    :mod (x2 / có-2)
+    :resemble-01 (x7 / có-9
+                     :amr-unknow (x8 / gì-10)
+                     :mod (x9 / mong manh-11
+                              :mod (x10 / hơn-12))
+                     :location (x4 / Trái Đất-6
+                                   :mod (x5 / này-7)
+                                   :direction (x3 / trên-5))
+                     :polarity -))
+
+# text = cái giếng mà chúng tôi đến , nó không giống các giếng ở sa mạc Sahara .
+(x0 / giống-10
+    :Arg0 (x2 / giếng-2
+              :concession (x5 / đến-6
+                              :Arg0 (x4 / tôi-5
+                                        :classifier (x3 / chúng-4)))
+              :classifier (x1 / cái-1))
+    :Arg0 (x6 / nó-8)
+    :polarity -
+    :Arg1 (x9 / giếng-12
+              :location (x10 / sa mạc-14
+                             :name (x11 / Sahara-15))
+              :quant (x8 / các-11)))
+
+# text = các giếng Sahara chỉ đơn giản là những cái lỗ đào trong cát .
+(x0 / lỗ-9
+    :Arg0 (x2 / giếng-2
+              :location (x3 / Sahara-3)
+              :quant (x1 / các-1))
+    :mod (x4 / đơn giản-5)
+    :quant (x5 / những-7)
+    :classifier (x6 / cái-8)
+    :Arg0-of (x7 / đào-10)
+    :location (x8 / cát-12))
+
+# text = - lạ thật , tôi nói với ông hoàng nhỏ , mọi cái đều có sẵn : cái ròng rọc , cái gầu và sợi dây ...
+(x0 / có-14
+    :mode-expressive (x1 / lạ-2
+                         :mod (x2 / thật-3))
+    :Arg1-of (x4 / nói-6
+                 :accompanier (x5 / ông hoàng-8
+                                  :mod (x6 / nhỏ-9))
+                 :Arg0 (x3 / tôi-5))
+    :Arg0 (x8 / cái-12
+              :quant (x7 / mọi-11))
+    :mod (x9 / đều-13)
+    :mod (x10 / sẵn-15)
+    :Arg2 (x15 / và-22
+               :op3 (x17 / dây-24
+                         :classifier (x16 / sợi-23))
+               :op1 (x12 / ròng rọc-18
+                         :classifier (x11 / cái-17))
+               :op2 (x14 / gầu-21
+                         :classifier (x13 / cái-20))))
+
+# text = - để anh , tôi nói , nó nặng quá đối với em .
+(x0 / nặng-9
+    :Arg0-of (x1 / để-2
+                 :Arg1 (x2 / anh-3))
+    :Arg1-of (x4 / nói-6
+                 :Arg0 (x3 / tôi-5))
+    :Arg0 (x5 / nó-8)
+    :mod (x6 / quá-10)
+    :accompanier (x7 / em-12))
+
+# text = một giọng nói khác có lẽ trả lời em , vì em lại đáp :
+(x0 / trả lời-6
+    :Arg0 (x3 / nói-3
+              :mod (x4 / khác-4)
+              :quant (x1 / một-1)
+              :classifier (x2 / giọng-2))
+    :mod (x5 / có lẽ-5)
+    :Arg1 (x6 / em-7)
+    :cause (x9 / đáp-12
+               :Arg0 (x7 / em-10)
+               :mod (x8 / lại-11)))
+
+# text = - chuyện quái quỉ gì thế !
+(x0 / quái quỉ-3
+    :classifier (x1 / chuyện-2)
+    :amr-unknow (x2 / gì-4)
+    :mode-expressive (x3 / thế-5))
+
+# text = và một lần nữa , chẳng hiểu tại sao , tôi cảm thấy buồn bã một cách kỳ lạ .
+(x0 / và-1
+    :op2 (x10 / thấy-13
+              :Arg2 (x11 / buồn bã-14
+                         :mod (x14 / kỳ lạ-17
+                                   :quant (x12 / một-15)
+                                   :classifier (x13 / cách-16)))
+              :time (x2 / lần-3
+                        :mod (x3 / nữa-4)
+                        :quant (x1 / một-2))
+              :cause (x5 / hiểu-7
+                         :domain (x6 / tại-8
+                                     :mod (x7 / sao-9))
+                         :polarity -)
+              :Arg0 (x8 / tôi-11)
+              :compound (x9 / cảm-12)))
+
+# text = - con người , ông hoàng nhỏ nói , họ chui vào các chuyến tàu nhanh , nhưng họ chẳng biết mình tìm kiếm thứ gì .
+(x0 / chui-9
+    :Arg0 (x1 / con người-2)
+    :Arg1-of (x4 / nói-6
+                 :Arg0 (x2 / ông hoàng-4
+                           :mod (x3 / nhỏ-5)))
+    :Arg0 (x5 / họ-8)
+    :mod (x6 / vào-10)
+    :Arg1 (x8 / tàu nhanh-13
+              :classifier (x7 / chuyến-12))
+    :Arg1 (x11 / biết-18
+               :Arg1 (x13 / tìm kiếm-20
+                          :amr-unknow (x15 / gì-22
+                                           :classifier (x14 / thứ-21))
+                          :Arg0 (x12 / mình-19))
+               :Arg0 (x9 / họ-16)
+               :polarity -))
+
+# text = - xa hơn nhiều lắm ... khó hơn nhiều lắm ...
+(x0 / xa-2
+    :mod (x1 / hơn-3)
+    :mod (x2 / nhiều-4
+             :mod (x3 / lắm-5))
+    :Arg1-of (x4 / khó-7
+                 :mod (x5 / hơn-8)
+                 :mod (x6 / nhiều-9
+                          :mod (x7 / lắm-10))))
+
+# text = tôi có cảm giác vừa xảy ra một việc gì dị thường .
+(x0 / cảm giác-3
+    :Arg0 (x1 / tôi-1)
+    :mod (x2 / có-2)
+    :Arg1 (x3 / xảy-5
+              :compound (x4 / ra-6)
+              :Arg0 (x6 / việc-8
+                        :amr-unknow (x7 / gì-9)
+                        :mod (x8 / dị thường-10)
+                        :quant (x5 / một-7))))
+
+# text = - cậu em ạ , em đã sợ hãi ...
+(x0 / sợ hãi-8
+    :Arg0-of (x1 / cậu-2
+                 :mod (x2 / em-3))
+    :Arg0 (x3 / em-6)
+    :tense (x4 / đã-7))
+
+# text = em có sợ hãi , đúng rồi !
+(x0 / sợ hãi-3
+    :Arg0 (x1 / em-1)
+    :mod (x2 / đúng-5
+             :mod (x3 / rồi-6)))
+
+# text = - giống như nước vậy .
+(x0 / giống-2
+    :resemble-01 (x1 / nước-4
+                     :mod (x2 / vậy-5)))
+
+# text = - cái gì mà quan trọng , cái đó không nhìn thấy được ...
+(x0 / nhìn-10
+    :Arg0 (x3 / quan trọng-5
+              :Arg0 (x1 / cái-2
+                        :amr-unknow (x2 / gì-3)))
+    :Arg0 (x4 / cái-7
+              :mod (x5 / đó-8))
+    :polarity -
+    :compound (x7 / thấy-11)
+    :mod (x8 / được-12))
+
+# text = thế lại càng hay .
+(x0 / hay-4
+    :mod (x1 / thế-1
+             :mod (x2 / lại-2))
+    :mod (x3 / càng-3))
+
+# text = ngôi sao của tôi , đối với ông sẽ là một trong các ngôi sao kia ...
+(x0 / sao-14
+    :Arg0 (x2 / sao-2
+              :poss (x3 / tôi-4)
+              :classifier (x1 / ngôi-1))
+    :accompanier (x4 / ông-7)
+    :tense (x5 / sẽ-8)
+    :quant (x6 / một-10
+               :prep-in (x7 / các-12))
+    :classifier (x8 / ngôi-13)
+    :mod (x9 / kia-15))
+
+# text = - đúng đó là món quà tôi biếu ông ... giống như là nước vậy ...
+(x0 / quà-6
+    :mod (x1 / đúng-2)
+    :domain (x2 / đó-3)
+    :classifier (x3 / món-5)
+    :concession (x5 / biếu-8
+                    :Arg1 (x6 / ông-9)
+                    :Arg0 (x4 / tôi-7))
+    :Arg2 (x7 / giống-11
+              :resemble-01 (x8 / nước-14)))
+
+# text = khi chúng tôi bước đi , im lặng , giờ này qua giờ khác , màn đêm buông xuống và các vì sao bắt đầu toả sáng .
+(x0 / và-19
+    :op1 (x13 / buông-17
+              :compound (x14 / xuống-18)
+              :time (x3 / bước-4
+                        :compound (x4 / đi-5)
+                        :mod (x5 / im lặng-7)
+                        :Arg0 (x2 / tôi-3
+                                  :mod (x1 / chúng-2)))
+              :time (x8 / qua-11
+                        :Arg1 (x9 / giờ-12
+                                  :mod (x10 / khác-13))
+                        :Arg0 (x6 / giờ-9
+                                  :mod (x7 / này-10)))
+              :Arg0 (x12 / đêm-16
+                         :classifier (x11 / màn-15)))
+    :op2 (x17 / bắt đầu-23
+              :compound (x18 / toả-24)
+              :Arg2 (x19 / sáng-25)
+              :Arg0 (x16 / sao-22
+                         :classifier (x15 / vì-21))))
+
+# text = - ồ ! được cả thôi , em nói , trẻ con chúng hiểu hết .
+(x0 / được-4
+    :mode-expressive (x1 / ồ-2)
+    :mod (x2 / cả-5)
+    :mod (x3 / thôi-6)
+    :Arg0-of (x5 / nói-9
+                 :Arg0 (x4 / em-8))
+    :Arg0 (x8 / hiểu-13
+              :mod (x9 / hết-14)
+              :Arg0 (x6 / trẻ con-11)
+              :Arg0 (x7 / chúng-12)))
+
+# text = - các cây baobap của ông , trông giống như các cây cải hoa ấy ...
+(x0 / giống-9
+    :Arg0 (x2 / baobap-4
+              :poss (x3 / ông-6)
+              :classifier (x1 / cây-3))
+    :compound (x4 / trông-8)
+    :resemble-01 (x6 / cải hoa-13
+                     :mod (x7 / ấy-14)
+                     :classifier (x5 / cây-12)))
+
+# text = hai tai nó ... trông giống như hai cái sừng ... và lại dài quá !
+(x0 / và-12
+    :op1 (x5 / giống-6
+             :resemble-01 (x8 / sừng-10
+                              :quant (x6 / hai-8)
+                              :classifier (x7 / cái-9))
+             :Arg0 (x2 / tai-2
+                       :poss (x3 / nó-3)
+                       :quant (x1 / hai-1))
+             :compound (x4 / trông-5))
+    :op2 (x9 / dài-14
+             :mod (x10 / quá-15)))
+
+# text = anh cứ xem nơi nào bắt đầu có dấu chân của tôi ở trên cát .
+(x0 / xem-3
+    :Arg0 (x1 / anh-1)
+    :mod (x2 / cứ-2)
+    :Arg1 (x5 / bắt đầu-6
+              :compound (x6 / có-7)
+              :Arg1 (x8 / chân-9
+                        :poss (x9 / tôi-11)
+                        :classifier (x7 / dấu-8))
+              :location (x11 / cát-14
+                             :direction (x10 / trên-13))
+              :Arg0 (x3 / nơi-4
+                        :amr-unknow (x4 / nào-5))))
+
+# text = - và khi ông đã nguôi rồi ( người ta bao giờ cũng nguôi đi ) , ông sẽ bằng lòng đã từng được quen biết tôi .
+(x0 / và-2
+    :op2 (x12 / bằng lòng-18
+              :Arg2 (x16 / quen biết-22
+                         :Arg1 (x17 / tôi-23)
+                         :tense (x13 / đã-19
+                                     :mod (x14 / từng-20))
+                         :mod (x15 / được-21))
+              :time (x3 / nguôi-6
+                        :mod (x4 / rồi-7)
+                        :Arg0 (x1 / ông-4)
+                        :tense (x2 / đã-5))
+              :time (x8 / nguôi-12
+                        :compound (x9 / đi-13)
+                        :Arg0 (x5 / người ta-9)
+                        :time (x6 / bao giờ-10)
+                        :mod (x7 / cũng-11))
+              :Arg0 (x10 / ông-16)
+              :tense (x11 / sẽ-17)))
+
+# text = chỗ tôi bé quá không thể chỉ cho ông đâu là ngôi sao của tôi được .
+(x0 / chỉ-6
+    :location (x1 / chỗ-1
+                  :poss (x2 / tôi-2)
+                  :mod (x3 / bé-3))
+    :polarity -
+    :mod (x5 / cho-7)
+    :Arg1 (x6 / ông-8)
+    :Arg2 (x8 / sao-12
+              :poss (x9 / tôi-14)
+              :classifier (x7 / ngôi-11)))
+
+# text = khi ông yêu một bông hoa ở trên một ngôi sao , thật là êm đềm , ban đêm , khi ông nhìn trời .
+(x0 / êm đềm-15
+    :time (x2 / yêu-3
+              :Arg1 (x5 / hoa-6
+                        :location (x8 / sao-11
+                                      :direction (x6 / trên-8)
+                                      :classifier (x7 / ngôi-10))
+                        :quant (x3 / một-4)
+                        :classifier (x4 / bông-5))
+              :Arg0 (x1 / ông-2))
+    :domain (x9 / thật-13)
+    :dayperiod (x10 / ban đêm-17)
+    :time (x12 / nhìn-21
+               :location (x13 / trời-22)
+               :Arg0 (x11 / ông-20)))
+
+# text = nhưng mọi việc quen thuộc này buổi sáng hôm nay sao đối với em thật vô cùng êm đềm .
+(x0 / êm đềm-14
+    :Arg0 (x2 / việc-3
+              :mod (x3 / quen thuộc-4)
+              :mod (x4 / này-5)
+              :mod (x1 / mọi-2))
+    :time (x6 / sáng-7
+              :time (x7 / hôm nay-8)
+              :classifier (x5 / buổi-6))
+    :Arg0 (x9 / em-11
+              :accompanier (x8 / đối với-10))
+    :mod (x10 / vô cùng-13))
+
+# text = và cái ròng rọc liền rên một tiếng , giống như tiếng rên của cái chong chóng chỉ hướng gió sau một hồi gió ngủ yên lâu quá .
+(x0 / và-1
+    :op2 (x4 / rên-5
+             :unit (x6 / tiếng-7
+                       :quant (x5 / một-6))
+             :Arg2 (x7 / giống-9
+                       :resemble-01 (x9 / rên-12
+                                        :poss (x11 / chong chóng-15
+                                                   :Arg0-of (x12 / chỉ-16
+                                                                 :Arg1 (x13 / hướng-17
+                                                                            :poss (x14 / gió-18))
+                                                                 :time (x18 / ngủ-23
+                                                                            :mod (x19 / yên-24)
+                                                                            :mod (x20 / lâu-25
+                                                                                      :mod (x21 / quá-26))
+                                                                            :unit (x16 / hồi-21
+                                                                                       :quant (x15 / một-20))
+                                                                            :Arg0 (x17 / gió-22)))
+                                                   :classifier (x10 / cái-14))
+                                        :classifier (x8 / tiếng-11)))
+             :Arg0 (x2 / ròng rọc-3
+                       :classifier (x1 / cái-2))
+             :tense (x3 / liền-4)))
+
+# text = còn cái này giống như giếng làng .
+(x0 / giống-4
+    :mod (x1 / còn-1)
+    :Arg0 (x2 / cái-2
+              :mod (x3 / này-3))
+    :resemble-01 (x4 / giếng-6
+                     :poss (x5 / làng-7)))
+
+# text = thế mà họ cứ cuống quít lên và quay cuồng ...
+(x0 / và-6
+    :op1 (x3 / cuống quít-4
+             :compound (x4 / lên-5)
+             :mod (x1 / thế mà-1)
+             :Arg0 (x2 / họ-2))
+    :op2 (x5 / quay cuồng-7))
+
+# text = - nào có ích gì ...
+(x0 / có-3
+    :Arg0 (x1 / nào-2)
+    :Arg1 (x2 / ích-4)
+    :amr-unknow (x3 / gì-5))
+
+# text = các bước chân khác sẽ làm cho tớ chui ngay xuống đất .
+(x0 / làm-6
+    :Arg0 (x2 / chân-3
+              :mod (x3 / khác-4)
+              :classifier (x1 / bước-2))
+    :tense (x4 / sẽ-5)
+    :mod (x5 / cho-7)
+    :Arg1 (x7 / chui-9
+              :mod (x8 / ngay-10)
+              :compound (x9 / xuống-11
+                            :location (x10 / đất-12))
+              :Arg0 (x6 / tớ-8)))
+
+# text = tớ sẽ nhận ra một bước chân khác hẳn mọi bước chân khác .
+(x0 / nhận-3
+    :Arg0 (x1 / tớ-1)
+    :tense (x2 / sẽ-2)
+    :compound (x3 / ra-4)
+    :Arg1 (x6 / khác-8
+              :mod (x7 / hẳn-9)
+              :Arg1 (x10 / chân-12
+                         :mod (x11 / khác-13)
+                         :quant (x8 / mọi-10)
+                         :classifier (x9 / bước-11))
+              :Arg0 (x5 / chân-7
+                        :classifier (x4 / bước-6))))
+
+# text = nhưng không ở đâu có nhà buôn bạn , con người không có bạn nữa .
+(x0 / có-11
+    :Arg0-of (x4 / có-5
+                 :Arg1 (x5 / nhà buôn-6
+                           :mod (x6 / bạn-7))
+                 :polarity -
+                 :location (x3 / đâu-4
+                               :prep-at (x2 / ở-3)))
+    :Arg0 (x7 / con người-9)
+    :polarity -
+    :Arg1 (x9 / bạn-12)
+    :mod (x10 / nữa-13))
+
+# text = cái thân xác chẳng nặng nề gì mấy ...
+(x0 / nặng nề-4
+    :Arg0 (x2 / thân xác-2
+              :classifier (x1 / cái-1))
+    :polarity -
+    :amr-unknow (x4 / gì-5
+                    :quant (x5 / mấy-6)))
+
+# text = " Từ trên một quả núi cao như quả núi này , em nói thầm , mình sẽ đưa mắt là thấy ngay hành tinh và tất cả mọi người ... "
+(x0 / đưa mắt-18
+    :location (x1 / Từ-2
+                  :Arg0 (x4 / núi-6
+                            :mod (x5 / cao-7)
+                            :resemble-01 (x7 / núi-10
+                                             :mod (x8 / này-11)
+                                             :classifier (x6 / quả-9))
+                            :duration (x2 / trên-3)
+                            :classifier (x3 / quả-5)))
+    :Arg0-of (x10 / nói thầm-14
+                  :Arg0 (x9 / em-13))
+    :Arg0 (x11 / mình-16)
+    :tense (x12 / sẽ-17)
+    :compound (x13 / thấy-20
+                   :mod (x14 / ngay-21)
+                   :op1 (x15 / hành tinh-22)
+                   :op2 (x18 / người-26
+                             :mod (x16 / tất cả-24)
+                             :mod (x17 / mọi-25))))
+
+# text = nó sinh ra từ cuộc đi bộ dưới trời sao , từ tiếng hát của cái ròng rọc , từ sự gắng sức của cánh tay tôi .
+(x0 / ra-3
+    :compound (x2 / sinh-2
+                  :Arg0 (x1 / nó-1))
+    :source (x4 / đi-6
+                :mod (x5 / bộ-7)
+                :location (x7 / trời-9
+                              :mod (x8 / sao-10)
+                              :duration (x6 / dưới-8))
+                :classifier (x3 / cuộc-5))
+    :source (x10 / hát-14
+                 :poss (x12 / ròng rọc-17
+                            :classifier (x11 / cái-16))
+                 :classifier (x9 / tiếng-13))
+    :source (x14 / gắng sức-21
+                 :poss (x15 / cánh tay-23
+                            :poss (x16 / tôi-24))
+                 :mod (x13 / sự-20)))
+
+# text = tôi phác một cử chỉ mệt mỏi : thật là phi lý khi đi tìm một cái giếng , một cách hú hoạ , ở trong sa mạc mênh mông .
+(x0 / phác-2
+    :Arg0 (x1 / tôi-1)
+    :Arg1 (x3 / cử chỉ-4
+              :mod (x4 / mệt mỏi-5)
+              :quant (x2 / một-3))
+    :Arg2 (x5 / phi lý-9
+              :time (x7 / tìm-12
+                        :Arg1 (x9 / giếng-15
+                                  :classifier (x8 / cái-14))
+                        :mod (x11 / hú hoạ-18
+                                  :mod (x10 / một cách-17))
+                        :location (x13 / sa mạc-22
+                                       :mod (x14 / mênh mông-23)
+                                       :prep-in (x12 / trong-21))
+                        :compound (x6 / đi-11))))
+
+# text = - ông nghe thấy không , ông hoàng nhỏ nói , ta đánh thức cái giếng này và nó hát ...
+(x0 / nghe-3
+    :Arg0 (x1 / ông-2)
+    :compound (x2 / thấy-4)
+    :polarity -
+    :Arg1-of (x6 / nói-9
+                 :Arg0 (x4 / ông hoàng-7
+                           :mod (x5 / nhỏ-8)))
+    :op1 (x8 / đánh thức-12
+             :Arg1 (x10 / giếng-14
+                        :mod (x11 / này-15)
+                        :classifier (x9 / cái-13))
+             :Arg0 (x7 / ta-11))
+    :op2 (x13 / hát-18
+              :Arg0 (x12 / nó-17)))
+
+# text = trong tai tôi vẫn còn văng vẳng tiếng hát của cái ròng rọc , và trong nước vẫn còn run rẩy , tôi thấy mặt trời run lên .
+(x0 / và-13
+    :op1 (x6 / văng vẳng-6
+             :Arg1 (x8 / hát-8
+                       :poss (x10 / ròng rọc-11
+                                  :classifier (x9 / cái-10))
+                       :classifier (x7 / tiếng-7))
+             :location (x2 / tai-2
+                           :poss (x3 / tôi-3)
+                           :prep-in (x1 / trong-1))
+             :mod (x4 / vẫn-4)
+             :mod (x5 / còn-5))
+    :op2 (x17 / thấy-21
+              :Arg1 (x19 / run-23
+                         :compound (x20 / lên-24)
+                         :Arg0 (x18 / mặt trời-22))
+              :location (x12 / nước-15
+                             :Arg1-of (x15 / run rẩy-18
+                                           :mod (x13 / vẫn-16)
+                                           :mod (x14 / còn-17))
+                             :duration (x11 / trong-14))
+              :Arg0 (x16 / tôi-20)))
+
+# text = - cậu không công bằng , cậu nhỏ ơi , tôi vốn chỉ biết vẽ trăn kín với trăn mở thôi mà !
+(x0 / công bằng-4
+    :Arg0 (x1 / cậu-2)
+    :polarity -
+    :Arg1-of (x3 / cậu-6
+                 :mod (x4 / nhỏ-7)
+                 :mod (x5 / ơi-8))
+    :Arg0-of (x9 / vẽ-14
+                 :op1 (x10 / trăn-15
+                           :mod (x11 / kín-16))
+                 :op2 (x12 / trăn-18
+                           :Arg0-of (x13 / mở-19))
+                 :Arg0 (x6 / tôi-10)
+                 :compound (x8 / biết-13
+                               :mod (x7 / chỉ-12))))
+
+# text = một lần nữa , tôi lại cảm thấy lạnh buốt người vì một cái gì đó không thể cứu vãn được nữa .
+(x0 / cảm-7
+    :time (x2 / lần-2
+              :mod (x3 / nữa-3)
+              :quant (x1 / một-1))
+    :Arg0 (x4 / tôi-5)
+    :mod (x5 / lại-6)
+    :compound (x6 / thấy-8)
+    :mod (x7 / lạnh-9
+             :mod (x8 / buốt-10)
+             :Arg0 (x9 / người-11))
+    :cause (x15 / cứu vãn-18
+                :mod (x16 / được-19)
+                :mod (x17 / nữa-20)
+                :Arg0 (x11 / cái-14
+                           :mod (x12 / gì-15)
+                           :mod (x13 / đó-16)
+                           :quant (x10 / một-13))
+                :polarity -))
+
+# text = - nhưng nó cũng sẽ chỉ như cái vỏ già bỏ lại .
+(x0 / bỏ-11
+    :constract (x1 / nhưng-2)
+    :Arg0 (x2 / nó-3)
+    :tense (x3 / sẽ-5)
+    :mod (x4 / chỉ-6)
+    :Arg1 (x6 / vỏ-9
+              :mod (x7 / già-10)
+              :classifier (x5 / cái-8))
+    :mod (x8 / lại-12))
+
+# text = - nhưng đúng là nó sẽ không còn nọc cho lần cắn thứ hai ...
+(x0 / còn-8
+    :domain (x1 / đúng-3)
+    :Arg0 (x2 / nó-5)
+    :tense (x3 / sẽ-6)
+    :polarity -
+    :Arg1 (x5 / nọc-9)
+    :time (x6 / lần-11
+              :mod (x7 / cắn-12)
+              :ord (x8 / hai-14)))
+
+# text = - mọi người có những ngôi sao không của ai giống ai .
+(x0 / có-4
+    :Arg0 (x2 / người-3
+              :quant (x1 / mọi-2))
+    :Arg1 (x7 / giống-11
+              :Arg1 (x8 / ai-12)
+              :Arg0 (x4 / sao-7
+                        :poss (x6 / ai-10
+                                  :polarity -)
+                        :classifier (x3 / ngôi-6))))
+
+# text = - chỉ có những đứa trẻ là biết mình tìm cái gì , ông hoàng nhỏ nói , chúng mất thì giờ vì một con búp bê bằng giẻ rách , và con búp bê ấy trở nên quan trọng lắm , ai lấy đi của chúng , chúng sẽ khóc ...
+(x0 / biết-8
+    :Arg0 (x2 / trẻ-6
+              :classifier (x1 / đứa-5))
+    :Arg1 (x4 / tìm-10
+              :Arg1 (x5 / cái-11
+                        :mod (x6 / gì-12))
+              :Arg0 (x3 / mình-9))
+    :Arg0-of (x9 / nói-16
+                 :Arg0 (x7 / ông hoàng-14
+                           :mod (x8 / nhỏ-15)))
+    :Arg0-of (x11 / mất-19
+                  :Arg1 (x12 / thì giờ-20)
+                  :cause (x15 / búp bê-24
+                              :manner (x16 / giẻ-26
+                                           :mod (x17 / rách-27))
+                              :quant (x13 / một-22)
+                              :classifier (x14 / con-23))
+                  :Arg0 (x10 / chúng-18))
+    :Arg0-of (x21 / trở nên-33
+                  :mod (x22 / quan trọng-34
+                            :mod (x23 / lắm-35))
+                  :Arg1-of (x30 / khóc-45
+                                :condition (x25 / lấy-38
+                                                :compound (x26 / đi-39)
+                                                :poss (x27 / chúng-41)
+                                                :Arg0 (x24 / ai-37))
+                                :Arg0 (x28 / chúng-43)
+                                :tense (x29 / sẽ-44))
+                  :Arg0 (x19 / búp bê-31
+                             :mod (x20 / ấy-32)
+                             :classifier (x18 / con-30))))
+
+# text = lúc đó là ngày thứ tám từ khi tôi bị hỏng máy trong sa mạc , và tôi vừa nghe câu chuyện người lái buôn vừa uống giọt nước cuối cùng trong số nước dự trữ .
+(x0 / và-16
+    :time (x7 / hỏng-11
+              :Arg1 (x8 / máy-12)
+              :location (x9 / sa mạc-14)
+              :time (x1 / lúc-1
+                        :mod (x2 / đó-2))
+              :time (x3 / ngày-4
+                        :ord (x4 / tám-6))
+              :Arg0-of (x5 / tôi-9)
+              :mod (x6 / bị-10))
+    :op1 (x12 / nghe-19
+              :Arg2 (x13 / câu chuyện-20
+                         :topic (x15 / lái buôn-22
+                                     :classifier (x14 / người-21)))
+              :Arg0 (x10 / tôi-17)
+              :tense (x11 / vừa-18))
+    :op2 (x17 / uống-24
+              :Arg1 (x19 / nước-26
+                         :mod (x20 / cuối cùng-27)
+                         :prep-in (x23 / dự trữ-31
+                                       :Arg0 (x22 / nước-30
+                                                  :mod (x21 / số-29)))
+                         :classifier (x18 / giọt-25))
+              :tense (x16 / vừa-23)))
+
+# text = dù là ngôi nhà , ngôi sao hay sa mạc , cái làm chúng ta trở nên đẹp thì không thể nhìn thấy !
+(x0 / làm-12
+    :concession (x1 / dù-1
+                    :op1 (x3 / nhà-4
+                             :classifier (x2 / ngôi-3))
+                    :op2 (x5 / sao-7
+                             :classifier (x4 / ngôi-6))
+                    :op3 (x6 / sa mạc-9))
+    :Arg0 (x7 / cái-11)
+    :Arg1 (x9 / trở nên-14
+              :mod (x10 / đẹp-15)
+              :null (x12 / nhìn-18
+                         :compound (x13 / thấy-19)
+                         :polarity -)
+              :Arg0 (x8 / chúng ta-13)))
+
+# text = tôi nhìn , dưới ánh sáng trăng , vầng trán xanh xao ấy , đôi mắt nhắm nghiền , những lọn tóc run rẩy trước gió , và tôi nghĩ thầm : cái mà ta thấy đây chỉ là một cái vỏ .
+(x0 / và-24
+    :op1 (x2 / nhìn-2
+             :Arg2 (x4 / ánh sáng-5
+                       :poss (x5 / trăng-6)
+                       :direction (x3 / dưới-4))
+             :Arg2 (x8 / xanh xao-10
+                       :mod (x9 / ấy-11)
+                       :Arg0 (x7 / trán-9
+                                 :classifier (x6 / vầng-8)))
+             :Arg2 (x12 / nhắm nghiền-15
+                        :Arg0 (x11 / mắt-14
+                                   :classifier (x10 / đôi-13)))
+             :Arg2 (x15 / run rẩy-20
+                        :Arg2 (x17 / gió-22
+                                   :direction (x16 / trước-21))
+                        :Arg0 (x14 / tóc-19
+                                   :classifier (x13 / lọn-18)))
+             :Arg0 (x1 / tôi-1))
+    :op2 (x19 / nghĩ-26
+              :mod (x20 / thầm-27)
+              :Arg1 (x23 / thấy-32
+                         :Arg2 (x25 / là-35
+                                    :Arg1 (x28 / vỏ-38
+                                               :quant (x26 / một-36)
+                                               :classifier (x27 / cái-37))
+                                    :mod (x24 / chỉ-34))
+                         :Arg1 (x21 / cái-29)
+                         :Arg0 (x22 / ta-31))
+              :Arg0 (x18 / tôi-25)))
+
+# text = thứ nước này còn là một cái gì khác hơn mọi thứ nước uống .
+(x0 / gì-8
+    :Arg0 (x2 / nước-2
+              :mod (x3 / này-3)
+              :mod (x1 / thứ-1))
+    :mod (x4 / còn-4)
+    :quant (x5 / một-6)
+    :classifier (x6 / cái-7)
+    :mod (x7 / khác-9
+             :mod (x8 / hơn-10)
+             :Arg2 (x9 / thứ-12
+                       :Arg2 (x10 / nước-13
+                                  :mod (x11 / uống-14)))))
+
+# text = khi đôi môi hé mở của em thoáng một nụ cười , tôi lại tự nhủ : cái làm cho ta xúc động mạnh đến thế về ông hoàng bé nhỏ đang ngủ này , đó là lòng chung thuỷ của em đối với một đoá hoa hồng , ấy là hình ảnh một đoá hồng rực sáng nơi em như một ngọn đèn , cả trong khi em ngủ ...
+(x0 / tự nhủ-14
+    :time (x1 / khi-1
+              :time (x6 / thoáng-8
+                        :Arg2 (x8 / nụ cười-10
+                                  :quant (x7 / một-9))
+                        :Arg0 (x3 / hé-4
+                                  :compound (x4 / mở-5)
+                                  :poss (x5 / em-7)
+                                  :Arg0 (x2 / môi-3))))
+    :Arg0 (x9 / tôi-12)
+    :mod (x10 / lại-13)
+    :Arg2 (x14 / xúc động-20
+               :mod (x15 / mạnh-21
+                         :topic (x16 / ông hoàng-25
+                                     :mod (x17 / bé nhỏ-26)
+                                     :Arg0-of (x19 / ngủ-28
+                                                   :mod (x20 / này-29)
+                                                   :tense (x18 / đang-27))))
+               :Arg0 (x22 / chung thuỷ-34
+                          :poss (x23 / em-36)
+                          :beneficiary (x25 / hoa hồng-40
+                                            :classifier (x24 / đoá-39))
+                          :Arg0 (x26 / hình ảnh-44
+                                     :domain (x28 / hồng-47
+                                                  :mod (x29 / rực-48
+                                                            :mod (x30 / sáng-49))
+                                                  :classifier (x27 / đoá-46))
+                                     :location (x32 / em-51
+                                                    :location (x31 / nơi-50))
+                                     :resemble-01 (x35 / đèn-55
+                                                       :quant (x33 / một-53)
+                                                       :classifier (x34 / ngọn-54))
+                                     :time (x37 / ngủ-61
+                                                :Arg0 (x36 / em-60)))
+                          :classifier (x21 / lòng-33))
+               :Arg0 (x12 / làm-17
+                          :beneficiary (x13 / ta-19)
+                          :classifier (x11 / cái-16))))
+
+# text = ngày tôi còn là một cậu bé , ánh sáng của cây noel , tiếng nhạc của buổi lễ nửa đêm , những nụ cười dịu dàng cũng đã làm nên sự rực rỡ của món quà noel mà tôi được nhận .
+(x0 / làm-26
+    :dayperiod (x1 / ngày-1
+                   :time (x4 / bé-7
+                             :Arg0 (x2 / tôi-2)
+                             :classifier (x3 / cậu-6)))
+    :Arg0 (x5 / ánh sáng-9
+              :poss (x7 / noel-12
+                        :classifier (x6 / cây-11)))
+    :Arg0 (x9 / nhạc-15
+              :poss (x11 / lễ-18
+                         :dayperiod (x12 / nửa đêm-19)
+                         :classifier (x10 / buổi-17))
+              :classifier (x8 / tiếng-14))
+    :Arg0 (x13 / nụ cười-22
+               :mod (x14 / dịu dàng-23))
+    :mod (x15 / cũng-24)
+    :tense (x16 / đã-25)
+    :mod (x17 / nên-27)
+    :Arg2 (x19 / rực rỡ-29
+               :poss (x21 / quà-32
+                          :mod (x22 / noel-33)
+                          :concession (x23 / tôi-35
+                                           :Arg0-of (x25 / nhận-37
+                                                         :mod (x24 / được-36)))
+                          :classifier (x20 / món-31))
+               :mod (x18 / sự-28)))
+
+# text = - loài người nơi ông , ông hoàng nhỏ nói , trồng năm nghìn hoa hồng cũng trong một khu vườn ... thế mà họ chẳng tìm thấy cái họ tìm ...
+(x0 / tìm-22
+    :Arg0 (x6 / nói-8
+              :Arg2 (x7 / trồng-10
+                        :Arg1 (x9 / hoa hồng-12
+                                  :location (x13 / vườn-17
+                                                 :prep-in (x10 / trong-14)
+                                                 :quant (x11 / một-15)
+                                                 :classifier (x12 / khu-16))
+                                  :quant (x8 / năm nghìn-11)))
+              :Arg2 (x1 / loài người-2
+                        :location (x2 / nơi-3
+                                      :poss (x3 / ông-4)))
+              :Arg0 (x4 / ông hoàng-6
+                        :mod (x5 / nhỏ-7)))
+    :Arg0 (x14 / họ-20)
+    :polarity -
+    :compound (x16 / thấy-23)
+    :Arg1 (x17 / cái-24
+               :Arg1-of (x19 / tìm-26
+                             :Arg0 (x18 / họ-25))))
+
+# text = - trong khi cái họ muốn tìm lại có thể gặp trong chỉ một đoá hồng hoặc chỉ một ít nước ...
+(x0 / tìm-7
+    :duration (x1 / trong-2
+                  :mod (x2 / khi-3))
+    :Arg1 (x3 / cái-4)
+    :Arg0 (x4 / họ-5)
+    :mod (x5 / muốn-6)
+    :mod (x6 / lại-8)
+    :possible-01 (x7 / gặp-10
+                     :prep-in (x8 / trong-11
+                                  :op1 (x11 / hồng-15
+                                            :mod (x9 / chỉ-12)
+                                            :classifier (x10 / đoá-14))
+                                  :op2 (x14 / nước-19
+                                            :mod (x12 / chỉ-17)
+                                            :mod (x13 / một ít-18)))))
+
+# text = - ông biết không , ngày tôi rơi xuống Trái Đất ... mai đã là tròn một năm ...
+(x0 / biết-3
+    :Arg0 (x1 / ông-2)
+    :polarity -
+    :dayperiod (x3 / ngày-6
+                   :mod (x5 / rơi-8
+                            :compound (x6 / xuống-9)
+                            :location (x7 / Trái Đất-10)
+                            :Arg0 (x4 / tôi-7)))
+    :Arg2 (x10 / tròn-15
+               :unit (x12 / năm-17
+                          :quant (x11 / một-16))
+               :time (x8 / mai-12)
+               :tense (x9 / đã-13)))
+
+# text = em không bao giờ trả lời các câu hỏi , nhưng khi người ta đỏ mặt , như thế có nghĩa là " phải " , phải không ?
+(x0 / trả lời-4
+    :Arg0 (x1 / em-1)
+    :polarity -
+    :time (x3 / bao giờ-3)
+    :Arg1 (x6 / hỏi-7
+              :classifier (x4 / các-5)
+              :classifier (x5 / câu-6))
+    :Arg1 (x14 / nghĩa-18
+               :Arg1 (x15 / phải-21)
+               :obligate-01 (x16 / phải-24)
+               :polarity -
+               :time (x7 / khi-10
+                         :time (x9 / đỏ-12
+                                   :mod (x10 / mặt-13)
+                                   :Arg0 (x8 / người ta-11)))
+               :resemble-01 (x11 / như-15
+                                 :mod (x12 / thế-16))
+               :mod (x13 / có-17)))
+
+# text = có nguy cơ là ta có thể khóc một tí nếu ta lỡ để cho ai cảm hoá mình ...
+(x0 / khóc-6
+    :Arg1-of (x1 / có-1
+                 :Arg1 (x2 / nguy cơ-2))
+    :Arg0 (x3 / ta-4)
+    :possible-01 (x4 / có thể-5)
+    :quant (x5 / một tí-7)
+    :condition (x7 / lỡ-10
+                   :compound (x8 / để-11)
+                   :Arg1 (x10 / cảm hoá-14
+                              :Arg1 (x11 / mình-15)
+                              :Arg0 (x9 / ai-13))
+                   :Arg0 (x6 / ta-9)))
+
+# text = khi ở chỗ làm việc trở lại vào chiều hôm sau , từ xa tôi đã thấy ông hoàng nhỏ của tôi ngồi trên đó , hai chân lơ lửng .
+(x0 / thấy-14
+    :time (x1 / khi-1
+              :time (x4 / trở lại-5
+                        :dayperiod (x5 / chiều-7
+                                       :mod (x6 / hôm sau-8))
+                        :location (x2 / chỗ-3
+                                      :mod (x3 / làm việc-4))))
+    :Arg0 (x7 / tôi-12)
+    :Arg1 (x11 / ngồi-19
+               :mod (x13 / đó-21
+                         :direction (x12 / trên-20))
+               :mod (x16 / lơ lửng-25
+                         :Arg0 (x15 / chân-24
+                                    :quant (x14 / hai-23)))
+               :Arg0 (x8 / ông hoàng-15
+                         :mod (x9 / nhỏ-16)
+                         :poss (x10 / tôi-18))))
+
+# text = - anh có nọc tốt đấy chứ ? anh chắc là không làm tôi đau lâu chứ ?
+(x0 / có-3
+    :Arg0 (x1 / anh-2)
+    :Arg1 (x2 / nọc-4
+              :mod (x3 / tốt-5))
+    :amr-unknow (x4 / ?-8)
+    :Arg0 (x7 / làm-13
+              :Arg1 (x9 / đau-15
+                        :mod (x10 / lâu-16)
+                        :Arg0 (x8 / tôi-14))
+              :Arg0-of (x5 / anh-9)
+              :polarity -))
+
+# text = nó ở đó , nó ngẩng đầu lên phía ông hoàng nhỏ , một giống rắn vàng có thể diệt ta trong ba mươi
+(x0 / ở-2
+    :Arg0 (x1 / nó-1)
+    :mod (x2 / đó-3)
+    :Arg0-of (x4 / ngẩng-6
+                 :Arg1 (x5 / đầu-7)
+                 :direction (x6 / lên-8)
+                 :domain (x8 / ông hoàng-10
+                             :mod (x9 / nhỏ-11)
+                             :direction (x7 / phía-9))
+                 :Arg0 (x3 / nó-5))
+    :Arg1 (x15 / diệt-18
+               :Arg1 (x16 / ta-19)
+               :quant (x17 / ba mươi-21)
+               :Arg0 (x12 / rắn-15
+                          :mod (x13 / vàng-16)
+                          :classifier (x11 / giống-14))
+               :possible-01 (x14 / có thể-17)))
+
+# text = tôi đến bên bức tường vừa đúng lúc để đón trong vòng tay tôi ông hoàng bé nhỏ , trắng bệch như tuyết .
+(x0 / đến-2
+    :Arg0 (x1 / tôi-1)
+    :Arg2 (x3 / tường-5
+              :classifier (x2 / bức-4))
+    :time (x6 / lúc-8
+              :mod (x4 / vừa-6)
+              :mod (x5 / đúng-7))
+    :purpose (x7 / đón-10
+                 :domain (x8 / vòng tay-12
+                             :poss (x9 / tôi-13))
+                 :Arg1 (x10 / ông hoàng-14
+                            :mod (x11 / bé nhỏ-15)
+                            :mod (x12 / trắng bệch-17
+                                      :accompanier (x13 / tuyết-19)))))
+
+# text = tôi nghe tiếng tim em đập như tiếng đập của một con chim sắp chết , khi bị trúng đạn súng săn .
+(x0 / nghe-2
+    :Arg0 (x1 / tôi-1)
+    :Arg1 (x5 / đập-6
+              :accompanier (x7 / đập-9
+                               :poss (x10 / chim-13
+                                          :Arg0-of (x12 / chết-15
+                                                        :tense (x11 / sắp-14))
+                                          :quant (x8 / một-11)
+                                          :classifier (x9 / con-12))
+                               :classifier (x6 / tiếng-8))
+              :Arg0 (x3 / tim-4
+                        :poss (x4 / em-5)
+                        :classifier (x2 / tiếng-3)))
+    :time (x14 / trúng-19
+               :Arg1 (x17 / săn-22
+                          :Arg0 (x15 / đạn-20
+                                     :mod (x16 / súng-21)))
+               :mod (x13 / bị-18)))
+
+# text = và tôi hiểu rằng tôi không thể chịu nổi ý nghĩ rồi đây không bao giờ còn nghe thấy tiếng cười này nữa .
+(x0 / và-1
+    :op2 (x2 / hiểu-3
+             :mod (x3 / rằng-4)
+             :Arg1 (x6 / chịu-7
+                       :mod (x7 / nổi-8)
+                       :Arg1 (x8 / ý nghĩ-9
+                                 :Arg1 (x12 / nghe-14
+                                            :compound (x13 / thấy-15)
+                                            :Arg1 (x15 / cười-17
+                                                       :mod (x16 / này-18)
+                                                       :mod (x17 / nữa-19)
+                                                       :classifier (x14 / tiếng-16))
+                                            :polarity -
+                                            :mod (x10 / bao giờ-12)
+                                            :mod (x11 / còn-13)))
+                       :Arg0 (x4 / tôi-5)
+                       :polarity -)
+             :Arg0 (x1 / tôi-2)))
+
+# text = - cậu em ạ , tôi còn muốn được nghe em cười ...
+(x0 / nghe-10
+    :Arg0-of (x1 / cậu-2
+                 :mod (x2 / em-3))
+    :Arg0 (x3 / tôi-6)
+    :mod (x4 / muốn-8)
+    :Arg1 (x6 / cười-12
+              :Arg0 (x5 / em-11)))
+
+# text = em ơi , em ơi , tôi thích nghe em cười như thế này !
+(x0 / thích-8
+    :Arg0-of (x1 / em-1
+                 :mod (x2 / ơi-2))
+    :Arg0-of (x3 / em-4
+                 :mod (x4 / ơi-5))
+    :Arg0 (x5 / tôi-7)
+    :compound (x6 / nghe-9)
+    :Arg1 (x8 / cười-11
+              :resemble-01 (x9 / thế-13)
+              :Arg0 (x7 / em-10)))
+
+# text = ngôi sao của tôi sẽ lại ở đúng bên trên chỗ tôi rơi xuống năm ngoái ...
+(x0 / ở-7
+    :Arg0 (x2 / sao-2
+              :poss (x3 / tôi-4)
+              :classifier (x1 / ngôi-1))
+    :Arg2 (x6 / chỗ-11
+              :Arg1 (x8 / rơi-13
+                        :compound (x9 / xuống-14)
+                        :time (x10 / năm ngoái-15)
+                        :Arg0 (x7 / tôi-12))
+              :beneficiary (x4 / bên-9)
+              :direction (x5 / trên-10)))
+
+# text = tôi siết chặt em trong vòng tay tôi như một em bé , nhưng khi ấy tôi vẫn có cảm giác em đang tuột thẳng xuống một vực thẳm nào đó dù tôi cố níu giữ lại ...
+(x0 / siết-2
+    :Arg0 (x1 / tôi-1)
+    :degree (x2 / chặt-3)
+    :Arg1 (x3 / em-4)
+    :prep-in (x4 / vòng tay-6
+                 :poss (x5 / tôi-7
+                           :manner (x7 / em-10
+                                       :mod (x8 / bé-11)
+                                       :quant (x6 / một-9))))
+    :constract (x13 / cảm giác-19
+                    :Arg1 (x14 / tuột-22
+                               :mod (x15 / thẳng-23)
+                               :compound (x16 / xuống-24)
+                               :location (x18 / vực-26
+                                              :mod (x19 / thẳm-27)
+                                              :mod (x20 / nào-28
+                                                        :mod (x21 / đó-29))
+                                              :quant (x17 / một-25))
+                               :concession (x24 / níu-33
+                                                :compound (x25 / giữ-34
+                                                               :compound (x26 / lại-35))
+                                                :Arg0 (x22 / tôi-31)
+                                                :mod (x23 / cố-32)))
+                    :time (x9 / khi-14
+                              :mod (x10 / ấy-15))
+                    :Arg0 (x11 / tôi-16)
+                    :mod (x12 / có-18)))
+
+# text = đúng là lúc ấy tôi vừa định báo cho em biết , tưởng đã tuyệt vọng rồi , bỗng dưng tôi lại sửa được máy .
+(x0 / định-7
+    :mod (x1 / đúng-1)
+    :time (x2 / lúc-3
+              :mod (x3 / ấy-4))
+    :Arg0 (x4 / tôi-5)
+    :tense (x5 / vừa-6)
+    :compound (x6 / báo-8
+                  :Arg1 (x8 / biết-11
+                            :Arg0 (x7 / em-10)))
+    :Arg0-of (x11 / tuyệt vọng-15
+                  :mod (x12 / rồi-16)
+                  :mod (x9 / tưởng-13)
+                  :tense (x10 / đã-14))
+    :Arg0-of (x15 / sửa-21
+                  :mod (x16 / được-22)
+                  :Arg1 (x17 / máy-23)
+                  :mod (x13 / bỗng dưng-18)
+                  :Arg0 (x14 / tôi-19)))
+
+# text = " Xưa có một lần , một ông hoàng bé nhỏ ở trên một tinh cầu chỉ lớn hơn cậu ấy có một tí , cậu ấy thấy cần có một người bạn thân ... "
+(x0 / thấy-24
+    :time (x7 / ở-10
+              :Arg2 (x10 / tinh cầu-13
+                         :mod (x11 / lớn-15
+                                   :mod (x12 / hơn-16)
+                                   :Arg1 (x13 / cậu-17
+                                              :mod (x14 / ấy-18))
+                                   :extent (x15 / một tí-20))
+                         :direction (x8 / trên-11)
+                         :quant (x9 / một-12))
+              :Arg0 (x5 / ông hoàng-8
+                        :mod (x6 / bé nhỏ-9)
+                        :time (x1 / Xưa-2
+                                  :unit (x3 / lần-5
+                                            :quant (x2 / một-4)))
+                        :quant (x4 / một-7)))
+    :Arg0 (x16 / cậu-22
+               :mod (x17 / ấy-23))
+    :obligate-01 (x18 / cần-25
+                      :compound (x19 / có-26
+                                     :Arg1 (x21 / bạn-29
+                                                :mod (x22 / thân-30)
+                                                :classifier (x20 / người-28)))))
+
+# text = - cậu em ạ , có phải là một cơn ác mộng không , chuyện rắn , cuộc hẹn gặp với ngôi sao này ...
+(x0 / cậu-2
+    :mod (x1 / em-3)
+    :obligate-01 (x3 / phải-7
+                     :mod (x4 / là-8)
+                     :Arg2 (x6 / ác mộng-11
+                               :polarity -
+                               :classifier (x5 / cơn-10))
+                     :op1 (x9 / rắn-15
+                              :classifier (x8 / chuyện-14))
+                     :op2 (x12 / gặp-19
+                               :Arg1 (x14 / sao-22
+                                          :mod (x15 / này-23)
+                                          :classifier (x13 / ngôi-21))
+                               :Arg0 (x11 / hẹn-18
+                                          :classifier (x10 / cuộc-17)))
+                     :mod (x2 / có-6)))
+
+# text = nước mà ông cho tôi uống như là âm nhạc , là vì cái ròng rọc và sợi dây .. ông nhớ chứ ... thật ngon lành .
+(x0 / nhớ-20
+    :Arg1 (x3 / cho-4
+              :Arg1 (x5 / uống-6
+                        :resemble-01 (x6 / âm nhạc-9)
+                        :Arg2 (x15 / ngon lành-24
+                                   :mod (x14 / thật-23))
+                        :Arg0 (x4 / tôi-5))
+              :Arg2 (x1 / nước-1)
+              :Arg0 (x2 / ông-3))
+    :cause (x9 / và-15
+               :op2 (x11 / dây-17
+                         :classifier (x10 / sợi-16))
+               :op1 (x8 / ròng rọc-14
+                        :classifier (x7 / cái-13)))
+    :Arg0 (x12 / ông-19)
+    :mod (x13 / chứ-21))
+
+# text = - xem như tôi đã tặng ông , thay vì những ngôi sao , hàng đống những cái chuông nhỏ biết cười ...
+(x0 / xem-2
+    :mod (x1 / như-3)
+    :Arg0-of (x4 / tặng-6
+                 :Arg1 (x5 / ông-7)
+                 :Arg0 (x2 / tôi-4)
+                 :tense (x3 / đã-5))
+    :Arg1 (x13 / biết-20
+               :compound (x14 / cười-21)
+               :op1 (x7 / sao-12
+                        :classifier (x6 / ngôi-11))
+               :op2 (x11 / chuông-18
+                         :mod (x12 / nhỏ-19)
+                         :quant (x9 / đống-15
+                                    :mod (x8 / hàng-14))
+                         :classifier (x10 / cái-17))))
+
+# text = - khi ông nhìn trời , ban đêm , bởi vì ở một trong những ngôi sao đó có tôi ở , bởi vì tôi cười trên một trong những ngôi sao đó , cho nên đối với ông tưởng chừng như tất cả các ngôi sao đều cười .
+(x0 / nhìn-4
+    :Arg0 (x1 / ông-3)
+    :Arg1 (x2 / trời-5)
+    :dayperiod (x3 / ban đêm-7)
+    :Arg0-of (x21 / tưởng chừng-35
+                  :Arg1 (x26 / cười-42
+                             :Arg0 (x24 / sao-40
+                                        :quant (x22 / tất cả-37)
+                                        :classifier (x23 / ngôi-39))
+                             :mod (x25 / đều-41))
+                  :cause (x4 / bởi vì-9
+                             :op1 (x9 / có-17
+                                      :Arg1 (x11 / ở-19
+                                                 :Arg0 (x10 / tôi-18))
+                                      :Arg0 (x8 / sao-15
+                                                :classifier (x7 / ngôi-14
+                                                                :quant (x5 / một-11
+                                                                           :prep-in (x6 / những-13)))))
+                             :op2 (x13 / cười-23
+                                       :Arg1 (x18 / sao-29
+                                                  :mod (x19 / đó-30)
+                                                  :direction (x14 / trên-24)
+                                                  :quant (x15 / một-25
+                                                              :prep-in (x16 / những-27))
+                                                  :classifier (x17 / ngôi-28))
+                                       :Arg0 (x12 / tôi-22)))
+                  :Arg0 (x20 / ông-34)))
+
+# text = - thế ra không phải là ngẫu nhiên mà , buổi sáng ấy , tôi gặp em , cách đây tám ngày , em lang thang một mình một nghìn dặm cách mọi vùng có người ở ! em trở lại nơi em rơi xuống hay sao ?
+(x0 / phải-4
+    :domain (x1 / thế ra-2)
+    :polarity -
+    :Arg2 (x3 / ngẫu nhiên-6
+              :concession (x8 / gặp-14
+                              :Arg1 (x9 / em-15)
+                              :null (x10 / cách-17
+                                         :mod (x11 / đây-18)
+                                         :quant (x12 / tám-19
+                                                     :unit (x13 / ngày-20)))
+                              :op1 (x15 / lang thang-23
+                                        :manner (x16 / một mình-24)
+                                        :quant (x17 / một nghìn-25
+                                                    :unit (x18 / dặm-26))
+                                        :Arg2 (x21 / có-30
+                                                   :Arg1 (x23 / ở-32
+                                                              :Arg0 (x22 / người-31))
+                                                   :Arg0 (x20 / vùng-29
+                                                              :quant (x19 / mọi-28)))
+                                        :Arg0 (x14 / em-22))
+                              :op2 (x25 / trở lại-35
+                                        :location (x26 / nơi-36
+                                                       :Arg2 (x28 / rơi-38
+                                                                  :compound (x29 / xuống-39)
+                                                                  :amr-unknow (x30 / sao-41)
+                                                                  :Arg0 (x27 / em-37)))
+                                        :Arg0 (x24 / em-34))
+                              :dayperiod (x5 / sáng-10
+                                             :mod (x6 / ấy-11)
+                                             :classifier (x4 / buổi-9))
+                              :Arg0 (x7 / tôi-13))))
+
+# text = với bạn , là người cũng yêu ông hoàng bé nhỏ , cũng như với tôi , cả vũ trụ này sẽ chẳng còn như cũ nếu như ở đâu đó , không biết ở đâu , một con cừu mà ta không biết , đã có hay là không ăn một đoá hoa hồng ...
+(x0 / còn-21
+    :Arg1 (x3 / yêu-7
+              :Arg1 (x4 / ông hoàng-8
+                        :mod (x5 / bé nhỏ-9))
+              :accompanier (x6 / tôi-14)
+              :accompanier (x1 / bạn-2)
+              :Arg0 (x2 / người-5))
+    :Arg0 (x7 / vũ trụ-17)
+    :tense (x8 / sẽ-19)
+    :polarity -
+    :resemble-01 (x10 / cũ-23
+                      :conj-as-if (x25 / ăn-45
+                                       :Arg1 (x28 / hoa hồng-48
+                                                  :quant (x26 / một-46)
+                                                  :classifier (x27 / đoá-47))
+                                       :Arg0 (x19 / cừu-35
+                                                  :Arg1-of (x22 / biết-39
+                                                                :Arg0 (x20 / ta-37)
+                                                                :polarity -)
+                                                  :op1 (x11 / ở-25
+                                                            :location (x12 / đâu đó-26))
+                                                  :op2 (x14 / biết-29
+                                                            :location (x16 / đâu-31
+                                                                           :prep (x15 / ở-30))
+                                                            :polarity -)
+                                                  :quant (x17 / một-33)
+                                                  :classifier (x18 / con-34))
+                                       :op1 (x23 / có-42)
+                                       :polarity -)))
+
